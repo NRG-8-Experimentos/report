@@ -238,8 +238,45 @@
 NRG8 es una startup tecnológica dedicada al desarrollo de soluciones digitales para la gestión de proyectos, con un enfoque en la accesibilidad y la facilidad de uso. Nuestra misión es simplificar la organización y el seguimiento de tareas en equipos de cualquier tamaño, ofreciendo una alternativa ágil y amigable frente a herramientas tradicionales que suelen ser complejas y poco intuitivas.
 Con una visión centrada en la experiencia de usuario y la colaboración efectiva, NRG8 busca democratizar el acceso a plataformas de gestión profesional, impulsando la productividad y la transparencia en proyectos tanto personales como organizacionales.
 
-
 #### 1.1.2. Perfiles de integrantes del equipo
+
+<table>
+  <tr>
+    <th colspan="2"> Juan Diego Astonitas </th>
+  </tr>
+  <tr>
+    <td> <img src="images/chapter-1/JuanAstonitas-pfp.png" alt="Juan Astonitas" style="width: 500px; height: auto;" > </td>
+    <td> Mi nombre es Juan Diego Astonitas Diaz, mi código de estudiante es u202110237,tengo 21 años, actualmente curso el 7mo ciclo de la carrera de Ingeniería de Software, en la UPC en la sede San Miguel. Mis principales cualidades son el liderazgo y el dominio de NextJS. Haré todo lo que esté a mi alcance para respaldar al equipo en la finalización oportuna y efectiva de las tareas asignadas. </td>
+  </tr>
+  <tr>
+    <th colspan="2"> Casas Sanchez Gabriel Alexander </th>
+  </tr>
+  <tr>
+    <td> <img src="images/chapter-1/alex-pfp.jpg" alt="Gabriel Casas" style="width: 500px; height: auto;"> </td>
+    <td> Soy estudiante de Ingeniería de Software en sexto ciclo, con habilidades para dirigir y trabajar bien bajo presión. Aunque no disfruto mucho de los trabajos grupales, siempre asumo un rol destacado y sobresaliente en ellos, aprovechando mi capacidad académica y versatilidad. </td>
+  </tr>
+  <tr>
+    <th colspan="2"> Gianluca Santino Pasquale Barrenechea </th>
+  </tr>
+  <tr>
+    <td> <img src="images/chapter-1/gianluca-pfp.jpg" alt="Gianluca Pasquale" style="width: 500px; height: auto;"> </td>
+    <td> Me llamo Gianluca Santino Pasquale Barrenechea, estudiante de Ingeniería de Software (código u202112078). En nuestra Startup, me enfoco en el desarrollo frontend y backend, utilizando C++, C#, Python, Java, HTML y JavaScript. Mi objetivo es crear soluciones escalables y eficientes, mejorando la experiencia del usuario y optimizando la operación de la plataforma, siempre aplicando metodologías ágiles como Scrum. </td>
+  </tr>
+  <tr>
+    <th colspan="2">Wilder Gonzalo Aliaga Urbina</th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="" style="width: 500px; height: auto;"> </td>
+    <td></td>
+  </tr>
+  <tr>
+    <th colspan="2">Armas Sánchez Oscar Javier</th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="" style="width: 500px; height: auto;"> </td>
+    <td></td>
+  </tr>
+</table>
 
 ### 1.2. Solution Profile
 
