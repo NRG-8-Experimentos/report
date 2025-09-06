@@ -280,6 +280,28 @@ Con una visión centrada en la experiencia de usuario y la colaboración efectiv
 
 ### 1.2. Solution Profile
 
+En el entorno actual, muchos equipos y grupos de trabajo —laborales, académicos o comunitarios— enfrentan serias dificultades para organizar sus proyectos, distribuir responsabilidades de forma equitativa y mantener una comunicación clara entre sus integrantes.
+Estos problemas se traducen en:
+* Sobrecarga de tareas en ciertos miembros.
+* Falta de coordinación general.
+* Duplicación o abandono de responsabilidades.
+* Disminución de la productividad y el bienestar del equipo.
+  Aunque existen herramientas de gestión digital, la mayoría presentan una curva de aprendizaje alta, interfaces complejas o están orientadas a entornos corporativos muy específicos. Esto genera barreras para equipos pequeños, medianos o multidisciplinarios que requieren soluciones más accesibles y fáciles de adoptar.
+  **Solución propuesta: SynHub**
+  SynHub es una plataforma de gestión de proyectos intuitiva, accesible y colaborativa, diseñada para simplificar la organización y el seguimiento de actividades en cualquier tipo de grupo.
+  **Desde el rol de Organizador/Administrador**
+* Crear y configurar grupos de trabajo.
+* Asignar miembros y distribuir responsabilidades.
+* Definir y personalizar tareas (título, descripción, plazos, responsables).
+* Monitorear el avance y cumplimiento de tareas.
+* Facilitar la coordinación interna y la comunicación clara dentro del equipo.
+  **Desde el rol de Integrante del equipo**
+* Consultar las responsabilidades asignadas desde una interfaz clara y accesible.
+* Recibir notificaciones y recordatorios sobre plazos.
+* Proponer ajustes o modificaciones en las tareas según el avance.
+* Visualizar la su propia carga de trabajo.
+* Acceder a métricas de desempeño personal y grupal.
+
 #### 1.2.1. Antecedentes y problemática
 
 #### 1.2.2. Lean UX Process.
