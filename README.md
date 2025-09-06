@@ -357,6 +357,10 @@ El lean UX process es un enfoque iterativo centrado en el usuario para el diseñ
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
+En el entorno actual, los equipos de trabajo, ya sean laborales, académicos o comunitarios,  enfrentan grandes desafíos para organizar proyectos, coordinar responsabilidades y mantener una comunicación clara y constante.
+Si bien existen herramientas digitales de gestión como tableros de tareas o plataformas corporativas (ej. Jira, Trello, Asana), muchas resultan complejas, fragmentadas o poco accesibles, lo que genera una baja adopción por parte de equipos pequeños y multidisciplinarios. La falta de soluciones centralizadas, intuitivas y personalizables provoca desorganización, sobrecarga en ciertos miembros, retrasos en los proyectos y fricciones dentro del equipo.
+SynHub surge como respuesta a esta brecha: una plataforma integral de gestión de proyectos que combina accesibilidad, simplicidad y experiencia de usuario clara para facilitar la planificación, la asignación de tareas, el seguimiento del cumplimiento y la comunicación colaborativa. Su diseño busca reducir la curva de aprendizaje y fomentar una rápida adopción, permitiendo que cualquier equipo, sin importar su tamaño o nivel de madurez digital, pueda organizar sus proyectos de manera eficiente y efectiva.
+
 ##### 1.2.2.2. Lean UX Assumptions
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
