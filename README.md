@@ -258,6 +258,79 @@
 ## Capitulo II: Requirements Elicitation & Analysis
 ### 2.1. Competidores
 
+En esta sección, se presenta un análisis de los principales competidores de nuestra startup, centrado en aquellos que operan con modelos de negocio digitales similares o que, aunque no sean idénticos, ofrecen productos o servicios que se superponen parcialmente con los de SynHome. Evaluamos tanto competidores directos, que se encuentran en el mismo segmento de mercado, como competidores indirectos, que abordan áreas relacionadas con la organización de tareas, la planificación de actividades y la gestión colaborativa de equipos.
+
+**1. Asana**
+
+<img src="./images/chapter-2/asana.jpg" alt="Asana" width="200"/>
+
+**Descripción:**
+
+Asana es una herramienta de gestión de proyectos que permite a los equipos organizar tareas, asignar responsabilidades y seguir el progreso de los proyectos. Ofrece múltiples vistas, como listas y tableros Kanban, facilitando la personalización según las necesidades del equipo.
+
+**Características principales:**
+
+* **Proyectos y tareas** organizados en listas y tableros Kanban.
+* **Subtareas y dependencias** para definir pasos y secuencias de trabajo.
+* **Colaboración**: asignación de tareas, comentarios, archivos adjuntos.
+* **Notificaciones y recordatorios** por correo y en app.
+* **Informes y seguimiento** de progreso (gráficas, porcentaje completado).
+* **Integraciones** con Slack, Google Drive, Microsoft Teams, etc.
+* **App móvil** intuitiva, con acceso a tareas y colaboración.
+
+**2. FamilyWall**
+
+<img src="./images/chapter-2/FamilyWall.png" alt="FamilyWall" width="200"/>
+
+**Descripción:**
+
+FamilyWall es una plataforma familiar digital que integra varias funciones en un solo espacio. Su diseño visual y amigable la hace ideal para familias con hijos de diferentes edades.
+
+**Principales características:**
+
+* **Listas de tareas y compras** colaborativas.
+* **Ubicación en tiempo real** (ideal para saber dónde están los hijos).
+* **Mensajería privada o grupal**.
+* **Galería multimedia compartida** (fotos y videos familiares).
+
+**3. ClickUp**
+
+<img src="./images/chapter-2/clickup.jpg" alt="ClickUp" width="200"/>
+
+**Descripción:**
+
+ClickUp es una plataforma todo-en-uno que ofrece funciones de gestión de tareas, documentos, objetivos y más. Es conocida por su alta personalización y adaptabilidad a diferentes flujos de trabajo.
+
+**Características principales:**
+
+* **Jerarquía flexible**: espacios, carpetas, listas, tareas y subtareas.
+* **Vistas múltiples**: lista, tablero, cronología, workload
+* **Seguimiento de tiempo** incluido .
+* **Docs internos**, notas y wikis colaborativos.
+* **Automatizaciones personalizadas**.
+* **Comentarios con menciones**, edición colaborativa.
+* **Plantillas reutilizables** para tareas o proyectos.
+* **App móvil** potente, aunque puede ser compleja para usuarios nuevos.
+
+**4. Monday.com**
+
+<img src="./images/chapter-2/monday.com.jpg" alt="monday.com" width="200"/>
+
+**Descripción:**
+
+Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar en proyectos. Ofrece integraciones con diversas herramientas y es apreciada por su facilidad de uso y escalabilidad.
+
+**Características principales:**
+
+* **Tablas visuales** personalizables para tareas, flujos y procesos.
+* **Elementos configurables**: estado, texto, números, etiquetas.
+* **Automatizaciones fáciles** (si sucede X, entonces haz Y).
+* **Vistas como cronograma, Kanban y workload** .
+* **Colaboración por columnas** con comentarios y archivos.
+* **Integraciones** con Gmail, Google Drive, etc.
+* **Búsqueda y filtros** potentes.
+* **App móvil** clara, amigable y funcional.
+
 #### 2.1.1. Análisis competitivo
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
