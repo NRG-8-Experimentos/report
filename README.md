@@ -363,6 +363,47 @@ SynHub surge como respuesta a esta brecha: una plataforma integral de gestión d
 
 ##### 1.2.2.2. Lean UX Assumptions
 
+**_User Assumptions (Suposiciones de Usuario)_**
+
+**¿Quién es el usuario?** Profesionales, estudiantes o miembros de equipos que buscan una solución accesible para organizar proyectos, coordinar tareas y mantener comunicación fluida sin necesidad de herramientas complejas.
+**¿Dónde encaja nuestro producto en su trabajo o vida?** Encaja en proyectos grupales (laborales, académicos, comunitarios o personales), donde la claridad en responsabilidades y la colaboración son esenciales.
+**¿Qué problemas resuelve nuestro producto?** Desorganización, comunicación fragmentada, falta de seguimiento en proyectos y baja adopción de herramientas por interfaces poco intuitivas.
+**¿Cuándo y cómo se usa nuestro producto?** Se usa en momentos clave del ciclo de un proyecto: planificación inicial, asignación de tareas, coordinación de avances y seguimiento de resultados.
+**¿Qué características son importantes?** Asignación de tareas claras, tableros visuales de progreso, notificaciones inteligentes, métricas de desempeño, comunicación estructurada y adaptabilidad a distintos tipos de proyectos.
+**¿Cómo debe verse y comportarse nuestro producto?** Debe ofrecer una interfaz minimalista, intuitiva y amigable, con navegación clara, aprendizaje rápido y personalización ligera que fomente su adopción inmediata.
+
+**_Business Assumptions (Suposiciones de Negocio)_**
+
+**Necesidades y problemas:** Los equipos necesitan una plataforma ágil que les permita organizar proyectos sin la curva de aprendizaje que presentan herramientas robustas como Jira o Asana.
+**Plataforma:** Una aplicación web y móvil con sincronización en la nube que ofrezca gestión integral de proyectos de manera simple.
+**Segmentación:** Coordinadores de proyectos, líderes de equipos pequeños/medianos y miembros que requieren claridad en sus responsabilidades.
+**Comportamientos:** Los usuarios valoran principalmente la facilidad de uso, accesibilidad y rapidez de adopción.
+**Beneficios:** Mejor organización personal y grupal, mayor visibilidad sobre las responsabilidades, reducción de fricciones y sensación de progreso al completar tareas.
+**Captación de clientes:** Estrategias de inbound marketing, marketing digital, integraciones con ecosistemas educativos/laborales y boca a boca.
+**Modelo de ingresos:** Versión freemium (básica gratuita) + modelo SaaS con planes de suscripción mensual/anual.
+**Competencia:** Jira, Trello, Asana, Notion y aplicaciones de chat con funciones de organización.
+**Ventaja competitiva:** Facilidad de uso, accesibilidad multiplataforma, experiencia clara y diseño pensado para rápida adopción, eliminando la barrera de complejidad de la competencia.
+
+**_Technical Assumptions (Suposiciones Técnicas)_**
+
+**Tecnología utilizada:** Tecnologías móviles y web modernas (React Native/Flutter, Node.js, etc.) para garantizar accesibilidad en múltiples dispositivos.
+**Integraciones:** Posibilidad de conexión con herramientas ya usadas por los equipos (Google Workspace, Microsoft Teams, Slack, calendarios).
+**Escalabilidad:** Arquitectura en la nube para soportar un crecimiento continuo en usuarios y datos sin perder rendimiento.
+
+**_Market Assumptions (Suposiciones de Mercado)**_
+
+**Tamaño del mercado:** Creciente demanda global por soluciones de productividad y gestión de proyectos digitales, especialmente en equipos remotos e híbridos.
+**Competencia:** Aplicaciones ya posicionadas en el mercado de gestión de proyectos, pero con mayores barreras de adopción por complejidad.
+**Tendencias:** Aceleración de la digitalización en el trabajo colaborativo y mayor interés en herramientas accesibles, simples y multiplataforma.
+
+**_Design Assumptions (Suposiciones de Diseño)_**
+
+**Interacción del usuario:** La experiencia debe ser clara y guiada con tableros visuales, recordatorios automáticos y navegación simple.
+**Experiencia del usuario:** Los usuarios valorarán una experiencia de organización ágil, flexible, colaborativa y fácil de entender en pocos minutos.
+**Colores y tipografía:** Paleta moderna, limpia y accesible (colores suaves/pastel, tipografía legible y sin distracciones visuales).
+**Preferencias visuales:** Diseño minimalista, con iconografía intuitiva y jerarquía clara en la información.
+**Prototipos y pruebas:** Validación continua con pruebas de usabilidad para garantizar accesibilidad y rápida adopción desde el primer uso.
+
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
 ##### 1.2.2.4. Lean UX Canvas
