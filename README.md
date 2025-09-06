@@ -353,6 +353,8 @@ La magnitud es considerable. Según el State of Teams Report de Atlassian (2021)
 
 #### 1.2.2. Lean UX Process.
 
+El lean UX process es un enfoque iterativo centrado en el usuario para el diseño de proyectos y productos. Este enfoque se basa en ciclos rápidos (sprints) de investigación, diseño y pruebas para validar la propuesta o ideas planteadas por el equipo. Estas propuestas estarán siempre orientadas a satisfacer las necesidades de los usuarios.
+
 ##### 1.2.2.1. Lean UX Problem Statements
 
 ##### 1.2.2.2. Lean UX Assumptions
