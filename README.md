@@ -234,8 +234,10 @@
 
 ## Capítulo I: Introducción
 ### 1.1. Startup Profile
-
 #### 1.1.1. Descripción de la Startup
+NRG8 es una startup tecnológica dedicada al desarrollo de soluciones digitales para la gestión de proyectos, con un enfoque en la accesibilidad y la facilidad de uso. Nuestra misión es simplificar la organización y el seguimiento de tareas en equipos de cualquier tamaño, ofreciendo una alternativa ágil y amigable frente a herramientas tradicionales que suelen ser complejas y poco intuitivas.
+Con una visión centrada en la experiencia de usuario y la colaboración efectiva, NRG8 busca democratizar el acceso a plataformas de gestión profesional, impulsando la productividad y la transparencia en proyectos tanto personales como organizacionales.
+
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
