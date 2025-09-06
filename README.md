@@ -20,13 +20,12 @@
 
 
 | **Nombre**                                | **Código** |
-|-------------------------------------------|------------|
-| **Astonitas Díaz Juan Diego**             | U202110237 |
-| **Casas Sanchez Gabriel Alexander**       | U202220033 |
-| **Pasquale Barrenechea Gianluca Santino** | U202112078 |
-| **Wilder Gonzalo Aliaga Urbina**          | U202222001 |
-| **Armas Sánchez Oscar Javier**            | U20211G192 |
-
+| ----------------------------------------- | ----------- |
+| **Astonitas Díaz Juan Diego**            | U202110237  |
+| **Casas Sanchez Gabriel Alexander**       | U202220033  |
+| **Pasquale Barrenechea Gianluca Santino** | U202112078  |
+| **Wilder Gonzalo Aliaga Urbina**          | U202222001  |
+| **Armas Sánchez Oscar Javier**           | U20211G192  |
 
 **Septiembre 2025**
 
@@ -54,6 +53,7 @@
 ## Project Report Collaboration Insights
 
 ## Contenido
+
 - [Student Outcome](#student-outcome)
 - [Part I: As-Is Software Project](#part-i-as-is-software-project)
   - [Capítulo I: Introducción](#capítulo-i-introducción)
@@ -233,6 +233,7 @@
 # **Part I: As-Is Software Project**
 
 ## Capítulo I: Introducción
+
 ### 1.1. Startup Profile
 
 #### 1.1.1. Descripción de la Startup
@@ -256,6 +257,7 @@
 ### 1.3. Segmentos objetivo
 
 ## Capitulo II: Requirements Elicitation & Analysis
+
 ### 2.1. Competidores
 
 En esta sección, se presenta un análisis de los principales competidores de nuestra startup, centrado en aquellos que operan con modelos de negocio digitales similares o que, aunque no sean idénticos, ofrecen productos o servicios que se superponen parcialmente con los de SynHome. Evaluamos tanto competidores directos, que se encuentran en el mismo segmento de mercado, como competidores indirectos, que abordan áreas relacionadas con la organización de tareas, la planificación de actividades y la gestión colaborativa de equipos.
@@ -438,11 +440,273 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
 
+1. **Estrategia de Diferenciación por Simplicidad y Usabilidad**
+   **Objetivo:** Posicionar a SynHub como la plataforma de gestión de proyectos más intuitiva, clara y rápida de adoptar, en contraste con herramientas robustas pero complejas como Jira, Asana o ClickUp.
+   **Tácticas:**
+   * Diseñar una interfaz limpia, visual y accesible, con flujos de navegación simples.
+   * Implementar un onboarding exprés: en menos de 2 minutos crear un proyecto, agregar miembros y asignar tareas.
+   * Incluir tutoriales interactivos y ayuda contextual dentro de la app.
+   * Enfatizar: “Organizar proyectos no debería ser complicado”.
+2. **Estrategia de Enfoque en Nichos Desatendidos**
+   **Objetivo:** Llegar a segmentos que las grandes plataformas no priorizan, como universitarios, equipos académicos, startups, ONGs y comunidades colaborativas.
+   **Tácticas:**
+   * Ofrecer plantillas y funciones adaptadas a proyectos educativos, voluntariado o pequeños negocios.
+   * Posicionarse como la herramienta ideal para equipos híbridos que mezclan estudio, trabajo y vida comunitaria.
+   * Diferenciarse de soluciones demasiado “empresariales” al ofrecer un entorno más flexible y humano
+3. **Estrategia de Humanización y Cercanía de Marca**
+   **Objetivo:** Ganar la confianza de los usuarios transmitiendo una experiencia positiva, cercana y empática que reduzca la barrera de entrada a la gestión de proyectos.
+   **Tácticas:**
+   * Brindar soporte rápido y cálido, especialmente durante los primeros usos.
+   * Usar un lenguaje simple, accesible y sin tecnicismos en la plataforma.
+   * Diferenciarse de marcas con una imagen muy corporativa (como Jira o Asana) con una propuesta: “Gestión de proyectos hecha para personas reales”.
+4. **Estrategia de Precio Accesible y Transparente**
+   **Objetivo:** Atraer usuarios que necesitan gestión de proyectos ágil y funcional, sin los costos altos de herramientas empresariales.
+   **Tácticas:**
+   * Estructurar precios claros: un plan gratuito funcional y un plan premium asequible (más barato que Asana o ClickUp).
+   * Ofrecer descuentos para estudiantes, equipos educativos y organizaciones sin fines de lucro.
+   * Incluir las funcionalidades clave en el plan gratuito, evitando la frustración de “pagar por lo básico”.
+
 ### 2.2. Entrevistas
+
+En esta sección del informe se realizará el diseño, registro y análisis de las entrevistas de nuestros segmentos objetivos.
 
 #### 2.2.1. Diseño de entrevistas
 
+**Entrevista para el Coordinador o Líder de Grupo**
+**Objetivo principal:** Identificar problemas de gestión actuales, dificultades con herramientas como Jira o similares, y expectativas de una plataforma más accesible.
+**Preguntas principales:**
+
+* ¿Podrías contarme un poco sobre ti? (edad, ocupación, lugar de residencia, estado civil)
+* ¿Qué tipo de grupos o proyectos lideras actualmente?
+* ¿Qué responsabilidades tienes como líder en esos proyectos?
+  **Preguntas complementarias orientadas al nuevo enfoque:**
+* ¿Qué herramientas usas hoy para organizar proyectos o equipos (ejemplo: Jira, Trello, Excel, WhatsApp)?
+* ¿Qué es lo que más te complica al usar esas herramientas?
+* ¿En qué situaciones sientes que una herramienta de gestión te ayuda menos de lo que debería?
+* ¿Qué tan importante es para ti la facilidad de uso en comparación con la cantidad de funciones?
+* ¿Qué esperas que una plataforma de gestión de proyectos haga por ti que hoy no encuentras en otras herramientas?
+* Si pudieras cambiar una sola cosa de las herramientas actuales, ¿qué sería?
+* ¿En qué dispositivo trabajas más (celular, laptop, tablet)? ¿Te resulta fácil usar las herramientas actuales en ese dispositivo?
+* ¿Prefieres una herramienta que priorice la simplicidad aunque tenga menos funciones, o una que lo tenga todo aunque sea más compleja?
+* ¿Qué funcionalidades mínimas no pueden faltar en una plataforma de gestión de proyectos?
+  **Entrevista para el Miembro del Equipo o Grupo**
+  **Objetivo principal:** Conocer cómo los miembros reciben tareas, qué tan cómodos se sienten con herramientas actuales, y qué esperan de una solución más simple y accesible.
+  **Preguntas principales:**
+* ¿Podrías contarme un poco sobre ti? (edad, ocupación, lugar de residencia, estado civil)
+* ¿A qué tipo de grupo o proyectos perteneces actualmente?
+* ¿Qué rol cumples dentro del grupo (ejemplo: participante, colaborador, voluntario)?
+* Preguntas complementarias orientadas al nuevo enfoque:
+* ¿Cómo te enteras normalmente de tus tareas o responsabilidades dentro del grupo?
+* ¿Qué herramientas usas para llevar un seguimiento de esas tareas?
+* ¿Qué problemas encuentras al usar esas herramientas? (ejemplo: son confusas, no notifican bien, difícil en celular, requieren capacitación).
+* ¿Qué es lo más frustrante de trabajar con herramientas como Jira, Trello u otras?
+* ¿Qué tipo de plataformas prefieres? (Ejemplo: fáciles de usar, rápidas, visuales, minimalistas).
+* ¿Usas más tu celular o tu computadora para seguir tus tareas? ¿Te resulta cómodo?
+* ¿Qué características valoras más en una aplicación de gestión de proyectos? (ejemplo: notificaciones claras, diseño visual simple, integración con WhatsApp/Google Calendar).
+* Si pudieras imaginar la app de proyectos ideal para ti, ¿cómo sería?
+
 #### 2.2.2. Registro de entrevistas
+
+En esta sección registramos los puntos e ideas más importantes de las entrevistas realizadas a los coordinadores y miembros de grupo. Los detalles completos de las entrevistas, incluyendo las grabaciones, se encuentran disponibles en el siguiente enlace:
+A continuación se presentan los detalles clave de las entrevistas realizadas:
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entrevista 1</td>
+      <td> <img src="" alt="interview 1" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ocupación</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entrevista 2</td>
+      <td> <img src="" alt="interview 2" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ocupación</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entrevista 3</td>
+      <td> <img src="" alt="interview 3" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ocupación</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entrevista 4</td>
+      <td> <img src="" alt="interview 4" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ocupación</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entrevista 5</td>
+      <td> <img src="" alt="interview 5" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ocupación</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Entrevista 6</td>
+      <td> <img src="" alt="interview 6" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ocupación</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 
 #### 2.2.3. Análisis de entrevistas
 
@@ -450,17 +714,225 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
 
 #### 2.3.1. User Personas
 
+En esta sección, mostraremos los perfiles de los usuarios que hemos definido para nuestro producto. Estos perfiles nos ayudarán a entender mejor las necesidades y expectativas de nuestros usuarios.
+**1. User Persona: Coordinador de equipos**
+
+<img src="" alt="user-persona-1"/>
+
+**2. User Persona: Miembro de equipo**
+
+<img src="" alt="user-persona-2"/>
+
 #### 2.3.2. User Task Matrix
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">Coordinador o Líder de Grupo</th>
+    </tr>
+    <tr>
+      <th>Tarea</th>
+      <th>Frecuencia</th>
+      <th>Severidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Seleccionar miembros y definir objetivos</td>
+      <td>Alta</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Crear grupos, proyectos y cronogramas</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Coordinar reuniones por distintos medios (Zoom, Meet, WhatsApp)</td>
+      <td>Media</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Asignar tareas a miembros del grupo</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Supervisar y actualizar avances del equipo</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Recolectar información dispersa de los miembros</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Identificar mejoras a partir de conclusiones finales</td>
+      <td>Media</td>
+      <td>Baja</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3">Coordinador o Líder de Grupo</th>
+    </tr>
+    <tr>
+      <th>Tarea</th>
+      <th>Frecuencia</th>
+      <th>Severidad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Revisar miembros y objetivos del grupo</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Revisar horarios y organización del grupo</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Asistir a reuniones coordinadas por el líder</td>
+      <td>Media</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Realizar tareas asignadas según cronograma</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Actualizar avances de tareas</td>
+      <td>Alta</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>Compartir información y hallazgos con el líder</td>
+      <td>Media</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>Reflexionar sobre mejoras personales o del grupo</td>
+      <td>Baja</td>
+      <td>Media</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 2.3.3. User Journey Mapping
 
+En esta sección, se presenta el mapa de viaje del usuario, que ilustra las etapas y experiencias de los usuarios al interactuar con nuestro producto. Este mapa nos ayudará a identificar oportunidades de mejora y a comprender mejor las necesidades de nuestros usuarios.
+
+**1. User Journey: Coordinador de equipos**
+
+<img src="" alt="user-journey-mapping-1"/>
+
+**2. User Journey: Miembro de equipo**
+
+<img src="" alt="user-journey-mapping-2"/>
+
 #### 2.3.4. Empathy Mapping
+
+En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender mejor las emociones, pensamientos y necesidades de nuestros usuarios. Este mapa es una herramienta valiosa para identificar oportunidades de mejora en la experiencia del usuario.
+
+**1. Empathy Map: Coordinador de equipos**
+
+<img src="" alt="user-empathy-mapping-1"/>
+
+**2. Empathy Map: Miembro de equipo**
+
+<img src="" alt="user-empathy-mapping-2"/>
 
 #### 2.3.5. As-is Scenario Mapping
 
+El As-is Scenario Mapping es una técnica que permite analizar cómo los usuarios realizan actualmente sus tareas dentro de un flujo de trabajo existente. Su objetivo es identificar los pasos, fricciones y soluciones improvisadas que los equipos usan en su día a día. Al documentar este escenario “tal cual es”, se obtiene una visión clara de los problemas reales y las oportunidades de mejora que la nueva solución puede abordar.
+
 ### 2.4. Ubiquitous Language
 
+<table>
+  <tr>
+    <th colspan="3">Ubiquitous Language</th>
+  </tr>
+  <tr>
+    <th style="text-align: center;">Término (en inglés)</th>
+    <th style="text-align: center;">Término (en español)</th>
+    <th style="text-align: center;">Definición</th>
+  </tr>
+  <tr>
+    <td>Task</td>
+    <td>Tarea</td>
+    <td>Acción específica asignada a un miembro del grupo para ser completada en un periodo.</td>
+  </tr>
+  <tr>
+    <td>Group</td>
+    <td>Grupo</td>
+    <td>Conjunto de personas que colaboran en actividades comunes dentro de SynHub.</td>
+  </tr>
+  <tr>
+    <td>Responsibility</td>
+    <td>Responsabilidad</td>
+    <td>Obligación asumida por un miembro del grupo respecto a una o varias tareas asignadas.</td>
+  </tr>
+  <tr>
+    <td>Workload View</td>
+    <td>Visualización de carga</td>
+    <td>Representación gráfica del volumen de tareas por miembro, útil para balancear el trabajo.</td>
+  </tr>
+  <tr>
+    <td>Comment</td>
+    <td>Comentario</td>
+    <td>Observación o feedback escrito sobre una tarea por un miembro.</td>
+  </tr>
+  <tr>
+    <td>Notification</td>
+    <td>Notificación</td>
+    <td>Aviso que informa a los usuarios sobre actualizaciones, nuevas tareas o recordatorios.</td>
+  </tr>
+  <tr>
+    <td>Time Estimate</td>
+    <td>Estimacion de tiempo</td>
+    <td>Tiempo previsto para completar una tarea (ej: 2 horas).</td>
+  </tr>
+  <tr>
+    <td>Task Status</td>
+    <td>Estado de tarea</td>
+    <td>Situación actual de una tarea (ej. pendiente, en progreso, completada, cancelada).</td>
+  </tr>
+  <tr>
+    <td>Member</td>
+    <td>Miembro</td>
+    <td>Usuario que forma parte de un grupo dentro de la aplicación SynHub.</td>
+  </tr>
+  <tr>
+    <td>Notification</td>
+    <td>Notificación</td>
+    <td>Aviso que informa a los usuarios sobre actualizaciones, nuevas tareas o recordatorios.</td>
+  </tr>
+  <tr>
+    <td><strong>Request</strong></td>
+    <td><strong>Solicitud</strong></td>
+    <td>Petición formal de un usuario para acceder a un grupo, recurso o acción específica dentro de SynHub.</td>
+  </tr>
+  <tr>
+    <td><strong>Applications and Validations</strong></td>
+    <td><strong>Solicitudes y Validaciones</strong></td>
+    <td>Proceso donde los usuarios envían solicitudes (ej: unirse a un grupo) y un administrador las aprueba/rechaza.</td>
+  </tr>
+  <tr>
+    <td><strong>Analytical and Reports</strong></td>
+    <td><strong>Análisis e Informes</strong></td>
+    <td>Herramientas que generan métricas visuales (gráficos, tablas) sobre productividad, carga de trabajo o progreso del grupo.</td>
+  </tr>
+</table>
+
 ## Capitulo III: Requirements Specification
+
 ### 3.1. To-Be Scenario Mapping
 
 ### 3.2. User Stories
@@ -470,6 +942,7 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
 ### 3.4. Impact Mapping
 
 ## Capitulo IV: Product Design
+
 ### 4.1. Style Guidelines
 
 #### 4.1.1. General Style Guidelines
@@ -547,6 +1020,7 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
 #### 4.10.1. Relational/Non-Relational Database Diagram
 
 ## Capitulo V: Product Implementation
+
 ### 5.1. Software Configuration Management
 
 #### 5.1.1. Software Development Environment Configuration
@@ -577,10 +1051,10 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
 
 ### 5.3. Video About-the-Product
 
-
 # **Part II: Verification, Validation & Pipeline**
 
 ## Capítulo VI: Product Verification & Validation
+
 ### 6.1. Testing Suites & Validation
 
 #### 6.1.1. Core Entities Unit Tests
@@ -630,6 +1104,7 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
 ##### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
 ## Capítulo VII: DevOps Practices
+
 ### 7.1. Continuous Integration
 
 #### 7.1.1. Tools and Practices
@@ -660,7 +1135,8 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
 
 # **Part III: Experiment-Driven Lifecycle**
 
-## Capítulo VIII: Experiment-Driven Development 
+## Capítulo VIII: Experiment-Driven Development
+
 ### 8.1. Experiment Planning
 
 #### 8.1.1. As-Is Summary
@@ -731,8 +1207,8 @@ Monday.com proporciona una interfaz visual para planificar, rastrear y colaborar
 
 #### 8.6.1. About-the-Product Intro Video
 
-
 ## Conclusiones
+
 ### Conclusiones y recomendaciones
 
 ### Video App Validation
