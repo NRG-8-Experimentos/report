@@ -304,6 +304,53 @@ Estos problemas se traducen en:
 
 #### 1.2.1. Antecedentes y problemática
 
+**What**
+
+**¿Cuál es el problema?**
+El problema radica en la baja adopción de aplicaciones móviles para la gestión y organización colaborativa de proyectos. Aunque existen diversas herramientas digitales, muchos equipos siguen recurriendo a métodos improvisados (chats, hojas de cálculo, notas físicas) que dificultan la coordinación. Esto genera distribución desigual de tareas, falta de seguimiento, comunicación fragmentada y pérdida de productividad.
+**¿Cuál es la relación con la persona en cuestión?**
+La relación es brindar a organizadores y miembros de equipos una herramienta accesible, intuitiva y centrada en sus necesidades reales, que permita una organización clara, distribución equitativa de tareas y comunicación fluida, facilitando su adopción cotidiana.
+
+**When**
+
+**¿Cuándo sucede el problema?**
+El problema aparece cuando los equipos necesitan coordinar proyectos, asignar responsabilidades y mantener una comunicación constante para alcanzar objetivos comunes.
+**¿Cuándo utiliza el cliente el producto?**
+El cliente utiliza SynHub en momentos clave del ciclo de un proyecto: al planificar actividades, asignar tareas y hacer seguimiento del cumplimiento, así como en la resolución de ajustes o imprevistos.
+
+**Where**
+
+**¿Dónde está el cliente cuando usa el producto?**
+El cliente accede a SynHub desde cualquier lugar con conexión a Internet: en la oficina, en casa, en el aula o durante desplazamientos, adaptándose a su rutina diaria.
+**¿Dónde surge el problema?**
+El problema se manifiesta en espacios de trabajo colaborativo: oficinas, instituciones educativas, organizaciones comunitarias y grupos multidisciplinarios, donde la coordinación efectiva es clave para lograr resultados.
+
+**Who**
+
+**¿Quiénes se ven involucrados en el problema?**
+* Organizadores o coordinadores de proyectos (líderes, docentes, jefes de área, representantes comunitarios) que necesitan asignar tareas y dar seguimiento.
+* Miembros de equipos de trabajo (colaboradores, estudiantes, voluntarios, participantes) que enfrentan dificultades para organizarse y comunicarse de forma efectiva.
+
+**Why**
+
+**¿Cuáles son las causas del problema?**
+Las causas están en la resistencia al cambio, la percepción de bajo valor inmediato y la falta de hábitos digitales consolidados. Aunque existen plataformas robustas como Jira o Trello, muchas personas las perciben como complejas o poco integradas en su dinámica diaria.
+Por ello, se recurre a métodos tradicionales que, si bien resultan familiares, no resuelven la necesidad de organización integral y colaboración ágil.
+
+**How**
+
+**¿En qué condiciones los clientes usan nuestro producto?**
+Los clientes usan SynHub cuando necesitan coordinar proyectos con múltiples tareas, integrantes y plazos variables, en un entorno donde la corresponsabilidad y la comunicación clara son esenciales para el éxito colectivo.
+
+**How Much**
+
+**¿Cuál es la magnitud del problema?**
+La magnitud es considerable. Según el State of Teams Report de Atlassian (2021):
+* Solo el 17% de los equipos se consideran “saludables”, mientras que el 54% son parcialmente saludables y el 29% insalubres (p. 12).
+* El 57% de los participantes admitió que sus equipos no operan con eficiencia, generando retrasos y baja productividad (p. 18).
+* El 56% de los miembros reportó baja conexión interpersonal y el 37% señaló que no puede expresar ideas libremente por falta de seguridad psicológica (p. 24).
+  Estos datos reflejan la urgencia de contar con herramientas accesibles y de rápida adopción, como SynHub, que reduzcan la fricción tecnológica y potencien la colaboración.
+
 #### 1.2.2. Lean UX Process.
 
 ##### 1.2.2.1. Lean UX Problem Statements
