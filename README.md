@@ -406,6 +406,70 @@ SynHub surge como respuesta a esta brecha: una plataforma integral de gestión d
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
+**_Usuario y Necesidad_**
+
+**Hypothesis 01:** Creemos que el usuario es alguien que busca una solución accesible para organizar tareas en un equipo y mejorar la comunicación entre los miembros.
+Sabremos que estamos en lo correcto cuando recibamos comentarios positivos sobre la utilidad de la app y observemos un aumento en usuarios registrados.
+**Hypothesis 02:** Creemos que el producto encaja en actividades grupales donde los usuarios participan junto a otros miembros, facilitando la gestión de tareas y responsabilidades.
+Sabremos que estamos en lo correcto cuando los usuarios destaquen la facilidad de integración del producto en su dinámica de equipo.
+**Hypothesis 03:** Creemos que el producto resuelve problemas de desorganización y falta de comunicación en los equipos.
+Sabremos que estamos en lo correcto cuando encuestas y reseñas indiquen mejoras en la coordinación y claridad de responsabilidades.
+**Hypothesis 04:** Creemos que el producto se usa principalmente en momentos de planificación, seguimiento de tareas y coordinación de equipo.
+Sabremos que estamos en lo correcto cuando veamos un aumento en la frecuencia de uso durante ciclos de planificación y ejecución.
+
+**_Características y Experiencia_**
+
+**Hypothesis 05:** Creemos que los usuarios valoran características como asignación de tareas, visualización de horarios, disponibilidad de miembros y personalización de roles.
+Sabremos que estamos en lo correcto cuando recibamos comentarios positivos y altos niveles de satisfacción en estas funciones.
+**Hypothesis 06:** Creemos que el producto debe tener una interfaz intuitiva y amigable.
+Sabremos que estamos en lo correcto cuando los usuarios reporten experiencias de navegación fluida en pruebas de usabilidad.
+**Hypothesis 07:**  Creemos que los equipos necesitan organizar sus tareas de forma eficiente y mejorar la comunicación.
+Sabremos que estamos en lo correcto cuando aumente la adopción por parte de equipos y recibamos feedback sobre la utilidad práctica.
+**Hypothesis 08:** Creemos que estas necesidades se resuelven con una aplicación móvil que ofrezca gestión de tareas y comunicación en una experiencia fluida y accesible.
+Sabremos que estamos en lo correcto cuando la app muestre alta retención y satisfacción de los usuarios móviles.
+**Hypothesis 09:** Creemos que los usuarios clave son coordinadores e integrantes de equipos que buscan organizar sus responsabilidades de forma accesible.
+Sabremos que estamos en lo correcto cuando los perfiles registrados coincidan mayoritariamente con este segmento.
+**Hypothesis 10:** Creemos que el valor principal que buscan los usuarios es la facilidad de uso y la mejora en organización y comunicación del equipo.
+Sabremos que estamos en lo correcto cuando recibamos comentarios consistentes sobre facilidad de uso y efectividad en la coordinación.
+**Hypothesis 11:** Creemos que los usuarios obtendrán beneficios como mayor organización personal, claridad en sus responsabilidades y satisfacción al completar tareas.
+Sabremos que estamos en lo correcto cuando las reseñas reflejen estos beneficios percibidos.
+
+**_Negocio y Mercado_**
+
+**Hypothesis 12:** Creemos que captaremos usuarios principalmente con marketing digital y recomendaciones en ámbitos laborales y educativos.
+Sabremos que estamos en lo correcto cuando estas fuentes sean los principales canales de adquisición.
+**Hypothesis 13:** Creemos que generaremos ingresos clasificando la aplicación como un servicio de pago.
+Sabremos que estamos en lo correcto cuando los ingresos crezcan de forma sostenida por suscripciones o compras directas.
+**Hypothesis 14:** Creemos que la competencia principal serán aplicaciones de gestión de tareas como Jira, Trello o Asana.
+Sabremos que estamos en lo correcto cuando el análisis competitivo lo confirme.
+**Hypothesis 15:** Creemos que superaremos a la competencia con un enfoque en personalización, facilidad de uso e integración para gestión de equipos.
+Sabremos que estamos en lo correcto cuando los usuarios destaquen estas ventajas y adopten la app en lugar de alternativas.
+**Hypothesis 16:** Creemos que podemos utilizar tecnologías móviles actuales para desarrollar la aplicación.
+Sabremos que estamos en lo correcto cuando la app funcione sin problemas en dispositivos modernos y cumpla con estándares de rendimiento.
+**Hypothesis 17:** Creemos que la aplicación debe integrarse con plataformas de comunicación ya utilizadas por los equipos.
+Sabremos que estamos en lo correcto cuando las integraciones funcionen sin fricción y los usuarios las adopten.
+**Hypothesis 18:** Creemos que la aplicación podrá escalar para soportar un número creciente de usuarios y datos.
+Sabremos que estamos en lo correcto cuando la app maneje la carga sin problemas de rendimiento.
+**Hypothesis 19:** Creemos que existe un mercado amplio de equipos que buscan soluciones de organización y coordinación.
+Sabremos que estamos en lo correcto cuando aumente la adopción y la base de usuarios de la app.
+**Hypothesis 20:** Creemos que las aplicaciones similares son los principales competidores directos.
+Sabremos que estamos en lo correcto cuando el análisis competitivo confirme esta dinámica y la adopción de nuestra app crezca frente a estas opciones.
+**Hypothesis 21:** Creemos que el mercado de apps de organización y productividad está en crecimiento, impulsado por la digitalización en entornos laborales y educativos.
+Sabremos que estamos en lo correcto cuando estudios de mercado y tendencias lo respalden.
+
+_**Diseño y Usabilidad**_
+
+**Hypothesis 22:** Creemos que los usuarios interactuarán mejor si implementamos recordatorios automáticos, organización por prioridades y asignación clara de tareas.
+Sabremos que estamos en lo correcto cuando los usuarios destaquen la utilidad de estas funciones en encuestas y reseñas.
+**Hypothesis 23:** Creemos que los usuarios valorarán una experiencia de organización simple, flexible, colaborativa y motivadora.
+Sabremos que estamos en lo correcto cuando la satisfacción general aumente y los comentarios resalten estos atributos.
+**Hypothesis 24:** Creemos que los usuarios prefieren una paleta de colores pastel y una tipografía moderna y legible.
+Sabremos que estamos en lo correcto cuando los comentarios sobre la estética de la app sean positivos.
+**Hypothesis 25:** Creemos que los usuarios consideran atractivo un diseño simple con iconos intuitivos.
+Sabremos que estamos en lo correcto cuando los tests de usabilidad confirmen la comprensión rápida de la interfaz.
+**Hypothesis 26:** Creemos que necesitamos validar la facilidad de uso y efectividad del diseño mediante pruebas de usabilidad.
+Sabremos que estamos en lo correcto cuando los resultados de testing muestran alta tasa de éxito en las tareas clave y feedback constructivo de mejora.
+
 ##### 1.2.2.4. Lean UX Canvas
 
 ### 1.3. Segmentos objetivo
