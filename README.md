@@ -93,8 +93,6 @@
       - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
       - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
       - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
-        - [4.1.3.1 iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
-        - [4.1.3.2 Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
     - [4.2. Information Architecture](#42-information-architecture)
       - [4.2.1. Organization Systems](#421-organization-systems)
       - [4.2.2. Labeling Systems](#422-labeling-systems)
@@ -422,159 +420,158 @@ Los wireflow diagrams de Synhub representan la secuencia de interacciones y pant
 
 **Creación de grupo:** este wireflow corresponde a cuando un lider de equipo buscar crear un nuevo grupo.
 
-<img src="images/chapter-5/wireflow-1.png" alt="Wireflow 1" width="600"/>
+<img src="images/chapter-4/wireflow-1.png" alt="Wireflow 1/>
 
 **Invitación de integrante:** este wireflow corresponde a cuando un lider de equipo busca invitar a un nuevo integrante al grupo.
 
-<img src="images/chapter-5/wireflow-2-1.png" alt="Wireflow 2" width="600"/>
+<img src="images/chapter-4/wireflow-2-1.png" alt="Wireflow 2/>
 
-<img src="images/chapter-5/wireflow-2-2.png" alt="Wireflow 2" width="600"/>
+<img src="images/chapter-4/wireflow-2-2.png" alt="Wireflow 2/>
 
 **Asignación de tarea:** este wireflow corresponde a cuando un lider de equipo busca asignar una nueva tarea a un integrante del grupo.
 
-<img src="images/chapter-5/wireflow-3.png" alt="Wireflow 3" width="600"/>
+<img src="images/chapter-4/wireflow-3.png" alt="Wireflow 3/>
 
 **Edición de tarea:** este wireflow corresponde a cuando un lider de equipo busca editar una tarea ya existente.
 
-<img src="images/chapter-5/wireflow-4.png" alt="Wireflow 4" width="600"/>
+<img src="images/chapter-4/wireflow-4.png" alt="Wireflow 4/>
 
 **Eliminación de tarea:** este wireflow corresponde a cuando un lider de equipo busca eliminar una tarea ya existente.
 
-<img src="images/chapter-5/wireflow-5.png" alt="Wireflow 5" width="600"/>
+<img src="images/chapter-4/wireflow-5.png" alt="Wireflow 5/>
 
 **Ver la información de una tarea:** este wireflow corresponde a cuando un lider de equipo busca ver la información de una tarea ya existente.
 
-<img src="images/chapter-5/wireflow-6.png" alt="Wireflow 6" width="600"/>
+<img src="images/chapter-4/wireflow-6.png" alt="Wireflow 6/>
 
 **Revisar una solicitud o validación:** este wireflow corresponde a cuando un lider de equipo busca revisar una solicitud o validación ya existente.
 
-<img src="images/chapter-5/wireflow-7.png" alt="Wireflow 7" width="600"/>
+<img src="images/chapter-4/wireflow-7.png" alt="Wireflow 7/>
 
 **Unirse a un grupo:** Este wireflow corresponde a cuando un miembro busca unirse a un grupo.
 
-<img src="images/chapter-5/wireflow-8.png" alt="Wireflow 8" width="600"/>
+<img src="images/chapter-4/wireflow-8.png" alt="Wireflow 8/>
 
 
 **Enviar un comentario a una tarea:** Este wireflow corresponde a cuando un miembro busca sus tareas asignadas y envia un comentario a la tarea respectiva.
 
 
-<img src="images/chapter-5/wireflow-9.png" alt="Wireflow 9" width="600"/>
+<img src="images/chapter-4/wireflow-9.png" alt="Wireflow 9/>
 
 
 **Visualizar solicitud o validacion pendiente:** Este wireflow corresponde a cuando un miembro busca sus solicitudes o validaciones pendientes.
 
 
-<img src="images/chapter-5/wireflow-10.png" alt="Wireflow 10" width="600"/>
+<img src="images/chapter-4/wireflow-10.png" alt="Wireflow 10/>
 
 
 **Ver metricas de desempeño:** Este wireflow corresponde a cuando un miembro busca visualizar su desempeño mediante una metrica.
 
 
-<img src="images/chapter-5/wireflow-11.png" alt="Wireflow 11" width="600"/>
+<img src="images/chapter-4/wireflow-11.png" alt="Wireflow 11/>
 
 #### 4.4.3. Mobile Applications Mock-ups
 
-En esta sección se presentan y explican los Mock-ups de la aplicación. Se evidencia la aplicación de los principios y elementos de diseño, el diseño inclusivo, la arquitectura de información y el Design System establecido en el desarrollo de los wireframes. Cada mock-up ilustra cómo se implementan estos conceptos en la interfaz de usuario.
+En esta sección se presentan y explican los Mock-ups de la aplicación. Se evidencia la aplicación de los principios y elementos de diseño, el diseño inclusivo, la arquitectura de información y el Design System establecido en el desarrollo de los wireframes. Cada mock-up ilustra cómo se implementan estos conceptos en la interfaz 
+<img src="images/chapter-4/mockup-1.png" alt="Mockup 1/>
 
-<img src="images/chapter-5/mockup-1.png" alt="Mockup 1" width="600"/>
+<img src="images/chapter-4/mockup-2.png" alt="Mockup 2/>
 
-<img src="images/chapter-5/mockup-2.png" alt="Mockup 2" width="600"/>
+<img src="images/chapter-4/mockup-3.png" alt="Mockup 3/>
 
-<img src="images/chapter-5/mockup-3.png" alt="Mockup 3" width="600"/>
+<img src="images/chapter-4/mockup-4.png" alt="Mockup 4/>
 
-<img src="images/chapter-5/mockup-4.png" alt="Mockup 4" width="600"/>
+<img src="images/chapter-4/mockup-5.png" alt="Mockup 5/>
 
-<img src="images/chapter-5/mockup-5.png" alt="Mockup 5" width="600"/>
+<img src="images/chapter-4/mockup-6.png" alt="Mockup 6"/>
 
-<img src="images/chapter-5/mockup-6.png" alt="Mockup 6" width="600"/>
+<img src="images/chapter-4/mockup-7.png" alt="Mockup 7"/>
 
-<img src="images/chapter-5/mockup-7.png" alt="Mockup 7" width="600"/>
+<img src="images/chapter-4/mockup-8.png" alt="Mockup 8"/>
 
-<img src="images/chapter-5/mockup-8.png" alt="Mockup 8" width="600"/>
+<img src="images/chapter-4/mockup-9.png" alt="Mockup 9"/>
 
-<img src="images/chapter-5/mockup-9.png" alt="Mockup 9" width="600"/>
-
-<img src="images/chapter-5/mockup-10.png" alt="Mockup 10" width="600"/>
+<img src="images/chapter-4/mockup-10.png" alt="Mockup 10"/>
 
 #### 4.4.4. Mobile Applications User Flow Diagrams
 
 **Creación de grupo:** este userflow corresponde a cuando un lider de equipo buscar crear un nuevo grupo.
 Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 
-<img src="images/chapter-5/userflow-t1.png" alt="Userflow Table 1" width="600"/>
+<img src="images/chapter-4/userflow-t1.png" alt="Userflow Table 1"/>
 
-<img src="images/chapter-5/userflow-1.png" alt="Userflow 1" width="600"/>
+<img src="images/chapter-4/userflow-1.png" alt="Userflow 1"/>
 
 **Invitación de integrante:** este userflow corresponde a cuando un lider de equipo busca invitar a un nuevo integrante al grupo.
 Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 
-<img src="images/chapter-5/userflow-t2.png" alt="Userflow Table 2" width="600"/>
+<img src="images/chapter-4/userflow-t2.png" alt="Userflow Table 2"/>
 
-<img src="images/chapter-5/userflow-2.png" alt="Userflow 2" width="600"/>
+<img src="images/chapter-4/userflow-2.png" alt="Userflow 2"/>
 
 **Asignación de tarea:** este userflow corresponde a cuando un lider de equipo busca asignar una nueva tarea a un integrante del grupo.
 Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 
-<img src="images/chapter-5/userflow-t3.png" alt="Userflow Table 3" width="600"/>
+<img src="images/chapter-4/userflow-t3.png" alt="Userflow Table 3"/>
 
-<img src="images/chapter-5/userflow-3.png" alt="Userflow 3" width="600"/>
+<img src="images/chapter-4/userflow-3.png" alt="Userflow 3"/>
 
 **Edición de tarea:** este userflow corresponde a cuando un lider de equipo busca editar una tarea ya existente.
 Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 
-<img src="images/chapter-5/userflow-t4.png" alt="Userflow Table 4" width="600"/>
+<img src="images/chapter-4/userflow-t4.png" alt="Userflow Table 4"/>
 
-<img src="images/chapter-5/userflow-4.png" alt="Userflow 4" width="600"/>
+<img src="images/chapter-4/userflow-4.png" alt="Userflow 4"/>
 
 **Eliminación de tarea:** este userflow corresponde a cuando un lider de equipo busca eliminar una tarea ya existente.
 Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 
-<img src="images/chapter-5/userflow-t5.png" alt="Userflow Table 5" width="600"/>
+<img src="images/chapter-4/userflow-t5.png" alt="Userflow Table 5"/>
 
-<img src="images/chapter-5/userflow-5.png" alt="Userflow 5" width="600"/>
+<img src="images/chapter-4/userflow-5.png" alt="Userflow 5"/>
 
 **Ver la información de una tarea:** este userflow corresponde a cuando un lider de equipo busca ver la información de una tarea ya existente.
 Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 
-<img src="images/chapter-5/userflow-t6.png" alt="Userflow Table 6" width="600"/>
+<img src="images/chapter-4/userflow-t6.png" alt="Userflow Table 6"/>
 
-<img src="images/chapter-5/userflow-6.png" alt="Userflow 6" width="600"/>
+<img src="images/chapter-4/userflow-6.png" alt="Userflow 6"/>
 
 **Revisar una solicitud o validación:** este userflow corresponde a cuando un lider de equipo busca revisar una solicitud o validación ya existente.
 Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 
-<img src="images/chapter-5/userflow-t7.png" alt="Userflow Table 7" width="600"/>
+<img src="images/chapter-4/userflow-t7.png" alt="Userflow Table 7"/>
 
-<img src="images/chapter-5/userflow-7.png" alt="Userflow 7" width="600"/>
+<img src="images/chapter-4/userflow-7.png" alt="Userflow 7"/>
 
 **Unirse a un grupo:** Este wireflow corresponde a cuando un miembro busca unirse a un grupo.
 Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 
-<img src="images/chapter-5/userflow-t8.png" alt="Userflow t8" width="600"/>
+<img src="images/chapter-4/userflow-t8.png" alt="Userflow t8"/>
 
-<img src="images/chapter-5/userflow-8.png" alt="Userflow t7" width="600"/>
+<img src="images/chapter-4/userflow-8.png" alt="Userflow t7"/>
 
 **Enviar un comentario a una tarea:** Este wireflow corresponde a cuando un miembro busca sus tareas asignadas y envia un comentario a la tarea respectiva.
 Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 
-<img src="images/chapter-5/userflow-t9.png" alt="Userflow t9" width="600"/>
+<img src="images/chapter-4/userflow-t9.png" alt="Userflow t9"/>
 
-<img src="images/chapter-5/userflow-9.png" alt="Userflow t9" width="600"/>
+<img src="images/chapter-4/userflow-9.png" alt="Userflow t9"/>
 
 **Visualizar solicitud o validacion pendiente:** Este wireflow corresponde a cuando un miembro busca sus solicitudes o validaciones pendientes.
 Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 
-<img src="images/chapter-5/userflow-t10.png" alt="Userflow t10" width="600"/>
+<img src="images/chapter-4/userflow-t10.png" alt="Userflow t10"/>
 
-<img src="images/chapter-5/userflow-10.png" alt="Userflow 10" width="600"/>
+<img src="images/chapter-4/userflow-10.png" alt="Userflow 10"/>
 
 **Ver metricas de desempeño:** Este wireflow corresponde a cuando un miembro busca visualizar su desempeño mediante una metrica.
 Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 
-<img src="images/chapter-5/userflow-t11.png" alt="Userflow t11" width="600"/>
+<img src="images/chapter-4/userflow-t11.png" alt="Userflow t11"/>
 
 
-<img src="images/chapter-5/userflow-11.png" alt="Userflow 11" width="600"/>
+<img src="images/chapter-4/userflow-11.png" alt="Userflow 11"/>
 
 ### 4.5. Mobile Applications Prototyping
 Para este apartado comenzamos con la creación de grupos, donde el líder establece un nuevo espacio de trabajo, seguido de la invitación de integrantes para conformar el equipo. Una vez formado el grupo, el líder puede asignar tareas específicas a cada miembro, con la capacidad de editar los detalles de estas tareas si es necesario o eliminarlas cuando ya no sean relevantes. Además, el líder puede consultar la información detallada de cualquier tarea para hacer seguimiento, y revisar solicitudes o validaciones presentadas por los miembros del equipo, lo que le permite aprobar, rechazar o dar retroalimentación sobre el trabajo realizado. Estos flujos cubren el ciclo completo de gestión, desde la organización del equipo hasta la supervisión y validación de las actividades asignadas.
