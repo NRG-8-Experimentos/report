@@ -596,9 +596,15 @@ Para este apartado comenzamos con la creación de grupos, donde el líder establ
 
 #### 4.8.1. Software Architecture Context Diagram
 
+<img src="images/chapter-4/c4-diagram-context.png" alt="C4 Context Diagram"/>
+
 #### 4.8.2. Software Architecture Container Diagrams
 
+<img src="images/chapter-4/c4-diagram-container.png" alt="C4 Container Diagram"/>
+
 #### 4.8.3. Software Architecture Components Diagrams
+
+<img src="images/chapter-4/c4-diagram-component.png" alt="C4 Components Diagram"/>
 
 ### 4.9. Software Object-Oriented Design
 
