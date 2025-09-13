@@ -393,7 +393,7 @@ El To-be Scenario Mapping describe el flujo de trabajo ideal que los usuarios te
 ### 3.4. Impact Mapping
 El Impact Mapping es una técnica visual que conecta los objetivos de un proyecto con los actores involucrados, los cambios de comportamiento esperados y las entregas necesarias. Su propósito es alinear al equipo, priorizar funcionalidades y asegurar que cada acción aporte valor real al objetivo central.
 
-<img src="" alt="impact-mapping">
+<img src="images/chapter-3/UIMPACTP.png" alt="impact-mapping">
 
 ## Capitulo IV: Product Design
 ### 4.1. Style Guidelines
