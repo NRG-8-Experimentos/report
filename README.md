@@ -715,13 +715,13 @@ A continuación se presentan los detalles clave de las entrevistas realizadas:
 #### 2.3.1. User Personas
 
 En esta sección, mostraremos los perfiles de los usuarios que hemos definido para nuestro producto. Estos perfiles nos ayudarán a entender mejor las necesidades y expectativas de nuestros usuarios.
+
 **1. User Persona: Coordinador de equipos**
+<img src="images/chapter-2/USERP1.png" alt="user-persona-1"/>
 
-<img src="" alt="user-persona-1"/>
+**2. User Persona: Miembro de equipo** 
 
-**2. User Persona: Miembro de equipo**
-
-<img src="" alt="user-persona-2"/>
+<img src="images/chapter-2/USERP2.png" alt="user-persona-2"/>
 
 #### 2.3.2. User Task Matrix
 
