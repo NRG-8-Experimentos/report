@@ -831,11 +831,11 @@ En esta sección, se presenta el mapa de viaje del usuario, que ilustra las etap
 
 **1. User Journey: Coordinador de equipos**
 
-<img src="" alt="user-journey-mapping-1"/>
+<img src="images/chapter-2/UJOURNEYP1.png" alt="user-journey-mapping-1"/>
 
 **2. User Journey: Miembro de equipo**
 
-<img src="" alt="user-journey-mapping-2"/>
+<img src="images/chapter-2/UJOURNEYP2.png" alt="user-journey-mapping-2"/>
 
 #### 2.3.4. Empathy Mapping
 
