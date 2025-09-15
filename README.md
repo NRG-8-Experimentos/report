@@ -628,7 +628,292 @@ Para este apartado comenzamos con la creación de grupos, donde el líder establ
 
 #### 4.9.1. Class Diagrams
 
+El diagrama de clases proporciona una representación visual de los aggregates del sistema, sus atributos y las relaciones entre ellos.
+
+<img src="images/chapter-4/class-diagram-1.png" alt="Aggregates class Diagram"/>
+
 #### 4.9.2. Class Dictionary
+
+El diccionario de clases detalla los atributos de cada clase, proporcionando una descripción y el tipo de dato correspondiente. Este diccionario es esencial para entender la estructura y la funcionalidad de cada entidad dentro del sistema.
+
+En esta sección exploraremos el diccionario de clases, un complemento esencial de los diagramas de clases. Este diccionario proporciona una descripción detallada de cada clase identificada en el diagrama, incluyendo sus atributos, métodos y relaciones con otras clases.
+
+<table>
+  <tr>
+    <td><strong>Clase</strong></td>
+    <td><strong>Nombre de atributos</strong></td>
+    <td><strong>Descripción</strong></td>
+    <td><strong>Tipo de dato</strong></td>
+  </tr>
+  <tr>
+    <td colspan = "4">Role</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>id</td>
+    <td>Identificador del rol</td>
+    <td>long</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>name</td>
+    <td>nombre del rol</td>
+    <td>Roles(enum)</td>
+  </tr>
+  <tr>
+    <td colspan = "4">User</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>username</td>
+    <td>apodo del usuario</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>name</td>
+    <td>Nombre del usuario</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>surname</td>
+    <td>Apellido del usuario</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>imgUrl</td>
+    <td>URL de la imagen de perfil</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>email</td>
+    <td>Correo electrónico</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>password</td>
+    <td>Contraseña encriptada</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>roles</td>
+    <td>Conjunto de roles asignados</td>
+    <td>Set&lt;Role&gt;</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>leader</td>
+    <td>Perfil de líder asociado</td>
+    <td>Leader</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>member</td>
+    <td>Perfil de miembro asociado</td>
+    <td>Member</td>
+  </tr>
+  <tr>
+    <td colspan="4">Leader</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>averageSolutionTime</td>
+    <td>Tiempo promedio de resolución de solicitudes</td>
+    <td>Time</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>solvedRequests</td>
+    <td>Número de solicitudes resueltas</td>
+    <td>Integer</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>user</td>
+    <td>Usuario asociado al perfil de líder</td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td colspan="4">Member</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>group</td>
+    <td>Grupo al que pertenece el miembro</td>
+    <td>Group</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>tasks</td>
+    <td>Lista de tareas asignadas al miembro</td>
+    <td>List&lt;Task&gt;</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>user</td>
+    <td>Usuario asociado al perfil de miembro</td>
+    <td>User</td>
+  </tr>
+  <tr>
+    <td colspan="4">Group</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>code</td>
+    <td>Código único identificador del grupo</td>
+    <td>GroupCode(Record)</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>name</td>
+    <td>Nombre del grupo</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>description</td>
+    <td>Descripción del grupo</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>imgUrl</td>
+    <td>URL de la imagen del grupo</td>
+    <td>ImgUrl(Record)</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>leader</td>
+    <td>Líder asignado al grupo</td>
+    <td>Leader</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>memberCount</td>
+    <td>Número de miembros en el grupo</td>
+    <td>Integer</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>members</td>
+    <td>Lista de miembros del grupo</td>
+    <td>List&lt;Member&gt;</td>
+  </tr>
+  <tr>
+    <td colspan="4">GroupMetrics</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>groupId</td>
+    <td>Identificador único del grupo</td>
+    <td>Long</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>memberCount</td>
+    <td>Número de miembros en el grupo</td>
+    <td>int</td>
+  </tr>
+  <tr>
+    <td colspan="4">Invitation</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>member</td>
+    <td>Miembro invitado al grupo</td>
+    <td>Member</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>group</td>
+    <td>Grupo al que se invita al miembro</td>
+    <td>Group</td>
+  </tr>
+  <tr>
+    <td colspan="4">Task</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>title</td>
+    <td>Título de la tarea</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>description</td>
+    <td>Descripción de la tarea</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>status</td>
+    <td>Estado de la tarea</td>
+    <td>TaskStatus(enum)</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>dueDate</td>
+    <td>Fecha de vencimiento de la tarea</td>
+    <td>OffsetDateTime</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>member</td>
+    <td>Miembro asignado a la tarea</td>
+    <td>Member</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>group</td>
+    <td>Grupo al que pertenece la tarea</td>
+    <td>Group</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>timesRearranged</td>
+    <td>Número de veces que la tarea ha sido reagendada</td>
+    <td>Integer</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>timePassed</td>
+    <td>Tiempo transcurrido en la tarea</td>
+    <td>Long</td>
+  </tr>
+  <tr>
+    <td colspan="4">Request</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>description</td>
+    <td>Descripción de la solicitud</td>
+    <td>String</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>requestType</td>
+    <td>Tipo de solicitud</td>
+    <td>RequestType(enum)</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>requestStatus</td>
+    <td>Estado de la solicitud</td>
+    <td>RequestStatus(enum)</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>task</td>
+    <td>Tarea asociada a la solicitud</td>
+    <td>Task</td>
+  </tr>
+</table>
+
 
 ### 4.10. Database Design
 
