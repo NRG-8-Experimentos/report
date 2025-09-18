@@ -472,6 +472,8 @@ Sabremos que estamos en lo correcto cuando los resultados de testing muestran al
 
 ##### 1.2.2.4. Lean UX Canvas
 
+![nrg8-canvas.png](images/nrg8-canvas.png)
+
 ### 1.3. Segmentos objetivos
 
 **Segmento Objetivo #1: Coordinadores o Líderes de Grupo**
