@@ -735,88 +735,129 @@ A continuación se presentan los detalles clave de las entrevistas realizadas:
 #### 2.2.3. Análisis de entrevistas
 
 **Entrevista Mateo Vergaray**
+
 **Resumen:**
+
 Mateo, estudiante de Arquitectura (7.º ciclo) y líder de proyecto académico, organiza a su equipo principalmente por WhatsApp y no usa herramientas como Jira o Trello por falta de familiaridad. Su dolor central no es la “falta de funciones”, sino la complejidad y dispersión de las plataformas de gestión: siente que terminan desordenando y generando estrés en lugar de ayudar. Valora de forma tajante la simplicidad y la intuición (menciona el símil Canva vs. Adobe) y subraya la necesidad de un buen onboarding para usuarios nuevos. Espera una solución que facilite asignación clara de tareas por integrante, medición visible del progreso y control de plazos para anticipar desviaciones, sin depender de respuestas en chats. Trabaja sobre todo en computadora, por lo que la interfaz web/desktop y la reducción de fricción en tareas frecuentes son claves para su adopción.
+
 **Características objetivas**
+
 * Perfil: 21 años, estudiante universitario de Arquitectura (7.º ciclo), residente en Lima.
 * Rol: Líder/supervisor de proyecto académico del ciclo.
 * Responsabilidades: Coordinar tareas por integrante, asegurar cumplimiento de fechas y consolidar la entrega integral.
 * Herramientas actuales: Uso predominante de WhatsApp; no utiliza/ no conoce Jira, Trello u otras.
 * Dispositivo principal: Computadora (trabajo mayormente en desktop/laptop).
+
 **Características subjetivas**
+
 * Dolor clave: Herramientas de gestión complejas y poco intuitivas; funciones dispersas que desorganizan y estresan.
 * Criterio de elección: Prioriza facilidad de uso y una curva de aprendizaje baja por encima del “tenerlo todo”.
 * Expectativas funcionales: Asignación de tareas por integrante, medición/visualización del progreso y gestión de plazos para anticipar retrasos.
 * Flujo deseado: Menos dependencia de WhatsApp; estado y avance claros y visibles sin esperar confirmaciones por chat.
 * Preferencia explícita: Simplicidad > complejidad (analogía Canva vs. Adobe) aunque implique sacrificar funciones avanzadas.
+
 **Entrevista Renato Guillermo Calvo Yalan**
+
 **Resumen:**
+
 Renato, estudiante de Ingeniería de Software (21 años, San Isidro), utiliza principalmente Notion y GitHub para gestionar y coordinar sus proyectos académicos de software. Su dinámica de trabajo está muy asociada a estas plataformas porque le permiten centralizar documentación y control de versiones sin depender de demasiadas herramientas externas. Más que un rechazo a la tecnología, su dolor principal está en la fragmentación: reconoce que cada miembro del equipo a veces maneja la información de forma dispersa, lo que complica el seguimiento de avances. Valora mucho la integración y la claridad en la organización, buscando que las herramientas no interfieran con el flujo de programación, sino que lo potencien. La simplicidad es importante, pero no descarta cierto nivel de complejidad si eso se traduce en mayor potencia y control. Considera esencial poder visualizar el progreso del equipo de forma clara y contar con mecanismos que reduzcan la duplicidad de información. Su uso se centra tanto en computadora como en plataformas en la nube, por lo que la interoperabilidad entre dispositivos y la facilidad de colaboración en tiempo real son determinantes para su adopción.
+
 **Características objetivas**
+
 * Perfil: 21 años, estudiante universitario de Ingeniería de Software (6.º ciclo), residente en San Isidro, Lima.
 * Rol: Líder / supervisor de proyecto académico del ciclo.
 * Responsabilidades: Coordinar las tareas del equipo, organizar la documentación, supervisar avances y asegurar que el grupo trabaje de manera alineada con los objetivos del curso.
 * Herramientas actuales: Notion (para documentación y organización) y GitHub (para control de versiones y colaboración en código).
 * Dispositivo principal: Laptop personal con acceso constante a plataformas en la nube.
+
 **Características subjetivas**
+
 * Dolor clave: Fragmentación de la información y falta de centralización cuando cada integrante usa diferentes métodos o plataformas.
 * Criterio de elección: Prefiere herramientas que integren organización y programación, que permitan colaboración fluida en tiempo real y eviten duplicidad de información.
 * Expectativas funcionales: Visualizar claramente el progreso del equipo, centralizar la documentación, facilitar el control de versiones y mejorar la interoperabilidad entre dispositivos.
 * Flujo deseado: Un ecosistema unificado donde toda la información, código y documentación esté centralizada, actualizada y accesible para todos los miembros del equipo sin fricciones.
 * Preferencia explícita: Simplicidad en la interfaz y uso, pero con potencia suficiente para cubrir necesidades de programación y gestión de proyectos académicos.
+
 **Entrevista Renzo Miguel Llerena Delagado**
+
 **Resumen:**
+
 Renzo, estudiante de Ingeniería de Software (20 años, Chorrillos), organiza sus proyectos principalmente con el calendario de iCloud, herramienta que le resulta suficiente para llevar un control básico de fechas y tareas. No presenta mayores problemas de conectividad ni fricción técnica en su trabajo actual, pero reconoce que se beneficiaría con una solución de gestión de proyectos más intuitiva y orientada al trabajo en equipo. Su dolor no está en la complejidad del software, sino en la limitación de funcionalidades: depende de un sistema pensado más para recordatorios individuales que para la coordinación colaborativa. Destaca que, al estar acostumbrado a iCloud, no requiere un gestor recargado de funciones, sino uno que cumpla con lo esencial de manera clara: asignación mínima de tareas, visibilidad de plazos y seguimiento simple del progreso. La clave para su adopción sería una interfaz que conserve la ligereza de un calendario, pero que amplíe sus capacidades hacia la colaboración sin añadir fricción.
+
 **Características objetivas**
+
 * Perfil: 20 años, estudiante universitario de Ingeniería de Software (6.º ciclo), residente en Chorrillos, Lima.
 * Rol: Miembro de proyecto académico del ciclo.
 * Responsabilidades: Cumplir con las tareas asignadas dentro del equipo, organizar sus tiempos de entrega, coordinar parcialmente con sus compañeros y mantener al día su progreso académico.
 * Herramientas actuales: Calendario de iCloud (para gestión de tiempos y recordatorios).
 * Dispositivo principal: iPhone y laptop personal, sincronizados con iCloud
+
 **Características subjetivas**
+
 * Problemas principales: Limitaciones de iCloud para el trabajo colaborativo y falta de visibilidad compartida.
 * Criterio de elección: Prefiere una herramienta intuitiva, ligera y sin sobrecarga de funciones.
 * Expectativas funcionales: Quiere asignación básica de tareas, seguimiento simple y sincronización entre dispositivos.
 * Preferencia explícita: Mantener la simplicidad de un calendario pero con capacidades mínimas de colaboración.
+
 **Entrevista Jorge Alexandro Linares Arroyo**
+
 **Resumen:**
+
 Jorge, estudiante de Ingeniería de 25 años, participa en proyectos universitarios de programación y en actividades académicas, principalmente como miembro o colaborador. Aunque utiliza herramientas como Trello, Google Calendar y Jira, siente que estas resultan abrumadoras, poco intuitivas y consumen demasiado tiempo en configuraciones. Destaca además que las notificaciones no siempre son claras, lo que complica el seguimiento. Prefiere soluciones visuales, rápidas y simples, con un diseño intuitivo y adaptable al celular, que es su dispositivo de uso más frecuente. Valora especialmente la integración con aplicaciones cotidianas como WhatsApp y la posibilidad de contar con recordatorios automáticos, sin necesidad de funcionalidades complejas. En su visión, una aplicación ideal debe reducir la curva de aprendizaje y centrarse en la facilidad de uso para distribuir tareas y coordinarse en equipo de forma práctica y accesible.
+
 **Características objetivas (sin porcentajes)**
+
 * Perfil: 25 años, estudiante universitario de Ingeniería, residente en Lima.
 * Rol en proyectos: Miembro o colaborador; ocasionalmente líder.
 * Ámbito: Participa en proyectos académicos y de programación.
 * Herramientas actuales: Trello, Google Calendar, Jira y WhatsApp.
 * Dispositivo principal: Celular (revisión y seguimiento de tareas).
+
 **Características subjetivas**
+
 * Problemas principales: Herramientas complejas y abrumadoras, consumen tiempo en configurarse y no ofrecen notificaciones claras.
 * Criterio de elección: Prefiere plataformas visuales, rápidas e intuitivas, adaptadas a móviles.
 * Expectativas funcionales: Notificaciones visibles, recordatorios automáticos e integración simple con WhatsApp o Google Calendar.
 * Preferencia explícita: Simplicidad > complejidad; una aplicación que facilite tareas básicas de organización sin sobrecargar al usuario.
+
 **Entrevista Eduard Enrique Ancasi Carrion**
+
 **Resumen:**
+
 Eduard, estudiante de Ingeniería de Sistemas (22 años, Villa María del Triunfo), lidera proyectos académicos en su universidad y se apoya principalmente en Jira y Trello para organizar tareas y dar seguimiento. Si bien estas herramientas le ofrecen control, su dolor central está en la dificultad para lograr que los integrantes cumplan con las tareas asignadas y en la curva de aprendizaje que enfrentan los nuevos miembros, quienes suelen ver estas plataformas como complicadas. Para él, la facilidad de uso es tan importante como la capacidad de supervisión, ya que necesita asegurar el avance sin invertir demasiado tiempo en capacitar a cada integrante. Valora una solución que combine simplicidad con control efectivo del progreso, que permita asignar y visualizar tareas de forma clara y que reduzca la fricción al integrarse nuevos usuarios.
+
 **Características objetivas (sin porcentajes)**
+
 * Perfil: 22 años, estudiante universitario de Ingeniería de Sistemas, residente en Villa María del Triunfo (Lima).
 * Rol: Líder en proyectos académicos del ciclo.
 * Responsabilidades: Coordinar y asignar tareas, supervisar avances, asegurar el cumplimiento de plazos y guiar a los integrantes del equipo.
 * Herramientas actuales: Uso de Jira y Trello como principales plataformas de gestión de proyectos.
 * Dispositivo principal: Computadora (desktop/laptop).
+
 **Características subjetivas**
+
 * Dolor clave: Dificultad para que los integrantes cumplan las tareas asignadas y barrera de entrada alta para nuevos miembros, quienes encuentran complicada la interacción en Jira y Trello.
 * Criterio de elección: Prefiere herramientas que combinen capacidad de control y facilidad de uso, reduciendo la curva de aprendizaje.
 * Expectativas funcionales: Seguimiento claro de tareas por integrante, recordatorios automáticos, y un sistema intuitivo que no frene a nuevos usuarios.
 * Flujo deseado: Una plataforma que permita mantener control del equipo sin invertir demasiado tiempo en capacitar a cada miembro.
 * Preferencia explícita: Usabilidad simple e intuitiva para mejorar la adopción del equipo, sin sacrificar el control de progreso.
+
 **Entrevista Fabricio**
+
 **Resumen:**
+
 Fabricio, estudiante universitario de 24 años, es miembro activo de grupos de trabajo académicos, en los que cumple de manera constante con sus responsabilidades. Aunque ocasionalmente asume roles de liderazgo, suele participar como colaborador en proyectos de programación y tareas grupales. Presenta algunas dificultades al adaptarse a las distintas herramientas que su equipo utiliza, por lo que valora soluciones simples, intuitivas y enfocadas en las funcionalidades principales que le permitan centrarse en sus tareas sin complicaciones.
+
 **Características objetivas (sin porcentajes)**
+
 * Perfil: 24 años, estudiante universitario.
 * Rol en proyectos: Miembro o colaborador; ocasionalmente líder.
 * Ámbito: Proyectos académicos y de programación.
 * Herramientas actuales: Herramientas digitales diversas según el grupo, aunque no siempre domina su uso.
 * Dispositivo principal: Laptop personal.
+
 **Características subjetivas**
+
 * Problemas principales: Dificultades para adaptarse al uso de múltiples herramientas en los proyectos.
 * Criterio de elección: Prefiere plataformas fáciles de aprender y usar.
 * Expectativas funcionales: Que el gestor de proyectos sea simple, intuitivo y centrado en lo esencial.
