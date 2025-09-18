@@ -537,6 +537,86 @@ Buenas prácticas para un código coherente y sostenible:
 
 #### 5.2.4. Acuerdo de Servicio - SaaS
 
+
+**Última actualización: 15/09/2025**
+
+Este Acuerdo de Servicio regula el acceso y uso de la plataforma **SynHub**, desarrollada por **NRG8**, en modalidad Software as a Service (SaaS). Al registrarse y utilizar el servicio, el Usuario acepta los términos aquí descritos.
+
+---
+
+### 1. Definiciones
+- **“Plataforma”**: Se refiere al software SynHub, accesible vía web y aplicación móvil.
+- **“Usuario”**: Toda persona que se registre o acceda a la Plataforma, ya sea como Coordinador/Líder o Miembro de Grupo.
+- **“NRG8”**: Startup desarrolladora y titular de los derechos de SynHub.
+- **“Planes de Servicio”**: Versiones gratuita (freemium) y de pago (premium), con las funcionalidades descritas en la web oficial.
+
+---
+
+### 2. Objeto
+NRG8 otorga al Usuario una **licencia de uso no exclusiva, revocable y limitada** para acceder y utilizar SynHub con fines de gestión de proyectos, bajo los términos de este Acuerdo.
+
+---
+
+### 3. Registro y Uso de la Plataforma
+- El Usuario es responsable de la veracidad de los datos proporcionados en el registro.
+- El acceso a ciertas funcionalidades puede requerir suscripción a un Plan de Servicio de pago.
+- Está prohibido compartir credenciales de acceso con terceros.
+
+---
+
+### 4. Responsabilidades del Usuario
+El Usuario se compromete a:
+1. Usar la Plataforma conforme a la ley y este Acuerdo.
+2. No utilizar SynHub para actividades ilícitas, fraudulentas o que afecten derechos de terceros.
+3. Mantener la confidencialidad de sus credenciales de acceso.
+4. Reportar de inmediato cualquier uso no autorizado de su cuenta.
+
+---
+
+### 5. Responsabilidades de NRG8
+NRG8 se compromete a:
+- Mantener la disponibilidad razonable del servicio, salvo casos de mantenimiento programado o causas de fuerza mayor.
+- Proteger los datos personales de acuerdo con la **Ley de Protección de Datos Personales (Ley N.º 29733 – Perú)** y normativa aplicable.
+- Informar oportunamente sobre cambios en los Términos y Condiciones.
+
+---
+
+### 6. Planes, Pagos y Renovaciones
+- Los precios de los Planes de Servicio estarán publicados en la web oficial.
+- El Usuario podrá elegir entre pagos mensuales o anuales.
+- La renovación es automática, salvo cancelación previa por el Usuario.
+- No se realizarán reembolsos una vez iniciado el período contratado.
+
+---
+
+### 7. Propiedad Intelectual
+- SynHub y todos sus componentes (código, diseño, marca, documentación) son propiedad exclusiva de **NRG8**.
+- El Usuario no adquiere ningún derecho de propiedad intelectual, salvo la licencia de uso otorgada en este Acuerdo.
+
+---
+
+### 8. Limitación de Responsabilidad
+NRG8 no será responsable por:
+- Pérdida de datos causada por el Usuario o por terceros.
+- Fallas de conexión a Internet o servicios externos ajenos a SynHub.
+- Daños indirectos, incidentales o consecuentes derivados del uso de la Plataforma.
+
+---
+
+### 9. Suspensión y Terminación
+NRG8 podrá suspender o cancelar cuentas que incumplan este Acuerdo, sin derecho a reembolso.
+
+---
+
+### 10. Modificaciones
+NRG8 se reserva el derecho de modificar estos Términos en cualquier momento. Las modificaciones se notificarán en la Plataforma y se considerarán aceptadas por el Usuario al continuar con el uso del servicio.
+
+---
+
+### 11. Legislación y Jurisdicción
+Este Acuerdo se rige por las leyes de la República del Perú. Cualquier controversia será sometida a los tribunales de Lima Metropolitana.
+
+
 #### 5.2.5. Implemented Native-Mobile Application Evidence
 
 #### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
