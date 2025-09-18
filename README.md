@@ -423,6 +423,41 @@ Para la documentación del software utilizamos Markdown, y para el trabajo colab
 
 #### 5.1.2. Source Code Management
 
+Para la gestión del código fuente, utilizamos los siguientes repositorios:
+
+| Herramienta | Descripción | Enlace |
+|-------------|-------------|--------|
+| **Android Mobile Application** | synhub-android-mobile-app | NRG-8-Experimentos/android-mobile-app |
+| **Flutter Mobile Application** | synhub-mobile-flutter-app | NRG-8-Experimentos/flutter-mobile-app |
+| **Backend** | synhub-backend | NRG-8-Experimentos/backend |
+| **Landing Page** | synhub-landing | - |
+| **Web Application** | synhub-web-app | NRG-8-Experimentos/web-application |
+
+**Flujo de trabajo GitFlow**  
+Usaremos el flujo de trabajo planteado por Vincent Driessen en *"A successful Git branching model"* con los siguientes parámetros:
+
+- Una rama de producción.
+- Una rama de pruebas.
+- Una rama en la que se solucionen los bugs rápidamente y vuelvan a producción.
+- Ramas de features a implementar.
+- Cada cambio en producción debe establecerse como una nueva versión.
+
+**Ramas definidas:**
+- **Main branch:** Rama de producción, cada cambio requiere autorización de un compañero de equipo.
+- **Hotfix branch:** Para errores identificados que deben solucionarse y desplegarse nuevamente en producción.
+- **Develop branch:** Implementaciones constantes de features.
+- **Features branch:** Cada feature tendrá su propia rama, luego se fusiona en *develop*.
+
+**Nomenclatura de versiones:**
+- **Major changes:** Cambios significativos incompatibles (ej. `1.0.0 -> 2.0.0`).
+- **Minor changes:** Cambios que añaden o modifican características (ej. `1.1.0 -> 1.2.0`).
+- **Patch:** Correcciones menores (ej. `1.1.3 -> 1.1.4`).
+
+**Sufijos asignados:**
+- `alpha`: Versión no estable.
+- `beta`: Versión funcional pero no lista para publicación.
+- `rc`: Versión candidata para publicación.
+
 #### 5.1.3. Source Code Style Guide & Conventions
 
 #### 5.1.4. Software Deployment Configuration
