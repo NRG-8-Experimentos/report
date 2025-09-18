@@ -319,6 +319,18 @@ La simplicidad y claridad son principios esenciales para crear aplicaciones func
 
 #### 4.1.2. Web Style Guidelines
 
+**Tamaño de letra:** Todo texto será mostrado con un mínimo de 16 px de altura, para asegurar la legibilidad del contenido
+**Layout:** Al interactuar con una tarjeta esta redirigirá a alguna pantalla o poseerá algún tipo de acción
+**Colores por acción:** Se usarán colores según el tipo de acción
+* acción de agregar (azul)
+* confirmar (verde)
+* cancelar o eliminar (rojo)
+* editar información (amarillo)
+
+**Navegación:** Menú lateral desplegable accesible desde cualquier pantalla
+**Accesibilidad:** Texto alternativo (alt) en todas las imágenes.
+**Interacción:** Botones deben tener estados (hover, active, disabled).
+
 #### 4.1.3. Mobile Style Guidelines
 
 **Tamaño de letra:** Todo texto será mostrado con un mínimo de 16 px de altura, para asegurar la legibilidad del contenido
@@ -331,11 +343,13 @@ La simplicidad y claridad son principios esenciales para crear aplicaciones func
 * grupo (conjunto de personas)
 * solicitudes (símbolo de mensaje)
 * tareas (carpetas de tareas)
+
 **Colores por acción:** Se usarán colores según el tipo de acción
 * acción de agregar (azul)
 * confirmar (verde)
 * cancelar o eliminar (rojo)
 * editar información (amarillo)
+
 **Navegación:** Menú desplegable sólo accesible desde la pantalla principal
 **Ayuda:** Menú de ayuda en la parte superior (símbolo de pregunta)
 
