@@ -594,10 +594,6 @@ Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 ### 4.5. Mobile Applications Prototyping
 Para este apartado comenzamos con la creación de grupos, donde el líder establece un nuevo espacio de trabajo, seguido de la invitación de integrantes para conformar el equipo. Una vez formado el grupo, el líder puede asignar tareas específicas a cada miembro, con la capacidad de editar los detalles de estas tareas si es necesario o eliminarlas cuando ya no sean relevantes. Además, el líder puede consultar la información detallada de cualquier tarea para hacer seguimiento, y revisar solicitudes o validaciones presentadas por los miembros del equipo, lo que le permite aprobar, rechazar o dar retroalimentación sobre el trabajo realizado. Estos flujos cubren el ciclo completo de gestión, desde la organización del equipo hasta la supervisión y validación de las actividades asignadas.
 
-#### 4.5.1. Android Mobile Applications Prototyping
-
-#### 4.5.2. iOS Mobile Applications Prototyping
-
 ### 4.6. Web Applications UX/UI Design
 
 #### 4.6.1. Web Applications Wireframes
