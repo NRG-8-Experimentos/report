@@ -2293,30 +2293,405 @@ En esta sección exploraremos el diccionario de clases, un complemento esencial 
 ## Capitulo V: Product Implementation
 
 ### 5.1. Software Configuration Management
+En este ítem se definirán todas las reglas y procesos que hemos seguido en el proyecto al momento de crear y desplegar Synhub. El objetivo de estas reglas y procesos es garantizar la integridad y consistencia del software, desde el inicio hasta el despliegue y mantenimiento.
 
 #### 5.1.1. Software Development Environment Configuration
 
+**Project Management**
+
+Para la organización del proyecto requerimos de un sistema de asignación de tareas, plataformas y puntos de reunión y un repositorio dónde trabajaremos en conjunto cada avance del proyecto.
+
+**Herramientas:**
+- **Centro de organización de trabajo:** Github
+- **Planificación de tareas:** Trello
+- **Reuniones con el equipo:** Discord
+- **Coordinación grupal:** WhatsApp
+
+**Requirements Management**  
+Utilizamos Trello para designar las tareas y actividades de cada integrante del grupo en caso de revisión o cambios.
+
+| Herramienta | Descripción | Enlace |
+|-------------|-------------|--------|
+| **Trello** | Para designar las tareas y actividades de cada integrante del grupo en caso de revisión o cambios. | [https://trello.com/](https://trello.com/) |
+
+**Product UX/UI Design**  
+Para el diseño de los wireframes y mockups, además de la realización del prototipo de la mobile application y web application, utilizamos Figma.
+
+| Herramienta | Descripción | Enlace |
+|-------------|-------------|--------|
+| **Figma** | Para el diseño de los wireframes y mockups, además de la realización del prototipo de Web App. | [https://www.figma.com/](https://www.figma.com/) |
+
+**Software Development**  
+Empleamos Android y Jetpack Compose para la creación de la mobile application, Spring Boot para la creación de la API REST y Angular para la web application. Para el desarrollo de la landing page utilizamos NextJS, Shadcn y Tailwind CSS.
+
+| Herramienta | Descripción | Enlace |
+|-------------|-------------|--------|
+| **Android** | Lenguaje de programación utilizado para la creación de la mobile application | [https://developer.android.com/](https://developer.android.com/) |
+| **Jetpack Compose** | Framework utilizado para la creación de la mobile application | [https://developer.android.com/compose](https://developer.android.com/compose) |
+| **Spring Boot** | Framework utilizado para la creación de la API REST | [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot) |
+| **NextJS** | Framework utilizado para la creación de la landing page | [https://nextjs.org/](https://nextjs.org/) |
+| **Shadcn** | Framework utilizado para la creación de la landing page | [https://ui.shadcn.com/](https://ui.shadcn.com/) |
+| **Tailwind CSS** | Framework utilizado para la creación de la landing page | [https://tailwindcss.com/](https://tailwindcss.com/) |
+| **Angular** | Framework de desarrollo web open source | [https://angular.dev/](https://angular.dev/) |
+
+**Software Documentation**  
+Para la documentación del software utilizamos Markdown, y para el trabajo colaborativo Github.
+
+| Herramienta | Descripción | Enlace |
+|-------------|-------------|--------|
+| **Markdown** | Lenguaje de marcado utilizado para la documentación del proyecto | [https://www.markdownguide.org/](https://www.markdownguide.org/) |
+| **Github** | Para gestionar la documentación del proyecto | [https://github.com/NRG-4/report](https://github.com/NRG-4/report) |
+
 #### 5.1.2. Source Code Management
+
+Para la gestión del código fuente, utilizamos los siguientes repositorios:
+
+| Herramienta                    | Descripción               | Enlace                                                   |
+|--------------------------------|---------------------------|----------------------------------------------------------|
+| **Android Mobile Application** | synhub-android-mobile-app | https://github.com/NRG-8-Experimentos/android-mobile-app |
+| **Flutter Mobile Application** | synhub-mobile-flutter-app | https://github.com/NRG-8-Experimentos/flutter-mobile-app |
+| **Backend**                    | synhub-backend            | https://github.com/NRG-8-Experimentos/backend            |
+| **Landing Page**               | synhub-landing            | https://github.com/NRG-8-Experimentos/landing            |
+| **Web Application**            | synhub-web-app            | https://github.com/NRG-8-Experimentos/web-application    |
+
+**Flujo de trabajo GitFlow**  
+Usaremos el flujo de trabajo planteado por Vincent Driessen en *"A successful Git branching model"* con los siguientes parámetros:
+
+- Una rama de producción.
+- Una rama de pruebas.
+- Una rama en la que se solucionen los bugs rápidamente y vuelvan a producción.
+- Ramas de features a implementar.
+- Cada cambio en producción debe establecerse como una nueva versión.
+
+**Ramas definidas:**
+- **Main branch:** Rama de producción, cada cambio requiere autorización de un compañero de equipo.
+- **Hotfix branch:** Para errores identificados que deben solucionarse y desplegarse nuevamente en producción.
+- **Develop branch:** Implementaciones constantes de features.
+- **Features branch:** Cada feature tendrá su propia rama, luego se fusiona en *develop*.
+
+**Nomenclatura de versiones:**
+- **Major changes:** Cambios significativos incompatibles (ej. `1.0.0 -> 2.0.0`).
+- **Minor changes:** Cambios que añaden o modifican características (ej. `1.1.0 -> 1.2.0`).
+- **Patch:** Correcciones menores (ej. `1.1.3 -> 1.1.4`).
+
+**Sufijos asignados:**
+- `alpha`: Versión no estable.
+- `beta`: Versión funcional pero no lista para publicación.
+- `rc`: Versión candidata para publicación.
 
 #### 5.1.3. Source Code Style Guide & Conventions
 
+Buenas prácticas para un código coherente y sostenible:
+
+**Android (Kotlin/Java)**
+- Clases: PascalCase
+- Funciones y variables: camelCase
+- Constantes: UPPER_SNAKE_CASE
+- Separar lógica de UI (ViewModel, UseCase).
+
+**Jetpack Compose**
+- Funciones: PascalCase (ej: `ButtonSubmit()`).
+- Estado manejado en ViewModel.
+- Evitar cálculos pesados en `@Composable`.
+
+**Spring Boot**
+- Paquetes por capa (controller, service, repository, model).
+- Clases en PascalCase.
+- Métodos en camelCase.
+
+**Next.js**
+- Rutas en snake_case o kebab-case.
+- API routes en `/pages/api/`.
+- CSS Modules, evitar estilos globales.
+
+**Shadcn/ui**
+- Extender estilos base, no sobrescribir CSS nativo.
+- Usar `clsx` o `tailwind-merge`.
+- Variables CSS en `:root` para theming.
+
+**Tailwind CSS**
+- Ordenar clases: Layout > Flex/Grid > Spacing > Typography > Colors > Effects.
+- Usar `md:`, `lg:` para responsive.
+- Evitar `@apply` en CSS.
+
+**General**
+- Comentarios en inglés.
+- Commits semánticos (`feat:`, `fix:`, `docs:`).
+- Lazy loading en imágenes y componentes.
+
 #### 5.1.4. Software Deployment Configuration
+
+**Landing Page**
+1. Ejecutar `npm run build` localmente.
+2. Subir repositorio a GitHub (público).
+3. Crear servicio en Render → Web Service.
+4. Seleccionar repositorio y configurar.
+5. Deploy y verificación en la URL pública.
+
+**Mobile Application**
+1. Activar modo desarrollador y depuración USB en dispositivo.
+2. Conectar a la PC.
+3. Abrir proyecto en Android Studio.
+4. Seleccionar dispositivo y ejecutar.
+5. Verificar funcionamiento.
+
+**Web Application**
+1. Subir repositorio a GitHub (público).
+2. Crear Web Service en Render.
+3. Seleccionar repositorio y configurar.
+4. Deploy y verificación en la URL pública.
+
+**Backend**
+1. Configurar base de datos en Neontech.
+2. Crear `Dockerfile` para despliegue.
+3. Crear Web Service en Render.
+4. Importar repositorio backend.
+5. Deploy de la API.
 
 ### 5.2. Product Implementation & Deployment
 
 #### 5.2.1. Sprint Backlogs
 
+| Orden | User Story ID | Título                                   | Descripción                                                                                                                                       | Story Points |
+|-------|---------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1     | US-001        | Creación de grupo                        | Como líder, quiero crear grupos para organizar el trabajo de mi equipo.                                                                           | 5            |
+| 2     | TS-003        | Registrar un nuevo grupo                 | Como developer, quiero registrar un nuevo grupo para asegurarme de que el grupo se crea correctamente en el sistema.                              | 3            |
+| 3     | TS-018        | Crear grupo                              | Como developer, quiero permitir la creación de grupos para organizar equipos de trabajo.                                                          | 3            |
+| 4     | US-002        | Envío de invitaciones                    | Como miembro, quiero solicitar unirme a un grupo para poder trabajar.                                                                             | 5            |
+| 5     | TS-021        | Enviar solicitud de unión a grupo        | Como sistema, quiero permitir que un miembro envíe una solicitud para unirse a un grupo.                                                          | 3            |
+| 6     | TS-022        | Aceptar solicitud de unión               | Como sistema, quiero aceptar una solicitud de unión para añadir el usuario al grupo.                                                              | 3            |
+| 7     | TS-023        | Eliminar solicitud                       | Como sistema, quiero permitir rechazar o cancelar solicitudes de unión a grupos.                                                                  | 2            |
+| 8     | TS-024        | Obtener solicitudes de grupo             | Como sistema, quiero listar todas las solicitudes de unión enviadas a un grupo.                                                                   | 2            |
+| 9     | US-004        | Creación de tareas                       | Como líder, quiero crear tareas para asignar trabajo a los miembros.                                                                              | 5            |
+| 10    | TS-008        | Crear una nueva tarea para un miembro    | Como developer, quiero crear una nueva tarea para un miembro para asegurarme de que la tarea se asigna correctamente.                             | 3            |
+| 11    | US-005        | Asignación de tareas                     | Como líder, quiero asignar tareas a miembros específicos para distribuir el trabajo.                                                              | 5            |
+| 12    | TS-007        | Obtener todas las tareas por miembro     | Como developer, quiero obtener todas las tareas asociadas a un miembro para verificar que la API devuelve correctamente las tareas asignadas.     | 3            |
+| 13    | US-018        | Visualización de tareas asignadas        | Como miembro, quiero ver las tareas que me han sido asignadas para gestionar mi trabajo.                                                          | 5            |
+| 14    | TS-026        | Consultar tareas de un integrante        | Como developer, quiero consultar las tareas asignadas a un integrante específico del grupo.                                                       | 2            |
+| 15    | US-007        | Actualización de estado                  | Como miembro, quiero actualizar el estado de mis tareas para reflejar mi progreso.                                                                | 3            |
+| 16    | TS-014        | Actualizar estado de tarea               | Como developer, quiero actualizar el estado de una tarea para asegurarme de que el estado se modifica correctamente en el sistema.                | 3            |
+| 17    | TS-015        | Obtener tareas por estado                | Como developer, quiero obtener todas las tareas filtradas por estado para verificar que la API devuelve correctamente las tareas según su estado. | 2            |
+| 18    | US-013        | Solicitud de aprobación de tarea         | Como miembro, quiero enviar tareas completadas para validación del líder.                                                                         | 3            |
+| 19    | US-014        | Validación de tareas                     | Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.                                                                   | 3            |
+| 20    | TS-027        | Aceptar validación de tarea completada   | Como developer, quiero aceptar manualmente tareas completadas para confirmar su cierre.                                                           | 2            |
+| 21    | TS-028        | Validación automática de tarea vencida   | Como developer, quiero que el sistema valide automáticamente las tareas vencidas para actualizar su estado y asegurar calidad.                    | 5            |
+| 22    | US-015        | Solicitud de extensión de plazo          | Como miembro, quiero pedir más tiempo para una tarea cuando surgen impedimentos.                                                                  | 2            |
+| 23    | US-008        | Reprogramación de tareas                 | Como líder, quiero cambiar fechas límite cuando surgen imprevistos.                                                                               | 3            |
+| 24    | US-011        | Reporte de reprogramaciones              | Como líder, quiero ver un gráfico de líneas con la cantidad de tareas reprogramadas.                                                              | 5            |
+| 25    | US-012        | Reporte de productividad individual      | Como líder, quiero evaluar el desempeño de cada miembro a través de métricas claras.                                                              | 8            |
+| 26    | US-016        | Visualización de miembros del grupo      | Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.                                                           | 3            |
+| 27    | TS-002        | Obtener los grupos de un usuario         | Como developer, quiero obtener todos los grupos a los que pertenece un usuario para confirmar que la API devuelve todos los grupos correctamente. | 2            |
+| 28    | TS-020        | Obtener grupo de miembro o líder         | Como developer, quiero obtener el grupo al que pertenece un miembro o líder para mostrar la información relacionada.                              | 2            |
+| 29    | TS-019        | Buscar grupo                             | Como developer, quiero buscar grupos por código para obtener sus detalles.                                                                        | 2            |
+| 30    | US-022        | Revisión de comentarios en tareas        | Como líder, quiero revisar los comentarios en las tareas para proporcionar retroalimentación oportuna.                                            | 3            |
+| 31    | TS-025        | Agregar comentario a tarea               | Como developer, quiero permitir agregar comentarios a tareas para facilitar la colaboración.                                                      | 2            |
+| 32    | US-006        | Eliminación de tareas                    | Como líder, quiero eliminar tareas incorrectas o duplicadas.                                                                                      | 2            |
+| 33    | US-023        | Confirmación antes de eliminar una tarea | Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales.                                        | 1            |
+| 34    | TS-013        | Eliminar tarea                           | Como developer, quiero eliminar una tarea para asegurarme de que la tarea se elimina correctamente del sistema.                                   | 2            |
+| 35    | TS-011        | Obtener tarea por ID                     | Como developer, quiero obtener los detalles de una tarea por su ID para verificar que la API devuelve la información correcta de la tarea.        | 2            |
+| 36    | TS-012        | Actualizar tarea                         | Como developer, quiero actualizar una tarea para asegurarme de que la tarea se modifica correctamente en el sistema.                              | 2            |
+| 37    | TS-009        | Crear un nuevo miembro                   | Como developer, quiero crear un nuevo miembro para asegurarme de que el miembro se registra correctamente en el sistema.                          | 3            |
+| 38    | TS-017        | Crear nueva solicitud                    | Como developer, quiero crear una nueva solicitud para asegurarme de que la solicitud se crea correctamente con los datos proporcionados.          | 2            |
+| 39    | TS-030        | Aceptar una solicitud                    | Como developer, quiero aceptar una solicitud activa para cambiar su estado y continuar con el proceso.                                            | 2            |
+| 40    | TS-031        | Eliminar solicitud tras aceptación       | Como developer, quiero eliminar una solicitud después de que haya sido aceptada para mantener el sistema limpio.                                  | 1            |
+
 #### 5.2.2. Implemented Landing Page Evidence
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
-#### 5.2.4. Acuerdo de Servicio - SaaS
+#### 5.2.4. Acuerdo de Servicio - SaaS+
+
+**Última actualización: 15/09/2025**
+
+Este Acuerdo de Servicio regula el acceso y uso de la plataforma **SynHub**, desarrollada por **NRG8**, en modalidad Software as a Service (SaaS). Al registrarse y utilizar el servicio, el Usuario acepta los términos aquí descritos.
+
+---
+**1. Definiciones**
+- **“Plataforma”**: Se refiere al software SynHub, accesible vía web y aplicación móvil.
+- **“Usuario”**: Toda persona que se registre o acceda a la Plataforma, ya sea como Coordinador/Líder o Miembro de Grupo.
+- **“NRG8”**: Startup desarrolladora y titular de los derechos de SynHub.
+- **“Planes de Servicio”**: Versiones gratuita (freemium) y de pago (premium), con las funcionalidades descritas en la web oficial.
+
+---
+**2. Objeto**
+NRG8 otorga al Usuario una **licencia de uso no exclusiva, revocable y limitada** para acceder y utilizar SynHub con fines de gestión de proyectos, bajo los términos de este Acuerdo.
+
+---
+**3. Registro y Uso de la Plataforma**
+- El Usuario es responsable de la veracidad de los datos proporcionados en el registro.
+- El acceso a ciertas funcionalidades puede requerir suscripción a un Plan de Servicio de pago.
+- Está prohibido compartir credenciales de acceso con terceros.
+
+---
+**4. Responsabilidades del Usuario**
+El Usuario se compromete a:
+1. Usar la Plataforma conforme a la ley y este Acuerdo.
+2. No utilizar SynHub para actividades ilícitas, fraudulentas o que afecten derechos de terceros.
+3. Mantener la confidencialidad de sus credenciales de acceso.
+4. Reportar de inmediato cualquier uso no autorizado de su cuenta.
+
+---
+**5. Responsabilidades de NRG8**
+NRG8 se compromete a:
+- Mantener la disponibilidad razonable del servicio, salvo casos de mantenimiento programado o causas de fuerza mayor.
+- Proteger los datos personales de acuerdo con la **Ley de Protección de Datos Personales (Ley N.º 29733 – Perú)** y normativa aplicable.
+- Informar oportunamente sobre cambios en los Términos y Condiciones.
+
+---
+**6. Planes, Pagos y Renovaciones**
+- Los precios de los Planes de Servicio estarán publicados en la web oficial.
+- El Usuario podrá elegir entre pagos mensuales o anuales.
+- La renovación es automática, salvo cancelación previa por el Usuario.
+- No se realizarán reembolsos una vez iniciado el período contratado.
+
+---
+**7. Propiedad Intelectual**
+- SynHub y todos sus componentes (código, diseño, marca, documentación) son propiedad exclusiva de **NRG8**.
+- El Usuario no adquiere ningún derecho de propiedad intelectual, salvo la licencia de uso otorgada en este Acuerdo.
+
+---
+**8. Limitación de Responsabilidad**
+NRG8 no será responsable por:
+- Pérdida de datos causada por el Usuario o por terceros.
+- Fallas de conexión a Internet o servicios externos ajenos a SynHub.
+- Daños indirectos, incidentales o consecuentes derivados del uso de la Plataforma.
+
+---
+**9. Suspensión y Terminación**
+NRG8 podrá suspender o cancelar cuentas que incumplan este Acuerdo, sin derecho a reembolso.
+
+---
+**10. Modificaciones**
+NRG8 se reserva el derecho de modificar estos Términos en cualquier momento. Las modificaciones se notificarán en la Plataforma y se considerarán aceptadas por el Usuario al continuar con el uso del servicio.
+
+---
+**11. Legislación y Jurisdicción**
+Este Acuerdo se rige por las leyes de la República del Perú. Cualquier controversia será sometida a los tribunales de Lima Metropolitana.
 
 #### 5.2.5. Implemented Native-Mobile Application Evidence
+
+Tanto para las versiones de flutter y android se generaron los APKs y se subieron a la plataforma de firebase distribution, para que puedan ser descargados por los usuarios de prueba. Para poder realizar este proceso primero se debe crear un proyecto de firebase:
+
+<img src="images/chapter-5/mobile-deploy-1.png" alt="Mobile Deploy 1"/>
+
+<img src="images/chapter-5/mobile-deploy-2.png" alt="Mobile Deploy 2"/>
+
+Una vez se a creado el proyecto se debe agregar un app y escoger el tipo de app que se desea agregar, en este caso se agregaron dos apps, una para flutter y otra para android nativo:
+
+<img src="images/chapter-5/mobile-deploy-3.png" alt="Mobile Deploy 3"/>
+
+<img src="images/chapter-5/mobile-deploy-4.png" alt="Mobile Deploy 4"/>
+
+Para android se siguieron los siguientes pasos:
+
+<img src="images/chapter-5/mobile-deploy-5.png" alt="Mobile Deploy 5"/>
+
+<img src="images/chapter-5/mobile-deploy-6.png" alt="Mobile Deploy 6"/>
+
+<img src="images/chapter-5/mobile-deploy-7.png" alt="Mobile Deploy 7"/>
+
+<img src="images/chapter-5/mobile-deploy-8.png" alt="Mobile Deploy 8"/>
+
+<img src="images/chapter-5/mobile-deploy-9.png" alt="Mobile Deploy 9"/>
+
+Luego de eso desde el servicio firebase distribution debe subirse el apk de la aplicación, agregar verificadores y algún comentario:
+
+<img src="images/chapter-5/mobile-deploy-10.png" alt="Mobile Deploy 10"/>
+
+<img src="images/chapter-5/mobile-deploy-11.png" alt="Mobile Deploy 11"/>
+
+<img src="images/chapter-5/mobile-deploy-12.png" alt="Mobile Deploy 12"/>
+
+<img src="images/chapter-5/mobile-deploy-13.png" alt="Mobile Deploy 13"/>
+
+Para flutter se siguieron los siguientes pasos:
+
+<img src="images/chapter-5/mobile-deploy-14.png" alt="Mobile Deploy 14"/>
+
+<img src="images/chapter-5/mobile-deploy-15.png" alt="Mobile Deploy 15"/>
+
+<img src="images/chapter-5/mobile-deploy-16.png" alt="Mobile Deploy 16"/>
+
+Además de esto en el proyecto flutter dentro del pubspec.yaml se debe agregar el plugin de firebase distribution:
+
+```yaml
+dev_dependencies:
+  firebase_core: ^2.0.0
+```
+
+Y agregar el inicializador de firebase al app:
+
+<img src="images/chapter-5/mobile-deploy-17.png" alt="Mobile Deploy 17"/>
+
+Luego se deben subir el/los archivo apk a firebase distribution, agregar verificadores y algún comentario. El apk se crear a partir del comando:
+
+```bash
+flutter build apk --release
+```
+<img src="images/chapter-5/mobile-deploy-18.png" alt="Mobile Deploy 18"/>
+
+<img src="images/chapter-5/mobile-deploy-19.png" alt="Mobile Deploy 19"/>
+
+<img src="images/chapter-5/mobile-deploy-20.png" alt="Mobile Deploy 20"/>
+
+Finalemente desde un dispositivo móvil se debe abrir el correo de verificador que se le asignó y descargar la aplicación desde firebase app distribution (se instala automáticamente desde la invitación de correo) para poder probar las aplicaciones distribuidas por firebase.
+
+<img src="images/chapter-5/mobile-deploy-21.png" alt="Mobile Deploy 21"/>
 
 #### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 #### 5.2.7. RESTful API documentation
+
+La documentación del API se realizó a traves de Swagger, para poder acceder a ella es necesario usar el enlace url del backend y agregarle “/swagger-ui/index.html#” esto permitira acceder a la documentación del API, a continuación se muestra un cuadro con los endpoints documentados:
+
+| Tag            | VerboHttp | Endpoint                                                    | Descripción                                   |
+|----------------|-----------|-------------------------------------------------------------|-----------------------------------------------|
+| Request        | PUT       | /api/v1/tasks/{taskId}/requests/{requestId}/status/{status} | Update a request status                       |
+| Request        | GET       | /api/v1/tasks/{taskId}/requests                             | Get requests from a task                      |
+| Request        | POST      | /api/v1/tasks/{taskId}/requests                             | Create a new request                          |
+| Request        | GET       | /api/v1/tasks/{taskId}/requests/{requestId}                 | Get a request by id                           |
+| Request        | DELETE    | /api/v1/tasks/{taskId}/requests/{requestId}                 | Delete a request by id                        |
+| Group Request  | GET       | /api/v1/member/group/requests                               | Get all requests from a member                |
+| Group Request  | GET       | /api/v1/leader/group/requests                               | get all request from a group                  |
+| Member         | GET       | /api/v1/member/tasks                                        | get all task of a member                      |
+| Member         | GET       | /api/v1/member/tasks/next                                   | get the nearest task to end                   |
+| Member         | GET       | /api/v1/member/group                                        | get group by member authenticated             |
+| Member         | GET       | /api/v1/member/details                                      | get member details by authentication          |
+| Member         | GET       | /api/v1/member/details/{memberId}                           | get member details by member id               |
+| Member         | DELETE    | /api/v1/member/group/leave                                  | Leave group by member authenticated           |
+| Groups         | GET       | /api/v1/leader/group                                        | get group by id                               |
+| Groups         | PUT       | /api/v1/leader/group                                        | update a group                                |
+| Groups         | POST      | /api/v1/leader/group                                        | create a new group                            |
+| Groups         | DELETE    | /api/v1/leader/group                                        | delete a group                                |
+| Groups         | GET       | /api/v1/groups/tasks                                        | get all tasks by group id                     |
+| Groups         | GET       | /api/v1/groups/search                                       | search for a group code                       |
+| Groups         | GET       | /api/v1/groups/members                                      | get all group members                         |
+| Groups         | DELETE    | /api/v1/leader/group/members/{memberId}                     | remove a member of a group                    |
+| Task           | GET       | /api/v1/tasks/{taskId}                                      | get task by id                                |
+| Task           | PUT       | /api/v1/tasks/{taskId}                                      | update task by id                             |
+| Task           | DELETE    | /api/v1/tasks/{taskId}                                      | delete task by id                             |
+| Task           | PUT       | /api/v1/tasks/{taskId}/status/{status}                      | update a task status                          |
+| Task           | GET       | /api/v1/tasks/status/{status}                               | get all tasks by status                       |
+| Metrics        | GET       | /api/v1/metrics/tasks/rescheduled                           | get reschedules tasks for a group             |
+| Metrics        | GET       | /api/v1/metrics/tasks/overview                              | get task overview for a group                 |
+| Metrics        | GET       | /api/v1/metrics/tasks/distribution                          | get task distribution for a group             |
+| Metrics        | GET       | /api/v1/metrics/tasks/avg-completion-time                   | get average completion time for a group       |
+| Metrics        | GET       | /api/v1/metrics/task/member/{memberId}/time-passed          | get time passed for a member’s completed task |
+| Metrics        | GET       | /api/v1/metrics/member/{memberId}/tasks/rescheduled         | get rescheduled tasks for a member            |
+| Metrics        | GET       | /api/v1/metrics/member/{memberId}/tasks/overview            | get task overview for a member                |
+| Metrics        | GET       | /api/v1/metrics/member/{memberId}/tasks/distribution        | get task distribution for a member            |
+| Metrics        | GET       | /api/v1/metrics/member/{memberId}/tasks/avg-completion-time | get average completion time for a member      |
+| Authentication | POST      | /api/v1/authentication/sign-up                              | register a user                               |
+| Authentication | POST      | /api/v1/authentication/sign-in                              | authenticate a user                           |
+| Invitations    | POST      | /api/v1/invitations/groups/{groupId}                        | create a new invitation                       |
+| Invitations    | PATCH     | /api/v1/invitations/groups/{groupId}                        | accept or decline an invitation               |
+| Invitations    | GET       | /api/v1/invitations/member                                  | get an invitation of a member                 |
+| Invitations    | DELETE    | /api/v1/invitations/member                                  | cancel an invitation                          |
+| Invitations    | GET       | /api/v1/invitations/group                                   | get all invitations for a group               |
+| Leaders        | GET       | /api/v1/leader/details                                      | get leaders detail by authentication          |
+| Tasks Member   | GET       | /api/v1/members/{memberId}/tasks                            | get all tasks by member id                    |
+| Tasks Member   | POST      | /api/v1/members/{memberId}/tasks                            | create new task                               |
+| Tasks Member   | GET       | /api/v1/members/{memberId}/tasks/next                       | get the next task by member id                |
 
 #### 5.2.8. Team Collaboration Insights
 
