@@ -1083,10 +1083,11 @@ En esta sección exploraremos el diccionario de clases, un complemento esencial 
   </tr>
 </table>
 
-
 ### 4.10. Database Design
 
 #### 4.10.1. Relational/Non-Relational Database Diagram
+
+<img src="images/chapter-4/database-diagram.png" alt="Database Diagram"/>
 
 ## Capitulo V: Product Implementation
 ### 5.1. Software Configuration Management
