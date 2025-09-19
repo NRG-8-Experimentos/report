@@ -396,11 +396,17 @@ Para Mobile App (App Store / Play Store):
 Estas decisiones están diseñadas para evitar que los usuarios se sientan abrumados por grandes volúmenes de información, facilitando una navegación eficiente y una búsqueda precisa. A continuación, se detallan las opciones de búsqueda y los filtros disponibles, así como la presentación de los datos después de la búsqueda.
 
 **Barra de secciones:** Dentro de la landing page, se implementará una barra de búsqueda que permitirá a los usuarios buscar información específica dentro de las secciones disponibles. Esta barra estará ubicada en la parte superior de la página y será fácilmente accesible.
+
 **Menú desplegable:** En la aplicación móvil, se incluirá un menú desplegable que permitirá a los usuarios filtrar la información según diferentes categorías. Este menú estará disponible en la parte superior izquierda de la pantalla.
+
 **Descripción de tareas:** En la sección de tareas al dar click a alguna tarea, se abrirá una ventana emergente que mostrará la descripción de la tarea seleccionada. Esta ventana incluirá información adicional como el estado de la tarea, la fecha de vencimiento y los miembros asignados.
+
 **Tareas de usuario:** En la sección de grupos al hacer click sobre un integrante del grupo se podrán visualizar todas las tareas asignadas a ese usuario. Esta funcionalidad permitirá a los líderes y miembros del grupo ver rápidamente las responsabilidades de cada integrante.
+
 **Tareas:** En el módulo de tareas se visualizará una lista de todas las tareas asignadas al integrante que se encuentre en esa sección, al hacer click sobre ellas se mostrará la descripción de la tarea, el estado de la misma y la fecha de vencimiento. Esta funcionalidad permitirá a los usuarios tener un acceso rápido a la información relevante sobre sus tareas.
+
 **Solicitudes (integrantes de grupo):** En la sección de solicitudes se visualizará una lista de todas las solicitudes realizadas por el usuario, al hacer click sobre ellas se mostrará la descripción de la solicitud y el estado de la misma. Esta funcionalidad permitirá a los usuarios tener un acceso rápido a la información relevante sobre sus solicitudes.
+
 **Solicitudes (líderes de grupo):** En la sección de solicitudes se visualizará una lista de todas las solicitudes realizadas por los integrantes del grupo, al hacer click sobre ellas se mostrará la descripción de la solicitud y el estado de la misma. Esta funcionalidad permitirá a los líderes tener un acceso rápido a la información relevante sobre las solicitudes de sus integrantes. Además, podrá filtrar las solicitudes por el tipo de solicitud (reprogramación, validación o incumplimiento).
 
 #### 4.2.5. Navigation Systems
@@ -411,6 +417,7 @@ Landing Page Barra de navegación con secciones:
 * Mision & Vision
 * Features
 * Nrg5 Team
+
 Mobile App Mediante el uso de un menú lateral, los usuarios podrán acceder a las siguientes secciones:
 * Tareas
 * Reportes
@@ -437,13 +444,21 @@ En esta sección se muestran los mock-ups de la landing page de Synhub, donde se
 Los wireframes de Synhub representan la estructura y disposición de las pantallas clave, mostrando la ubicación de los elementos de la interfaz de usuario y la navegación. Estos esquemas visuales proporcionan una guía clara para el diseño final, asegurando que la experiencia del usuario sea intuitiva y eficiente.
 
 <img src="images/chapter-4/wireframe-1.png" alt="Mobile Wireframe 1"/>
+
 <img src="images/chapter-4/wireframe-2.png" alt="Mobile Wireframe 2"/>
+
 <img src="images/chapter-4/wireframe-3.png" alt="Mobile Wireframe 3"/>
+
 <img src="images/chapter-4/wireframe-4.png" alt="Mobile Wireframe 4"/>
+
 <img src="images/chapter-4/wireframe-5.png" alt="Mobile Wireframe 5"/>
+
 <img src="images/chapter-4/wireframe-6.png" alt="Mobile Wireframe 6"/>
+
 <img src="images/chapter-4/wireframe-7.png" alt="Mobile Wireframe 7"/>
+
 <img src="images/chapter-4/wireframe-8.png" alt="Mobile Wireframe 8"/>
+
 <img src="images/chapter-4/wireframe-9.png" alt="Mobile Wireframe 9"/>
 
 #### 4.4.2. Mobile Applications Wireflow Diagrams
@@ -452,68 +467,69 @@ Los wireflow diagrams de Synhub representan la secuencia de interacciones y pant
 
 **Creación de grupo:** este wireflow corresponde a cuando un lider de equipo buscar crear un nuevo grupo.
 
-<img src="images/chapter-4/wireflow-1.png" alt="Wireflow 1/>
+<img src="images/chapter-4/wireflow-1.png" alt="Wireflow 1"/>
 
 **Invitación de integrante:** este wireflow corresponde a cuando un lider de equipo busca invitar a un nuevo integrante al grupo.
 
-<img src="images/chapter-4/wireflow-2-1.png" alt="Wireflow 2/>
+<img src="images/chapter-4/wireflow-2-1.png" alt="Wireflow 2"/>
 
-<img src="images/chapter-4/wireflow-2-2.png" alt="Wireflow 2/>
+<img src="images/chapter-4/wireflow-2-2.png" alt="Wireflow 2"/>
 
 **Asignación de tarea:** este wireflow corresponde a cuando un lider de equipo busca asignar una nueva tarea a un integrante del grupo.
 
-<img src="images/chapter-4/wireflow-3.png" alt="Wireflow 3/>
+<img src="images/chapter-4/wireflow-3.png" alt="Wireflow 3"/>
 
 **Edición de tarea:** este wireflow corresponde a cuando un lider de equipo busca editar una tarea ya existente.
 
-<img src="images/chapter-4/wireflow-4.png" alt="Wireflow 4/>
+<img src="images/chapter-4/wireflow-4.png" alt="Wireflow 4"/>
 
 **Eliminación de tarea:** este wireflow corresponde a cuando un lider de equipo busca eliminar una tarea ya existente.
 
-<img src="images/chapter-4/wireflow-5.png" alt="Wireflow 5/>
+<img src="images/chapter-4/wireflow-5.png" alt="Wireflow 5"/>
 
 **Ver la información de una tarea:** este wireflow corresponde a cuando un lider de equipo busca ver la información de una tarea ya existente.
 
-<img src="images/chapter-4/wireflow-6.png" alt="Wireflow 6/>
+<img src="images/chapter-4/wireflow-6.png" alt="Wireflow 6"/>
 
 **Revisar una solicitud o validación:** este wireflow corresponde a cuando un lider de equipo busca revisar una solicitud o validación ya existente.
 
-<img src="images/chapter-4/wireflow-7.png" alt="Wireflow 7/>
+<img src="images/chapter-4/wireflow-7.png" alt="Wireflow 7"/>
 
 **Unirse a un grupo:** Este wireflow corresponde a cuando un miembro busca unirse a un grupo.
 
-<img src="images/chapter-4/wireflow-8.png" alt="Wireflow 8/>
+<img src="images/chapter-4/wireflow-8.png" alt="Wireflow 8"/>
 
 
 **Enviar un comentario a una tarea:** Este wireflow corresponde a cuando un miembro busca sus tareas asignadas y envia un comentario a la tarea respectiva.
 
 
-<img src="images/chapter-4/wireflow-9.png" alt="Wireflow 9/>
+<img src="images/chapter-4/wireflow-9.png" alt="Wireflow 9"/>
 
 
 **Visualizar solicitud o validacion pendiente:** Este wireflow corresponde a cuando un miembro busca sus solicitudes o validaciones pendientes.
 
 
-<img src="images/chapter-4/wireflow-10.png" alt="Wireflow 10/>
+<img src="images/chapter-4/wireflow-10.png" alt="Wireflow 10"/>
 
 
 **Ver metricas de desempeño:** Este wireflow corresponde a cuando un miembro busca visualizar su desempeño mediante una metrica.
 
 
-<img src="images/chapter-4/wireflow-11.png" alt="Wireflow 11/>
+<img src="images/chapter-4/wireflow-11.png" alt="Wireflow 11"/>
 
 #### 4.4.3. Mobile Applications Mock-ups
 
 En esta sección se presentan y explican los Mock-ups de la aplicación. Se evidencia la aplicación de los principios y elementos de diseño, el diseño inclusivo, la arquitectura de información y el Design System establecido en el desarrollo de los wireframes. Cada mock-up ilustra cómo se implementan estos conceptos en la interfaz 
-<img src="images/chapter-4/mockup-1.png" alt="Mockup 1/>
 
-<img src="images/chapter-4/mockup-2.png" alt="Mockup 2/>
+<img src="images/chapter-4/mockup-1.png" alt="Mockup 1"/>
 
-<img src="images/chapter-4/mockup-3.png" alt="Mockup 3/>
+<img src="images/chapter-4/mockup-2.png" alt="Mockup 2"/>
 
-<img src="images/chapter-4/mockup-4.png" alt="Mockup 4/>
+<img src="images/chapter-4/mockup-3.png" alt="Mockup 3"/>
 
-<img src="images/chapter-4/mockup-5.png" alt="Mockup 5/>
+<img src="images/chapter-4/mockup-4.png" alt="Mockup 4"/>
+
+<img src="images/chapter-4/mockup-5.png" alt="Mockup 5"/>
 
 <img src="images/chapter-4/mockup-6.png" alt="Mockup 6"/>
 
