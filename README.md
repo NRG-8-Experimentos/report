@@ -649,6 +649,74 @@ Este Acuerdo se rige por las leyes de la República del Perú. Cualquier controv
 
 #### 5.2.5. Implemented Native-Mobile Application Evidence
 
+Tanto para las versiones de flutter y android se generaron los APKs y se subieron a la plataforma de firebase distribution, para que puedan ser descargados por los usuarios de prueba. Para poder realizar este proceso primero se debe crear un proyecto de firebase:
+
+<img src="images/chapter-5/mobile-deploy-1.png" alt="Mobile Deploy 1"/>
+
+<img src="images/chapter-5/mobile-deploy-2.png" alt="Mobile Deploy 2"/>
+
+Una vez se a creado el proyecto se debe agregar un app y escoger el tipo de app que se desea agregar, en este caso se agregaron dos apps, una para flutter y otra para android nativo:
+
+<img src="images/chapter-5/mobile-deploy-3.png" alt="Mobile Deploy 3"/>
+
+<img src="images/chapter-5/mobile-deploy-4.png" alt="Mobile Deploy 4"/>
+
+Para android se siguieron los siguientes pasos:
+
+<img src="images/chapter-5/mobile-deploy-5.png" alt="Mobile Deploy 5"/>
+
+<img src="images/chapter-5/mobile-deploy-6.png" alt="Mobile Deploy 6"/>
+
+<img src="images/chapter-5/mobile-deploy-7.png" alt="Mobile Deploy 7"/>
+
+<img src="images/chapter-5/mobile-deploy-8.png" alt="Mobile Deploy 8"/>
+
+<img src="images/chapter-5/mobile-deploy-9.png" alt="Mobile Deploy 9"/>
+
+Luego de eso desde el servicio firebase distribution debe subirse el apk de la aplicación, agregar verificadores y algún comentario:
+
+<img src="images/chapter-5/mobile-deploy-10.png" alt="Mobile Deploy 10"/>
+
+<img src="images/chapter-5/mobile-deploy-11.png" alt="Mobile Deploy 11"/>
+
+<img src="images/chapter-5/mobile-deploy-12.png" alt="Mobile Deploy 12"/>
+
+<img src="images/chapter-5/mobile-deploy-13.png" alt="Mobile Deploy 13"/>
+
+Para flutter se siguieron los siguientes pasos:
+
+<img src="images/chapter-5/mobile-deploy-14.png" alt="Mobile Deploy 14"/>
+
+<img src="images/chapter-5/mobile-deploy-15.png" alt="Mobile Deploy 15"/>
+
+<img src="images/chapter-5/mobile-deploy-16.png" alt="Mobile Deploy 16"/>
+
+Además de esto en el proyecto flutter dentro del pubspec.yaml se debe agregar el plugin de firebase distribution:
+
+```yaml
+dev_dependencies:
+  firebase_core: ^2.0.0
+```
+
+Y agregar el inicializador de firebase al app:
+
+<img src="images/chapter-5/mobile-deploy-17.png" alt="Mobile Deploy 17"/>
+
+Luego se deben subir el/los archivo apk a firebase distribution, agregar verificadores y algún comentario. El apk se crear a partir del comando:
+
+```bash
+flutter build apk --release
+```
+<img src="images/chapter-5/mobile-deploy-18.png" alt="Mobile Deploy 18"/>
+
+<img src="images/chapter-5/mobile-deploy-19.png" alt="Mobile Deploy 19"/>
+
+<img src="images/chapter-5/mobile-deploy-20.png" alt="Mobile Deploy 20"/>
+
+Finalemente desde un dispositivo móvil se debe abrir el correo de verificador que se le asignó y descargar la aplicación desde firebase app distribution (se instala automáticamente desde la invitación de correo) para poder probar las aplicaciones distribuidas por firebase.
+
+<img src="images/chapter-5/mobile-deploy-21.png" alt="Mobile Deploy 21"/>
+
 #### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 #### 5.2.7. RESTful API documentation
