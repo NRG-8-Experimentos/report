@@ -997,15 +997,22 @@ En esta sección, se presenta el mapa de empatía, que nos ayudará a comprender
 
 **1. Empathy Map: Coordinador de equipos**
 
-<img src="" alt="user-empathy-mapping-1"/>
+<img src="images/chapter-2/user-empathy-mapping-1.png" alt="user-empathy-mapping-1"/>
 
 **2. Empathy Map: Miembro de equipo**
 
-<img src="" alt="user-empathy-mapping-2"/>
+<img src="images/chapter-2/user-empathy-mapping-2.png" alt="user-empathy-mapping-2"/>
 
 #### 2.3.5. As-is Scenario Mapping
 
 El As-is Scenario Mapping es una técnica que permite analizar cómo los usuarios realizan actualmente sus tareas dentro de un flujo de trabajo existente. Su objetivo es identificar los pasos, fricciones y soluciones improvisadas que los equipos usan en su día a día. Al documentar este escenario “tal cual es”, se obtiene una visión clara de los problemas reales y las oportunidades de mejora que la nueva solución puede abordar.
+
+**1. Segmento 1: Coordinadores o Líderes de Grupo**
+<img src="images/chapter-2/asislider.png" alt="as-is-lider"/>
+
+**2. Segmento 2: Miembros del Equipo o Grupo**
+<img src="images/chapter-2/asismiembro.png" alt="as-is-miembro"/>
+
 
 ### 2.4. Ubiquitous Language
 
