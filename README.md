@@ -628,12 +628,154 @@ Para este apartado comenzamos con la creación de grupos, donde el líder establ
 ### 4.6. Web Applications UX/UI Design
 
 #### 4.6.1. Web Applications Wireframes
+Lideres:
+
+<img src="images/chapter-4/web-wireframe-1.png" alt="Web App Wireframe 1"/>
+
+<img src="images/chapter-4/web-wireframe-2.png" alt="Web App Wireframe 2"/>
+
+<img src="images/chapter-4/web-wireframe-3.png" alt="Web App Wireframe 3"/>
+
+<img src="images/chapter-4/web-wireframe-4.png" alt="Web App Wireframe 4"/>
+
+<img src="images/chapter-4/web-wireframe-5.png" alt="Web App Wireframe 5"/>
+
+<img src="images/chapter-4/web-wireframe-6.png" alt="Web App Wireframe 6"/>
+
+Miembros:
+
+<img src="images/chapter-4/web-wireframe-7.png" alt="Web App Wireframe 7"/>
+
+<img src="images/chapter-4/web-wireframe-8.png" alt="Web App Wireframe 8"/>
+
+<img src="images/chapter-4/web-wireframe-9.png" alt="Web App Wireframe 9"/>
 
 #### 4.6.2. Web Applications Wireflow Diagrams
 
+<img src="images/chapter-4/web-wireflow-1.png" alt="Web App Wireflow 1"/>
+
+<img src="images/chapter-4/web-wireflow-2.png" alt="Web App Wireflow 2"/>
+
+<img src="images/chapter-4/web-wireflow-3.png" alt="Web App Wireflow 3"/>
+
+<img src="images/chapter-4/web-wireflow-4.png" alt="Web App Wireflow 4"/>
+
+<img src="images/chapter-4/web-wireflow-5.png" alt="Web App Wireflow 5"/>
+
+<img src="images/chapter-4/web-wireflow-6.png" alt="Web App Wireflow 6"/>
+
+<img src="images/chapter-4/web-wireflow-7.png" alt="Web App Wireflow 7"/>
+
 #### 4.6.3. Web Applications Mock-ups
 
+<img src="images/chapter-4/web-mockup-1.png" alt="Web App Mockup 1"/>
+
+<img src="images/chapter-4/web-mockup-2.png" alt="Web App Mockup 2"/>
+
+<img src="images/chapter-4/web-mockup-3.png" alt="Web App Mockup 3"/>
+
+<img src="images/chapter-4/web-mockup-4.png" alt="Web App Mockup 4"/>
+
+<img src="images/chapter-4/web-mockup-5.png" alt="Web App Mockup 5"/>
+
+<img src="images/chapter-4/web-mockup-6.png" alt="Web App Mockup 6"/>
+
+<img src="images/chapter-4/web-mockup-7.png" alt="Web App Mockup 7"/>
+
+<img src="images/chapter-4/web-mockup-8.png" alt="Web App Mockup 8"/>
+
+<img src="images/chapter-4/web-mockup-9.png" alt="Web App Mockup 9"/>
+
 #### 4.6.4. Web Applications User Flow Diagrams
+
+**Creación de grupo:** este userflow corresponde a cuando un líder de equipo busca crear un nuevo
+grupo.
+
+**Task flow:** 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-4/web-userflow-t1.png" alt="Web App Userflow Table 1"/>
+
+<img src="images/chapter-4/web-userflow-1.png" alt="Web App Userflow 1"/>
+
+**Asignación de tarea:** este userflow corresponde a cuando un líder de equipo busca asignar una
+nueva tarea a un integrante del grupo.
+
+**Task flow:** 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-4/web-userflow-t2.png" alt="Web App Userflow Table 2"/>
+
+<img src="images/chapter-4/web-userflow-2.png" alt="Web App Userflow 2"/>
+
+**Edición de tarea:** este userflow corresponde a cuando un líder de equipo busca editar una tarea ya
+existente.
+
+**Task flow:** 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-4/web-userflow-t3.png" alt="Web App Userflow Table 3"/>
+
+<img src="images/chapter-4/web-userflow-3.png" alt="Web App Userflow 3"/>
+
+**Eliminación de tarea:** este userflow corresponde a cuando un líder de equipo busca eliminar una 
+tarea ya existente.
+
+**Task flow:** 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-4/web-userflow-t4.png" alt="Web App Userflow Table 4"/>
+
+<img src="images/chapter-4/web-userflow-4.png" alt="Web App Userflow 4"/>
+
+**Ver la información de una tarea:** este userflow corresponde a cuando un lider de equipo busca ver la
+información de una tarea ya existente.
+
+**Task flow:** 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-4/web-userflow-t5.png" alt="Web App Userflow Table 5"/>
+
+<img src="images/chapter-4/web-userflow-5.png" alt="Web App Userflow 5"/>
+
+**Revisar una solicitud o validación:** este userflow corresponde a cuando un lider de equipo busca
+revisar una solicitud o validación ya existente.
+
+**Task flow:** 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-4/web-userflow-t6.png" alt="Web App Userflow Table 6"/>
+
+<img src="images/chapter-4/web-userflow-6.png" alt="Web App Userflow 6"/>
+
+**Unirse a un grupo:** Este wireflow corresponde a cuando un miembro busca unirse a un grupo.
+
+**Task flow:** 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-4/web-userflow-t7.png" alt="Web App Userflow Table 7"/>
+
+<img src="images/chapter-4/web-userflow-7.png" alt="Web App Userflow 7"/>
+
+**Enviar un comentario a una tarea:** Este wireflow corresponde a cuando un miembro busca sus
+tareas asignadas y envía un comentario a la tarea respectiva.
+
+**Task flow:** 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-4/web-userflow-t8.png" alt="Web App Userflow Table 8"/>
+
+<img src="images/chapter-4/web-userflow-8.png" alt="Web App Userflow 8"/>
+
+**Visualizar solicitud o validacion pendiente:** Este wireflow corresponde a cuando un miembro busca 
+sus solicitudes o validaciones pendientes. 
+
+**Task flow:** 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-4/web-userflow-t9.png" alt="Web App Userflow Table 9"/>
+
+<img src="images/chapter-4/web-userflow-9.png" alt="Web App Userflow 9"/>
+
+**Ver métricas de desempeño:** Este wireflow corresponde a cuando un miembro busca visualizar su
+desempeño mediante una métrica.
+
+**Task flow:** 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
+
+<img src="images/chapter-4/web-userflow-t10.png" alt="Web App Userflow Table 10"/>
+
+<img src="images/chapter-4/web-userflow-10.png" alt="Web App Userflow 10"/>
 
 ### 4.7. Web Applications Prototyping
 
