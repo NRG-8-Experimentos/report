@@ -234,26 +234,267 @@
 
 ## Capítulo I: Introducción
 ### 1.1. Startup Profile
-
 #### 1.1.1. Descripción de la Startup
+NRG8 es una startup tecnológica dedicada al desarrollo de soluciones digitales para la gestión de proyectos, con un enfoque en la accesibilidad y la facilidad de uso. Nuestra misión es simplificar la organización y el seguimiento de tareas en equipos de cualquier tamaño, ofreciendo una alternativa ágil y amigable frente a herramientas tradicionales que suelen ser complejas y poco intuitivas.
+Con una visión centrada en la experiencia de usuario y la colaboración efectiva, NRG8 busca democratizar el acceso a plataformas de gestión profesional, impulsando la productividad y la transparencia en proyectos tanto personales como organizacionales.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
+<table>
+  <tr>
+    <th colspan="2"> Juan Diego Astonitas </th>
+  </tr>
+  <tr>
+    <td> <img src="images/chapter-1/JuanAstonitas-pfp.png" alt="Juan Astonitas" style="width: 500px; height: auto;" > </td>
+    <td> Mi nombre es Juan Diego Astonitas Diaz, mi código de estudiante es u202110237,tengo 21 años, actualmente curso el 7mo ciclo de la carrera de Ingeniería de Software, en la UPC en la sede San Miguel. Mis principales cualidades son el liderazgo y el dominio de NextJS. Haré todo lo que esté a mi alcance para respaldar al equipo en la finalización oportuna y efectiva de las tareas asignadas. </td>
+  </tr>
+  <tr>
+    <th colspan="2"> Casas Sanchez Gabriel Alexander </th>
+  </tr>
+  <tr>
+    <td> <img src="images/chapter-1/alex-pfp.jpg" alt="Gabriel Casas" style="width: 500px; height: auto;"> </td>
+    <td> Soy estudiante de Ingeniería de Software en sexto ciclo, con habilidades para dirigir y trabajar bien bajo presión. Aunque no disfruto mucho de los trabajos grupales, siempre asumo un rol destacado y sobresaliente en ellos, aprovechando mi capacidad académica y versatilidad. </td>
+  </tr>
+  <tr>
+    <th colspan="2"> Gianluca Santino Pasquale Barrenechea </th>
+  </tr>
+  <tr>
+    <td> <img src="images/chapter-1/gianluca-pfp.jpg" alt="Gianluca Pasquale" style="width: 500px; height: auto;"> </td>
+    <td> Me llamo Gianluca Santino Pasquale Barrenechea, estudiante de Ingeniería de Software (código u202112078). En nuestra Startup, me enfoco en el desarrollo frontend y backend, utilizando C++, C#, Python, Java, HTML y JavaScript. Mi objetivo es crear soluciones escalables y eficientes, mejorando la experiencia del usuario y optimizando la operación de la plataforma, siempre aplicando metodologías ágiles como Scrum. </td>
+  </tr>
+  <tr>
+    <th colspan="2">Wilder Gonzalo Aliaga Urbina</th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="" style="width: 500px; height: auto;"> </td>
+    <td></td>
+  </tr>
+  <tr>
+    <th colspan="2">Armas Sánchez Oscar Javier</th>
+  </tr>
+  <tr>
+    <td> <img src="" alt="" style="width: 500px; height: auto;"> </td>
+    <td></td>
+  </tr>
+</table>
+
 ### 1.2. Solution Profile
+
+En el entorno actual, muchos equipos y grupos de trabajo —laborales, académicos o comunitarios— enfrentan serias dificultades para organizar sus proyectos, distribuir responsabilidades de forma equitativa y mantener una comunicación clara entre sus integrantes.
+Estos problemas se traducen en:
+* Sobrecarga de tareas en ciertos miembros.
+* Falta de coordinación general.
+* Duplicación o abandono de responsabilidades.
+* Disminución de la productividad y el bienestar del equipo.
+  Aunque existen herramientas de gestión digital, la mayoría presentan una curva de aprendizaje alta, interfaces complejas o están orientadas a entornos corporativos muy específicos. Esto genera barreras para equipos pequeños, medianos o multidisciplinarios que requieren soluciones más accesibles y fáciles de adoptar.
+  **Solución propuesta: SynHub**
+  SynHub es una plataforma de gestión de proyectos intuitiva, accesible y colaborativa, diseñada para simplificar la organización y el seguimiento de actividades en cualquier tipo de grupo.
+  **Desde el rol de Organizador/Administrador**
+* Crear y configurar grupos de trabajo.
+* Asignar miembros y distribuir responsabilidades.
+* Definir y personalizar tareas (título, descripción, plazos, responsables).
+* Monitorear el avance y cumplimiento de tareas.
+* Facilitar la coordinación interna y la comunicación clara dentro del equipo.
+  **Desde el rol de Integrante del equipo**
+* Consultar las responsabilidades asignadas desde una interfaz clara y accesible.
+* Recibir notificaciones y recordatorios sobre plazos.
+* Proponer ajustes o modificaciones en las tareas según el avance.
+* Visualizar la su propia carga de trabajo.
+* Acceder a métricas de desempeño personal y grupal.
 
 #### 1.2.1. Antecedentes y problemática
 
+**What**
+
+**¿Cuál es el problema?**
+El problema radica en la baja adopción de aplicaciones móviles para la gestión y organización colaborativa de proyectos. Aunque existen diversas herramientas digitales, muchos equipos siguen recurriendo a métodos improvisados (chats, hojas de cálculo, notas físicas) que dificultan la coordinación. Esto genera distribución desigual de tareas, falta de seguimiento, comunicación fragmentada y pérdida de productividad.
+**¿Cuál es la relación con la persona en cuestión?**
+La relación es brindar a organizadores y miembros de equipos una herramienta accesible, intuitiva y centrada en sus necesidades reales, que permita una organización clara, distribución equitativa de tareas y comunicación fluida, facilitando su adopción cotidiana.
+
+**When**
+
+**¿Cuándo sucede el problema?**
+El problema aparece cuando los equipos necesitan coordinar proyectos, asignar responsabilidades y mantener una comunicación constante para alcanzar objetivos comunes.
+**¿Cuándo utiliza el cliente el producto?**
+El cliente utiliza SynHub en momentos clave del ciclo de un proyecto: al planificar actividades, asignar tareas y hacer seguimiento del cumplimiento, así como en la resolución de ajustes o imprevistos.
+
+**Where**
+
+**¿Dónde está el cliente cuando usa el producto?**
+El cliente accede a SynHub desde cualquier lugar con conexión a Internet: en la oficina, en casa, en el aula o durante desplazamientos, adaptándose a su rutina diaria.
+**¿Dónde surge el problema?**
+El problema se manifiesta en espacios de trabajo colaborativo: oficinas, instituciones educativas, organizaciones comunitarias y grupos multidisciplinarios, donde la coordinación efectiva es clave para lograr resultados.
+
+**Who**
+
+**¿Quiénes se ven involucrados en el problema?**
+* Organizadores o coordinadores de proyectos (líderes, docentes, jefes de área, representantes comunitarios) que necesitan asignar tareas y dar seguimiento.
+* Miembros de equipos de trabajo (colaboradores, estudiantes, voluntarios, participantes) que enfrentan dificultades para organizarse y comunicarse de forma efectiva.
+
+**Why**
+
+**¿Cuáles son las causas del problema?**
+Las causas están en la resistencia al cambio, la percepción de bajo valor inmediato y la falta de hábitos digitales consolidados. Aunque existen plataformas robustas como Jira o Trello, muchas personas las perciben como complejas o poco integradas en su dinámica diaria.
+Por ello, se recurre a métodos tradicionales que, si bien resultan familiares, no resuelven la necesidad de organización integral y colaboración ágil.
+
+**How**
+
+**¿En qué condiciones los clientes usan nuestro producto?**
+Los clientes usan SynHub cuando necesitan coordinar proyectos con múltiples tareas, integrantes y plazos variables, en un entorno donde la corresponsabilidad y la comunicación clara son esenciales para el éxito colectivo.
+
+**How Much**
+
+**¿Cuál es la magnitud del problema?**
+La magnitud es considerable. Según el State of Teams Report de Atlassian (2021):
+* Solo el 17% de los equipos se consideran “saludables”, mientras que el 54% son parcialmente saludables y el 29% insalubres (p. 12).
+* El 57% de los participantes admitió que sus equipos no operan con eficiencia, generando retrasos y baja productividad (p. 18).
+* El 56% de los miembros reportó baja conexión interpersonal y el 37% señaló que no puede expresar ideas libremente por falta de seguridad psicológica (p. 24).
+  Estos datos reflejan la urgencia de contar con herramientas accesibles y de rápida adopción, como SynHub, que reduzcan la fricción tecnológica y potencien la colaboración.
+
 #### 1.2.2. Lean UX Process.
+
+El lean UX process es un enfoque iterativo centrado en el usuario para el diseño de proyectos y productos. Este enfoque se basa en ciclos rápidos (sprints) de investigación, diseño y pruebas para validar la propuesta o ideas planteadas por el equipo. Estas propuestas estarán siempre orientadas a satisfacer las necesidades de los usuarios.
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
+En el entorno actual, los equipos de trabajo, ya sean laborales, académicos o comunitarios,  enfrentan grandes desafíos para organizar proyectos, coordinar responsabilidades y mantener una comunicación clara y constante.
+Si bien existen herramientas digitales de gestión como tableros de tareas o plataformas corporativas (ej. Jira, Trello, Asana), muchas resultan complejas, fragmentadas o poco accesibles, lo que genera una baja adopción por parte de equipos pequeños y multidisciplinarios. La falta de soluciones centralizadas, intuitivas y personalizables provoca desorganización, sobrecarga en ciertos miembros, retrasos en los proyectos y fricciones dentro del equipo.
+SynHub surge como respuesta a esta brecha: una plataforma integral de gestión de proyectos que combina accesibilidad, simplicidad y experiencia de usuario clara para facilitar la planificación, la asignación de tareas, el seguimiento del cumplimiento y la comunicación colaborativa. Su diseño busca reducir la curva de aprendizaje y fomentar una rápida adopción, permitiendo que cualquier equipo, sin importar su tamaño o nivel de madurez digital, pueda organizar sus proyectos de manera eficiente y efectiva.
+
 ##### 1.2.2.2. Lean UX Assumptions
+
+**_User Assumptions (Suposiciones de Usuario)_**
+
+**¿Quién es el usuario?** Profesionales, estudiantes o miembros de equipos que buscan una solución accesible para organizar proyectos, coordinar tareas y mantener comunicación fluida sin necesidad de herramientas complejas.
+**¿Dónde encaja nuestro producto en su trabajo o vida?** Encaja en proyectos grupales (laborales, académicos, comunitarios o personales), donde la claridad en responsabilidades y la colaboración son esenciales.
+**¿Qué problemas resuelve nuestro producto?** Desorganización, comunicación fragmentada, falta de seguimiento en proyectos y baja adopción de herramientas por interfaces poco intuitivas.
+**¿Cuándo y cómo se usa nuestro producto?** Se usa en momentos clave del ciclo de un proyecto: planificación inicial, asignación de tareas, coordinación de avances y seguimiento de resultados.
+**¿Qué características son importantes?** Asignación de tareas claras, tableros visuales de progreso, notificaciones inteligentes, métricas de desempeño, comunicación estructurada y adaptabilidad a distintos tipos de proyectos.
+**¿Cómo debe verse y comportarse nuestro producto?** Debe ofrecer una interfaz minimalista, intuitiva y amigable, con navegación clara, aprendizaje rápido y personalización ligera que fomente su adopción inmediata.
+
+**_Business Assumptions (Suposiciones de Negocio)_**
+
+**Necesidades y problemas:** Los equipos necesitan una plataforma ágil que les permita organizar proyectos sin la curva de aprendizaje que presentan herramientas robustas como Jira o Asana.
+**Plataforma:** Una aplicación web y móvil con sincronización en la nube que ofrezca gestión integral de proyectos de manera simple.
+**Segmentación:** Coordinadores de proyectos, líderes de equipos pequeños/medianos y miembros que requieren claridad en sus responsabilidades.
+**Comportamientos:** Los usuarios valoran principalmente la facilidad de uso, accesibilidad y rapidez de adopción.
+**Beneficios:** Mejor organización personal y grupal, mayor visibilidad sobre las responsabilidades, reducción de fricciones y sensación de progreso al completar tareas.
+**Captación de clientes:** Estrategias de inbound marketing, marketing digital, integraciones con ecosistemas educativos/laborales y boca a boca.
+**Modelo de ingresos:** Versión freemium (básica gratuita) + modelo SaaS con planes de suscripción mensual/anual.
+**Competencia:** Jira, Trello, Asana, Notion y aplicaciones de chat con funciones de organización.
+**Ventaja competitiva:** Facilidad de uso, accesibilidad multiplataforma, experiencia clara y diseño pensado para rápida adopción, eliminando la barrera de complejidad de la competencia.
+
+**_Technical Assumptions (Suposiciones Técnicas)_**
+
+**Tecnología utilizada:** Tecnologías móviles y web modernas (React Native/Flutter, Node.js, etc.) para garantizar accesibilidad en múltiples dispositivos.
+**Integraciones:** Posibilidad de conexión con herramientas ya usadas por los equipos (Google Workspace, Microsoft Teams, Slack, calendarios).
+**Escalabilidad:** Arquitectura en la nube para soportar un crecimiento continuo en usuarios y datos sin perder rendimiento.
+
+**_Market Assumptions (Suposiciones de Mercado)**_
+
+**Tamaño del mercado:** Creciente demanda global por soluciones de productividad y gestión de proyectos digitales, especialmente en equipos remotos e híbridos.
+**Competencia:** Aplicaciones ya posicionadas en el mercado de gestión de proyectos, pero con mayores barreras de adopción por complejidad.
+**Tendencias:** Aceleración de la digitalización en el trabajo colaborativo y mayor interés en herramientas accesibles, simples y multiplataforma.
+
+**_Design Assumptions (Suposiciones de Diseño)_**
+
+**Interacción del usuario:** La experiencia debe ser clara y guiada con tableros visuales, recordatorios automáticos y navegación simple.
+**Experiencia del usuario:** Los usuarios valorarán una experiencia de organización ágil, flexible, colaborativa y fácil de entender en pocos minutos.
+**Colores y tipografía:** Paleta moderna, limpia y accesible (colores suaves/pastel, tipografía legible y sin distracciones visuales).
+**Preferencias visuales:** Diseño minimalista, con iconografía intuitiva y jerarquía clara en la información.
+**Prototipos y pruebas:** Validación continua con pruebas de usabilidad para garantizar accesibilidad y rápida adopción desde el primer uso.
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
+**_Usuario y Necesidad_**
+
+**Hypothesis 01:** Creemos que el usuario es alguien que busca una solución accesible para organizar tareas en un equipo y mejorar la comunicación entre los miembros.
+Sabremos que estamos en lo correcto cuando recibamos comentarios positivos sobre la utilidad de la app y observemos un aumento en usuarios registrados.
+**Hypothesis 02:** Creemos que el producto encaja en actividades grupales donde los usuarios participan junto a otros miembros, facilitando la gestión de tareas y responsabilidades.
+Sabremos que estamos en lo correcto cuando los usuarios destaquen la facilidad de integración del producto en su dinámica de equipo.
+**Hypothesis 03:** Creemos que el producto resuelve problemas de desorganización y falta de comunicación en los equipos.
+Sabremos que estamos en lo correcto cuando encuestas y reseñas indiquen mejoras en la coordinación y claridad de responsabilidades.
+**Hypothesis 04:** Creemos que el producto se usa principalmente en momentos de planificación, seguimiento de tareas y coordinación de equipo.
+Sabremos que estamos en lo correcto cuando veamos un aumento en la frecuencia de uso durante ciclos de planificación y ejecución.
+
+**_Características y Experiencia_**
+
+**Hypothesis 05:** Creemos que los usuarios valoran características como asignación de tareas, visualización de horarios, disponibilidad de miembros y personalización de roles.
+Sabremos que estamos en lo correcto cuando recibamos comentarios positivos y altos niveles de satisfacción en estas funciones.
+**Hypothesis 06:** Creemos que el producto debe tener una interfaz intuitiva y amigable.
+Sabremos que estamos en lo correcto cuando los usuarios reporten experiencias de navegación fluida en pruebas de usabilidad.
+**Hypothesis 07:**  Creemos que los equipos necesitan organizar sus tareas de forma eficiente y mejorar la comunicación.
+Sabremos que estamos en lo correcto cuando aumente la adopción por parte de equipos y recibamos feedback sobre la utilidad práctica.
+**Hypothesis 08:** Creemos que estas necesidades se resuelven con una aplicación móvil que ofrezca gestión de tareas y comunicación en una experiencia fluida y accesible.
+Sabremos que estamos en lo correcto cuando la app muestre alta retención y satisfacción de los usuarios móviles.
+**Hypothesis 09:** Creemos que los usuarios clave son coordinadores e integrantes de equipos que buscan organizar sus responsabilidades de forma accesible.
+Sabremos que estamos en lo correcto cuando los perfiles registrados coincidan mayoritariamente con este segmento.
+**Hypothesis 10:** Creemos que el valor principal que buscan los usuarios es la facilidad de uso y la mejora en organización y comunicación del equipo.
+Sabremos que estamos en lo correcto cuando recibamos comentarios consistentes sobre facilidad de uso y efectividad en la coordinación.
+**Hypothesis 11:** Creemos que los usuarios obtendrán beneficios como mayor organización personal, claridad en sus responsabilidades y satisfacción al completar tareas.
+Sabremos que estamos en lo correcto cuando las reseñas reflejen estos beneficios percibidos.
+
+**_Negocio y Mercado_**
+
+**Hypothesis 12:** Creemos que captaremos usuarios principalmente con marketing digital y recomendaciones en ámbitos laborales y educativos.
+Sabremos que estamos en lo correcto cuando estas fuentes sean los principales canales de adquisición.
+**Hypothesis 13:** Creemos que generaremos ingresos clasificando la aplicación como un servicio de pago.
+Sabremos que estamos en lo correcto cuando los ingresos crezcan de forma sostenida por suscripciones o compras directas.
+**Hypothesis 14:** Creemos que la competencia principal serán aplicaciones de gestión de tareas como Jira, Trello o Asana.
+Sabremos que estamos en lo correcto cuando el análisis competitivo lo confirme.
+**Hypothesis 15:** Creemos que superaremos a la competencia con un enfoque en personalización, facilidad de uso e integración para gestión de equipos.
+Sabremos que estamos en lo correcto cuando los usuarios destaquen estas ventajas y adopten la app en lugar de alternativas.
+**Hypothesis 16:** Creemos que podemos utilizar tecnologías móviles actuales para desarrollar la aplicación.
+Sabremos que estamos en lo correcto cuando la app funcione sin problemas en dispositivos modernos y cumpla con estándares de rendimiento.
+**Hypothesis 17:** Creemos que la aplicación debe integrarse con plataformas de comunicación ya utilizadas por los equipos.
+Sabremos que estamos en lo correcto cuando las integraciones funcionen sin fricción y los usuarios las adopten.
+**Hypothesis 18:** Creemos que la aplicación podrá escalar para soportar un número creciente de usuarios y datos.
+Sabremos que estamos en lo correcto cuando la app maneje la carga sin problemas de rendimiento.
+**Hypothesis 19:** Creemos que existe un mercado amplio de equipos que buscan soluciones de organización y coordinación.
+Sabremos que estamos en lo correcto cuando aumente la adopción y la base de usuarios de la app.
+**Hypothesis 20:** Creemos que las aplicaciones similares son los principales competidores directos.
+Sabremos que estamos en lo correcto cuando el análisis competitivo confirme esta dinámica y la adopción de nuestra app crezca frente a estas opciones.
+**Hypothesis 21:** Creemos que el mercado de apps de organización y productividad está en crecimiento, impulsado por la digitalización en entornos laborales y educativos.
+Sabremos que estamos en lo correcto cuando estudios de mercado y tendencias lo respalden.
+
+_**Diseño y Usabilidad**_
+
+**Hypothesis 22:** Creemos que los usuarios interactuarán mejor si implementamos recordatorios automáticos, organización por prioridades y asignación clara de tareas.
+Sabremos que estamos en lo correcto cuando los usuarios destaquen la utilidad de estas funciones en encuestas y reseñas.
+**Hypothesis 23:** Creemos que los usuarios valorarán una experiencia de organización simple, flexible, colaborativa y motivadora.
+Sabremos que estamos en lo correcto cuando la satisfacción general aumente y los comentarios resalten estos atributos.
+**Hypothesis 24:** Creemos que los usuarios prefieren una paleta de colores pastel y una tipografía moderna y legible.
+Sabremos que estamos en lo correcto cuando los comentarios sobre la estética de la app sean positivos.
+**Hypothesis 25:** Creemos que los usuarios consideran atractivo un diseño simple con iconos intuitivos.
+Sabremos que estamos en lo correcto cuando los tests de usabilidad confirmen la comprensión rápida de la interfaz.
+**Hypothesis 26:** Creemos que necesitamos validar la facilidad de uso y efectividad del diseño mediante pruebas de usabilidad.
+Sabremos que estamos en lo correcto cuando los resultados de testing muestran alta tasa de éxito en las tareas clave y feedback constructivo de mejora.
+
 ##### 1.2.2.4. Lean UX Canvas
 
-### 1.3. Segmentos objetivo
+![nrg8-canvas.png](images/chapter-1/nrg8-canvas.png)
+
+### 1.3. Segmentos objetivos
+
+**Segmento Objetivo #1: Coordinadores o Líderes de Grupo**
+
+Este grupo incluye a personas que asumen la responsabilidad de organizar y gestionar las actividades dentro de un equipo o grupo. Pueden ser líderes de proyectos, responsables de logística en voluntariados, administradores de espacios compartidos, docentes coordinadores o encargados de comunidades (vecinales, académicas o laborales). Estas personas buscan una herramienta que les permita distribuir tareas, planificar actividades, hacer seguimiento del cumplimiento y facilitar la comunicación interna. Características clave:
+* Edad: 25 a 60 años
+* Género: Ambos
+* Contexto: Trabajo en equipo (laboral, educativo, comunitario o institucional)
+* Ocupación: Líderes de proyectos, jefes de equipo, coordinadores, docentes, voluntarios, emprendedores
+* Uso de tecnología: Usuarios activos de plataformas colaborativas y herramientas de gestión de tareas (como Trello, Notion, Slack, etc.)
+* Necesidades: Distribuir responsabilidades, establecer fechas límite, tener visibilidad del progreso del equipo, mejorar la coordinación y reducir fricciones en la organización diaria.
+
+**Segmento Objetivo #2: Miembros del Equipo o Grupo**
+
+Corresponde a las personas que forman parte activa de un grupo con tareas y roles específicos, pero que no necesariamente tienen funciones administrativas. Incluye desde colaboradores de un proyecto, estudiantes de un curso, miembros de una comunidad, hasta empleados de una pequeña empresa. Este grupo busca mantenerse al tanto de sus responsabilidades, recibir recordatorios, y colaborar de forma clara y organizada con los demás. Características clave:
+* Edad: 13 a 60 años
+* Género: Ambos
+* Contexto: Participación activa en un grupo organizado (laboral, educativo, social, comunitario, voluntariado, etc.)
+* Ocupación: Colaboradores, estudiantes, asistentes, voluntarios, trabajadores, participantes de redes de apoyo
+* Uso de tecnología: Habitualmente usan apps móviles, redes sociales, herramientas de trabajo remoto o colaboración básica
+* Necesidades: Consultar tareas, recibir recordatorios, gestionar su tiempo dentro del equipo, proponer cambios o ajustes, y mantenerse alineados con los objetivos grupales.
 
 ## Capitulo II: Requirements Elicitation & Analysis
 ### 2.1. Competidores
