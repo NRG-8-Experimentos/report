@@ -2592,6 +2592,14 @@ https://landing-cto3.onrender.com/
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
+![webapp-evidence-1.png](images/chapter-5/webapp-evidence-1.png)
+
+![webapp-evidence-2.png](images/chapter-5/webapp-evidence-2.png)
+
+![webapp-evidence-3.png](images/chapter-5/webapp-evidence-3.png)
+
+![webapp-evidence-4.png](images/chapter-5/webapp-evidence-4.png)
+
 #### 5.2.4. Acuerdo de Servicio - SaaS+
 
 **Última actualización: 15/09/2025**
