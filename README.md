@@ -1336,6 +1336,14 @@ El As-is Scenario Mapping es una técnica que permite analizar cómo los usuario
 ### 3.1. To-Be Scenario Mapping
 El To-be Scenario Mapping describe el flujo de trabajo ideal que los usuarios tendrán al implementar la nueva solución. Busca proyectar cómo las tareas serán más claras, rápidas y colaborativas gracias a la plataforma propuesta. Este escenario “deseado” permite visualizar los beneficios, reducir la complejidad actual y alinear las funcionalidades con las necesidades reales de los usuarios.
 
+**1. Segmento 1: Coordinadores o Líderes de Grupo**
+
+<img src="images/chapter-3/tobelider.png" alt="tobelider">
+
+**2. Segmento 2: Miembros del Equipo o Grupo**
+
+<img src="images/chapter-3/tobemiembro.png" alt="tobemiembro">
+
 ### 3.2. User Stories
 
 **Epics:**
