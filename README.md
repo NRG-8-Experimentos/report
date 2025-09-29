@@ -20,37 +20,43 @@
 
 
 | **Nombre**                                | **Código** |
-| ----------------------------------------- | ----------- |
-| **Astonitas Díaz Juan Diego**            | U202110237  |
-| **Casas Sanchez Gabriel Alexander**       | U202220033  |
-| **Pasquale Barrenechea Gianluca Santino** | U202112078  |
-| **Wilder Gonzalo Aliaga Urbina**          | U202222001  |
-| **Armas Sánchez Oscar Javier**           | U20211G192  |
+|-------------------------------------------|------------|
+| **Astonitas Díaz Juan Diego**             | U202110237 |
+| **Casas Sanchez Gabriel Alexander**       | U202220033 |
+| **Pasquale Barrenechea Gianluca Santino** | U202112078 |
+| **Wilder Gonzalo Aliaga Urbina**          | U202222001 |
+| **Armas Sánchez Oscar Javier**            | U20211G192 |
 
 **Septiembre 2025**
 
 ## Registro de Versiones del Informe
 
-<table>
-  <thead>
-    <tr>
-      <th>Versión</th>
-      <th>Fecha</th>
-      <th>Autor</th>
-      <th>Descripción de modificación</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0.1</td>
-      <td>03/08/2025</td>
-      <td>Gabriel Alexander Casas Sanchez</td>
-      <td>Elaboración de plantilla del reporte</td>
-    </tr>
-  </tbody>
-</table>
+| Versión | Fecha      | Autor                                                                                                                                                       | Descripción de modificación            |
+|---------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
+| 0.1     | 03/08/2025 | Gabriel Alexander Casas Sanchez                                                                                                                             | Elaboración de plantilla del reporte   |
+| 0.2     | 06/09/2025 | Gabriel Alexander Casas Sanchez                                                                                                                             | Migración de datos del proyecto        |
+| 0.3     | 15/09/2025 | Armas Sánchez Oscar Javier, Astonitas Díaz Juan Diego, Casas Sanchez Gabriel Alexander, Pasquale Barrenechea Gianluca Santino, Wilder Gonzalo Aliaga Urbina | Elaboración del proceso lean ux        |
+| 1       | 19/09/2025 | Armas Sánchez Oscar Javier, Astonitas Díaz Juan Diego, Casas Sanchez Gabriel Alexander, Pasquale Barrenechea Gianluca Santino, Wilder Gonzalo Aliaga Urbina | Elaboración del entregable para la tb1 |
 
 ## Project Report Collaboration Insights
+
+El enlace a github del reporte del proyecto es el siguiente: https://github.com/NRG-8-Experimentos/report
+
+<img src="images/insights/report-insights-tb1-1.png" alt="Report Insights TB1-1">
+
+<img src="images/insights/report-insights-tb1-2.png" alt="Report Insights TB1-2">
+
+<img src="images/insights/report-insights-tb1-3.png" alt="Report Insights TB1-3">
+
+<img src="images/insights/report-insights-tb1-4.png" alt="Report Insights TB1-4">
+
+Para esta primera entrega se desarrollaron los capítulos del 1 al 4, en la captura adjunta se evidencia el trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+Recapitulando los commits se dividieron de la siguiente manera:
+* Armas Sánchez Oscar Javier (Racso24k): 2
+* Astonitas Díaz Juan Diego (NeoRise456): 1
+* Casas Sanchez Gabriel Alexander (Al3xiel): 31
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 5
+* Wilder Gonzalo Aliaga Urbina (gonzalo1905): 7
 
 ## Contenido
 
@@ -228,6 +234,11 @@
 
 ## Student Outcome
 
+| Criterio específico                                                                                                                                                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Conclusiones |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales. | TB1:<br>- Aliaga Urbina, Wilder Gonzalo: Desarrollo de prototipos web y móviles, gestión de configuración y código, despliegue del producto y elaboración del acuerdo SaaS, aplicando buenas prácticas técnicas y legales.<br>- Gianluca  Pasquale: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping e Impact Mapping.<br>- Juan Astonitas: Reconocí el impacto del deployment dentro del trabajo animándome a dejar instrucciones detalladas sobre cómo replicar el mismo.<br>- Gabriel Casas: Desarrollo el UX/UI de la aplicación tomando en cuenta el impacto sobre los usuarios y su compresión y curva de aprendizaje para cumplir con el objetivo de la solución planteada.<br>- Oscar Armas: Realicé entrevistas y mapeos (Empathy, As-Is, To-Be) para identificar necesidades y proponer mejoras, considerando la ética en el manejo de datos y el impacto social, económico y ambiental del sistema. |              |
+|                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |              |
+
 # **Part I: As-Is Software Project**
 
 ## Capítulo I: Introducción
@@ -285,16 +296,22 @@ Estos problemas se traducen en:
 * Falta de coordinación general.
 * Duplicación o abandono de responsabilidades.
 * Disminución de la productividad y el bienestar del equipo.
-  Aunque existen herramientas de gestión digital, la mayoría presentan una curva de aprendizaje alta, interfaces complejas o están orientadas a entornos corporativos muy específicos. Esto genera barreras para equipos pequeños, medianos o multidisciplinarios que requieren soluciones más accesibles y fáciles de adoptar.
-  **Solución propuesta: SynHub**
-  SynHub es una plataforma de gestión de proyectos intuitiva, accesible y colaborativa, diseñada para simplificar la organización y el seguimiento de actividades en cualquier tipo de grupo.
-  **Desde el rol de Organizador/Administrador**
+
+Aunque existen herramientas de gestión digital, la mayoría presentan una curva de aprendizaje alta, interfaces complejas o están orientadas a entornos corporativos muy específicos. Esto genera barreras para equipos pequeños, medianos o multidisciplinarios que requieren soluciones más accesibles y fáciles de adoptar.
+**Solución propuesta: SynHub**
+
+SynHub es una plataforma de gestión de proyectos intuitiva, accesible y colaborativa, diseñada para simplificar la organización y el seguimiento de actividades en cualquier tipo de grupo.
+
+**Desde el rol de Organizador/Administrador**
+
 * Crear y configurar grupos de trabajo.
 * Asignar miembros y distribuir responsabilidades.
 * Definir y personalizar tareas (título, descripción, plazos, responsables).
 * Monitorear el avance y cumplimiento de tareas.
 * Facilitar la coordinación interna y la comunicación clara dentro del equipo.
-  **Desde el rol de Integrante del equipo**
+  
+**Desde el rol de Integrante del equipo**
+
 * Consultar las responsabilidades asignadas desde una interfaz clara y accesible.
 * Recibir notificaciones y recordatorios sobre plazos.
 * Proponer ajustes o modificaciones en las tareas según el avance.
@@ -365,107 +382,158 @@ SynHub surge como respuesta a esta brecha: una plataforma integral de gestión d
 **_User Assumptions (Suposiciones de Usuario)_**
 
 **¿Quién es el usuario?** Profesionales, estudiantes o miembros de equipos que buscan una solución accesible para organizar proyectos, coordinar tareas y mantener comunicación fluida sin necesidad de herramientas complejas.
+
 **¿Dónde encaja nuestro producto en su trabajo o vida?** Encaja en proyectos grupales (laborales, académicos, comunitarios o personales), donde la claridad en responsabilidades y la colaboración son esenciales.
+
 **¿Qué problemas resuelve nuestro producto?** Desorganización, comunicación fragmentada, falta de seguimiento en proyectos y baja adopción de herramientas por interfaces poco intuitivas.
+
 **¿Cuándo y cómo se usa nuestro producto?** Se usa en momentos clave del ciclo de un proyecto: planificación inicial, asignación de tareas, coordinación de avances y seguimiento de resultados.
+
 **¿Qué características son importantes?** Asignación de tareas claras, tableros visuales de progreso, notificaciones inteligentes, métricas de desempeño, comunicación estructurada y adaptabilidad a distintos tipos de proyectos.
+
 **¿Cómo debe verse y comportarse nuestro producto?** Debe ofrecer una interfaz minimalista, intuitiva y amigable, con navegación clara, aprendizaje rápido y personalización ligera que fomente su adopción inmediata.
 
 **_Business Assumptions (Suposiciones de Negocio)_**
 
+
 **Necesidades y problemas:** Los equipos necesitan una plataforma ágil que les permita organizar proyectos sin la curva de aprendizaje que presentan herramientas robustas como Jira o Asana.
+
 **Plataforma:** Una aplicación web y móvil con sincronización en la nube que ofrezca gestión integral de proyectos de manera simple.
+
 **Segmentación:** Coordinadores de proyectos, líderes de equipos pequeños/medianos y miembros que requieren claridad en sus responsabilidades.
+
 **Comportamientos:** Los usuarios valoran principalmente la facilidad de uso, accesibilidad y rapidez de adopción.
+
 **Beneficios:** Mejor organización personal y grupal, mayor visibilidad sobre las responsabilidades, reducción de fricciones y sensación de progreso al completar tareas.
+
 **Captación de clientes:** Estrategias de inbound marketing, marketing digital, integraciones con ecosistemas educativos/laborales y boca a boca.
+
 **Modelo de ingresos:** Versión freemium (básica gratuita) + modelo SaaS con planes de suscripción mensual/anual.
+
 **Competencia:** Jira, Trello, Asana, Notion y aplicaciones de chat con funciones de organización.
+
 **Ventaja competitiva:** Facilidad de uso, accesibilidad multiplataforma, experiencia clara y diseño pensado para rápida adopción, eliminando la barrera de complejidad de la competencia.
 
 **_Technical Assumptions (Suposiciones Técnicas)_**
 
+
 **Tecnología utilizada:** Tecnologías móviles y web modernas (React Native/Flutter, Node.js, etc.) para garantizar accesibilidad en múltiples dispositivos.
+
 **Integraciones:** Posibilidad de conexión con herramientas ya usadas por los equipos (Google Workspace, Microsoft Teams, Slack, calendarios).
+
 **Escalabilidad:** Arquitectura en la nube para soportar un crecimiento continuo en usuarios y datos sin perder rendimiento.
 
 **_Market Assumptions (Suposiciones de Mercado)**_
 
+
 **Tamaño del mercado:** Creciente demanda global por soluciones de productividad y gestión de proyectos digitales, especialmente en equipos remotos e híbridos.
+
 **Competencia:** Aplicaciones ya posicionadas en el mercado de gestión de proyectos, pero con mayores barreras de adopción por complejidad.
+
 **Tendencias:** Aceleración de la digitalización en el trabajo colaborativo y mayor interés en herramientas accesibles, simples y multiplataforma.
 
 **_Design Assumptions (Suposiciones de Diseño)_**
 
+
 **Interacción del usuario:** La experiencia debe ser clara y guiada con tableros visuales, recordatorios automáticos y navegación simple.
+
 **Experiencia del usuario:** Los usuarios valorarán una experiencia de organización ágil, flexible, colaborativa y fácil de entender en pocos minutos.
+
 **Colores y tipografía:** Paleta moderna, limpia y accesible (colores suaves/pastel, tipografía legible y sin distracciones visuales).
+
 **Preferencias visuales:** Diseño minimalista, con iconografía intuitiva y jerarquía clara en la información.
+
 **Prototipos y pruebas:** Validación continua con pruebas de usabilidad para garantizar accesibilidad y rápida adopción desde el primer uso.
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
 **_Usuario y Necesidad_**
 
+
 **Hypothesis 01:** Creemos que el usuario es alguien que busca una solución accesible para organizar tareas en un equipo y mejorar la comunicación entre los miembros.
 Sabremos que estamos en lo correcto cuando recibamos comentarios positivos sobre la utilidad de la app y observemos un aumento en usuarios registrados.
+
 **Hypothesis 02:** Creemos que el producto encaja en actividades grupales donde los usuarios participan junto a otros miembros, facilitando la gestión de tareas y responsabilidades.
 Sabremos que estamos en lo correcto cuando los usuarios destaquen la facilidad de integración del producto en su dinámica de equipo.
+
 **Hypothesis 03:** Creemos que el producto resuelve problemas de desorganización y falta de comunicación en los equipos.
 Sabremos que estamos en lo correcto cuando encuestas y reseñas indiquen mejoras en la coordinación y claridad de responsabilidades.
+
 **Hypothesis 04:** Creemos que el producto se usa principalmente en momentos de planificación, seguimiento de tareas y coordinación de equipo.
 Sabremos que estamos en lo correcto cuando veamos un aumento en la frecuencia de uso durante ciclos de planificación y ejecución.
 
 **_Características y Experiencia_**
 
+
 **Hypothesis 05:** Creemos que los usuarios valoran características como asignación de tareas, visualización de horarios, disponibilidad de miembros y personalización de roles.
 Sabremos que estamos en lo correcto cuando recibamos comentarios positivos y altos niveles de satisfacción en estas funciones.
+
 **Hypothesis 06:** Creemos que el producto debe tener una interfaz intuitiva y amigable.
 Sabremos que estamos en lo correcto cuando los usuarios reporten experiencias de navegación fluida en pruebas de usabilidad.
+
 **Hypothesis 07:**  Creemos que los equipos necesitan organizar sus tareas de forma eficiente y mejorar la comunicación.
 Sabremos que estamos en lo correcto cuando aumente la adopción por parte de equipos y recibamos feedback sobre la utilidad práctica.
+
 **Hypothesis 08:** Creemos que estas necesidades se resuelven con una aplicación móvil que ofrezca gestión de tareas y comunicación en una experiencia fluida y accesible.
 Sabremos que estamos en lo correcto cuando la app muestre alta retención y satisfacción de los usuarios móviles.
+
 **Hypothesis 09:** Creemos que los usuarios clave son coordinadores e integrantes de equipos que buscan organizar sus responsabilidades de forma accesible.
 Sabremos que estamos en lo correcto cuando los perfiles registrados coincidan mayoritariamente con este segmento.
+
 **Hypothesis 10:** Creemos que el valor principal que buscan los usuarios es la facilidad de uso y la mejora en organización y comunicación del equipo.
 Sabremos que estamos en lo correcto cuando recibamos comentarios consistentes sobre facilidad de uso y efectividad en la coordinación.
+
 **Hypothesis 11:** Creemos que los usuarios obtendrán beneficios como mayor organización personal, claridad en sus responsabilidades y satisfacción al completar tareas.
 Sabremos que estamos en lo correcto cuando las reseñas reflejen estos beneficios percibidos.
 
 **_Negocio y Mercado_**
 
+
 **Hypothesis 12:** Creemos que captaremos usuarios principalmente con marketing digital y recomendaciones en ámbitos laborales y educativos.
 Sabremos que estamos en lo correcto cuando estas fuentes sean los principales canales de adquisición.
+
 **Hypothesis 13:** Creemos que generaremos ingresos clasificando la aplicación como un servicio de pago.
 Sabremos que estamos en lo correcto cuando los ingresos crezcan de forma sostenida por suscripciones o compras directas.
+
 **Hypothesis 14:** Creemos que la competencia principal serán aplicaciones de gestión de tareas como Jira, Trello o Asana.
 Sabremos que estamos en lo correcto cuando el análisis competitivo lo confirme.
+
 **Hypothesis 15:** Creemos que superaremos a la competencia con un enfoque en personalización, facilidad de uso e integración para gestión de equipos.
 Sabremos que estamos en lo correcto cuando los usuarios destaquen estas ventajas y adopten la app en lugar de alternativas.
+
 **Hypothesis 16:** Creemos que podemos utilizar tecnologías móviles actuales para desarrollar la aplicación.
 Sabremos que estamos en lo correcto cuando la app funcione sin problemas en dispositivos modernos y cumpla con estándares de rendimiento.
+
 **Hypothesis 17:** Creemos que la aplicación debe integrarse con plataformas de comunicación ya utilizadas por los equipos.
 Sabremos que estamos en lo correcto cuando las integraciones funcionen sin fricción y los usuarios las adopten.
+
 **Hypothesis 18:** Creemos que la aplicación podrá escalar para soportar un número creciente de usuarios y datos.
 Sabremos que estamos en lo correcto cuando la app maneje la carga sin problemas de rendimiento.
+
 **Hypothesis 19:** Creemos que existe un mercado amplio de equipos que buscan soluciones de organización y coordinación.
 Sabremos que estamos en lo correcto cuando aumente la adopción y la base de usuarios de la app.
+
 **Hypothesis 20:** Creemos que las aplicaciones similares son los principales competidores directos.
 Sabremos que estamos en lo correcto cuando el análisis competitivo confirme esta dinámica y la adopción de nuestra app crezca frente a estas opciones.
+
 **Hypothesis 21:** Creemos que el mercado de apps de organización y productividad está en crecimiento, impulsado por la digitalización en entornos laborales y educativos.
 Sabremos que estamos en lo correcto cuando estudios de mercado y tendencias lo respalden.
 
 _**Diseño y Usabilidad**_
 
+
 **Hypothesis 22:** Creemos que los usuarios interactuarán mejor si implementamos recordatorios automáticos, organización por prioridades y asignación clara de tareas.
 Sabremos que estamos en lo correcto cuando los usuarios destaquen la utilidad de estas funciones en encuestas y reseñas.
+
 **Hypothesis 23:** Creemos que los usuarios valorarán una experiencia de organización simple, flexible, colaborativa y motivadora.
 Sabremos que estamos en lo correcto cuando la satisfacción general aumente y los comentarios resalten estos atributos.
+
 **Hypothesis 24:** Creemos que los usuarios prefieren una paleta de colores pastel y una tipografía moderna y legible.
 Sabremos que estamos en lo correcto cuando los comentarios sobre la estética de la app sean positivos.
+
 **Hypothesis 25:** Creemos que los usuarios consideran atractivo un diseño simple con iconos intuitivos.
 Sabremos que estamos en lo correcto cuando los tests de usabilidad confirmen la comprensión rápida de la interfaz.
+
 **Hypothesis 26:** Creemos que necesitamos validar la facilidad de uso y efectividad del diseño mediante pruebas de usabilidad.
 Sabremos que estamos en lo correcto cuando los resultados de testing muestran alta tasa de éxito en las tareas clave y feedback constructivo de mejora.
 
@@ -1639,7 +1707,7 @@ Los wireframes de la landing page de Synhub definen la estructura clave y la dis
 #### 4.3.2. Landing Page Mock-up
 En esta sección se muestran los mock-ups de la landing page de Synhub, donde se aplican los principios de diseño, la arquitectura de información y el Design System para crear una experiencia visual coherente y efectiva. Cada diseño refleja la identidad de la marca y optimiza la conversión desde el primer impacto visual.
 
-<img src="images/chapter-4/landing-wireframe.png" alt="Landing Page Mockup" />
+<img src="images/chapter-4/landing-mockup.png" alt="Landing Page Mockup" />
 
 ### 4.4. Mobile Applications UX/UI Design
 
@@ -1753,13 +1821,6 @@ Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 <img src="images/chapter-4/userflow-t1.png" alt="Userflow Table 1"/>
 
 <img src="images/chapter-4/userflow-1.png" alt="Userflow 1"/>
-
-**Invitación de integrante:** este userflow corresponde a cuando un lider de equipo busca invitar a un nuevo integrante al grupo.
-Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
-
-<img src="images/chapter-4/userflow-t2.png" alt="Userflow Table 2"/>
-
-<img src="images/chapter-4/userflow-2.png" alt="Userflow 2"/>
 
 **Asignación de tarea:** este userflow corresponde a cuando un lider de equipo busca asignar una nueva tarea a un integrante del grupo.
 Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
@@ -1987,6 +2048,16 @@ desempeño mediante una métrica.
 <img src="images/chapter-4/web-userflow-10.png" alt="Web App Userflow 10"/>
 
 ### 4.7. Web Applications Prototyping
+
+<img src="images/chapter-4/web-app-prototype.png" alt="webAppPrototyping"/>
+
+Leaders:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222001_upc_edu_pe/EclDVy6Ca1ZHkIKkHGAq1O4BnXw8rGr0AZzPK4t5Fc9xmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WgHojX
+
+Members:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222001_upc_edu_pe/EULheBUnCudEozY4X9eZah8B4NWDuusiXWtBWQuFLG5qEA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JdP42R
 
 ### 4.8. Domain-Driven Software Architecture
 
@@ -2505,6 +2576,20 @@ Buenas prácticas para un código coherente y sostenible:
 
 #### 5.2.2. Implemented Landing Page Evidence
 
+<img src="images/chapter-5/landing-deploy-1.png" alt="Landing Deploy 1"/>
+
+<img src="images/chapter-5/landing-deploy-2.png" alt="Landing Deploy 2"/>
+
+<img src="images/chapter-5/landing-deploy-3.png" alt="Landing Deploy 3"/>
+
+<img src="images/chapter-5/landing-deploy-4.png" alt="Landing Deploy 4"/>
+
+<img src="images/chapter-5/landing-deploy-5.png" alt="Landing Deploy 5"/>
+
+<img src="images/chapter-5/landing-deploy-6.png" alt="Landing Deploy 6"/>
+
+https://landing-cto3.onrender.com/ 
+
 #### 5.2.3. Implemented Frontend-Web Application Evidence
 
 #### 5.2.4. Acuerdo de Servicio - SaaS+
@@ -2648,6 +2733,12 @@ Finalemente desde un dispositivo móvil se debe abrir el correo de verificador q
 
 #### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
+<img src="images/chapter-5/back-deploy-1.png" alt="Backend deploy 1">
+
+<img src="images/chapter-5/back-deploy-2.png" alt="Backend deploy 2">
+
+https://backend-4cdp.onrender.com/swagger-ui/index.html#/
+
 #### 5.2.7. RESTful API documentation
 
 La documentación del API se realizó a traves de Swagger, para poder acceder a ella es necesario usar el enlace url del backend y agregarle “/swagger-ui/index.html#” esto permitira acceder a la documentación del API, a continuación se muestra un cuadro con los endpoints documentados:
@@ -2703,7 +2794,49 @@ La documentación del API se realizó a traves de Swagger, para poder acceder a 
 
 #### 5.2.8. Team Collaboration Insights
 
+Desarrollo del backend: https://github.com/NRG-8-Experimentos/backend
+
+<img src="images/chapter-5/insights/insights-tb1-1.png" alt="Insights TB1-1"/>
+
+Distribución de commits:
+* Astonitas Díaz Juan Diego (NeoRise456): 1
+* Casas Sanchez Gabriel Alexander (Al3xiel): 1
+
+Desarrollo del web application: https://github.com/NRG-8-Experimentos/web-application
+
+<img src="images/chapter-5/insights/insights-tb1-2.png" alt="Insights TB1-2"/>
+
+Distribución de commits:
+* Casas Sanchez Gabriel Alexander (Al3xiel): 6
+
+Desarrollo móvil: Android https://github.com/NRG-8-Experimentos/android-mobile-app, Flutter https://github.com/NRG-8-Experimentos/flutter-mobile-app
+
+Android:
+
+<img src="images/chapter-5/insights/insights-tb1-3.png" alt="Insights TB1-3"/>
+
+Flutter:
+
+<img src="images/chapter-5/insights/insights-tb1-4.png" alt="Insights TB1-4"/>
+
+Distribución de commits:
+* Casas Sanchez Gabriel Alexander (Al3xiel): Android (1), Flutter (2)
+
+Desarrollo de landing page: https://github.com/NRG-8-Experimentos/landing
+
+<img src="images/chapter-5/insights/insights-tb1-5.png" alt="Insights TB1-5"/>
+
+Distribución de commits:
+* Astonitas Díaz Juan Diego (NeoRise456): 3
+
+
 ### 5.3. Video About-the-Product
+
+| Sección                        | Descripción                                                                                                                                                                                                                                                                                                                                                            |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Resumen del video              | El video presenta una introducción a la aplicación SynHub, destacando sus principales características y beneficios para la gestión de grupos. Se enfoca en cómo la app facilita la organización, asignación de tareas y seguimiento del desempeño para líderes. Se muestran ejemplos prácticos de uso, enfatizando la usabilidad y el diseño intuitivo de la interfaz. |
+| Cuadro de video Representativo | <img src="images/chapter-5/video-about-the-product.png" alt="About the product video"/>                                                                                                                                                                                                                                                                                |
+| Url de video                   | https://youtu.be/lqRRMvBawF8 (parte 1)  https://youtu.be/KN1QQ9w2WaI (parte 2)                                                                                                                                                                                                                                                                                         |
 
 # **Part II: Verification, Validation & Pipeline**
 
