@@ -2959,6 +2959,26 @@ El proceso de Despliegue Continuo se implementó utilizando una combinación de 
 
 #### 7.3.2. Production Deployment Pipeline Components
 
+El pipeline de Despliegue Continuo se diseñó para automatizar completamente el paso de las versiones validadas hacia el entorno de producción, garantizando que cada actualización llegue a los usuarios finales de manera segura, rápida y sin interrupciones del servicio.
+
+Cada componente del ecosistema (base de datos, API, aplicación web y aplicación móvil) cuenta con un flujo independiente pero sincronizado, permitiendo una integración fluida y una gestión centralizada desde el repositorio principal en GitHub.
+
+**Build & Release Automation:**
+
+Cada vez que se realiza un merge o release en la rama principal de GitHub, se activa automáticamente un flujo de despliegue (workflow) mediante GitHub Actions. Este flujo compila el código, ejecuta pruebas finales y genera las versiones listas para producción.
+
+**Backend Deployment (API & Database):**
+
+Las imágenes actualizadas del backend se despliegan automáticamente en Render, donde se ejecuta la API y se aloja la base de datos. Render gestiona el scaling, el monitoreo de rendimiento y el mantenimiento del uptime, asegurando que los servicios críticos permanezcan disponibles ante incrementos de carga o fallos de hardware.
+
+**Frontend Deployment (Web Application):**
+
+El mismo pipeline actualiza la aplicación web alojada en Render, la cual se reconstruye y publica automáticamente tras cada actualización en el repositorio. Esto permite que los usuarios siempre accedan a la versión más reciente del sistema sin necesidad de actualizaciones manuales.
+
+**Mobile Deployment (Android / Flutter):**
+
+En paralelo, las versiones móviles son compiladas y enviadas a Firebase App Distribution, donde los testers y stakeholders reciben automáticamente las nuevas versiones para validación. Una vez aprobadas, pueden ser liberadas hacia los canales de producción en Google Play o entornos empresariales cerrados.
+
 ### 7.4. Continuous Monitoring
 
 #### 7.4.1. Tools and Practices
