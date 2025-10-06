@@ -2862,21 +2862,122 @@ Distribución de commits:
 
 ### 7.1. Continuous Integration
 
+La Integración Continua (CI) es una práctica fundamental en el desarrollo de software moderno que busca automatizar el proceso de construcción, prueba y validación del código cada vez que se integra en el repositorio compartido.
+
+Su principal objetivo es detectar errores de manera temprana, mejorar la colaboración entre desarrolladores y garantizar que la aplicación se mantenga estable y desplegable en todo momento. Esta práctica reduce el esfuerzo manual, aumenta la eficiencia del desarrollo y ayuda a mantener la calidad constante en todos los módulos del sistema.
+
 #### 7.1.1. Tools and Practices
+
+El proceso de Integración Continua se implementó utilizando un conjunto de herramientas que automatizan las actividades de validación y prueba durante el ciclo de desarrollo.
+
+**Herramientas:**
+
+* Cucumber: Se empleó para la elaboración y ejecución de escenarios de usuario bajo el enfoque de Desarrollo Guiado por Comportamiento (Behavior Driven Development - BDD). Permite definir casos de prueba en lenguaje natural, mejorando la comunicación entre desarrolladores, testers y stakeholders no técnicos.
+* JUnit: Utilizado para la creación de pruebas unitarias que verifican el correcto funcionamiento de los componentes individuales. Facilita la detección temprana de errores lógicos y asegura que cada módulo funcione como se espera antes de ser integrado.
+* Mockito: Aplicado para simular dependencias externas y comportamientos de componentes aún no disponibles. Esto permite ejecutar pruebas aisladas y confiables, reduciendo el acoplamiento entre módulos.
+
+**Prácticas:**
+
+* Las pruebas unitarias e integradas se ejecutan de forma aislada para mantener consistencia en los resultados.
+* El uso de BDD con Cucumber complementa las pruebas técnicas al validar las historias de usuario desde una perspectiva funcional.
+* Se fomenta la integración frecuente de cambios pequeños para minimizar conflictos y facilitar la detección de errores.
 
 #### 7.1.2. Build & Test Suite Pipeline Components
 
+<img src="images/chapter-7/ci-pipeline.png" alt="CI Pipeline"/>
+
 ### 7.2. Continuous Delivery
+
+Enfocada en garantizar que el software siempre esté en un estado listo para ser desplegado en cualquier momento, de forma segura y automatizada. Su propósito principal es acelerar el ciclo de desarrollo y reducir el riesgo de errores en los despliegues, manteniendo versiones estables del sistema que puedan ser liberadas con mínima intervención manual.
+
+En el proyecto, la Entrega Continua permitió que las versiones integradas y validadas pudieran ser empaquetadas y distribuidas consistentemente hacia los entornos de prueba y preproducción.
+Este proceso asegura que cada versión liberada cumpla con los criterios de calidad definidos, promoviendo la trazabilidad, la transparencia y la colaboración entre los miembros del equipo.
 
 #### 7.2.1. Tools and Practices
 
+**Herramientas:**
+
+* Trello: Se utilizó como herramienta de gestión visual del flujo de trabajo (Kanban), permitiendo planificar, asignar y dar seguimiento a las historias de usuario, tareas y entregables. Esto garantizó una organización clara de las actividades y una priorización efectiva del backlog.
+* GitHub: Sirvió como repositorio central para el control de versiones del código fuente y la colaboración del equipo. Mediante pull requests, branches y revisiones de código, se aseguró la trazabilidad de los cambios y la integración controlada de nuevas funcionalidades.
+* Docker: Se empleó para la creación de entornos consistentes y reproducibles, empaquetando las aplicaciones y sus dependencias en contenedores. Gracias a Docker, se redujeron las diferencias entre entornos locales, de prueba y de despliegue, garantizando portabilidad y estabilidad en cada entrega.
+
+**Prácticas:**
+
+* Cada versión validada del software se empaqueta automáticamente en una imagen de Docker lista para desplegarse.
+* Se definió un flujo de trabajo en GitHub con ramas estructuradas (main, develop, feature/) para mantener un control ordenado del ciclo de entrega.
+* Trello se utilizó para coordinar el progreso de cada historia de usuario, desde la planificación hasta la entrega final.
+* Se realizaron revisiones de código (code reviews) previas a la integración para mantener la calidad y coherencia del código.
+
 #### 7.2.2. Stages Deployment Pipeline Components
+
+El pipeline de Entrega Continua se estructuró en una serie de etapas secuenciales y automatizadas, orientadas a garantizar que cada cambio pase por validaciones técnicas y de calidad antes de ser liberado hacia los entornos de prueba y preproducción.
+Cada etapa cumplió una función específica dentro del flujo, asegurando que el software estuviera siempre en condiciones óptimas para su despliegue.
+
+**Planificación (Planning Stage):**
+
+En esta fase, se gestionaron las historias de usuario y tareas dentro de Trello, organizadas según prioridad y estado de avance (To Do, In Progress, Done). Esta etapa permitió al equipo definir claramente los objetivos de cada iteración y mantener visibilidad sobre el progreso del proyecto.
+
+**Desarrollo (Development Stage):**
+
+Los desarrolladores trabajaron en ramas individuales dentro de GitHub, siguiendo una estrategia de branching model estructurada (feature/, develop, main). Esto facilitó la integración controlada de nuevas características, el seguimiento de commits y la revisión colaborativa del código mediante pull requests.
+
+**Construcción (Build Stage):**
+
+Una vez integradas las funcionalidades, el código se empaquetó utilizando Docker, creando imágenes reproducibles del sistema. Estas imágenes contenían las dependencias necesarias para ejecutar la aplicación de manera idéntica en diferentes entornos, garantizando coherencia entre desarrollo, pruebas y preproducción.
+
+**Pruebas y Validación (Testing & Validation Stage):**
+
+Las imágenes Docker generadas se desplegaron en entornos de prueba donde se ejecutaron pruebas funcionales y de integración. Esta fase permitió verificar la estabilidad, rendimiento y compatibilidad del sistema antes de su distribución.
+
+**Entrega a Preproducción (Pre-Release Stage):**
+
+Una vez superadas las pruebas, las versiones validadas fueron distribuidas en el entorno de preproducción, replicando las condiciones reales de ejecución. Este paso permitió al equipo realizar validaciones finales y simulaciones de despliegue antes de proceder al paso de producción.
 
 ### 7.3. Continuous deployment
 
+El Despliegue Continuo (CD) representa la última fase del ciclo DevOps, donde las versiones validadas del sistema se publican automáticamente en entornos de producción sin intervención manual.
+Su objetivo es garantizar que cada cambio aprobado, tras pasar por las etapas de integración, pruebas y entrega, se despliegue de forma rápida, confiable y repetible, reduciendo tiempos de liberación y errores humanos.
+
+En el contexto del proyecto, el Despliegue Continuo permitió mantener las distintas partes del ecosistema (base de datos, API, aplicación web y móvil) siempre actualizadas y disponibles, asegurando una entrega fluida de nuevas funcionalidades hacia los usuarios finales.
+De esta forma, cada cambio en el repositorio podía reflejarse en producción en cuestión de minutos, promoviendo un desarrollo ágil, transparente y alineado con la filosofía de entrega continua de valor.
+
 #### 7.3.1. Tools and Practices
 
+El proceso de Despliegue Continuo se implementó utilizando una combinación de herramientas orientadas a la automatización del despliegue, la distribución de aplicaciones móviles y la sincronización de versiones entre entornos.
+
+**Herramientas:**
+
+* GitHub: Funcionó como punto central de control del ciclo de vida del código. A través de GitHub Actions, se automatizaron los workflows de integración y despliegue, permitiendo ejecutar las actualizaciones del sistema de manera automática tras cada merge o release.
+* Render: Se empleó como plataforma de despliegue en la nube para la base de datos, la API y la aplicación web. Render facilitó la configuración de entornos independientes, el escalado automático y la gestión continua del uptime del sistema, asegurando alta disponibilidad y confiabilidad de los servicios.
+* Firebase App Distribution: Se utilizó para distribuir las versiones móviles desarrolladas en Flutter y Android. Esta herramienta permitió compartir fácilmente las compilaciones con testers y stakeholders, asegurando la validación temprana de nuevas funciones antes de su liberación en tiendas oficiales.
+
+**Prácticas:**
+
+* Configuración de auto-deploy en Render para que las nuevas versiones de la API, base de datos y frontend se actualicen de forma automática tras cada commit a la rama principal.
+* Distribución de las versiones móviles mediante Firebase App Distribution, con notificaciones automáticas a los testers registrados.
+* Monitoreo constante de los entornos productivos a través de los paneles de Render y Firebase para garantizar estabilidad y disponibilidad.
+
 #### 7.3.2. Production Deployment Pipeline Components
+
+El pipeline de Despliegue Continuo se diseñó para automatizar completamente el paso de las versiones validadas hacia el entorno de producción, garantizando que cada actualización llegue a los usuarios finales de manera segura, rápida y sin interrupciones del servicio.
+
+Cada componente del ecosistema (base de datos, API, aplicación web y aplicación móvil) cuenta con un flujo independiente pero sincronizado, permitiendo una integración fluida y una gestión centralizada desde el repositorio principal en GitHub.
+
+**Build & Release Automation:**
+
+Cada vez que se realiza un merge o release en la rama principal de GitHub, se activa automáticamente un flujo de despliegue (workflow) mediante GitHub Actions. Este flujo compila el código, ejecuta pruebas finales y genera las versiones listas para producción.
+
+**Backend Deployment (API & Database):**
+
+Las imágenes actualizadas del backend se despliegan automáticamente en Render, donde se ejecuta la API y se aloja la base de datos. Render gestiona el scaling, el monitoreo de rendimiento y el mantenimiento del uptime, asegurando que los servicios críticos permanezcan disponibles ante incrementos de carga o fallos de hardware.
+
+**Frontend Deployment (Web Application):**
+
+El mismo pipeline actualiza la aplicación web alojada en Render, la cual se reconstruye y publica automáticamente tras cada actualización en el repositorio. Esto permite que los usuarios siempre accedan a la versión más reciente del sistema sin necesidad de actualizaciones manuales.
+
+**Mobile Deployment (Android / Flutter):**
+
+En paralelo, las versiones móviles son compiladas y enviadas a Firebase App Distribution, donde los testers y stakeholders reciben automáticamente las nuevas versiones para validación. Una vez aprobadas, pueden ser liberadas hacia los canales de producción en Google Play o entornos empresariales cerrados.
 
 ### 7.4. Continuous Monitoring
 
