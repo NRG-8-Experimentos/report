@@ -2893,6 +2893,19 @@ Este proceso asegura que cada versión liberada cumpla con los criterios de cali
 
 #### 7.2.1. Tools and Practices
 
+**Herramientas:**
+
+* Trello: Se utilizó como herramienta de gestión visual del flujo de trabajo (Kanban), permitiendo planificar, asignar y dar seguimiento a las historias de usuario, tareas y entregables. Esto garantizó una organización clara de las actividades y una priorización efectiva del backlog.
+* GitHub: Sirvió como repositorio central para el control de versiones del código fuente y la colaboración del equipo. Mediante pull requests, branches y revisiones de código, se aseguró la trazabilidad de los cambios y la integración controlada de nuevas funcionalidades.
+* Docker: Se empleó para la creación de entornos consistentes y reproducibles, empaquetando las aplicaciones y sus dependencias en contenedores. Gracias a Docker, se redujeron las diferencias entre entornos locales, de prueba y de despliegue, garantizando portabilidad y estabilidad en cada entrega.
+
+**Prácticas:**
+
+* Cada versión validada del software se empaqueta automáticamente en una imagen de Docker lista para desplegarse.
+* Se definió un flujo de trabajo en GitHub con ramas estructuradas (main, develop, feature/) para mantener un control ordenado del ciclo de entrega.
+* Trello se utilizó para coordinar el progreso de cada historia de usuario, desde la planificación hasta la entrega final.
+* Se realizaron revisiones de código (code reviews) previas a la integración para mantener la calidad y coherencia del código.
+
 #### 7.2.2. Stages Deployment Pipeline Components
 
 ### 7.3. Continuous deployment
