@@ -2886,6 +2886,11 @@ El proceso de Integración Continua se implementó utilizando un conjunto de her
 
 ### 7.2. Continuous Delivery
 
+Enfocada en garantizar que el software siempre esté en un estado listo para ser desplegado en cualquier momento, de forma segura y automatizada. Su propósito principal es acelerar el ciclo de desarrollo y reducir el riesgo de errores en los despliegues, manteniendo versiones estables del sistema que puedan ser liberadas con mínima intervención manual.
+
+En el proyecto, la Entrega Continua permitió que las versiones integradas y validadas pudieran ser empaquetadas y distribuidas consistentemente hacia los entornos de prueba y preproducción.
+Este proceso asegura que cada versión liberada cumpla con los criterios de calidad definidos, promoviendo la trazabilidad, la transparencia y la colaboración entre los miembros del equipo.
+
 #### 7.2.1. Tools and Practices
 
 #### 7.2.2. Stages Deployment Pipeline Components
