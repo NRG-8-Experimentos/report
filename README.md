@@ -2862,6 +2862,10 @@ Distribución de commits:
 
 ### 7.1. Continuous Integration
 
+La Integración Continua (CI) es una práctica fundamental en el desarrollo de software moderno que busca automatizar el proceso de construcción, prueba y validación del código cada vez que se integra en el repositorio compartido.
+
+Su principal objetivo es detectar errores de manera temprana, mejorar la colaboración entre desarrolladores y garantizar que la aplicación se mantenga estable y desplegable en todo momento. Esta práctica reduce el esfuerzo manual, aumenta la eficiencia del desarrollo y ayuda a mantener la calidad constante en todos los módulos del sistema.
+
 #### 7.1.1. Tools and Practices
 
 #### 7.1.2. Build & Test Suite Pipeline Components
