@@ -2884,6 +2884,8 @@ El proceso de Integración Continua se implementó utilizando un conjunto de her
 
 #### 7.1.2. Build & Test Suite Pipeline Components
 
+<img src="images/chapter-7/ci-pipeline.png" alt="CI Pipeline"/>
+
 ### 7.2. Continuous Delivery
 
 Enfocada en garantizar que el software siempre esté en un estado listo para ser desplegado en cualquier momento, de forma segura y automatizada. Su propósito principal es acelerar el ciclo de desarrollo y reducir el riesgo de errores en los despliegues, manteniendo versiones estables del sistema que puedan ser liberadas con mínima intervención manual.
@@ -2907,6 +2909,29 @@ Este proceso asegura que cada versión liberada cumpla con los criterios de cali
 * Se realizaron revisiones de código (code reviews) previas a la integración para mantener la calidad y coherencia del código.
 
 #### 7.2.2. Stages Deployment Pipeline Components
+
+El pipeline de Entrega Continua se estructuró en una serie de etapas secuenciales y automatizadas, orientadas a garantizar que cada cambio pase por validaciones técnicas y de calidad antes de ser liberado hacia los entornos de prueba y preproducción.
+Cada etapa cumplió una función específica dentro del flujo, asegurando que el software estuviera siempre en condiciones óptimas para su despliegue.
+
+**Planificación (Planning Stage):**
+
+En esta fase, se gestionaron las historias de usuario y tareas dentro de Trello, organizadas según prioridad y estado de avance (To Do, In Progress, Done). Esta etapa permitió al equipo definir claramente los objetivos de cada iteración y mantener visibilidad sobre el progreso del proyecto.
+
+**Desarrollo (Development Stage):**
+
+Los desarrolladores trabajaron en ramas individuales dentro de GitHub, siguiendo una estrategia de branching model estructurada (feature/, develop, main). Esto facilitó la integración controlada de nuevas características, el seguimiento de commits y la revisión colaborativa del código mediante pull requests.
+
+**Construcción (Build Stage):**
+
+Una vez integradas las funcionalidades, el código se empaquetó utilizando Docker, creando imágenes reproducibles del sistema. Estas imágenes contenían las dependencias necesarias para ejecutar la aplicación de manera idéntica en diferentes entornos, garantizando coherencia entre desarrollo, pruebas y preproducción.
+
+**Pruebas y Validación (Testing & Validation Stage):**
+
+Las imágenes Docker generadas se desplegaron en entornos de prueba donde se ejecutaron pruebas funcionales y de integración. Esta fase permitió verificar la estabilidad, rendimiento y compatibilidad del sistema antes de su distribución.
+
+**Entrega a Preproducción (Pre-Release Stage):**
+
+Una vez superadas las pruebas, las versiones validadas fueron distribuidas en el entorno de preproducción, replicando las condiciones reales de ejecución. Este paso permitió al equipo realizar validaciones finales y simulaciones de despliegue antes de proceder al paso de producción.
 
 ### 7.3. Continuous deployment
 
