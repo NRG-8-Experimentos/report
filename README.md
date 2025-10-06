@@ -2916,6 +2916,10 @@ Su objetivo es garantizar que cada cambio aprobado, tras pasar por las etapas de
 En el contexto del proyecto, el Despliegue Continuo permitió mantener las distintas partes del ecosistema (base de datos, API, aplicación web y móvil) siempre actualizadas y disponibles, asegurando una entrega fluida de nuevas funcionalidades hacia los usuarios finales.
 De esta forma, cada cambio en el repositorio podía reflejarse en producción en cuestión de minutos, promoviendo un desarrollo ágil, transparente y alineado con la filosofía de entrega continua de valor.
 
+#### 7.3.1. Tools and Practices
+
+El proceso de Despliegue Continuo se implementó utilizando una combinación de herramientas orientadas a la automatización del despliegue, la distribución de aplicaciones móviles y la sincronización de versiones entre entornos.
+
 **Herramientas:**
 
 * GitHub: Funcionó como punto central de control del ciclo de vida del código. A través de GitHub Actions, se automatizaron los workflows de integración y despliegue, permitiendo ejecutar las actualizaciones del sistema de manera automática tras cada merge o release.
@@ -2927,8 +2931,6 @@ De esta forma, cada cambio en el repositorio podía reflejarse en producción en
 * Configuración de auto-deploy en Render para que las nuevas versiones de la API, base de datos y frontend se actualicen de forma automática tras cada commit a la rama principal.
 * Distribución de las versiones móviles mediante Firebase App Distribution, con notificaciones automáticas a los testers registrados.
 * Monitoreo constante de los entornos productivos a través de los paneles de Render y Firebase para garantizar estabilidad y disponibilidad.
-
-#### 7.3.1. Tools and Practices
 
 #### 7.3.2. Production Deployment Pipeline Components
 
