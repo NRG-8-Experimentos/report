@@ -2910,6 +2910,24 @@ Este proceso asegura que cada versión liberada cumpla con los criterios de cali
 
 ### 7.3. Continuous deployment
 
+El Despliegue Continuo (CD) representa la última fase del ciclo DevOps, donde las versiones validadas del sistema se publican automáticamente en entornos de producción sin intervención manual.
+Su objetivo es garantizar que cada cambio aprobado, tras pasar por las etapas de integración, pruebas y entrega, se despliegue de forma rápida, confiable y repetible, reduciendo tiempos de liberación y errores humanos.
+
+En el contexto del proyecto, el Despliegue Continuo permitió mantener las distintas partes del ecosistema (base de datos, API, aplicación web y móvil) siempre actualizadas y disponibles, asegurando una entrega fluida de nuevas funcionalidades hacia los usuarios finales.
+De esta forma, cada cambio en el repositorio podía reflejarse en producción en cuestión de minutos, promoviendo un desarrollo ágil, transparente y alineado con la filosofía de entrega continua de valor.
+
+**Herramientas:**
+
+* GitHub: Funcionó como punto central de control del ciclo de vida del código. A través de GitHub Actions, se automatizaron los workflows de integración y despliegue, permitiendo ejecutar las actualizaciones del sistema de manera automática tras cada merge o release.
+* Render: Se empleó como plataforma de despliegue en la nube para la base de datos, la API y la aplicación web. Render facilitó la configuración de entornos independientes, el escalado automático y la gestión continua del uptime del sistema, asegurando alta disponibilidad y confiabilidad de los servicios.
+* Firebase App Distribution: Se utilizó para distribuir las versiones móviles desarrolladas en Flutter y Android. Esta herramienta permitió compartir fácilmente las compilaciones con testers y stakeholders, asegurando la validación temprana de nuevas funciones antes de su liberación en tiendas oficiales.
+
+**Prácticas:**
+
+* Configuración de auto-deploy en Render para que las nuevas versiones de la API, base de datos y frontend se actualicen de forma automática tras cada commit a la rama principal.
+* Distribución de las versiones móviles mediante Firebase App Distribution, con notificaciones automáticas a los testers registrados.
+* Monitoreo constante de los entornos productivos a través de los paneles de Render y Firebase para garantizar estabilidad y disponibilidad.
+
 #### 7.3.1. Tools and Practices
 
 #### 7.3.2. Production Deployment Pipeline Components
