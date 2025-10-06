@@ -2868,6 +2868,20 @@ Su principal objetivo es detectar errores de manera temprana, mejorar la colabor
 
 #### 7.1.1. Tools and Practices
 
+El proceso de Integración Continua se implementó utilizando un conjunto de herramientas que automatizan las actividades de validación y prueba durante el ciclo de desarrollo.
+
+**Herramientas:**
+
+* Cucumber: Se empleó para la elaboración y ejecución de escenarios de usuario bajo el enfoque de Desarrollo Guiado por Comportamiento (Behavior Driven Development - BDD). Permite definir casos de prueba en lenguaje natural, mejorando la comunicación entre desarrolladores, testers y stakeholders no técnicos.
+* JUnit: Utilizado para la creación de pruebas unitarias que verifican el correcto funcionamiento de los componentes individuales. Facilita la detección temprana de errores lógicos y asegura que cada módulo funcione como se espera antes de ser integrado.
+* Mockito: Aplicado para simular dependencias externas y comportamientos de componentes aún no disponibles. Esto permite ejecutar pruebas aisladas y confiables, reduciendo el acoplamiento entre módulos.
+
+**Prácticas:**
+
+* Las pruebas unitarias e integradas se ejecutan de forma aislada para mantener consistencia en los resultados.
+* El uso de BDD con Cucumber complementa las pruebas técnicas al validar las historias de usuario desde una perspectiva funcional.
+* Se fomenta la integración frecuente de cambios pequeños para minimizar conflictos y facilitar la detección de errores.
+
 #### 7.1.2. Build & Test Suite Pipeline Components
 
 ### 7.2. Continuous Delivery
