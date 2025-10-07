@@ -2814,6 +2814,42 @@ Distribución de commits:
 
 #### 6.1.1. Core Entities Unit Tests
 
+Esta sección describe la estrategia de pruebas unitarias aplicada a las entidades núcleo del dominio, con el objetivo de garantizar la fiabilidad y consistencia de la lógica del sistema. Las pruebas unitarias verifican el comportamiento individual de cada componente, como entidades, objetos de valor, servicios de dominio y funciones críticas, en un entorno aislado, sin dependencias externas.
+
+A través de estas pruebas, se busca validar que los métodos y atributos de cada entidad operen conforme a los requerimientos funcionales definidos, asegurando la correcta manipulación de datos, el cumplimiento de las reglas de negocio y la detección temprana de errores lógicos. Este enfoque contribuye a mantener un alto nivel de calidad, facilitar el mantenimiento del código y reducir el riesgo de regresiones durante la evolución del sistema.
+
+**Group Service test:**
+
+<img src="images/chapter-6/group-service-test.png" alt="Group Service Test"/>
+
+**Invitation Service Test**
+
+<img src="images/chapter-6/invitation-service-test.png" alt="invitation Service Test"/>
+
+**Leader Service Test**
+
+<img src="images/chapter-6/leader-service-test.png" alt="Leader Service Test"/>
+
+**Member Service Test**
+
+<img src="images/chapter-6/member-service-test.png" alt="Member Service Test"/>
+
+**Metrics Service Test**
+
+<img src="images/chapter-6/metrics-service-test.png" alt="Metrics Service Test"/>
+
+**Request Service Test**
+
+<img src="images/chapter-6/request-service-test.png" alt="Request Service Test"/>
+
+**Task Service Test**
+
+<img src="images/chapter-6/task-service-test.png" alt="Task Service Test"/>
+
+**User Service Test**
+
+<img src="images/chapter-6/user-service-test.png" alt="User Service Test"/>
+
 #### 6.1.2. Core Integration Tests
 
 #### 6.1.3. Core Behavior-Driven Development
