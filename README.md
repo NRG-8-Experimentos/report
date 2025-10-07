@@ -20,37 +20,43 @@
 
 
 | **Nombre**                                | **Código** |
-| ----------------------------------------- | ----------- |
-| **Astonitas Díaz Juan Diego**            | U202110237  |
-| **Casas Sanchez Gabriel Alexander**       | U202220033  |
-| **Pasquale Barrenechea Gianluca Santino** | U202112078  |
-| **Wilder Gonzalo Aliaga Urbina**          | U202222001  |
-| **Armas Sánchez Oscar Javier**           | U20211G192  |
+|-------------------------------------------|------------|
+| **Astonitas Díaz Juan Diego**             | U202110237 |
+| **Casas Sanchez Gabriel Alexander**       | U202220033 |
+| **Pasquale Barrenechea Gianluca Santino** | U202112078 |
+| **Wilder Gonzalo Aliaga Urbina**          | U202222001 |
+| **Armas Sánchez Oscar Javier**            | U20211G192 |
 
 **Septiembre 2025**
 
 ## Registro de Versiones del Informe
 
-<table>
-  <thead>
-    <tr>
-      <th>Versión</th>
-      <th>Fecha</th>
-      <th>Autor</th>
-      <th>Descripción de modificación</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0.1</td>
-      <td>03/08/2025</td>
-      <td>Gabriel Alexander Casas Sanchez</td>
-      <td>Elaboración de plantilla del reporte</td>
-    </tr>
-  </tbody>
-</table>
+| Versión | Fecha      | Autor                                                                                                                                                       | Descripción de modificación            |
+|---------|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
+| 0.1     | 03/08/2025 | Gabriel Alexander Casas Sanchez                                                                                                                             | Elaboración de plantilla del reporte   |
+| 0.2     | 06/09/2025 | Gabriel Alexander Casas Sanchez                                                                                                                             | Migración de datos del proyecto        |
+| 0.3     | 15/09/2025 | Armas Sánchez Oscar Javier, Astonitas Díaz Juan Diego, Casas Sanchez Gabriel Alexander, Pasquale Barrenechea Gianluca Santino, Wilder Gonzalo Aliaga Urbina | Elaboración del proceso lean ux        |
+| 1       | 19/09/2025 | Armas Sánchez Oscar Javier, Astonitas Díaz Juan Diego, Casas Sanchez Gabriel Alexander, Pasquale Barrenechea Gianluca Santino, Wilder Gonzalo Aliaga Urbina | Elaboración del entregable para la tb1 |
 
 ## Project Report Collaboration Insights
+
+El enlace a github del reporte del proyecto es el siguiente: https://github.com/NRG-8-Experimentos/report
+
+<img src="images/insights/report-insights-tb1-1.png" alt="Report Insights TB1-1">
+
+<img src="images/insights/report-insights-tb1-2.png" alt="Report Insights TB1-2">
+
+<img src="images/insights/report-insights-tb1-3.png" alt="Report Insights TB1-3">
+
+<img src="images/insights/report-insights-tb1-4.png" alt="Report Insights TB1-4">
+
+Para esta primera entrega se desarrollaron los capítulos del 1 al 4, en la captura adjunta se evidencia el trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+Recapitulando los commits se dividieron de la siguiente manera:
+* Armas Sánchez Oscar Javier (Racso24k): 2
+* Astonitas Díaz Juan Diego (NeoRise456): 1
+* Casas Sanchez Gabriel Alexander (Al3xiel): 31
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 5
+* Wilder Gonzalo Aliaga Urbina (gonzalo1905): 7
 
 ## Contenido
 
@@ -228,6 +234,11 @@
 
 ## Student Outcome
 
+| Criterio específico                                                                                                                                                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Conclusiones |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales. | TB1:<br>- Aliaga Urbina, Wilder Gonzalo: Desarrollo de prototipos web y móviles, gestión de configuración y código, despliegue del producto y elaboración del acuerdo SaaS, aplicando buenas prácticas técnicas y legales.<br>- Gianluca  Pasquale: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping e Impact Mapping.<br>- Juan Astonitas: Reconocí el impacto del deployment dentro del trabajo animándome a dejar instrucciones detalladas sobre cómo replicar el mismo.<br>- Gabriel Casas: Desarrollo el UX/UI de la aplicación tomando en cuenta el impacto sobre los usuarios y su compresión y curva de aprendizaje para cumplir con el objetivo de la solución planteada.<br>- Oscar Armas: Realicé entrevistas y mapeos (Empathy, As-Is, To-Be) para identificar necesidades y proponer mejoras, considerando la ética en el manejo de datos y el impacto social, económico y ambiental del sistema. |              |
+|                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |              |
+
 # **Part I: As-Is Software Project**
 
 ## Capítulo I: Introducción
@@ -285,16 +296,22 @@ Estos problemas se traducen en:
 * Falta de coordinación general.
 * Duplicación o abandono de responsabilidades.
 * Disminución de la productividad y el bienestar del equipo.
-  Aunque existen herramientas de gestión digital, la mayoría presentan una curva de aprendizaje alta, interfaces complejas o están orientadas a entornos corporativos muy específicos. Esto genera barreras para equipos pequeños, medianos o multidisciplinarios que requieren soluciones más accesibles y fáciles de adoptar.
-  **Solución propuesta: SynHub**
-  SynHub es una plataforma de gestión de proyectos intuitiva, accesible y colaborativa, diseñada para simplificar la organización y el seguimiento de actividades en cualquier tipo de grupo.
-  **Desde el rol de Organizador/Administrador**
+
+Aunque existen herramientas de gestión digital, la mayoría presentan una curva de aprendizaje alta, interfaces complejas o están orientadas a entornos corporativos muy específicos. Esto genera barreras para equipos pequeños, medianos o multidisciplinarios que requieren soluciones más accesibles y fáciles de adoptar.
+**Solución propuesta: SynHub**
+
+SynHub es una plataforma de gestión de proyectos intuitiva, accesible y colaborativa, diseñada para simplificar la organización y el seguimiento de actividades en cualquier tipo de grupo.
+
+**Desde el rol de Organizador/Administrador**
+
 * Crear y configurar grupos de trabajo.
 * Asignar miembros y distribuir responsabilidades.
 * Definir y personalizar tareas (título, descripción, plazos, responsables).
 * Monitorear el avance y cumplimiento de tareas.
 * Facilitar la coordinación interna y la comunicación clara dentro del equipo.
-  **Desde el rol de Integrante del equipo**
+  
+**Desde el rol de Integrante del equipo**
+
 * Consultar las responsabilidades asignadas desde una interfaz clara y accesible.
 * Recibir notificaciones y recordatorios sobre plazos.
 * Proponer ajustes o modificaciones en las tareas según el avance.
@@ -365,107 +382,158 @@ SynHub surge como respuesta a esta brecha: una plataforma integral de gestión d
 **_User Assumptions (Suposiciones de Usuario)_**
 
 **¿Quién es el usuario?** Profesionales, estudiantes o miembros de equipos que buscan una solución accesible para organizar proyectos, coordinar tareas y mantener comunicación fluida sin necesidad de herramientas complejas.
+
 **¿Dónde encaja nuestro producto en su trabajo o vida?** Encaja en proyectos grupales (laborales, académicos, comunitarios o personales), donde la claridad en responsabilidades y la colaboración son esenciales.
+
 **¿Qué problemas resuelve nuestro producto?** Desorganización, comunicación fragmentada, falta de seguimiento en proyectos y baja adopción de herramientas por interfaces poco intuitivas.
+
 **¿Cuándo y cómo se usa nuestro producto?** Se usa en momentos clave del ciclo de un proyecto: planificación inicial, asignación de tareas, coordinación de avances y seguimiento de resultados.
+
 **¿Qué características son importantes?** Asignación de tareas claras, tableros visuales de progreso, notificaciones inteligentes, métricas de desempeño, comunicación estructurada y adaptabilidad a distintos tipos de proyectos.
+
 **¿Cómo debe verse y comportarse nuestro producto?** Debe ofrecer una interfaz minimalista, intuitiva y amigable, con navegación clara, aprendizaje rápido y personalización ligera que fomente su adopción inmediata.
 
 **_Business Assumptions (Suposiciones de Negocio)_**
 
+
 **Necesidades y problemas:** Los equipos necesitan una plataforma ágil que les permita organizar proyectos sin la curva de aprendizaje que presentan herramientas robustas como Jira o Asana.
+
 **Plataforma:** Una aplicación web y móvil con sincronización en la nube que ofrezca gestión integral de proyectos de manera simple.
+
 **Segmentación:** Coordinadores de proyectos, líderes de equipos pequeños/medianos y miembros que requieren claridad en sus responsabilidades.
+
 **Comportamientos:** Los usuarios valoran principalmente la facilidad de uso, accesibilidad y rapidez de adopción.
+
 **Beneficios:** Mejor organización personal y grupal, mayor visibilidad sobre las responsabilidades, reducción de fricciones y sensación de progreso al completar tareas.
+
 **Captación de clientes:** Estrategias de inbound marketing, marketing digital, integraciones con ecosistemas educativos/laborales y boca a boca.
+
 **Modelo de ingresos:** Versión freemium (básica gratuita) + modelo SaaS con planes de suscripción mensual/anual.
+
 **Competencia:** Jira, Trello, Asana, Notion y aplicaciones de chat con funciones de organización.
+
 **Ventaja competitiva:** Facilidad de uso, accesibilidad multiplataforma, experiencia clara y diseño pensado para rápida adopción, eliminando la barrera de complejidad de la competencia.
 
 **_Technical Assumptions (Suposiciones Técnicas)_**
 
+
 **Tecnología utilizada:** Tecnologías móviles y web modernas (React Native/Flutter, Node.js, etc.) para garantizar accesibilidad en múltiples dispositivos.
+
 **Integraciones:** Posibilidad de conexión con herramientas ya usadas por los equipos (Google Workspace, Microsoft Teams, Slack, calendarios).
+
 **Escalabilidad:** Arquitectura en la nube para soportar un crecimiento continuo en usuarios y datos sin perder rendimiento.
 
 **_Market Assumptions (Suposiciones de Mercado)**_
 
+
 **Tamaño del mercado:** Creciente demanda global por soluciones de productividad y gestión de proyectos digitales, especialmente en equipos remotos e híbridos.
+
 **Competencia:** Aplicaciones ya posicionadas en el mercado de gestión de proyectos, pero con mayores barreras de adopción por complejidad.
+
 **Tendencias:** Aceleración de la digitalización en el trabajo colaborativo y mayor interés en herramientas accesibles, simples y multiplataforma.
 
 **_Design Assumptions (Suposiciones de Diseño)_**
 
+
 **Interacción del usuario:** La experiencia debe ser clara y guiada con tableros visuales, recordatorios automáticos y navegación simple.
+
 **Experiencia del usuario:** Los usuarios valorarán una experiencia de organización ágil, flexible, colaborativa y fácil de entender en pocos minutos.
+
 **Colores y tipografía:** Paleta moderna, limpia y accesible (colores suaves/pastel, tipografía legible y sin distracciones visuales).
+
 **Preferencias visuales:** Diseño minimalista, con iconografía intuitiva y jerarquía clara en la información.
+
 **Prototipos y pruebas:** Validación continua con pruebas de usabilidad para garantizar accesibilidad y rápida adopción desde el primer uso.
 
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
 **_Usuario y Necesidad_**
 
+
 **Hypothesis 01:** Creemos que el usuario es alguien que busca una solución accesible para organizar tareas en un equipo y mejorar la comunicación entre los miembros.
 Sabremos que estamos en lo correcto cuando recibamos comentarios positivos sobre la utilidad de la app y observemos un aumento en usuarios registrados.
+
 **Hypothesis 02:** Creemos que el producto encaja en actividades grupales donde los usuarios participan junto a otros miembros, facilitando la gestión de tareas y responsabilidades.
 Sabremos que estamos en lo correcto cuando los usuarios destaquen la facilidad de integración del producto en su dinámica de equipo.
+
 **Hypothesis 03:** Creemos que el producto resuelve problemas de desorganización y falta de comunicación en los equipos.
 Sabremos que estamos en lo correcto cuando encuestas y reseñas indiquen mejoras en la coordinación y claridad de responsabilidades.
+
 **Hypothesis 04:** Creemos que el producto se usa principalmente en momentos de planificación, seguimiento de tareas y coordinación de equipo.
 Sabremos que estamos en lo correcto cuando veamos un aumento en la frecuencia de uso durante ciclos de planificación y ejecución.
 
 **_Características y Experiencia_**
 
+
 **Hypothesis 05:** Creemos que los usuarios valoran características como asignación de tareas, visualización de horarios, disponibilidad de miembros y personalización de roles.
 Sabremos que estamos en lo correcto cuando recibamos comentarios positivos y altos niveles de satisfacción en estas funciones.
+
 **Hypothesis 06:** Creemos que el producto debe tener una interfaz intuitiva y amigable.
 Sabremos que estamos en lo correcto cuando los usuarios reporten experiencias de navegación fluida en pruebas de usabilidad.
+
 **Hypothesis 07:**  Creemos que los equipos necesitan organizar sus tareas de forma eficiente y mejorar la comunicación.
 Sabremos que estamos en lo correcto cuando aumente la adopción por parte de equipos y recibamos feedback sobre la utilidad práctica.
+
 **Hypothesis 08:** Creemos que estas necesidades se resuelven con una aplicación móvil que ofrezca gestión de tareas y comunicación en una experiencia fluida y accesible.
 Sabremos que estamos en lo correcto cuando la app muestre alta retención y satisfacción de los usuarios móviles.
+
 **Hypothesis 09:** Creemos que los usuarios clave son coordinadores e integrantes de equipos que buscan organizar sus responsabilidades de forma accesible.
 Sabremos que estamos en lo correcto cuando los perfiles registrados coincidan mayoritariamente con este segmento.
+
 **Hypothesis 10:** Creemos que el valor principal que buscan los usuarios es la facilidad de uso y la mejora en organización y comunicación del equipo.
 Sabremos que estamos en lo correcto cuando recibamos comentarios consistentes sobre facilidad de uso y efectividad en la coordinación.
+
 **Hypothesis 11:** Creemos que los usuarios obtendrán beneficios como mayor organización personal, claridad en sus responsabilidades y satisfacción al completar tareas.
 Sabremos que estamos en lo correcto cuando las reseñas reflejen estos beneficios percibidos.
 
 **_Negocio y Mercado_**
 
+
 **Hypothesis 12:** Creemos que captaremos usuarios principalmente con marketing digital y recomendaciones en ámbitos laborales y educativos.
 Sabremos que estamos en lo correcto cuando estas fuentes sean los principales canales de adquisición.
+
 **Hypothesis 13:** Creemos que generaremos ingresos clasificando la aplicación como un servicio de pago.
 Sabremos que estamos en lo correcto cuando los ingresos crezcan de forma sostenida por suscripciones o compras directas.
+
 **Hypothesis 14:** Creemos que la competencia principal serán aplicaciones de gestión de tareas como Jira, Trello o Asana.
 Sabremos que estamos en lo correcto cuando el análisis competitivo lo confirme.
+
 **Hypothesis 15:** Creemos que superaremos a la competencia con un enfoque en personalización, facilidad de uso e integración para gestión de equipos.
 Sabremos que estamos en lo correcto cuando los usuarios destaquen estas ventajas y adopten la app en lugar de alternativas.
+
 **Hypothesis 16:** Creemos que podemos utilizar tecnologías móviles actuales para desarrollar la aplicación.
 Sabremos que estamos en lo correcto cuando la app funcione sin problemas en dispositivos modernos y cumpla con estándares de rendimiento.
+
 **Hypothesis 17:** Creemos que la aplicación debe integrarse con plataformas de comunicación ya utilizadas por los equipos.
 Sabremos que estamos en lo correcto cuando las integraciones funcionen sin fricción y los usuarios las adopten.
+
 **Hypothesis 18:** Creemos que la aplicación podrá escalar para soportar un número creciente de usuarios y datos.
 Sabremos que estamos en lo correcto cuando la app maneje la carga sin problemas de rendimiento.
+
 **Hypothesis 19:** Creemos que existe un mercado amplio de equipos que buscan soluciones de organización y coordinación.
 Sabremos que estamos en lo correcto cuando aumente la adopción y la base de usuarios de la app.
+
 **Hypothesis 20:** Creemos que las aplicaciones similares son los principales competidores directos.
 Sabremos que estamos en lo correcto cuando el análisis competitivo confirme esta dinámica y la adopción de nuestra app crezca frente a estas opciones.
+
 **Hypothesis 21:** Creemos que el mercado de apps de organización y productividad está en crecimiento, impulsado por la digitalización en entornos laborales y educativos.
 Sabremos que estamos en lo correcto cuando estudios de mercado y tendencias lo respalden.
 
 _**Diseño y Usabilidad**_
 
+
 **Hypothesis 22:** Creemos que los usuarios interactuarán mejor si implementamos recordatorios automáticos, organización por prioridades y asignación clara de tareas.
 Sabremos que estamos en lo correcto cuando los usuarios destaquen la utilidad de estas funciones en encuestas y reseñas.
+
 **Hypothesis 23:** Creemos que los usuarios valorarán una experiencia de organización simple, flexible, colaborativa y motivadora.
 Sabremos que estamos en lo correcto cuando la satisfacción general aumente y los comentarios resalten estos atributos.
+
 **Hypothesis 24:** Creemos que los usuarios prefieren una paleta de colores pastel y una tipografía moderna y legible.
 Sabremos que estamos en lo correcto cuando los comentarios sobre la estética de la app sean positivos.
+
 **Hypothesis 25:** Creemos que los usuarios consideran atractivo un diseño simple con iconos intuitivos.
 Sabremos que estamos en lo correcto cuando los tests de usabilidad confirmen la comprensión rápida de la interfaz.
+
 **Hypothesis 26:** Creemos que necesitamos validar la facilidad de uso y efectividad del diseño mediante pruebas de usabilidad.
 Sabremos que estamos en lo correcto cuando los resultados de testing muestran alta tasa de éxito en las tareas clave y feedback constructivo de mejora.
 
@@ -1393,25 +1461,25 @@ El To-be Scenario Mapping describe el flujo de trabajo ideal que los usuarios te
 | US-002 | Envío de invitaciones                         | Como miembro, quiero solicitar unirme a un grupo para poder trabajar                                                                              | **Escenario 1 – Invitación válida:**<br>Given que ingreso un código de grupo,<br>When envío mi petición,<br>Then el líder puede ver la invitación.<br><br>**Escenario 2 – Cancelación de invitación:**<br>Given que tengo una invitación pendiente,<br>When intento cancelarla,<br>Then el sistema cancela la invitación.                                                                                                                                                                                                                                              | EP-001  |
 | US-003 | Eliminación de grupo                          | Como líder, quiero eliminar un grupo                                                                                                              | **Escenario 1 – Confirmación requerida:**<br>Given que seleccione eliminar grupo,<br>When confirmo la acción,<br>Then todos los datos asociados se archivan.<br><br>**Escenario 2 – Grupo con tareas activas:**<br>Given qué hay tareas pendientes,<br>When intento eliminar el grupo,<br>Then el sistema elimina a todos del grupo y las tareas.                                                                                                                                                                                                                      | EP-001  |
 | US-004 | Creación de tareas                            | Como líder, quiero crear tareas para asignar trabajo a los miembros.                                                                              | **Escenario 1 – Tarea básica:**<br>Given que completo título y descripción,<br>When guardo la tarea,<br>Then aparece en el listado con estado "En progreso".<br><br>**Escenario 2 – Tarea sin responsable:**<br>Given que creo tarea sin asignar,<br>When intento guardar,<br>Then el sistema muestra error "Se requiere responsable".                                                                                                                                                                                                                                 | EP-002  |
-| US-005 | Asignación de tareas                          | Como líder, quiero asignar tareas a miembros específicos para distribuir el trabajo.                                                              | **Escenario 1 – Asignación individual:**<br>Given que selecciono un miembro,<br>When asigno la tarea,<br>Then recibe notificación y aparece en su listado.<br><br>**Escenario 2 – Reasignación:**<br>Given que la tarea está asignada,<br>When cambio el responsable,<br>Then ambos miembros reciben notificación.                                                                                                                                                                                                                                                     | EP-002  |
+| US-005 | Asignación de tareas                          | Como líder, quiero asignar tareas a miembros específicos para distribuir el trabajo.                                                              | **Escenario 1 – Asignación individual:**<br>Given que selecciono un miembro,<br>When asigno la tarea,<br>Then aparece en su listado.<br><br>**Escenario 2 – Reasignación:**<br>Given que la tarea está asignada,<br>When cambio el responsable,<br>Then ambos miembros reciben una actualización en su listado de tareas.                                                                                                                                                                                                                                              | EP-002  |
 | US-006 | Eliminación de tareas                         | Como líder, quiero eliminar tareas incorrectas o duplicadas.                                                                                      | **Escenario 1 – Eliminación estándar:**<br>Given que selecciono una tarea,<br>When la elimino,<br>Then desaparece del listado principal.<br><br>**Escenario 2 – Tarea completada:**<br>Given que la tarea está marcada como completada,<br>When intento eliminarla,<br>Then el sistema requiere confirmación adicional.                                                                                                                                                                                                                                                | EP-002  |
-| US-007 | Actualización de estado                       | Como miembro, quiero actualizar el estado de mis tareas para reflejar mi progreso.                                                                | **Escenario 1 – Marcar como completada**<br>Given que finalizó una tarea,<br>When cambio el estado,<br>Then el líder recibe notificación.<br><br>**Escenario 2 – Cancelación:**<br>Given que una tarea ya no es necesaria,<br>When la marcó como cancelada,<br>Then se registra con motivo opcional.                                                                                                                                                                                                                                                                   | EP-002  |
+| US-007 | Actualización de estado                       | Como miembro, quiero actualizar el estado de mis tareas para reflejar mi progreso.                                                                | **Escenario 1 – Marcar como completada**<br>Given que finalizó una tarea,<br>When cambio el estado,<br>Then el líder recibe una solicitud de validación.<br>                                                                                                                                                                                                                                                                                                                                                                                                           | EP-002  |
 | US-008 | Reprogramación de tareas                      | Como líder, quiero cambiar fechas límite cuando surgen imprevistos.                                                                               | **Escenario 1 – Cambio de fecha:**<br>Given que selecciono una tarea,<br>When modificó la fecha límite,<br>Then el responsable puede ver el nuevo plazo.                                                                                                                                                                                                                                                                                                                                                                                                               | EP-002  |
-| US-009 | Gráfico de distribución de tareas             | Como líder, quiero ver un gráfico con la distribución de tareas por miembro para balancear cargas.                                                | **Escenario 1 – Visualización básica:**<br>Given que accedo al dashboard,<br>When selecciono "Analiticas y Reportes",<br>Then muestra porcentajes por miembro.                                                                                                                                                                                                                                                                                                                                                                                                         | EP-003  |
-| US-010 | Gráfico de estados de tareas                  | Como líder, quiero ver un gráfico de barras con el estado de todas las tareas del grupo.                                                          | **Escenario 1 – Datos actualizados:**<br>Given que hay tareas en diferentes estados,<br>When visualizo el reporte,<br>Then muestra cantidades por estado.                                                                                                                                                                                                                                                                                                                                                                                                              | EP-003  |
+| US-009 | Gráfica de distribución de tareas             | Como líder, quiero ver un gráfico con la distribución de tareas por miembro para balancear cargas.                                                | **Escenario 1 – Visualización básica:**<br>Given que accedo al dashboard,<br>When selecciono "Analiticas y Reportes",<br>Then muestra la cantidad de tareas por miembro.                                                                                                                                                                                                                                                                                                                                                                                               | EP-003  |
+| US-010 | Gráfico de estados de tareas                  | Como líder, quiero ver un gráfico con el estado de todas las tareas del grupo.                                                                    | **Escenario 1 – Datos actualizados:**<br>Given que hay tareas en diferentes estados,<br>When visualizo el reporte,<br>Then muestra cantidades de tareas por estado.                                                                                                                                                                                                                                                                                                                                                                                                    | EP-003  |
 | US-011 | Reporte de reprogramaciones                   | Como líder, quiero ver un gráfico de líneas con la cantidad de tareas reprogramadas.                                                              | **Escenario 1 – Reprogramaciones de usuario:**<br>Given que me encuentro "Analiticas y Reportes",<br>When miro la sección de miembros,<br>Then muestra la cantidad de tareas reprogramadas que tiene.<br><br>**Escenario 2 – Reprogramaciones total:**<br>Given que me encuentro "Analiticas y Reportes",<br>When miro la sección de resumen,<br>Then muestra la cantidad de tareas reprogramadas de todo el equipo.                                                                                                                                                   | EP-003  |
-| US-012 | Reporte de productividad individual           | Como líder, quiero evaluar el desempeño de cada miembro a través de métricas claras.                                                              | **Escenario 1 – Datos básicos:**<br>Given que me encuentro "Analiticas y Reportes",<br>When examino a un miembro<br>Then muestra: tareas completadas/tiempo promedio.<br><br>**Escenario 2 – Comparativa:**<br>Given que veo dos reportes,<br>When los comparo,<br>Then resalta diferencias significativas.                                                                                                                                                                                                                                                            | EP-003  |
-| US-013 | Solicitud de aprobación de tarea              | Como miembro, quiero enviar tareas completadas para validación del líder.                                                                         | **Escenario 1 – Envío estándar:**<br>Given que marco tarea como completada,<br>When envío a validación,<br>Then cambia a estado "En revisión".                                                                                                                                                                                                                                                                                                                                                                                                                         | EP-004  |
-| US-014 | Validación de tareas                          | Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.                                                                   | **Escenario 1 – Aprobación:**<br>Given que la tarea cumple estándares,<br>When la apruebo,<br>Then se marca como definitivamente completada.<br><br>**Escenario 2 – Rechazo con comentarios:**<br>Given que encuentro deficiencias,<br>When rechazo con feedback,<br>Then la tarea vuelve a "En progreso".                                                                                                                                                                                                                                                             | EP-004  |
-| US-015 | Solicitud de extensión de plazo               | Como miembro, quiero pedir más tiempo para una tarea cuando surgen impedimentos.                                                                  | **Escenario 1 – Solicitud básica:**<br>Given que selecciono una tarea,<br>When pido extensión con motivo,<br>Then el líder recibe notificación.<br><br>**Escenario 2 – Aprobación:**<br>Given que el líder acepta,<br>When actualiza la fecha,<br>Then el sistema registra el cambio.                                                                                                                                                                                                                                                                                  | EP-004  |
-| US-016 | Visualización de miembros del grupo           | Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.                                                           | **Escenario 1 – Lista de miembros:**<br>Given que accedo a la sección de miembros,<br>When visualizo la lista,<br>Then se muestran los nombres y roles de cada miembro.<br><br>**Escenario 2 – Detalles del miembro:**<br>Given que selecciono un miembro,<br>When hago clic en su nombre,<br>Then se muestran sus tareas asignadas y estado actual.                                                                                                                                                                                                                   | EP-001  |
+| US-012 | Reporte de productividad individual           | Como líder, quiero evaluar el desempeño de cada miembro a través de métricas claras.                                                              | **Escenario 1 – Datos básicos:**<br>Given que me encuentro "Analiticas y Reportes",<br>When examino los datos de un miembro<br>Then muestra: tareas completadas/tiempo promedio.<br><br>**Escenario 2 – Comparativa:**<br>Given que veo dos miembros,<br>When los comparo,<br>Then resalta diferencias significativas.                                                                                                                                                                                                                                                 | EP-003  |
+| US-013 | Solicitud de aprobación de tarea              | Como miembro, quiero enviar tareas completadas para validación del líder.                                                                         | **Escenario 1 – Envío estándar:**<br>Given que marco tarea como completada,<br>When envío a validación,<br>Then la tarea cambia a estado "Completada".                                                                                                                                                                                                                                                                                                                                                                                                                 | EP-004  |
+| US-014 | Validación de tareas                          | Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.                                                                   | **Escenario 1 – Aprobación:**<br>Given que la tarea cumple estándares,<br>When la apruebo,<br>Then se marca como definitivamente completada.<br><br>**Escenario 2 – Reprogramación:**<br>Given que encuentro deficiencias,<br>When reprogramo la tarea,<br>Then la tarea vuelve a "En progreso".                                                                                                                                                                                                                                                                       | EP-004  |
+| US-015 | Solicitud de extensión de plazo               | Como miembro, quiero pedir más tiempo para una tarea cuando surgen impedimentos.                                                                  | **Escenario 1 – Solicitud básica:**<br>Given que selecciono una tarea,<br>When envio un comentario pidiendo una extensión con motivo,<br>Then el líder recibe las solicitud.<br><br>**Escenario 2 – Aprobación:**<br>Given que el líder acepta,<br>When actualiza la fecha,<br>Then el sistema registra el cambio.                                                                                                                                                                                                                                                     | EP-004  |
+| US-016 | Visualización de miembros del grupo           | Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.                                                           | **Escenario 1 – Lista de miembros:**<br>Given que accedo a la sección de miembros,<br>When visualizo la lista,<br>Then se muestran los nombres y tareas próximas de cada miembro.<br><br>**Escenario 2 – Detalles del miembro:**<br>Given que selecciono un miembro,<br>When hago clic en su nombre,<br>Then se muestran sus tareas asignadas y estado actual.                                                                                                                                                                                                         | EP-001  |
 | US-017 | Edición de información del grupo              | Como líder, quiero editar la información de mi grupo para mantenerla actualizada.                                                                 | **Escenario 1 – Actualización de nombre:**<br>Given que accedo a la configuración del grupo<br>When modifico el nombre y guardo los cambios,<br>Then el nuevo nombre se refleja en todas las vistas.<br><br>**Escenario 2 – Cambio de descripción:**<br>Given que edito la descripción del grupo,<br>When guardo los cambios,<br>Then la nueva descripción se muestra en la página principal del grupo.                                                                                                                                                                | EP-001  |
 | US-018 | Visualización de tareas asignadas             | Como miembro, quiero ver las tareas que me han sido asignadas para gestionar mi trabajo.                                                          | **Escenario 1 – Lista de tareas:**<br>Given que accedo a mi panel de tareas,<br>When visualizo la lista,<br>Then se muestran todas las tareas asignadas con su estado actual.<br><br>**Escenario 2 – Detalle de tarea:**<br>Given que selecciono una tarea,<br>When hago clic en ella,<br>Then se muestran los detalles completos de la tarea.                                                                                                                                                                                                                         | EP-002  |
-| US-019 | Comentario en tareas                          | Como miembro, quiero comentar en las tareas para comunicarme con el líder sobre el progreso.                                                      | **Escenario 1 – Añadir comentario:**<br>Given Given que accedo a una tarea asignada,<br>When escribo un comentario y lo envío,<br>Then el comentario aparece en el hilo de la tarea.<br><br>**Escenario 2 – Notificación al líder:**<br>Given que envío un comentario,<br>When el líder accede a “Solicitude y validaciones”,<br>Then ve el nuevo comentario.                                                                                                                                                                                                          | EP-002  |
-| US-021 | Visualización de carga de trabajo por miembro | Como líder, quiero ver la carga de trabajo de cada miembro para equilibrar las asignaciones.                                                      | **Escenario 1 – Gráfico de barras:**<br>Given que accedo al panel de analítica,<br>When selecciono "Carga de trabajo",<br>Then se muestra un gráfico de barras con el número de tareas por miembro.<br><br>**Escenario 2 – Identificación de sobrecarga:**<br>Given que un miembro tiene más tareas que otros,<br>When visualizo el gráfico,<br>Then se resalta su barra en un color diferente.                                                                                                                                                                        | EP-003  |
-| US-022 | Reporte de cumplimiento de plazos             | Como líder, quiero ver un reporte de cumplimiento de plazos para evaluar la eficiencia del equipo.                                                | **Escenario 1 – Generación del reporte:**<br>Given que accedo a la sección de reportes,<br>When selecciono "Cumplimiento de plazos"<br>Then se muestra un informe con el porcentaje de tareas completadas a tiempo.                                                                                                                                                                                                                                                                                                                                                    | EP-003  |
-| US-023 | Revisión de comentarios en tareas             | Como líder, quiero revisar los comentarios en las tareas para proporcionar retroalimentación oportuna.                                            | **Escenario 1 – Acceso a comentarios:**<br>Given que accedo a una tarea,<br>When visualizo la sección de comentarios,<br>Then puedo leer todos los mensajes dejados por los miembros.<br><br>**Escenario 2 – Solución a comentarios:**<br>Given que leo un comentario,<br>When decido si reprogramar o eliminar,<br>Then el miembro puede ver los cambios hechos en la tarea.                                                                                                                                                                                          | EP-004  |
-| US-024 | Confirmación antes de eliminar una tarea      | Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales.                                        | **Escenario 1 – Confirmación requerida:**<br>Given que selecciono eliminar una tarea,<br>When hago clic en el icono de eliminar,<br>Then se muestra un mensaje de confirmación antes de proceder.<br><br>**Escenario 2 – Cancelación de eliminación:**<br>Given que aparece el mensaje de confirmación,<br>When elijo "Cancelar",<br>Then la tarea no se elimina y permanece en la lista.                                                                                                                                                                              | EP-005  |
+| US-019 | Comentario en tareas                          | Como miembro, quiero comentar en las tareas para comunicarme con el líder sobre el progreso.                                                      | **Escenario 1 – Añadir comentario:**<br>Given Given que accedo a una tarea asignada,<br>When escribo un comentario y lo envío,<br>Then el comentario aparece como una solicitud.<br><br>**Escenario 2 – Visualización del líder:**<br>Given que envío un comentario,<br>When el líder accede a “Solicitude y validaciones”,<br>Then ve el nuevo comentario.                                                                                                                                                                                                            | EP-002  |
+| US-020 | Visualización de carga de trabajo por miembro | Como líder, quiero ver la carga de trabajo de cada miembro para equilibrar las asignaciones.                                                      | **Escenario 1 – Gráfico de barras:**<br>Given que accedo al panel de analítica,<br>When observo su tiempo de tareas asignado,<br>Then se muestra el tiempo total de tareas que tiene cada miembro.<br><br>**Escenario 2 – Identificación de sobrecarga:**<br>Given que un miembro tiene más carga que otros,<br>When visualizo los datos,<br>Then se muestra claramente la diferencia.                                                                                                                                                                                 | EP-003  |
+| US-021 | Reporte de cumplimiento de plazos             | Como líder, quiero ver un reporte de cumplimiento de plazos para evaluar la eficiencia del equipo.                                                | **Escenario 1 – Generación del reporte:**<br>Given que accedo a la sección de reportes,<br>When selecciono "Cumplimiento de plazos"<br>Then se muestra un informe con el porcentaje de tareas completadas a tiempo.                                                                                                                                                                                                                                                                                                                                                    | EP-003  |
+| US-022 | Revisión de comentarios en tareas             | Como líder, quiero revisar los comentarios en las tareas para proporcionar retroalimentación oportuna.                                            | **Escenario 1 – Acceso a comentarios:**<br>Given que accedo a una tarea,<br>When visualizo la sección de comentarios,<br>Then puedo leer todos los mensajes dejados por los miembros.<br><br>**Escenario 2 – Solución a comentarios:**<br>Given que leo un comentario,<br>When decido si reprogramar o eliminar,<br>Then el miembro puede ver los cambios hechos en la tarea.                                                                                                                                                                                          | EP-004  |
+| US-023 | Confirmación antes de eliminar una tarea      | Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales.                                        | **Escenario 1 – Confirmación requerida:**<br>Given que selecciono eliminar una tarea,<br>When hago clic en el icono de eliminar,<br>Then se muestra un mensaje de confirmación antes de proceder.<br><br>**Escenario 2 – Cancelación de eliminación:**<br>Given que aparece el mensaje de confirmación,<br>When elijo "Cancelar",<br>Then la tarea no se elimina y permanece en la lista.                                                                                                                                                                              | EP-005  |
 | TS-001 | Obtener un grupo por ID                       | Como developer, quiero obtener un grupo por su ID para verificar que la API devuelve los detalles correctos del grupo.                            | **Escenario 1 – Grupo válido:**<br>Given que el ID del grupo es válido,<br>When se realiza la solicitud GET con el ID,<br>Then se debe devolver los detalles del grupo correspondiente.<br><br>**Escenario 2 – Grupo no encontrado:**<br>Given que el ID del grupo no existe,<br>When se realiza la solicitud GET con el ID,<br>Then la respuesta debe ser un error 404 indicando que no se encontró el grupo.                                                                                                                                                         | EP-001  |
 | TS-002 | Obtener el grupos de un usuario               | Como developer, quiero obtener todos los grupos a los que pertenece un usuario para confirmar que la API devuelve todos los grupos correctamente. | **Escenario 1 – Usuario con grupos:**<br>Given que el usuario pertenece a varios grupos,<br>When se realiza la solicitud GET para obtener los grupos del usuario,<br>Then se deben devolver todos los grupos a los que pertenece el usuario.<br><br>**Escenario 2 – Usuario sin grupos:**<br>Given que el usuario no pertenece a ningún grupo,<br>When se realiza la solicitud GET para obtener los grupos del usuario,<br>Then se debe devolver un array vacío.                                                                                                       | EP-001  |
 | TS-003 | Registrar un nuevo grupo                      | Como developer, quiero registrar un nuevo grupo para asegurarme de que el grupo se crea correctamente en el sistema.                              | **Escenario 1 – Creación de grupo exitosa:**<br>Given que tengo los datos válidos para crear un grupo,<br>When envío la solicitud POST para registrar el grupo,<br>Then el grupo debe ser creado y debe devolver el ID del nuevo grupo.<br><br>**Escenario 2 – Datos incompletos:**<br>Given que los datos para crear el grupo son incompletos,<br>When se envía la solicitud POST con los datos incompletos,<br>Then la respuesta debe ser un error 400 indicando que los datos son inválidos o incompletos.                                                          | EP-001  |
@@ -1446,48 +1514,28 @@ El To-be Scenario Mapping describe el flujo de trabajo ideal que los usuarios te
 
 ### 3.3. Product Backlog
 
-| Orden | User Story ID | Título                                   | Descripción                                                                                                                                       | Story Points |
-|-------|---------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| 1     | US-001        | Creación de grupo                        | Como líder, quiero crear grupos para organizar el trabajo de mi equipo.                                                                           | 5            |
-| 2     | TS-003        | Registrar un nuevo grupo                 | Como developer, quiero registrar un nuevo grupo para asegurarme de que el grupo se crea correctamente en el sistema.                              | 3            |
-| 3     | TS-018        | Crear grupo                              | Como developer, quiero permitir la creación de grupos para organizar equipos de trabajo.                                                          | 3            |
-| 4     | US-002        | Envío de invitaciones                    | Como miembro, quiero solicitar unirme a un grupo para poder trabajar.                                                                             | 5            |
-| 5     | TS-021        | Enviar solicitud de unión a grupo        | Como sistema, quiero permitir que un miembro envíe una solicitud para unirse a un grupo.                                                          | 3            |
-| 6     | TS-022        | Aceptar solicitud de unión               | Como sistema, quiero aceptar una solicitud de unión para añadir el usuario al grupo.                                                              | 3            |
-| 7     | TS-023        | Eliminar solicitud                       | Como sistema, quiero permitir rechazar o cancelar solicitudes de unión a grupos.                                                                  | 2            |
-| 8     | TS-024        | Obtener solicitudes de grupo             | Como sistema, quiero listar todas las solicitudes de unión enviadas a un grupo.                                                                   | 2            |
-| 9     | US-004        | Creación de tareas                       | Como líder, quiero crear tareas para asignar trabajo a los miembros.                                                                              | 5            |
-| 10    | TS-008        | Crear una nueva tarea para un miembro    | Como developer, quiero crear una nueva tarea para un miembro para asegurarme de que la tarea se asigna correctamente.                             | 3            |
-| 11    | US-005        | Asignación de tareas                     | Como líder, quiero asignar tareas a miembros específicos para distribuir el trabajo.                                                              | 5            |
-| 12    | TS-007        | Obtener todas las tareas por miembro     | Como developer, quiero obtener todas las tareas asociadas a un miembro para verificar que la API devuelve correctamente las tareas asignadas.     | 3            |
-| 13    | US-018        | Visualización de tareas asignadas        | Como miembro, quiero ver las tareas que me han sido asignadas para gestionar mi trabajo.                                                          | 5            |
-| 14    | TS-026        | Consultar tareas de un integrante        | Como developer, quiero consultar las tareas asignadas a un integrante específico del grupo.                                                       | 2            |
-| 15    | US-007        | Actualización de estado                  | Como miembro, quiero actualizar el estado de mis tareas para reflejar mi progreso.                                                                | 3            |
-| 16    | TS-014        | Actualizar estado de tarea               | Como developer, quiero actualizar el estado de una tarea para asegurarme de que el estado se modifica correctamente en el sistema.                | 3            |
-| 17    | TS-015        | Obtener tareas por estado                | Como developer, quiero obtener todas las tareas filtradas por estado para verificar que la API devuelve correctamente las tareas según su estado. | 2            |
-| 18    | US-013        | Solicitud de aprobación de tarea         | Como miembro, quiero enviar tareas completadas para validación del líder.                                                                         | 3            |
-| 19    | US-014        | Validación de tareas                     | Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.                                                                   | 3            |
-| 20    | TS-027        | Aceptar validación de tarea completada   | Como developer, quiero aceptar manualmente tareas completadas para confirmar su cierre.                                                           | 2            |
-| 21    | TS-028        | Validación automática de tarea vencida   | Como developer, quiero que el sistema valide automáticamente las tareas vencidas para actualizar su estado y asegurar calidad.                    | 5            |
-| 22    | US-015        | Solicitud de extensión de plazo          | Como miembro, quiero pedir más tiempo para una tarea cuando surgen impedimentos.                                                                  | 2            |
-| 23    | US-008        | Reprogramación de tareas                 | Como líder, quiero cambiar fechas límite cuando surgen imprevistos.                                                                               | 3            |
-| 24    | US-011        | Reporte de reprogramaciones              | Como líder, quiero ver un gráfico de líneas con la cantidad de tareas reprogramadas.                                                              | 5            |
-| 25    | US-012        | Reporte de productividad individual      | Como líder, quiero evaluar el desempeño de cada miembro a través de métricas claras.                                                              | 8            |
-| 26    | US-016        | Visualización de miembros del grupo      | Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.                                                           | 3            |
-| 27    | TS-002        | Obtener los grupos de un usuario         | Como developer, quiero obtener todos los grupos a los que pertenece un usuario para confirmar que la API devuelve todos los grupos correctamente. | 2            |
-| 28    | TS-020        | Obtener grupo de miembro o líder         | Como developer, quiero obtener el grupo al que pertenece un miembro o líder para mostrar la información relacionada.                              | 2            |
-| 29    | TS-019        | Buscar grupo                             | Como developer, quiero buscar grupos por código para obtener sus detalles.                                                                        | 2            |
-| 30    | US-022        | Revisión de comentarios en tareas        | Como líder, quiero revisar los comentarios en las tareas para proporcionar retroalimentación oportuna.                                            | 3            |
-| 31    | TS-025        | Agregar comentario a tarea               | Como developer, quiero permitir agregar comentarios a tareas para facilitar la colaboración.                                                      | 2            |
-| 32    | US-006        | Eliminación de tareas                    | Como líder, quiero eliminar tareas incorrectas o duplicadas.                                                                                      | 2            |
-| 33    | US-023        | Confirmación antes de eliminar una tarea | Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales.                                        | 1            |
-| 34    | TS-013        | Eliminar tarea                           | Como developer, quiero eliminar una tarea para asegurarme de que la tarea se elimina correctamente del sistema.                                   | 2            |
-| 35    | TS-011        | Obtener tarea por ID                     | Como developer, quiero obtener los detalles de una tarea por su ID para verificar que la API devuelve la información correcta de la tarea.        | 2            |
-| 36    | TS-012        | Actualizar tarea                         | Como developer, quiero actualizar una tarea para asegurarme de que la tarea se modifica correctamente en el sistema.                              | 2            |
-| 37    | TS-009        | Crear un nuevo miembro                   | Como developer, quiero crear un nuevo miembro para asegurarme de que el miembro se registra correctamente en el sistema.                          | 3            |
-| 38    | TS-017        | Crear nueva solicitud                    | Como developer, quiero crear una nueva solicitud para asegurarme de que la solicitud se crea correctamente con los datos proporcionados.          | 2            |
-| 39    | TS-030        | Aceptar una solicitud                    | Como developer, quiero aceptar una solicitud activa para cambiar su estado y continuar con el proceso.                                            | 2            |
-| 40    | TS-031        | Eliminar solicitud tras aceptación       | Como developer, quiero eliminar una solicitud después de que haya sido aceptada para mantener el sistema limpio.                                  | 1            |
+| Orden | User Story ID | Título                                        | Descripción                                                                                                | Story Points |
+|-------|---------------|-----------------------------------------------|------------------------------------------------------------------------------------------------------------|--------------|
+| 1     | US-001        | Creación de grupo                             | Como líder, quiero crear grupos para organizar el trabajo de mi equipo.                                    | 5            |
+| 2     | US-002        | Envío de invitaciones                         | Como miembro, quiero solicitar unirme a un grupo para poder trabajar.                                      | 5            |
+| 3     | US-004        | Creación de tareas                            | Como líder, quiero crear tareas para asignar trabajo a los miembros.                                       | 5            |
+| 4     | US-005        | Asignación de tareas                          | Como líder, quiero asignar tareas a miembros específicos para distribuir el trabajo.                       | 5            |
+| 5     | US-018        | Visualización de tareas asignadas             | Como miembro, quiero ver las tareas que me han sido asignadas para gestionar mi trabajo.                   | 5            |
+| 6     | US-007        | Actualización de estado                       | Como miembro, quiero actualizar el estado de mis tareas para reflejar mi progreso.                         | 3            |
+| 7     | US-013        | Solicitud de aprobación de tarea              | Como miembro, quiero enviar tareas completadas para validación del líder.                                  | 3            |
+| 8     | US-014        | Validación de tareas                          | Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.                            | 3            |
+| 9     | US-015        | Solicitud de extensión de plazo               | Como miembro, quiero pedir más tiempo para una tarea cuando surgen impedimentos.                           | 2            |
+| 10    | US-008        | Reprogramación de tareas                      | Como líder, quiero cambiar fechas límite cuando surgen imprevistos.                                        | 3            |
+| 11    | US-011        | Reporte de reprogramaciones                   | Como líder, quiero ver un gráfico de líneas con la cantidad de tareas reprogramadas.                       | 5            |
+| 12    | US-012        | Reporte de productividad individual           | Como líder, quiero evaluar el desempeño de cada miembro a través de métricas claras.                       | 8            |
+| 13    | US-016        | Visualización de miembros del grupo           | Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.                    | 3            |
+| 14    | US-022        | Revisión de comentarios en tareas             | Como líder, quiero revisar los comentarios en las tareas para proporcionar retroalimentación oportuna.     | 3            |
+| 15    | US-006        | Eliminación de tareas                         | Como líder, quiero eliminar tareas incorrectas o duplicadas.                                               | 2            |
+| 16    | US-023        | Confirmación antes de eliminar una tarea      | Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales. | 1            |
+| 17    | US-009        | Gráfica de distribución de tareas             | Como líder, quiero ver un gráfico con la distribución de tareas por miembro para balancear cargas.         | 1            |    
+| 18    | US-010        | Gráfico de estados de tareas                  | Como líder, quiero ver un gráfico con el estado de todas las tareas del grupo.                             | 1            |
+| 19    | US-019        | Comentario en tareas                          | Como miembro, quiero comentar en las tareas para comunicarme con el líder sobre el progreso.               | 2            |
+| 20    | US-020        | Visualización de carga de trabajo por miembro | Como líder, quiero ver la carga de trabajo de cada miembro para equilibrar las asignaciones.               | 1            |
 
 ### 3.4. Impact Mapping
 El Impact Mapping es una técnica visual que conecta los objetivos de un proyecto con los actores involucrados, los cambios de comportamiento esperados y las entregas necesarias. Su propósito es alinear al equipo, priorizar funcionalidades y asegurar que cada acción aporte valor real al objetivo central.
@@ -1639,7 +1687,7 @@ Los wireframes de la landing page de Synhub definen la estructura clave y la dis
 #### 4.3.2. Landing Page Mock-up
 En esta sección se muestran los mock-ups de la landing page de Synhub, donde se aplican los principios de diseño, la arquitectura de información y el Design System para crear una experiencia visual coherente y efectiva. Cada diseño refleja la identidad de la marca y optimiza la conversión desde el primer impacto visual.
 
-<img src="images/chapter-4/landing-wireframe.png" alt="Landing Page Mockup" />
+<img src="images/chapter-4/landing-mockup.png" alt="Landing Page Mockup" />
 
 ### 4.4. Mobile Applications UX/UI Design
 
@@ -1753,13 +1801,6 @@ Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
 <img src="images/chapter-4/userflow-t1.png" alt="Userflow Table 1"/>
 
 <img src="images/chapter-4/userflow-1.png" alt="Userflow 1"/>
-
-**Invitación de integrante:** este userflow corresponde a cuando un lider de equipo busca invitar a un nuevo integrante al grupo.
-Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
-
-<img src="images/chapter-4/userflow-t2.png" alt="Userflow Table 2"/>
-
-<img src="images/chapter-4/userflow-2.png" alt="Userflow 2"/>
 
 **Asignación de tarea:** este userflow corresponde a cuando un lider de equipo busca asignar una nueva tarea a un integrante del grupo.
 Task flow: 🟥 Happy Path, 🟨 Error Path, 🟦 User Goal
@@ -1987,6 +2028,16 @@ desempeño mediante una métrica.
 <img src="images/chapter-4/web-userflow-10.png" alt="Web App Userflow 10"/>
 
 ### 4.7. Web Applications Prototyping
+
+<img src="images/chapter-4/web-app-prototype.png" alt="webAppPrototyping"/>
+
+Leaders:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222001_upc_edu_pe/EclDVy6Ca1ZHkIKkHGAq1O4BnXw8rGr0AZzPK4t5Fc9xmg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WgHojX
+
+Members:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222001_upc_edu_pe/EULheBUnCudEozY4X9eZah8B4NWDuusiXWtBWQuFLG5qEA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JdP42R
 
 ### 4.8. Domain-Driven Software Architecture
 
@@ -2460,52 +2511,54 @@ Buenas prácticas para un código coherente y sostenible:
 
 #### 5.2.1. Sprint Backlogs
 
-| Orden | User Story ID | Título                                   | Descripción                                                                                                                                       | Story Points |
-|-------|---------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| 1     | US-001        | Creación de grupo                        | Como líder, quiero crear grupos para organizar el trabajo de mi equipo.                                                                           | 5            |
-| 2     | TS-003        | Registrar un nuevo grupo                 | Como developer, quiero registrar un nuevo grupo para asegurarme de que el grupo se crea correctamente en el sistema.                              | 3            |
-| 3     | TS-018        | Crear grupo                              | Como developer, quiero permitir la creación de grupos para organizar equipos de trabajo.                                                          | 3            |
-| 4     | US-002        | Envío de invitaciones                    | Como miembro, quiero solicitar unirme a un grupo para poder trabajar.                                                                             | 5            |
-| 5     | TS-021        | Enviar solicitud de unión a grupo        | Como sistema, quiero permitir que un miembro envíe una solicitud para unirse a un grupo.                                                          | 3            |
-| 6     | TS-022        | Aceptar solicitud de unión               | Como sistema, quiero aceptar una solicitud de unión para añadir el usuario al grupo.                                                              | 3            |
-| 7     | TS-023        | Eliminar solicitud                       | Como sistema, quiero permitir rechazar o cancelar solicitudes de unión a grupos.                                                                  | 2            |
-| 8     | TS-024        | Obtener solicitudes de grupo             | Como sistema, quiero listar todas las solicitudes de unión enviadas a un grupo.                                                                   | 2            |
-| 9     | US-004        | Creación de tareas                       | Como líder, quiero crear tareas para asignar trabajo a los miembros.                                                                              | 5            |
-| 10    | TS-008        | Crear una nueva tarea para un miembro    | Como developer, quiero crear una nueva tarea para un miembro para asegurarme de que la tarea se asigna correctamente.                             | 3            |
-| 11    | US-005        | Asignación de tareas                     | Como líder, quiero asignar tareas a miembros específicos para distribuir el trabajo.                                                              | 5            |
-| 12    | TS-007        | Obtener todas las tareas por miembro     | Como developer, quiero obtener todas las tareas asociadas a un miembro para verificar que la API devuelve correctamente las tareas asignadas.     | 3            |
-| 13    | US-018        | Visualización de tareas asignadas        | Como miembro, quiero ver las tareas que me han sido asignadas para gestionar mi trabajo.                                                          | 5            |
-| 14    | TS-026        | Consultar tareas de un integrante        | Como developer, quiero consultar las tareas asignadas a un integrante específico del grupo.                                                       | 2            |
-| 15    | US-007        | Actualización de estado                  | Como miembro, quiero actualizar el estado de mis tareas para reflejar mi progreso.                                                                | 3            |
-| 16    | TS-014        | Actualizar estado de tarea               | Como developer, quiero actualizar el estado de una tarea para asegurarme de que el estado se modifica correctamente en el sistema.                | 3            |
-| 17    | TS-015        | Obtener tareas por estado                | Como developer, quiero obtener todas las tareas filtradas por estado para verificar que la API devuelve correctamente las tareas según su estado. | 2            |
-| 18    | US-013        | Solicitud de aprobación de tarea         | Como miembro, quiero enviar tareas completadas para validación del líder.                                                                         | 3            |
-| 19    | US-014        | Validación de tareas                     | Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.                                                                   | 3            |
-| 20    | TS-027        | Aceptar validación de tarea completada   | Como developer, quiero aceptar manualmente tareas completadas para confirmar su cierre.                                                           | 2            |
-| 21    | TS-028        | Validación automática de tarea vencida   | Como developer, quiero que el sistema valide automáticamente las tareas vencidas para actualizar su estado y asegurar calidad.                    | 5            |
-| 22    | US-015        | Solicitud de extensión de plazo          | Como miembro, quiero pedir más tiempo para una tarea cuando surgen impedimentos.                                                                  | 2            |
-| 23    | US-008        | Reprogramación de tareas                 | Como líder, quiero cambiar fechas límite cuando surgen imprevistos.                                                                               | 3            |
-| 24    | US-011        | Reporte de reprogramaciones              | Como líder, quiero ver un gráfico de líneas con la cantidad de tareas reprogramadas.                                                              | 5            |
-| 25    | US-012        | Reporte de productividad individual      | Como líder, quiero evaluar el desempeño de cada miembro a través de métricas claras.                                                              | 8            |
-| 26    | US-016        | Visualización de miembros del grupo      | Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.                                                           | 3            |
-| 27    | TS-002        | Obtener los grupos de un usuario         | Como developer, quiero obtener todos los grupos a los que pertenece un usuario para confirmar que la API devuelve todos los grupos correctamente. | 2            |
-| 28    | TS-020        | Obtener grupo de miembro o líder         | Como developer, quiero obtener el grupo al que pertenece un miembro o líder para mostrar la información relacionada.                              | 2            |
-| 29    | TS-019        | Buscar grupo                             | Como developer, quiero buscar grupos por código para obtener sus detalles.                                                                        | 2            |
-| 30    | US-022        | Revisión de comentarios en tareas        | Como líder, quiero revisar los comentarios en las tareas para proporcionar retroalimentación oportuna.                                            | 3            |
-| 31    | TS-025        | Agregar comentario a tarea               | Como developer, quiero permitir agregar comentarios a tareas para facilitar la colaboración.                                                      | 2            |
-| 32    | US-006        | Eliminación de tareas                    | Como líder, quiero eliminar tareas incorrectas o duplicadas.                                                                                      | 2            |
-| 33    | US-023        | Confirmación antes de eliminar una tarea | Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales.                                        | 1            |
-| 34    | TS-013        | Eliminar tarea                           | Como developer, quiero eliminar una tarea para asegurarme de que la tarea se elimina correctamente del sistema.                                   | 2            |
-| 35    | TS-011        | Obtener tarea por ID                     | Como developer, quiero obtener los detalles de una tarea por su ID para verificar que la API devuelve la información correcta de la tarea.        | 2            |
-| 36    | TS-012        | Actualizar tarea                         | Como developer, quiero actualizar una tarea para asegurarme de que la tarea se modifica correctamente en el sistema.                              | 2            |
-| 37    | TS-009        | Crear un nuevo miembro                   | Como developer, quiero crear un nuevo miembro para asegurarme de que el miembro se registra correctamente en el sistema.                          | 3            |
-| 38    | TS-017        | Crear nueva solicitud                    | Como developer, quiero crear una nueva solicitud para asegurarme de que la solicitud se crea correctamente con los datos proporcionados.          | 2            |
-| 39    | TS-030        | Aceptar una solicitud                    | Como developer, quiero aceptar una solicitud activa para cambiar su estado y continuar con el proceso.                                            | 2            |
-| 40    | TS-031        | Eliminar solicitud tras aceptación       | Como developer, quiero eliminar una solicitud después de que haya sido aceptada para mantener el sistema limpio.                                  | 1            |
+| Orden | User Story ID | Título                                         | Descripción                                                                                                | Story Points |
+|-------|---------------|------------------------------------------------|------------------------------------------------------------------------------------------------------------|--------------|
+| 1     | US-001        | Creación de grupo                              | Como líder, quiero crear grupos para organizar el trabajo de mi equipo.                                    | 5            |
+| 2     | US-002        | Envío de invitaciones                          | Como miembro, quiero solicitar unirme a un grupo para poder trabajar.                                      | 5            |
+| 3     | US-004        | Creación de tareas                             | Como líder, quiero crear tareas para asignar trabajo a los miembros.                                       | 5            |
+| 4     | US-005        | Asignación de tareas                           | Como líder, quiero asignar tareas a miembros específicos para distribuir el trabajo.                       | 5            |
+| 5     | US-018        | Visualización de tareas asignadas              | Como miembro, quiero ver las tareas que me han sido asignadas para gestionar mi trabajo.                   | 5            |
+| 6     | US-007        | Actualización de estado                        | Como miembro, quiero actualizar el estado de mis tareas para reflejar mi progreso.                         | 3            |
+| 7     | US-013        | Solicitud de aprobación de tarea               | Como miembro, quiero enviar tareas completadas para validación del líder.                                  | 3            |
+| 8     | US-014        | Validación de tareas                           | Como líder, quiero aprobar o rechazar tareas completadas para asegurar calidad.                            | 3            |
+| 9     | US-015        | Solicitud de extensión de plazo                | Como miembro, quiero pedir más tiempo para una tarea cuando surgen impedimentos.                           | 2            |
+| 10    | US-008        | Reprogramación de tareas                       | Como líder, quiero cambiar fechas límite cuando surgen imprevistos.                                        | 3            |
+| 11    | US-011        | Reporte de reprogramaciones                    | Como líder, quiero ver un gráfico de líneas con la cantidad de tareas reprogramadas.                       | 5            |
+| 12    | US-012        | Reporte de productividad individual            | Como líder, quiero evaluar el desempeño de cada miembro a través de métricas claras.                       | 8            |
+| 13    | US-016        | Visualización de miembros del grupo            | Como líder, quiero ver la lista de miembros de mi grupo para gestionar la colaboración.                    | 3            |
+| 14    | US-022        | Revisión de comentarios en tareas              | Como líder, quiero revisar los comentarios en las tareas para proporcionar retroalimentación oportuna.     | 3            |
+| 15    | US-006        | Eliminación de tareas                          | Como líder, quiero eliminar tareas incorrectas o duplicadas.                                               | 2            |
+| 16    | US-023        | Confirmación antes de eliminar una tarea       | Como líder, quiero recibir una confirmación antes de eliminar una tarea para evitar borrados accidentales. | 1            |
+| 17    | US-009        | Gráfica de distribución de tareas              | Como líder, quiero ver un gráfico con la distribución de tareas por miembro para balancear cargas.         | 1            |    
+| 18    | US-010        | Gráfico de estados de tareas                   | Como líder, quiero ver un gráfico con el estado de todas las tareas del grupo.                             | 1            |
+| 19    | US-019        | Comentario en tareas                           | Como miembro, quiero comentar en las tareas para comunicarme con el líder sobre el progreso.               | 2            |
+| 20    | US-020        | Visualización de carga de trabajo por miembro  | Como líder, quiero ver la carga de trabajo de cada miembro para equilibrar las asignaciones.               | 1            |
 
 #### 5.2.2. Implemented Landing Page Evidence
 
+<img src="images/chapter-5/landing-deploy-1.png" alt="Landing Deploy 1"/>
+
+<img src="images/chapter-5/landing-deploy-2.png" alt="Landing Deploy 2"/>
+
+<img src="images/chapter-5/landing-deploy-3.png" alt="Landing Deploy 3"/>
+
+<img src="images/chapter-5/landing-deploy-4.png" alt="Landing Deploy 4"/>
+
+<img src="images/chapter-5/landing-deploy-5.png" alt="Landing Deploy 5"/>
+
+<img src="images/chapter-5/landing-deploy-6.png" alt="Landing Deploy 6"/>
+
+https://landing-cto3.onrender.com/ 
+
 #### 5.2.3. Implemented Frontend-Web Application Evidence
+
+![webapp-evidence-1.png](images/chapter-5/webapp-evidence-1.png)
+
+![webapp-evidence-2.png](images/chapter-5/webapp-evidence-2.png)
+
+![webapp-evidence-3.png](images/chapter-5/webapp-evidence-3.png)
+
+![webapp-evidence-4.png](images/chapter-5/webapp-evidence-4.png)
 
 #### 5.2.4. Acuerdo de Servicio - SaaS+
 
@@ -2648,6 +2701,12 @@ Finalemente desde un dispositivo móvil se debe abrir el correo de verificador q
 
 #### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
+<img src="images/chapter-5/back-deploy-1.png" alt="Backend deploy 1">
+
+<img src="images/chapter-5/back-deploy-2.png" alt="Backend deploy 2">
+
+https://backend-4cdp.onrender.com/swagger-ui/index.html#/
+
 #### 5.2.7. RESTful API documentation
 
 La documentación del API se realizó a traves de Swagger, para poder acceder a ella es necesario usar el enlace url del backend y agregarle “/swagger-ui/index.html#” esto permitira acceder a la documentación del API, a continuación se muestra un cuadro con los endpoints documentados:
@@ -2703,7 +2762,49 @@ La documentación del API se realizó a traves de Swagger, para poder acceder a 
 
 #### 5.2.8. Team Collaboration Insights
 
+Desarrollo del backend: https://github.com/NRG-8-Experimentos/backend
+
+<img src="images/chapter-5/insights/insights-tb1-1.png" alt="Insights TB1-1"/>
+
+Distribución de commits:
+* Astonitas Díaz Juan Diego (NeoRise456): 1
+* Casas Sanchez Gabriel Alexander (Al3xiel): 1
+
+Desarrollo del web application: https://github.com/NRG-8-Experimentos/web-application
+
+<img src="images/chapter-5/insights/insights-tb1-2.png" alt="Insights TB1-2"/>
+
+Distribución de commits:
+* Casas Sanchez Gabriel Alexander (Al3xiel): 6
+
+Desarrollo móvil: Android https://github.com/NRG-8-Experimentos/android-mobile-app, Flutter https://github.com/NRG-8-Experimentos/flutter-mobile-app
+
+Android:
+
+<img src="images/chapter-5/insights/insights-tb1-3.png" alt="Insights TB1-3"/>
+
+Flutter:
+
+<img src="images/chapter-5/insights/insights-tb1-4.png" alt="Insights TB1-4"/>
+
+Distribución de commits:
+* Casas Sanchez Gabriel Alexander (Al3xiel): Android (1), Flutter (2)
+
+Desarrollo de landing page: https://github.com/NRG-8-Experimentos/landing
+
+<img src="images/chapter-5/insights/insights-tb1-5.png" alt="Insights TB1-5"/>
+
+Distribución de commits:
+* Astonitas Díaz Juan Diego (NeoRise456): 3
+
+
 ### 5.3. Video About-the-Product
+
+| Sección                        | Descripción                                                                                                                                                                                                                                                                                                                                                            |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Resumen del video              | El video presenta una introducción a la aplicación SynHub, destacando sus principales características y beneficios para la gestión de grupos. Se enfoca en cómo la app facilita la organización, asignación de tareas y seguimiento del desempeño para líderes. Se muestran ejemplos prácticos de uso, enfatizando la usabilidad y el diseño intuitivo de la interfaz. |
+| Cuadro de video Representativo | <img src="images/chapter-5/video-about-the-product.png" alt="About the product video"/>                                                                                                                                                                                                                                                                                |
+| Url de video                   | https://youtu.be/lqRRMvBawF8 (parte 1)  https://youtu.be/KN1QQ9w2WaI (parte 2)                                                                                                                                                                                                                                                                                         |
 
 # **Part II: Verification, Validation & Pipeline**
 
@@ -2713,9 +2814,143 @@ La documentación del API se realizó a traves de Swagger, para poder acceder a 
 
 #### 6.1.1. Core Entities Unit Tests
 
+Esta sección describe la estrategia de pruebas unitarias aplicada a las entidades núcleo del dominio, con el objetivo de garantizar la fiabilidad y consistencia de la lógica del sistema. Las pruebas unitarias verifican el comportamiento individual de cada componente, como entidades, objetos de valor, servicios de dominio y funciones críticas, en un entorno aislado, sin dependencias externas.
+
+A través de estas pruebas, se busca validar que los métodos y atributos de cada entidad operen conforme a los requerimientos funcionales definidos, asegurando la correcta manipulación de datos, el cumplimiento de las reglas de negocio y la detección temprana de errores lógicos. Este enfoque contribuye a mantener un alto nivel de calidad, facilitar el mantenimiento del código y reducir el riesgo de regresiones durante la evolución del sistema.
+
+**Group Service test:**
+
+<img src="images/chapter-6/group-service-test.png" alt="Group Service Test"/>
+
+**Invitation Service Test**
+
+<img src="images/chapter-6/invitation-service-test.png" alt="invitation Service Test"/>
+
+**Leader Service Test**
+
+<img src="images/chapter-6/leader-service-test.png" alt="Leader Service Test"/>
+
+**Member Service Test**
+
+<img src="images/chapter-6/member-service-test.png" alt="Member Service Test"/>
+
+**Metrics Service Test**
+
+<img src="images/chapter-6/metrics-service-test.png" alt="Metrics Service Test"/>
+
+**Request Service Test**
+
+<img src="images/chapter-6/request-service-test.png" alt="Request Service Test"/>
+
+**Task Service Test**
+
+<img src="images/chapter-6/task-service-test.png" alt="Task Service Test"/>
+
+**User Service Test**
+
+<img src="images/chapter-6/user-service-test.png" alt="User Service Test"/>
+
 #### 6.1.2. Core Integration Tests
 
+Esta sección aborda la definición y ejecución de las pruebas de integración fundamentales del sistema, cuyo propósito es verificar que los distintos módulos, capas y servicios interactúan de manera correcta y coherente. A diferencia de las pruebas unitarias, las pruebas de integración evalúan el comportamiento conjunto de los componentes, garantizando que la comunicación entre ellos, se realice sin errores y conforme a los flujos de negocio definidos.
+
+**Group Controller Test**
+
+<img src="images/chapter-6/group-controller-test.png" alt="Group Controller Test"/>
+
+**Invitation Controller Test**
+
+<img src="images/chapter-6/invitation-controller-test.png" alt="Invitation Controller Test"/>
+
+**Leader Controller Test**
+
+<img src="images/chapter-6/leader-controller-test.png" alt="Leader Controller Test"/>
+
+**Leader Group Controller Test**
+
+<img src="images/chapter-6/leader-group-controller-test.png" alt="Leader Group Controller Test"/>
+
+**Leader Invitation Controller Test**
+
+<img src="images/chapter-6/leader-invitation-controller-test.png" alt="Leader Invitation Controller Test"/>
+
+**Authentication Controller Test**
+
+<img src="images/chapter-6/authentication-controller-test.png" alt="Authentication Controller Test"/>
+
+**Metrics Controller Test**
+
+<img src="images/chapter-6/metrics-controller-test.png" alt="Metrics Controller Test"/>
+
+**Group Request Controller Test**
+
+<img src="images/chapter-6/group-request-controller-test.png" alt="Group Request Controller Test"/>
+
+**Request Controller Test**
+
+<img src="images/chapter-6/request-controller-test.png" alt="Request Controller Test"/>
+
+**Member Controller Test**
+
+<img src="images/chapter-6/member-controller-test.png" alt="Member Controller Test"/>
+
+**Member Task Controller Test**
+
+<img src="images/chapter-6/member-task-controller-test.png" alt="Member Task Controller Test"/>
+
+**Task Controller Test**
+
+<img src="images/chapter-6/task-controller-test.png" alt="Task Controller Test"/>
+
 #### 6.1.3. Core Behavior-Driven Development
+
+El enfoque Behavior-Driven Development (BDD) permite al equipo alinear el desarrollo del sistema con las necesidades y expectativas reales de los usuarios, promoviendo una comunicación clara entre los roles técnicos y no técnicos.
+En esta sección se documentan los comportamientos esperados de la aplicación a través de escenarios escritos en lenguaje natural, siguiendo la estructura Given–When–Then (Dado–Cuando–Entonces).
+
+El objetivo es asegurar que cada funcionalidad refleje de forma precisa la intención del usuario y se valide mediante pruebas automatizadas que simulen su interacción con el sistema.
+De esta manera, el BDD contribuye a mejorar la calidad del software, reducir errores en la interpretación de requisitos y facilitar la trazabilidad entre historias de usuario, pruebas y resultados funcionales.
+
+<img src="images/chapter-6/bdd-1.png" alt="BDD Test"/>
+
+<img src="images/chapter-6/bdd-test-1.png" alt="BDD Test 1"/>
+
+<img src="images/chapter-6/bdd-test-2.png" alt="BDD Test 2"/>
+
+<img src="images/chapter-6/bdd-test-3.png" alt="BDD Test 3"/>
+
+<img src="images/chapter-6/bdd-test-4.png" alt="BDD Test 4"/>
+
+<img src="images/chapter-6/bdd-test-5.png" alt="BDD Test 5"/>
+
+<img src="images/chapter-6/bdd-test-6.png" alt="BDD Test 6"/>
+
+<img src="images/chapter-6/bdd-test-7.png" alt="BDD Test 7"/>
+
+<img src="images/chapter-6/bdd-test-8.png" alt="BDD Test 8"/>
+
+<img src="images/chapter-6/bdd-test-9.png" alt="BDD Test 9"/>
+
+<img src="images/chapter-6/bdd-test-10.png" alt="BDD Test 10"/>
+
+<img src="images/chapter-6/bdd-test-11.png" alt="BDD Test 11"/>
+
+<img src="images/chapter-6/bdd-test-12.png" alt="BDD Test 12"/>
+
+<img src="images/chapter-6/bdd-test-13.png" alt="BDD Test 13"/>
+
+<img src="images/chapter-6/bdd-test-14.png" alt="BDD Test 14"/>
+
+<img src="images/chapter-6/bdd-test-15.png" alt="BDD Test 15"/>
+
+<img src="images/chapter-6/bdd-test-16.png" alt="BDD Test 16"/>
+
+<img src="images/chapter-6/bdd-test-17.png" alt="BDD Test 17"/>
+
+<img src="images/chapter-6/bdd-test-18.png" alt="BDD Test 18"/>
+
+<img src="images/chapter-6/bdd-test-19.png" alt="BDD Test 19"/>
+
+<img src="images/chapter-6/bdd-test-20.png" alt="BDD Test 20"/>
 
 #### 6.1.4. Core System Tests
 
@@ -2761,21 +2996,122 @@ La documentación del API se realizó a traves de Swagger, para poder acceder a 
 
 ### 7.1. Continuous Integration
 
+La Integración Continua (CI) es una práctica fundamental en el desarrollo de software moderno que busca automatizar el proceso de construcción, prueba y validación del código cada vez que se integra en el repositorio compartido.
+
+Su principal objetivo es detectar errores de manera temprana, mejorar la colaboración entre desarrolladores y garantizar que la aplicación se mantenga estable y desplegable en todo momento. Esta práctica reduce el esfuerzo manual, aumenta la eficiencia del desarrollo y ayuda a mantener la calidad constante en todos los módulos del sistema.
+
 #### 7.1.1. Tools and Practices
+
+El proceso de Integración Continua se implementó utilizando un conjunto de herramientas que automatizan las actividades de validación y prueba durante el ciclo de desarrollo.
+
+**Herramientas:**
+
+* Cucumber: Se empleó para la elaboración y ejecución de escenarios de usuario bajo el enfoque de Desarrollo Guiado por Comportamiento (Behavior Driven Development - BDD). Permite definir casos de prueba en lenguaje natural, mejorando la comunicación entre desarrolladores, testers y stakeholders no técnicos.
+* JUnit: Utilizado para la creación de pruebas unitarias que verifican el correcto funcionamiento de los componentes individuales. Facilita la detección temprana de errores lógicos y asegura que cada módulo funcione como se espera antes de ser integrado.
+* Mockito: Aplicado para simular dependencias externas y comportamientos de componentes aún no disponibles. Esto permite ejecutar pruebas aisladas y confiables, reduciendo el acoplamiento entre módulos.
+
+**Prácticas:**
+
+* Las pruebas unitarias e integradas se ejecutan de forma aislada para mantener consistencia en los resultados.
+* El uso de BDD con Cucumber complementa las pruebas técnicas al validar las historias de usuario desde una perspectiva funcional.
+* Se fomenta la integración frecuente de cambios pequeños para minimizar conflictos y facilitar la detección de errores.
 
 #### 7.1.2. Build & Test Suite Pipeline Components
 
+<img src="images/chapter-7/ci-pipeline.png" alt="CI Pipeline"/>
+
 ### 7.2. Continuous Delivery
+
+Enfocada en garantizar que el software siempre esté en un estado listo para ser desplegado en cualquier momento, de forma segura y automatizada. Su propósito principal es acelerar el ciclo de desarrollo y reducir el riesgo de errores en los despliegues, manteniendo versiones estables del sistema que puedan ser liberadas con mínima intervención manual.
+
+En el proyecto, la Entrega Continua permitió que las versiones integradas y validadas pudieran ser empaquetadas y distribuidas consistentemente hacia los entornos de prueba y preproducción.
+Este proceso asegura que cada versión liberada cumpla con los criterios de calidad definidos, promoviendo la trazabilidad, la transparencia y la colaboración entre los miembros del equipo.
 
 #### 7.2.1. Tools and Practices
 
+**Herramientas:**
+
+* Trello: Se utilizó como herramienta de gestión visual del flujo de trabajo (Kanban), permitiendo planificar, asignar y dar seguimiento a las historias de usuario, tareas y entregables. Esto garantizó una organización clara de las actividades y una priorización efectiva del backlog.
+* GitHub: Sirvió como repositorio central para el control de versiones del código fuente y la colaboración del equipo. Mediante pull requests, branches y revisiones de código, se aseguró la trazabilidad de los cambios y la integración controlada de nuevas funcionalidades.
+* Docker: Se empleó para la creación de entornos consistentes y reproducibles, empaquetando las aplicaciones y sus dependencias en contenedores. Gracias a Docker, se redujeron las diferencias entre entornos locales, de prueba y de despliegue, garantizando portabilidad y estabilidad en cada entrega.
+
+**Prácticas:**
+
+* Cada versión validada del software se empaqueta automáticamente en una imagen de Docker lista para desplegarse.
+* Se definió un flujo de trabajo en GitHub con ramas estructuradas (main, develop, feature/) para mantener un control ordenado del ciclo de entrega.
+* Trello se utilizó para coordinar el progreso de cada historia de usuario, desde la planificación hasta la entrega final.
+* Se realizaron revisiones de código (code reviews) previas a la integración para mantener la calidad y coherencia del código.
+
 #### 7.2.2. Stages Deployment Pipeline Components
+
+El pipeline de Entrega Continua se estructuró en una serie de etapas secuenciales y automatizadas, orientadas a garantizar que cada cambio pase por validaciones técnicas y de calidad antes de ser liberado hacia los entornos de prueba y preproducción.
+Cada etapa cumplió una función específica dentro del flujo, asegurando que el software estuviera siempre en condiciones óptimas para su despliegue.
+
+**Planificación (Planning Stage):**
+
+En esta fase, se gestionaron las historias de usuario y tareas dentro de Trello, organizadas según prioridad y estado de avance (To Do, In Progress, Done). Esta etapa permitió al equipo definir claramente los objetivos de cada iteración y mantener visibilidad sobre el progreso del proyecto.
+
+**Desarrollo (Development Stage):**
+
+Los desarrolladores trabajaron en ramas individuales dentro de GitHub, siguiendo una estrategia de branching model estructurada (feature/, develop, main). Esto facilitó la integración controlada de nuevas características, el seguimiento de commits y la revisión colaborativa del código mediante pull requests.
+
+**Construcción (Build Stage):**
+
+Una vez integradas las funcionalidades, el código se empaquetó utilizando Docker, creando imágenes reproducibles del sistema. Estas imágenes contenían las dependencias necesarias para ejecutar la aplicación de manera idéntica en diferentes entornos, garantizando coherencia entre desarrollo, pruebas y preproducción.
+
+**Pruebas y Validación (Testing & Validation Stage):**
+
+Las imágenes Docker generadas se desplegaron en entornos de prueba donde se ejecutaron pruebas funcionales y de integración. Esta fase permitió verificar la estabilidad, rendimiento y compatibilidad del sistema antes de su distribución.
+
+**Entrega a Preproducción (Pre-Release Stage):**
+
+Una vez superadas las pruebas, las versiones validadas fueron distribuidas en el entorno de preproducción, replicando las condiciones reales de ejecución. Este paso permitió al equipo realizar validaciones finales y simulaciones de despliegue antes de proceder al paso de producción.
 
 ### 7.3. Continuous deployment
 
+El Despliegue Continuo (CD) representa la última fase del ciclo DevOps, donde las versiones validadas del sistema se publican automáticamente en entornos de producción sin intervención manual.
+Su objetivo es garantizar que cada cambio aprobado, tras pasar por las etapas de integración, pruebas y entrega, se despliegue de forma rápida, confiable y repetible, reduciendo tiempos de liberación y errores humanos.
+
+En el contexto del proyecto, el Despliegue Continuo permitió mantener las distintas partes del ecosistema (base de datos, API, aplicación web y móvil) siempre actualizadas y disponibles, asegurando una entrega fluida de nuevas funcionalidades hacia los usuarios finales.
+De esta forma, cada cambio en el repositorio podía reflejarse en producción en cuestión de minutos, promoviendo un desarrollo ágil, transparente y alineado con la filosofía de entrega continua de valor.
+
 #### 7.3.1. Tools and Practices
 
+El proceso de Despliegue Continuo se implementó utilizando una combinación de herramientas orientadas a la automatización del despliegue, la distribución de aplicaciones móviles y la sincronización de versiones entre entornos.
+
+**Herramientas:**
+
+* GitHub: Funcionó como punto central de control del ciclo de vida del código. A través de GitHub Actions, se automatizaron los workflows de integración y despliegue, permitiendo ejecutar las actualizaciones del sistema de manera automática tras cada merge o release.
+* Render: Se empleó como plataforma de despliegue en la nube para la base de datos, la API y la aplicación web. Render facilitó la configuración de entornos independientes, el escalado automático y la gestión continua del uptime del sistema, asegurando alta disponibilidad y confiabilidad de los servicios.
+* Firebase App Distribution: Se utilizó para distribuir las versiones móviles desarrolladas en Flutter y Android. Esta herramienta permitió compartir fácilmente las compilaciones con testers y stakeholders, asegurando la validación temprana de nuevas funciones antes de su liberación en tiendas oficiales.
+
+**Prácticas:**
+
+* Configuración de auto-deploy en Render para que las nuevas versiones de la API, base de datos y frontend se actualicen de forma automática tras cada commit a la rama principal.
+* Distribución de las versiones móviles mediante Firebase App Distribution, con notificaciones automáticas a los testers registrados.
+* Monitoreo constante de los entornos productivos a través de los paneles de Render y Firebase para garantizar estabilidad y disponibilidad.
+
 #### 7.3.2. Production Deployment Pipeline Components
+
+El pipeline de Despliegue Continuo se diseñó para automatizar completamente el paso de las versiones validadas hacia el entorno de producción, garantizando que cada actualización llegue a los usuarios finales de manera segura, rápida y sin interrupciones del servicio.
+
+Cada componente del ecosistema (base de datos, API, aplicación web y aplicación móvil) cuenta con un flujo independiente pero sincronizado, permitiendo una integración fluida y una gestión centralizada desde el repositorio principal en GitHub.
+
+**Build & Release Automation:**
+
+Cada vez que se realiza un merge o release en la rama principal de GitHub, se activa automáticamente un flujo de despliegue (workflow) mediante GitHub Actions. Este flujo compila el código, ejecuta pruebas finales y genera las versiones listas para producción.
+
+**Backend Deployment (API & Database):**
+
+Las imágenes actualizadas del backend se despliegan automáticamente en Render, donde se ejecuta la API y se aloja la base de datos. Render gestiona el scaling, el monitoreo de rendimiento y el mantenimiento del uptime, asegurando que los servicios críticos permanezcan disponibles ante incrementos de carga o fallos de hardware.
+
+**Frontend Deployment (Web Application):**
+
+El mismo pipeline actualiza la aplicación web alojada en Render, la cual se reconstruye y publica automáticamente tras cada actualización en el repositorio. Esto permite que los usuarios siempre accedan a la versión más reciente del sistema sin necesidad de actualizaciones manuales.
+
+**Mobile Deployment (Android / Flutter):**
+
+En paralelo, las versiones móviles son compiladas y enviadas a Firebase App Distribution, donde los testers y stakeholders reciben automáticamente las nuevas versiones para validación. Una vez aprobadas, pueden ser liberadas hacia los canales de producción en Google Play o entornos empresariales cerrados.
 
 ### 7.4. Continuous Monitoring
 
