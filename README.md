@@ -2814,9 +2814,143 @@ Distribución de commits:
 
 #### 6.1.1. Core Entities Unit Tests
 
+Esta sección describe la estrategia de pruebas unitarias aplicada a las entidades núcleo del dominio, con el objetivo de garantizar la fiabilidad y consistencia de la lógica del sistema. Las pruebas unitarias verifican el comportamiento individual de cada componente, como entidades, objetos de valor, servicios de dominio y funciones críticas, en un entorno aislado, sin dependencias externas.
+
+A través de estas pruebas, se busca validar que los métodos y atributos de cada entidad operen conforme a los requerimientos funcionales definidos, asegurando la correcta manipulación de datos, el cumplimiento de las reglas de negocio y la detección temprana de errores lógicos. Este enfoque contribuye a mantener un alto nivel de calidad, facilitar el mantenimiento del código y reducir el riesgo de regresiones durante la evolución del sistema.
+
+**Group Service test:**
+
+<img src="images/chapter-6/group-service-test.png" alt="Group Service Test"/>
+
+**Invitation Service Test**
+
+<img src="images/chapter-6/invitation-service-test.png" alt="invitation Service Test"/>
+
+**Leader Service Test**
+
+<img src="images/chapter-6/leader-service-test.png" alt="Leader Service Test"/>
+
+**Member Service Test**
+
+<img src="images/chapter-6/member-service-test.png" alt="Member Service Test"/>
+
+**Metrics Service Test**
+
+<img src="images/chapter-6/metrics-service-test.png" alt="Metrics Service Test"/>
+
+**Request Service Test**
+
+<img src="images/chapter-6/request-service-test.png" alt="Request Service Test"/>
+
+**Task Service Test**
+
+<img src="images/chapter-6/task-service-test.png" alt="Task Service Test"/>
+
+**User Service Test**
+
+<img src="images/chapter-6/user-service-test.png" alt="User Service Test"/>
+
 #### 6.1.2. Core Integration Tests
 
+Esta sección aborda la definición y ejecución de las pruebas de integración fundamentales del sistema, cuyo propósito es verificar que los distintos módulos, capas y servicios interactúan de manera correcta y coherente. A diferencia de las pruebas unitarias, las pruebas de integración evalúan el comportamiento conjunto de los componentes, garantizando que la comunicación entre ellos, se realice sin errores y conforme a los flujos de negocio definidos.
+
+**Group Controller Test**
+
+<img src="images/chapter-6/group-controller-test.png" alt="Group Controller Test"/>
+
+**Invitation Controller Test**
+
+<img src="images/chapter-6/invitation-controller-test.png" alt="Invitation Controller Test"/>
+
+**Leader Controller Test**
+
+<img src="images/chapter-6/leader-controller-test.png" alt="Leader Controller Test"/>
+
+**Leader Group Controller Test**
+
+<img src="images/chapter-6/leader-group-controller-test.png" alt="Leader Group Controller Test"/>
+
+**Leader Invitation Controller Test**
+
+<img src="images/chapter-6/leader-invitation-controller-test.png" alt="Leader Invitation Controller Test"/>
+
+**Authentication Controller Test**
+
+<img src="images/chapter-6/authentication-controller-test.png" alt="Authentication Controller Test"/>
+
+**Metrics Controller Test**
+
+<img src="images/chapter-6/metrics-controller-test.png" alt="Metrics Controller Test"/>
+
+**Group Request Controller Test**
+
+<img src="images/chapter-6/group-request-controller-test.png" alt="Group Request Controller Test"/>
+
+**Request Controller Test**
+
+<img src="images/chapter-6/request-controller-test.png" alt="Request Controller Test"/>
+
+**Member Controller Test**
+
+<img src="images/chapter-6/member-controller-test.png" alt="Member Controller Test"/>
+
+**Member Task Controller Test**
+
+<img src="images/chapter-6/member-task-controller-test.png" alt="Member Task Controller Test"/>
+
+**Task Controller Test**
+
+<img src="images/chapter-6/task-controller-test.png" alt="Task Controller Test"/>
+
 #### 6.1.3. Core Behavior-Driven Development
+
+El enfoque Behavior-Driven Development (BDD) permite al equipo alinear el desarrollo del sistema con las necesidades y expectativas reales de los usuarios, promoviendo una comunicación clara entre los roles técnicos y no técnicos.
+En esta sección se documentan los comportamientos esperados de la aplicación a través de escenarios escritos en lenguaje natural, siguiendo la estructura Given–When–Then (Dado–Cuando–Entonces).
+
+El objetivo es asegurar que cada funcionalidad refleje de forma precisa la intención del usuario y se valide mediante pruebas automatizadas que simulen su interacción con el sistema.
+De esta manera, el BDD contribuye a mejorar la calidad del software, reducir errores en la interpretación de requisitos y facilitar la trazabilidad entre historias de usuario, pruebas y resultados funcionales.
+
+<img src="images/chapter-6/bdd-1.png" alt="BDD Test"/>
+
+<img src="images/chapter-6/bdd-test-1.png" alt="BDD Test 1"/>
+
+<img src="images/chapter-6/bdd-test-2.png" alt="BDD Test 2"/>
+
+<img src="images/chapter-6/bdd-test-3.png" alt="BDD Test 3"/>
+
+<img src="images/chapter-6/bdd-test-4.png" alt="BDD Test 4"/>
+
+<img src="images/chapter-6/bdd-test-5.png" alt="BDD Test 5"/>
+
+<img src="images/chapter-6/bdd-test-6.png" alt="BDD Test 6"/>
+
+<img src="images/chapter-6/bdd-test-7.png" alt="BDD Test 7"/>
+
+<img src="images/chapter-6/bdd-test-8.png" alt="BDD Test 8"/>
+
+<img src="images/chapter-6/bdd-test-9.png" alt="BDD Test 9"/>
+
+<img src="images/chapter-6/bdd-test-10.png" alt="BDD Test 10"/>
+
+<img src="images/chapter-6/bdd-test-11.png" alt="BDD Test 11"/>
+
+<img src="images/chapter-6/bdd-test-12.png" alt="BDD Test 12"/>
+
+<img src="images/chapter-6/bdd-test-13.png" alt="BDD Test 13"/>
+
+<img src="images/chapter-6/bdd-test-14.png" alt="BDD Test 14"/>
+
+<img src="images/chapter-6/bdd-test-15.png" alt="BDD Test 15"/>
+
+<img src="images/chapter-6/bdd-test-16.png" alt="BDD Test 16"/>
+
+<img src="images/chapter-6/bdd-test-17.png" alt="BDD Test 17"/>
+
+<img src="images/chapter-6/bdd-test-18.png" alt="BDD Test 18"/>
+
+<img src="images/chapter-6/bdd-test-19.png" alt="BDD Test 19"/>
+
+<img src="images/chapter-6/bdd-test-20.png" alt="BDD Test 20"/>
 
 #### 6.1.4. Core System Tests
 
