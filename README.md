@@ -2815,6 +2815,50 @@ Distribución de commits:
 * Astonitas Díaz Juan Diego (NeoRise456): 3
 
 
+Entrega TP: 
+
+Desarrollo del backend: https://github.com/NRG-8-Experimentos/backend
+
+![nrg8-teamins1.png](images/chapter-1/nrg8-teamins1.png)
+
+Distribución de commits:
+* Astonitas Díaz Juan Diego (NeoRise456): 10
+* Casas Sanchez Gabriel Alexander (Al3xiel): 6
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 2
+* Wilder Gonzalo Aliaga Urbina (gonzalo1905): 2
+
+Desarrollo del web application: https://github.com/NRG-8-Experimentos/web-app
+
+![nrg8-teamins2.png](images/chapter-1/nrg8-teamins2.png)
+
+Distribución de commits:
+* Astonitas Díaz Juan Diego (NeoRise456): 5
+* Casas Sanchez Gabriel Alexander (Al3xiel): 18
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 37
+* Wilder Gonzalo Aliaga Urbina (gonzalo1905): 7
+* Armas Sánchez Oscar Javier (Racso24k): 8
+
+Desarrollo móvil: Android https://github.com/NRG-8-Experimentos/android-mobile-app, Flutter https://github.com/NRG-8-Experimentos/flutter-mobile-app
+
+Android:
+
+![nrg8-teamins3.png](images/chapter-1/nrg8-teamins3.png)
+
+Flutter:
+
+![nrg8-teamins4.png](images/chapter-1/nrg8-teamins4.png)
+
+Distribución de commits:
+* Casas Sanchez Gabriel Alexander (Al3xiel): Android (2), Flutter (1)
+* Pasquale Barrenechea Gianluca Santino (cwassointt): Android (1), Flutter (1)
+
+Desarrollo de landing page: https://github.com/NRG-8-Experimentos/landing
+
+![nrg8-teamins5.png](images/chapter-1/nrg8-teamins5.png)
+
+Distribución de commits:
+* Astonitas Díaz Juan Diego (NeoRise456): 3
+
 ### 5.3. Video About-the-Product
 
 | Sección                        | Descripción                                                                                                                                                                                                                                                                                                                                                            |
