@@ -3269,3 +3269,33 @@ En paralelo, las versiones móviles son compiladas y enviadas a Firebase App Dis
 ## Bibliografía
 
 ## Anexos
+
+El siguiente enlace contiene el diseño UX de la aplicación web y móvil desarrollado en Figma:
+https://www.figma.com/design/8RRvy8eOoy0tLaW1dXYk3T/SynHUb-UX-Design?node-id=0-1&t=6Ii4sxsbP0y3sk6q-1
+
+El siguiente enlace contiene un video de las entrevistas realizadas:
+https://upcedupe-my.sharepoint.com/personal/u20211g192_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu20211g192%5Fupc%5Fedu%5Fpe%2FDocuments%2FMi%20peli%CC%81cula%201%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Edfe89340%2D9945%2D4544%2Dbfbd%2D2ef391580722
+
+El siguiente enlace contiene el video About-the-Product(Parte 1):
+https://www.youtube.com/watch?v=lqRRMvBawF8
+
+El siguiente enlace contiene el video About-the-Product(Parte 2):
+https://www.youtube.com/watch?v=KN1QQ9w2WaI
+
+El siguiente enlace contiene el código del desarrollo de la Aplicación Web:
+https://github.com/NRG-8-Experimentos/web-app
+
+El siguiente enlace contiene el Reporte del Proyecto:
+https://github.com/NRG-8-Experimentos/repor
+
+El siguiente enlace contiene el código del desarrollo de la Vista de Líderes en la Aplicación Mobil:
+https://github.com/NRG-8-Experimentos/android-mobile-app
+
+El siguiente enlace contiene el código del desarrollo de la Vista de Miembros en la Aplicación Mobil:
+https://github.com/NRG-8-Experimentos/flutter-mobile-app
+
+El siguiente enlace contiene el código del desarrollo de la Landing Page:
+https://github.com/NRG-8-Experimentos/landing
+
+
+
