@@ -2904,6 +2904,54 @@ Esta sección aborda la definición y ejecución de las pruebas de integración 
 
 #### 6.1.3. Core Behavior-Driven Development
 
+El enfoque Behavior-Driven Development (BDD) permite al equipo alinear el desarrollo del sistema con las necesidades y expectativas reales de los usuarios, promoviendo una comunicación clara entre los roles técnicos y no técnicos.
+En esta sección se documentan los comportamientos esperados de la aplicación a través de escenarios escritos en lenguaje natural, siguiendo la estructura Given–When–Then (Dado–Cuando–Entonces).
+
+El objetivo es asegurar que cada funcionalidad refleje de forma precisa la intención del usuario y se valide mediante pruebas automatizadas que simulen su interacción con el sistema.
+De esta manera, el BDD contribuye a mejorar la calidad del software, reducir errores en la interpretación de requisitos y facilitar la trazabilidad entre historias de usuario, pruebas y resultados funcionales.
+
+<img src="images/chapter-6/bdd-1.png" alt="BDD Test"/>
+
+<img src="images/chapter-6/bdd-test-1.png" alt="BDD Test 1"/>
+
+<img src="images/chapter-6/bdd-test-2.png" alt="BDD Test 2"/>
+
+<img src="images/chapter-6/bdd-test-3.png" alt="BDD Test 3"/>
+
+<img src="images/chapter-6/bdd-test-4.png" alt="BDD Test 4"/>
+
+<img src="images/chapter-6/bdd-test-5.png" alt="BDD Test 5"/>
+
+<img src="images/chapter-6/bdd-test-6.png" alt="BDD Test 6"/>
+
+<img src="images/chapter-6/bdd-test-7.png" alt="BDD Test 7"/>
+
+<img src="images/chapter-6/bdd-test-8.png" alt="BDD Test 8"/>
+
+<img src="images/chapter-6/bdd-test-9.png" alt="BDD Test 9"/>
+
+<img src="images/chapter-6/bdd-test-10.png" alt="BDD Test 10"/>
+
+<img src="images/chapter-6/bdd-test-11.png" alt="BDD Test 11"/>
+
+<img src="images/chapter-6/bdd-test-12.png" alt="BDD Test 12"/>
+
+<img src="images/chapter-6/bdd-test-13.png" alt="BDD Test 13"/>
+
+<img src="images/chapter-6/bdd-test-14.png" alt="BDD Test 14"/>
+
+<img src="images/chapter-6/bdd-test-15.png" alt="BDD Test 15"/>
+
+<img src="images/chapter-6/bdd-test-16.png" alt="BDD Test 16"/>
+
+<img src="images/chapter-6/bdd-test-17.png" alt="BDD Test 17"/>
+
+<img src="images/chapter-6/bdd-test-18.png" alt="BDD Test 18"/>
+
+<img src="images/chapter-6/bdd-test-19.png" alt="BDD Test 19"/>
+
+<img src="images/chapter-6/bdd-test-20.png" alt="BDD Test 20"/>
+
 #### 6.1.4. Core System Tests
 
 ### 6.2. Static testing & Verification
