@@ -58,6 +58,23 @@ Recapitulando los commits se dividieron de la siguiente manera:
 * Pasquale Barrenechea Gianluca Santino (cwassointt): 5
 * Wilder Gonzalo Aliaga Urbina (gonzalo1905): 7
 
+Entrega TP:
+
+![nrg8-ins1.png](images/chapter-1/nrg8-ins1.png)
+![nrg8-ins2.png](images/chapter-1/nrg8-ins2.png)
+![nrg8-ins3.png](images/chapter-1/nrg8-ins3.png)
+![nrg8-ins4.png](images/chapter-1/nrg8-ins4.png)
+![nrg8-ins5.png](images/chapter-1/nrg8-ins5.png)
+![nrg8-ins6.png](images/chapter-1/nrg8-ins6.png)
+
+Para esta primera entrega se desarrollaron los capítulos del 1 al 4, en la captura adjunta se evidencia el trabajo colaborativo de github. Todos los integrantes del grupo trabajaron en el proyecto.
+Recapitulando los commits se dividieron de la siguiente manera:
+* Armas Sánchez Oscar Javier (Racso24k): 8
+* Astonitas Díaz Juan Diego (NeoRise456): 5
+* Casas Sanchez Gabriel Alexander (Al3xiel): 18 
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 37 
+* Wilder Gonzalo Aliaga Urbina (gonzalo1905): 7
+
 ## Contenido
 
 - [Student Outcome](#student-outcome)
