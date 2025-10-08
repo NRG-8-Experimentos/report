@@ -251,10 +251,82 @@ Recapitulando los commits se dividieron de la siguiente manera:
 
 ## Student Outcome
 
-| Criterio específico                                                                                                                                                                                                                                                                    | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Conclusiones |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
-| ABET – EAC - Student Outcome 4: La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales. | TB1:<br>- Aliaga Urbina, Wilder Gonzalo: Desarrollo de prototipos web y móviles, gestión de configuración y código, despliegue del producto y elaboración del acuerdo SaaS, aplicando buenas prácticas técnicas y legales.<br>- Gianluca  Pasquale: Desarrolló herramientas clave de diseño centradas en el usuario como User Personas, User Journey Mapping e Impact Mapping.<br>- Juan Astonitas: Reconocí el impacto del deployment dentro del trabajo animándome a dejar instrucciones detalladas sobre cómo replicar el mismo.<br>- Gabriel Casas: Desarrollo el UX/UI de la aplicación tomando en cuenta el impacto sobre los usuarios y su compresión y curva de aprendizaje para cumplir con el objetivo de la solución planteada.<br>- Oscar Armas: Realicé entrevistas y mapeos (Empathy, As-Is, To-Be) para identificar necesidades y proponer mejoras, considerando la ética en el manejo de datos y el impacto social, económico y ambiental del sistema. <br>TP:<br> Aliaga Urbina, Wilder Gonzalo: Desarrollo e implementación de la aplicación web con el backend en la funcionalidad de tareas, además, desarrollo de los Core System Tests.<br>Casas Sanchez, Gabriel Alexander: El desarrollo de las pruebas de código fue escencial para tomar las mejores decisiones al momento de integrar las vistas de frontend con backend. Me permitieron discernir entre que restricciones debian ser implementadas a nivel UI y cuales a nivel de código. |
-|                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |              |
+El curso contribuye al cumplimiento del Student Outcome ABET:
+
+**ABET – EAC - Student Outcome 4**
+
+Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
+situaciones de ingeniería y hacer juicios informados, que deben considerar el
+impacto de las soluciones de ingeniería en contextos globales, económicos,
+ambientales y sociales.
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones
+por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET –
+EAC - Student Outcome 4.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left;">Criterio específico</th>
+      <th style="text-align: left;">Acciones realizadas</th>
+      <th style="text-align: left;">Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>
+        4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software 
+      </strong></td>
+      <td>
+        <b>Gabriel Alexander Casas Sanchez:</b> <br>
+            - TB1: Reconocí la responsabilidad ética y profesional al diseñar el UX/UI, priorizando la comprensión y curva de aprendizaje de los usuarios.<br>
+            - TP: Reconocí la responsabilidad ética y profesional al desarrollar pruebas de código que garantizaron la correcta integración entre frontend y backend, priorizando la calidad y robustez del sistema.<br>
+        <b>Juan Diego Astonitas Diaz:</b> <br>
+            - TB1: Reconocí mi responsabilidad ética y profesional al dejar instrucciones detalladas para el deployment, facilitando la replicabilidad y transparencia del proceso.<br>
+            - TP: Reconocí mi responsabilidad ética y profesional al desarrollar pruebas unitarias e integradas para los servicios y controladores del backend, así como pruebas de sistema para la app móvil, asegurando la calidad y confiabilidad del software entregado.<br>
+        <b>Gonzalo Aliaga:</b> <br>
+            - TB1: econocí mi responsabilidad ética y profesional al gestionar la configuración y el código, desplegar el producto y elaborar el acuerdo SaaS, aplicando buenas prácticas técnicas y legales.<br>
+            - TP: Reconocí mi responsabilidad ética y profesional al desarrollar e implementar la aplicación web y el backend, asegurando la calidad y confiabilidad de la funcionalidad de tareas y de las pruebas del sistema.<br>
+        <b>Gianluca Pasquale:</b> <br>
+            - TB1: Reconocí la responsabilidad ética y profesional al diseñar herramientas centradas en el usuario, asegurando que las soluciones respeten sus necesidades y derechos.<br>
+            - TP: Reconocí mi responsabilidad ética y profesional al desarrollar nuevas métricas y reforzar la seguridad del inicio de sesión con CAPTCHA, protegiendo los datos y la integridad de los usuarios.<br>
+        <b>Oscar Armas:</b> <br>
+            - TB1: Reconocí la responsabilidad ética y profesional al realizar entrevistas y mapeos, considerando la ética en el manejo de datos.<br>
+            - TP: <br>
+       </td>
+      <td>
+        - TB1: Como equipo, reconocimos nuestra responsabilidad ética y profesional en el desarrollo del proyecto, aplicando buenas prácticas técnicas y legales en la gestión de la configuración, el código, el diseño UX/UI y la documentación de procesos, así como en la recolección y manejo ético de datos de usuarios.<br>
+        - TP: <br>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>
+        4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales 
+      </strong></td>
+      <td>
+        <b>Gabriel Alexander Casas Sanchez:</b> <br>
+            - TB1: Emití juicios informados al evaluar cómo el diseño de la aplicación impacta en la experiencia y objetivos de los usuarios.<br>
+            - TP: Emití juicios informados al decidir qué restricciones implementar en la UI y cuáles en el código, evaluando el impacto de estas decisiones en la usabilidad y seguridad para los usuarios.<br>
+        <b>Juan Diego Astonitas Diaz:</b> <br>
+            - TB1: Emití juicios informados al considerar el impacto del deployment en la experiencia de otros desarrolladores y usuarios.<br>
+            - TP: Emití juicios informados al implementar la funcionalidad de gestión de grupos en la aplicación web y su integración con el backend, considerando el impacto de estas soluciones en la experiencia y productividad de los usuarios en diferentes contextos.<br>
+        <b>Gonzalo Aliaga:</b> <br>
+            - TB1: Emití juicios informados al desarrollar prototipos web y móviles, considerando el impacto del despliegue en los usuarios y el entorno.<br>
+            - TP: Emití juicios informados al diseñar e implementar funcionalidades que impactan directamente en la experiencia y productividad de los usuarios, considerando su entorno y necesidades.<br>
+        <b>Gianluca Pasquale:</b> <br>
+            - TB1: Emití juicios informados al crear User Personas, User Journey Mapping e Impact Mapping, evaluando el impacto de las soluciones en contextos globales y sociales.<br>
+            - TP: Emití juicios informados al implementar métricas y factores de seguridad que mejoran la experiencia y confianza de los usuarios, considerando su impacto en contextos sociales y tecnológicos.<br>
+        <b>Oscar Armas:</b> <br>
+            - TB1: Emití juicios informados al proponer mejoras basadas en el análisis del impacto social, económico y ambiental del sistema.<br>
+            - TP: <br>
+       </td>
+      <td>
+        - TB1: Emitimos juicios informados al diseñar y desarrollar soluciones considerando el impacto en los usuarios, el entorno social, económico y ambiental, evaluando continuamente cómo nuestras decisiones afectan la experiencia, los derechos y el bienestar de todos los involucrados.<br>
+        - TP: <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 # **Part I: As-Is Software Project**
 
