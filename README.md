@@ -3015,6 +3015,117 @@ De esta manera, el BDD contribuye a mejorar la calidad del software, reducir err
 
 #### 6.1.4. Core System Tests
 
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-001 | Creación de grupo | **Como** líder **quiero** crear grupos **para** organizar el trabajo de mi equipo. |
+<img src="images/chapter-6/Core System Tests/US01.png" alt="US01" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-002 | Envío de invitaciones | **Como** miembro **quiero** solicitar unirme a un grupo **para** poder trabajar. |
+<img src="images/chapter-6/Core System Tests/US02.png" alt="US02" />
+
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-004 | Creación de tareas | **Como** líder **quiero** crear tareas **para** asignar trabajo a los miembros. |
+<img src="images/chapter-6/Core System Tests/US04.png" alt="US04" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-005 | Asignación de tareas | **Como** líder **quiero** asignar tareas a miembros específicos **para** distribuir el trabajo. |
+<img src="images/chapter-6/Core System Tests/US05.png" alt="US05" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-006 | Eliminación de tareas | **Como** líder **quiero** eliminar tareas incorrectas o duplicadas **para** mantener el orden del grupo. |
+<img src="images/chapter-6/Core System Tests/US06.png" alt="US06" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-007 | Actualización de estado | **Como** miembro **quiero** actualizar el estado de mis tareas **para** reflejar mi progreso. |
+<img src="images/chapter-6/Core System Tests/US07.png" alt="US07" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-008 | Reprogramación de tareas | **Como** líder **quiero** cambiar fechas límite **para** gestionar imprevistos. |
+<img src="images/chapter-6/Core System Tests/US08.png" alt="US08" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-009 | Gráfica de distribución de tareas | **Como** líder **quiero** ver un gráfico con la distribución de tareas **para** balancear cargas. |
+<img src="images/chapter-6/Core System Tests/US09.png" alt="US09" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-010 | Gráfico de estados de tareas | **Como** líder **quiero** ver un gráfico del estado de las tareas **para** evaluar su progreso. |
+<img src="images/chapter-6/Core System Tests/US10.png" alt="US10" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-011 | Reporte de reprogramaciones | **Como** líder **quiero** ver un gráfico de tareas reprogramadas **para** analizar patrones de retraso. |
+<img src="images/chapter-6/Core System Tests/US11.png" alt="US11" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-012 | Reporte de productividad individual | **Como** líder **quiero** evaluar el desempeño de cada miembro **para** medir su productividad. |
+<img src="images/chapter-6/Core System Tests/US12.png" alt="US12" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-013 | Solicitud de aprobación de tarea | **Como** miembro **quiero** enviar tareas completadas **para** validación del líder. |
+<img src="images/chapter-6/Core System Tests/US13.png" alt="US13" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-014 | Validación de tareas | **Como** líder **quiero** aprobar o rechazar tareas completadas **para** asegurar calidad. |
+<img src="images/chapter-6/Core System Tests/US14.png" alt="US14" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-015 | Solicitud de extensión de plazo | **Como** miembro **quiero** pedir más tiempo **para** completar una tarea ante impedimentos. |
+<img src="images/chapter-6/Core System Tests/US15.png" alt="US15" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-016 | Visualización de miembros del grupo | **Como** líder **quiero** ver la lista de miembros **para** gestionar la colaboración. |
+<img src="images/chapter-6/Core System Tests/US16.png" alt="US16" />
+
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-018 | Visualización de tareas asignadas | **Como** miembro **quiero** ver las tareas asignadas **para** gestionar mi trabajo. |
+<img src="images/chapter-6/Core System Tests/US18.png" alt="US18" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-019 | Comentario en tareas | **Como** miembro **quiero** comentar en las tareas **para** comunicarme con el líder. |
+<img src="images/chapter-6/Core System Tests/US19.png" alt="US19" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-020 | Visualización de carga de trabajo por miembro | **Como** líder **quiero** ver la carga de trabajo **para** equilibrar asignaciones. |
+<img src="images/chapter-6/Core System Tests/US20.png" alt="US20" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-021 | Reporte de cumplimiento de plazos | **Como** líder **quiero** ver un reporte de cumplimiento de plazos **para** evaluar la eficiencia del equipo. |
+<img src="images/chapter-6/Core System Tests/US21.png" alt="US21" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-022 | Revisión de comentarios en tareas | **Como** líder **quiero** revisar los comentarios **para** proporcionar retroalimentación oportuna. |
+<img src="images/chapter-6/Core System Tests/US22.png" alt="US22" />
+
+| ID | Título | Descripción |
+|----|---------|-------------|
+| US-023 | Confirmación antes de eliminar una tarea | **Como** líder **quiero** recibir una confirmación **para** evitar borrados accidentales. |
+<img src="images/chapter-6/Core System Tests/US23.png" alt="US23" />
+
+
+
+
+
 ### 6.2. Static testing & Verification
 
 #### 6.2.1. Static Code Analysis
