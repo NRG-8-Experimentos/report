@@ -3091,17 +3091,18 @@ De esta manera, el BDD contribuye a mejorar la calidad del software, reducir err
 |----|---------|-------------|
 | US-001 | Creación de grupo | **Como** líder **quiero** crear grupos **para** organizar el trabajo de mi equipo. |
 <img src="images/chapter-6/Core System Tests/US01.png" alt="US01" />
-
+<img src="images/chapter-6/Core System Tests/creategrouptests.png" alt="US01 mobile" />
 | ID | Título | Descripción |
 |----|---------|-------------|
 | US-002 | Envío de invitaciones | **Como** miembro **quiero** solicitar unirme a un grupo **para** poder trabajar. |
 <img src="images/chapter-6/Core System Tests/US02.png" alt="US02" />
-
+<img src="images/chapter-6/Core System Tests/invitationstests.png" alt="US02 mobile" />
 
 | ID | Título | Descripción |
 |----|---------|-------------|
 | US-004 | Creación de tareas | **Como** líder **quiero** crear tareas **para** asignar trabajo a los miembros. |
 <img src="images/chapter-6/Core System Tests/US04.png" alt="US04" />
+<img src="images/chapter-6/Core System Tests/tasktests.png" alt="US04 mobile" />
 
 | ID | Título | Descripción |
 |----|---------|-------------|
