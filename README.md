@@ -3503,6 +3503,9 @@ En paralelo, las versiones móviles son compiladas y enviadas a Firebase App Dis
 
 ### 7.4. Continuous Monitoring
 
+El monitoreo continuo permite al equipo asegurar el rendimiento, la disponibilidad y la estabilidad del sistema en tiempo real. Su objetivo es detectar incidencias tempranas, optimizar el rendimiento de los servicios y garantizar la calidad de la experiencia del usuario.
+En el caso de SynHub, el monitoreo se aplica tanto a los componentes backend desplegados en Render, como a las aplicaciones móviles y la web app, garantizando un funcionamiento confiable y sostenido durante el ciclo de vida del producto.
+
 #### 7.4.1. Tools and Practices
 
 #### 7.4.2. Monitoring Pipeline Components
