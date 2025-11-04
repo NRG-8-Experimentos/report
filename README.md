@@ -3336,6 +3336,22 @@ Esta sección incluye el diseño de entrevistas, el registro de entrevistas y la
 
 En esta sección se describe la planificación de las entrevistas, incluyendo los objetivos, criterios de selección de usuarios y los temas a evaluar. El propósito es asegurar que las pruebas reflejen escenarios reales de uso.
 
+1. ¿La aplicación te permite identificar fácilmente tus tareas y responsabilidades?
+2. ¿Te resulta claro cómo asignar, completar o reprogramar una tarea?
+3. ¿El diseño visual te ayuda a entender el estado o prioridad de las tareas (por ejemplo, colores o íconos)?
+4. ¿Has tenido dificultades para navegar entre secciones (tareas, miembros, reportes, notificaciones)?
+5. ¿Las palabras y etiquetas empleadas en la interfaz son comprensibles y coherentes?
+6. ¿Sientes que el flujo de acciones (crear, editar, eliminar o validar tareas) es intuitivo?
+7. ¿Te resulta fácil identificar los comentarios o solicitudes de validación dentro de una tarea?
+8. ¿La aplicación responde de manera clara cuando realizas una acción (por ejemplo, crear, editar o eliminar)?
+9. ¿El diseño visual se mantiene consistente entre la versión web y móvil?
+10. ¿Qué mejorarías en la interfaz para hacerla más clara o atractiva?
+11. ¿Has encontrado algún elemento confuso o poco útil en la gestión de tareas?
+12. ¿Consideras que el tiempo de respuesta de la aplicación es adecuado al interactuar con tareas o reportes?
+13. ¿Te sientes cómodo utilizando la app desde tu dispositivo móvil para realizar las mismas acciones que en la web?
+14. ¿La aplicación te proporciona la información que necesitas para saber cómo va el progreso general del grupo?
+15. ¿Qué sensación general te deja el uso de la plataforma en cuanto a claridad, organización y facilidad de uso?
+
 #### 6.3.2. Registro de Entrevistas
 
 Aquí se documentan los resultados obtenidos durante las entrevistas, destacando observaciones clave, comentarios de los usuarios y comportamientos relevantes durante la interacción con la aplicación.
@@ -3352,7 +3368,7 @@ Esta sección analiza los hallazgos de las entrevistas aplicando los principios 
 
 ##### 6.4.1.2. Cronograma de auditoría realizada
 
-##### 6.4.1.3.  de auditoría realizada
+##### 6.4.1.3.  Contenido de auditoría realizada
 
 #### 6.4.2. Auditoría recibida
 
