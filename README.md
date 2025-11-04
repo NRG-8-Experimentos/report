@@ -3508,6 +3508,19 @@ En el caso de SynHub, el monitoreo se aplica tanto a los componentes backend des
 
 #### 7.4.1. Tools and Practices
 
+Para el monitoreo del ecosistema de SynHub, se emplean herramientas que permiten registrar métricas, analizar logs y visualizar el rendimiento general de los servicios:
+
+* **Render Metrics & Logs:** Permite supervisar el estado de la base de datos, la API y la web app, verificando uso de CPU, memoria y tiempo de respuesta.
+* **Firebase Performance Monitoring:** Utilizado en las aplicaciones móviles para rastrear el rendimiento, tiempos de carga y errores en dispositivos reales.
+* **GitHub Logs:** Permite la trazabilidad de los despliegues y la detección de errores en integraciones continuas.
+* **Docker Logs & Health Checks:** Monitorea la estabilidad de los contenedores y el correcto funcionamiento de los servicios dentro del entorno Docker.
+
+Buenas prácticas implementadas:
+* Revisión periódica de métricas de rendimiento.
+* Uso de dashboards unificados para seguimiento de logs.
+* Configuración de alertas automáticas para caídas o tiempos de respuesta elevados.
+* Auditoría y limpieza regular de logs antiguos para optimizar almacenamiento.
+
 #### 7.4.2. Monitoring Pipeline Components
 
 #### 7.4.3. Alerting Pipeline Components
