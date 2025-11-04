@@ -3251,6 +3251,41 @@ El cumplimiento de estándares y convenciones de codificación es fundamental pa
 
 ##### 6.2.1.2. Code Quality & Code Security
 
+La calidad y seguridad del código son pilares fundamentales para garantizar un software estable, confiable y libre de vulnerabilidades. Este proceso busca evaluar el código fuente desde dos perspectivas: la calidad estructural, enfocada en la mantenibilidad, legibilidad y rendimiento; y la seguridad, centrada en prevenir vulnerabilidades que puedan comprometer la integridad o confidencialidad del sistema.
+Para ello, se emplearán herramientas como SonarQube y SonarLint, que permitirán detectar defectos, malas prácticas y riesgos de seguridad de forma automatizada y continua durante el desarrollo.
+
+**Code Quality:**
+
+Métricas de Calidad:
+* Se evaluará el código con base en métricas clave como:
+* Complejidad ciclomática (para identificar funciones o módulos con exceso de lógica).
+* Duplicación de código.
+* Cobertura de pruebas unitarias e integración.
+
+Herramientas de Análisis:
+* SonarQube: se integrará en el pipeline de desarrollo para generar reportes automáticos de calidad tras cada commit o merge.
+* SonarLint: se activará en los entornos locales (por ejemplo, Visual Studio Code o IntelliJ IDEA) para alertar a los desarrolladores en tiempo real sobre problemas detectados mientras codifican.
+
+Buenas Prácticas de Desarrollo:
+* Se promoverá el uso de patrones de diseño, principios SOLID y revisiones periódicas de código para mantener la calidad estructural. Cada módulo deberá cumplir con los lineamientos definidos en las convenciones de codificación (Clean Code, DDD y Layered Architecture).
+
+**Code Security:**
+
+Análisis de Vulnerabilidades:
+
+SonarQube identificará posibles fallos de seguridad como:
+* Inyecciones SQL.
+* Cross-Site Scripting (XSS).
+* Manejo inseguro de datos sensibles o credenciales.
+* Estas alertas se revisarán en cada ciclo de integración continua.
+
+Políticas de Seguridad en el Código:
+* Implementación de validaciones de entrada y salida en todas las capas del sistema.
+* Uso de cifrado y manejo seguro de tokens y contraseñas.
+
+Revisión Continua y Auditoría:
+* Cada Pull Request incluirá una verificación de seguridad previa antes de su aprobación.
+
 #### 6.2.2. Reviews
 
 ### 6.3. Validation Interviews
