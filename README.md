@@ -3242,6 +3242,13 @@ Estas actividades se apoyarán en herramientas como SonarQube, ESLint y SonarLin
 
 ##### 6.2.1.1. Coding standard & Code conventions
 
+El cumplimiento de estándares y convenciones de codificación es fundamental para asegurar la coherencia, mantenibilidad y calidad del software. En este proyecto se aplicarán tres enfoques clave: Layered Architecture, Clean Code y Domain-Driven Design (DDD). Además, se establecerá un proceso de verificación mediante Pull Requests para garantizar la revisión continua del cumplimiento de estas prácticas.
+
+* **Layered Architecture:** La arquitectura en capas organiza el sistema en diferentes niveles de responsabilidad, promoviendo una estructura modular y fácilmente escalable. Esta separación permite mantener una alta cohesión dentro de cada capa y un bajo acoplamiento entre ellas, facilitando el mantenimiento y la evolución del sistema.
+* **Clean Code:** Se adoptarán principios de código limpio para mejorar la legibilidad, simplicidad y claridad del código. Esto incluye el uso de nombres descriptivos, funciones pequeñas y enfocadas, eliminación de código duplicado y adherencia a principios SOLID. El objetivo es que cualquier desarrollador pueda entender y modificar el código con facilidad.
+* **Domain-Driven Design (DDD):** Se implementarán prácticas de DDD para alinear el diseño del software con los conceptos y reglas del dominio de negocio. Esto implica la creación de modelos ricos, la definición clara de entidades, agregados y servicios, y la colaboración estrecha con expertos del dominio para asegurar que el software refleje fielmente las necesidades del negocio.
+* **Pull Requests Verification Process:** Se establecerá un proceso riguroso de revisión de código mediante Pull Requests en plataformas como GitHub. Cada cambio propuesto será evaluado por al menos otro miembro del equipo para asegurar que cumple con los estándares y convenciones establecidos. Esta práctica fomentará la colaboración, la detección temprana de errores y la mejora continua del código.
+
 ##### 6.2.1.2. Code Quality & Code Security
 
 #### 6.2.2. Reviews
