@@ -3087,135 +3087,278 @@ De esta manera, el BDD contribuye a mejorar la calidad del software, reducir err
 
 #### 6.1.4. Core System Tests
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título            | Descripción                                                                        |
+|--------|-------------------|------------------------------------------------------------------------------------|
 | US-001 | Creación de grupo | **Como** líder **quiero** crear grupos **para** organizar el trabajo de mi equipo. |
+
 <img src="images/chapter-6/Core System Tests/US01.png" alt="US01" />
+
 <img src="images/chapter-6/Core System Tests/creategrouptests.png" alt="US01 mobile" />
-| ID | Título | Descripción |
-|----|---------|-------------|
+
+| ID     | Título                | Descripción                                                                      |
+|--------|-----------------------|----------------------------------------------------------------------------------|
 | US-002 | Envío de invitaciones | **Como** miembro **quiero** solicitar unirme a un grupo **para** poder trabajar. |
+
 <img src="images/chapter-6/Core System Tests/US02.png" alt="US02" />
+
 <img src="images/chapter-6/Core System Tests/invitationstests.png" alt="US02 mobile" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título             | Descripción                                                                     |
+|--------|--------------------|---------------------------------------------------------------------------------|
 | US-004 | Creación de tareas | **Como** líder **quiero** crear tareas **para** asignar trabajo a los miembros. |
+
 <img src="images/chapter-6/Core System Tests/US04.png" alt="US04" />
+
 <img src="images/chapter-6/Core System Tests/tasktests.png" alt="US04 mobile" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título               | Descripción                                                                                     |
+|--------|----------------------|-------------------------------------------------------------------------------------------------|
 | US-005 | Asignación de tareas | **Como** líder **quiero** asignar tareas a miembros específicos **para** distribuir el trabajo. |
+
 <img src="images/chapter-6/Core System Tests/US05.png" alt="US05" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                | Descripción                                                                                              |
+|--------|-----------------------|----------------------------------------------------------------------------------------------------------|
 | US-006 | Eliminación de tareas | **Como** líder **quiero** eliminar tareas incorrectas o duplicadas **para** mantener el orden del grupo. |
+
 <img src="images/chapter-6/Core System Tests/US06.png" alt="US06" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                  | Descripción                                                                                   |
+|--------|-------------------------|-----------------------------------------------------------------------------------------------|
 | US-007 | Actualización de estado | **Como** miembro **quiero** actualizar el estado de mis tareas **para** reflejar mi progreso. |
+
 <img src="images/chapter-6/Core System Tests/US07.png" alt="US07" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                   | Descripción                                                                     |
+|--------|--------------------------|---------------------------------------------------------------------------------|
 | US-008 | Reprogramación de tareas | **Como** líder **quiero** cambiar fechas límite **para** gestionar imprevistos. |
+
 <img src="images/chapter-6/Core System Tests/US08.png" alt="US08" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                            | Descripción                                                                                       |
+|--------|-----------------------------------|---------------------------------------------------------------------------------------------------|
 | US-009 | Gráfica de distribución de tareas | **Como** líder **quiero** ver un gráfico con la distribución de tareas **para** balancear cargas. |
+
 <img src="images/chapter-6/Core System Tests/US09.png" alt="US09" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                       | Descripción                                                                                     |
+|--------|------------------------------|-------------------------------------------------------------------------------------------------|
 | US-010 | Gráfico de estados de tareas | **Como** líder **quiero** ver un gráfico del estado de las tareas **para** evaluar su progreso. |
+
 <img src="images/chapter-6/Core System Tests/US10.png" alt="US10" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                      | Descripción                                                                                             |
+|--------|-----------------------------|---------------------------------------------------------------------------------------------------------|
 | US-011 | Reporte de reprogramaciones | **Como** líder **quiero** ver un gráfico de tareas reprogramadas **para** analizar patrones de retraso. |
+
 <img src="images/chapter-6/Core System Tests/US11.png" alt="US11" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                              | Descripción                                                                                     |
+|--------|-------------------------------------|-------------------------------------------------------------------------------------------------|
 | US-012 | Reporte de productividad individual | **Como** líder **quiero** evaluar el desempeño de cada miembro **para** medir su productividad. |
+
 <img src="images/chapter-6/Core System Tests/US12.png" alt="US12" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                           | Descripción                                                                          |
+|--------|----------------------------------|--------------------------------------------------------------------------------------|
 | US-013 | Solicitud de aprobación de tarea | **Como** miembro **quiero** enviar tareas completadas **para** validación del líder. |
+
 <img src="images/chapter-6/Core System Tests/US13.png" alt="US13" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título               | Descripción                                                                                |
+|--------|----------------------|--------------------------------------------------------------------------------------------|
 | US-014 | Validación de tareas | **Como** líder **quiero** aprobar o rechazar tareas completadas **para** asegurar calidad. |
+
 <img src="images/chapter-6/Core System Tests/US14.png" alt="US14" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                          | Descripción                                                                                  |
+|--------|---------------------------------|----------------------------------------------------------------------------------------------|
 | US-015 | Solicitud de extensión de plazo | **Como** miembro **quiero** pedir más tiempo **para** completar una tarea ante impedimentos. |
+
 <img src="images/chapter-6/Core System Tests/US15.png" alt="US15" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                              | Descripción                                                                            |
+|--------|-------------------------------------|----------------------------------------------------------------------------------------|
 | US-016 | Visualización de miembros del grupo | **Como** líder **quiero** ver la lista de miembros **para** gestionar la colaboración. |
+
 <img src="images/chapter-6/Core System Tests/US16.png" alt="US16" />
 
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                            | Descripción                                                                         |
+|--------|-----------------------------------|-------------------------------------------------------------------------------------|
 | US-018 | Visualización de tareas asignadas | **Como** miembro **quiero** ver las tareas asignadas **para** gestionar mi trabajo. |
+
 <img src="images/chapter-6/Core System Tests/US18.png" alt="US18" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título               | Descripción                                                                           |
+|--------|----------------------|---------------------------------------------------------------------------------------|
 | US-019 | Comentario en tareas | **Como** miembro **quiero** comentar en las tareas **para** comunicarme con el líder. |
+
 <img src="images/chapter-6/Core System Tests/US19.png" alt="US19" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                                        | Descripción                                                                         |
+|--------|-----------------------------------------------|-------------------------------------------------------------------------------------|
 | US-020 | Visualización de carga de trabajo por miembro | **Como** líder **quiero** ver la carga de trabajo **para** equilibrar asignaciones. |
+
 <img src="images/chapter-6/Core System Tests/US20.png" alt="US20" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                            | Descripción                                                                                                   |
+|--------|-----------------------------------|---------------------------------------------------------------------------------------------------------------|
 | US-021 | Reporte de cumplimiento de plazos | **Como** líder **quiero** ver un reporte de cumplimiento de plazos **para** evaluar la eficiencia del equipo. |
+
 <img src="images/chapter-6/Core System Tests/US21.png" alt="US21" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                            | Descripción                                                                                         |
+|--------|-----------------------------------|-----------------------------------------------------------------------------------------------------|
 | US-022 | Revisión de comentarios en tareas | **Como** líder **quiero** revisar los comentarios **para** proporcionar retroalimentación oportuna. |
+
 <img src="images/chapter-6/Core System Tests/US22.png" alt="US22" />
 
-| ID | Título | Descripción |
-|----|---------|-------------|
+| ID     | Título                                   | Descripción                                                                               |
+|--------|------------------------------------------|-------------------------------------------------------------------------------------------|
 | US-023 | Confirmación antes de eliminar una tarea | **Como** líder **quiero** recibir una confirmación **para** evitar borrados accidentales. |
+
 <img src="images/chapter-6/Core System Tests/US23.png" alt="US23" />
-
-
-
-
 
 ### 6.2. Static testing & Verification
 
+La verificación estática se centra en el análisis del software sin necesidad de ejecutarlo, con el objetivo de garantizar que el código cumpla con los estándares de calidad, seguridad y mantenibilidad definidos por el equipo.
+Estas prácticas permiten identificar defectos, inconsistencias o vulnerabilidades desde las etapas iniciales del desarrollo, reduciendo los costos de corrección y mejorando la estabilidad del sistema final.
+
+El proceso de Static Testing & Verification incluye la revisión estructurada del código fuente, el uso de herramientas automáticas de análisis y la verificación manual por parte de los desarrolladores, asegurando que el producto cumpla con los lineamientos de calidad definidos para el proyecto.
+Asimismo, fomenta una cultura de mejora continua y colaboración entre los equipos técnicos, fortaleciendo la fiabilidad del producto y la alineación con las mejores prácticas de ingeniería de software.
+
 #### 6.2.1. Static Code Analysis
+
+El análisis de código estático es una técnica esencial de aseguramiento de la calidad que permite detectar defectos, errores lógicos, vulnerabilidades de seguridad y desviaciones de los estándares de codificación antes de ejecutar el programa.
+Este análisis puede realizarse tanto mediante herramientas automatizadas como por revisión manual, y su propósito es mejorar la calidad estructural y semántica del código.
+
+Para este proyecto, el proceso de análisis estático se centra en dos ejes principales:
+
+* Cumplimiento de estándares de codificación y convenciones, garantizando uniformidad, legibilidad y mantenibilidad.
+* Evaluación de calidad y seguridad del código, asegurando que el software sea robusto, eficiente y libre de vulnerabilidades que puedan comprometer su funcionamiento.
+
+Estas actividades se apoyarán en herramientas como SonarQube, ESLint y SonarLint, integradas en los entornos de desarrollo.
 
 ##### 6.2.1.1. Coding standard & Code conventions
 
+El cumplimiento de estándares y convenciones de codificación es fundamental para asegurar la coherencia, mantenibilidad y calidad del software. En este proyecto se aplicarán tres enfoques clave: Layered Architecture, Clean Code y Domain-Driven Design (DDD). Además, se establecerá un proceso de verificación mediante Pull Requests para garantizar la revisión continua del cumplimiento de estas prácticas.
+
+* **Layered Architecture:** La arquitectura en capas organiza el sistema en diferentes niveles de responsabilidad, promoviendo una estructura modular y fácilmente escalable. Esta separación permite mantener una alta cohesión dentro de cada capa y un bajo acoplamiento entre ellas, facilitando el mantenimiento y la evolución del sistema.
+* **Clean Code:** Se adoptarán principios de código limpio para mejorar la legibilidad, simplicidad y claridad del código. Esto incluye el uso de nombres descriptivos, funciones pequeñas y enfocadas, eliminación de código duplicado y adherencia a principios SOLID. El objetivo es que cualquier desarrollador pueda entender y modificar el código con facilidad.
+* **Domain-Driven Design (DDD):** Se implementarán prácticas de DDD para alinear el diseño del software con los conceptos y reglas del dominio de negocio. Esto implica la creación de modelos ricos, la definición clara de entidades, agregados y servicios, y la colaboración estrecha con expertos del dominio para asegurar que el software refleje fielmente las necesidades del negocio.
+* **Pull Requests Verification Process:** Se establecerá un proceso riguroso de revisión de código mediante Pull Requests en plataformas como GitHub. Cada cambio propuesto será evaluado por al menos otro miembro del equipo para asegurar que cumple con los estándares y convenciones establecidos. Esta práctica fomentará la colaboración, la detección temprana de errores y la mejora continua del código.
+
 ##### 6.2.1.2. Code Quality & Code Security
+
+La calidad y seguridad del código son pilares fundamentales para garantizar un software estable, confiable y libre de vulnerabilidades. Este proceso busca evaluar el código fuente desde dos perspectivas: la calidad estructural, enfocada en la mantenibilidad, legibilidad y rendimiento; y la seguridad, centrada en prevenir vulnerabilidades que puedan comprometer la integridad o confidencialidad del sistema.
+Para ello, se emplearán herramientas como SonarQube y SonarLint, que permitirán detectar defectos, malas prácticas y riesgos de seguridad de forma automatizada y continua durante el desarrollo.
+
+**Code Quality:**
+
+Métricas de Calidad:
+* Se evaluará el código con base en métricas clave como:
+* Complejidad ciclomática (para identificar funciones o módulos con exceso de lógica).
+* Duplicación de código.
+* Cobertura de pruebas unitarias e integración.
+
+Herramientas de Análisis:
+* SonarQube: se integrará en el pipeline de desarrollo para generar reportes automáticos de calidad tras cada commit o merge.
+* SonarLint: se activará en los entornos locales (por ejemplo, Visual Studio Code o IntelliJ IDEA) para alertar a los desarrolladores en tiempo real sobre problemas detectados mientras codifican.
+
+Buenas Prácticas de Desarrollo:
+* Se promoverá el uso de patrones de diseño, principios SOLID y revisiones periódicas de código para mantener la calidad estructural. Cada módulo deberá cumplir con los lineamientos definidos en las convenciones de codificación (Clean Code, DDD y Layered Architecture).
+
+**Code Security:**
+
+Análisis de Vulnerabilidades:
+
+SonarQube identificará posibles fallos de seguridad como:
+* Inyecciones SQL.
+* Cross-Site Scripting (XSS).
+* Manejo inseguro de datos sensibles o credenciales.
+* Estas alertas se revisarán en cada ciclo de integración continua.
+
+Políticas de Seguridad en el Código:
+* Implementación de validaciones de entrada y salida en todas las capas del sistema.
+* Uso de cifrado y manejo seguro de tokens y contraseñas.
+
+Revisión Continua y Auditoría:
+* Cada Pull Request incluirá una verificación de seguridad previa antes de su aprobación.
 
 #### 6.2.2. Reviews
 
+Las revisiones de código representan una práctica esencial dentro del proceso de desarrollo de SynHub, garantizando la calidad, consistencia y seguridad del software antes de su integración en el entorno principal. Este proceso busca validar que todo nuevo aporte cumpla con las convenciones de codificación establecidas (Clean Code, Layered Architecture y Domain-Driven Design), así como con las políticas de seguridad y buenas prácticas definidas por el equipo técnico.
+
+**Tipos de Revisión**
+
+* **Revisión por Pares (Peer Review):** Cada cambio de código será revisado por al menos otro desarrollador del equipo antes de su integración. El objetivo es verificar que el código sea legible, mantenible y cumpla con los estándares definidos.
+* **Revisión Formal:** En casos de cambios críticos (por ejemplo, en la capa de dominio o seguridad), se realizará una revisión más estructurada mediante una sesión conjunta con checklist de verificación. Esto permite analizar la lógica, arquitectura y coherencia del código con los objetivos del proyecto.
+* **Revisión Automática:** Se emplearán herramientas como SonarQube y SonarLint integradas al flujo de desarrollo para detectar de forma automática defectos de calidad, malas prácticas o vulnerabilidades antes de la aprobación del código. Estas revisiones serán ejecutadas durante los Pull Requests.
+
+**Proceso de Revisión**
+
+1. Creación de Pull Request (PR):
+   * Cada desarrollador deberá generar un PR en el repositorio principal, detallando claramente:
+   * Los cambios realizados.
+   * Las pruebas ejecutadas.
+   * El impacto funcional en el sistema.
+
+2. Checklist de Revisión:
+   * Cumplimiento de convenciones de codificación (Clean Code, DDD, Layered Architecture).
+   * Legibilidad y estructura del código.
+   * Cobertura mínima de pruebas unitarias e integración.
+   * Manejo adecuado de errores y validaciones de entrada.
+
+3. Comentarios y Retroalimentación:
+   * Los revisores deberán emitir comentarios específicos y constructivos. El autor del PR deberá atender las observaciones antes de su aprobación definitiva.
+
+4. Aprobación o Rechazo:
+   * El PR solo podrá fusionarse en la rama principal si al menos un revisor adicional lo aprueba y todas las verificaciones automáticas (análisis estático, pruebas, compilación) resultan satisfactorias.
+
+**Criterios de Aceptación**
+
+* **Calidad y Seguridad del Código:** Todo código debe cumplir con los estándares definidos y no introducir vulnerabilidades o errores potenciales.
+* **Cobertura de Pruebas:** Se exigirá una cobertura mínima del 80% en pruebas unitarias y de integración antes de aprobar un PR.
+* **Consistencia Arquitectónica:** El código deberá alinearse con la arquitectura en capas definida y respetar los principios del modelo de dominio.
+
+**Frecuencia de Revisiones**
+
+Las revisiones de código se realizarán de manera continua y sistemática, preferiblemente al cierre de cada historia de usuario o al finalizar cada sprint.
+
 ### 6.3. Validation Interviews
+
+Las entrevistas de validación permiten evaluar la experiencia del usuario mediante la interacción directa con el landing page y las aplicaciones del proyecto.
+El objetivo es identificar fortalezas y oportunidades de mejora en usabilidad, diseño y funcionalidad, a través de entrevistas con usuarios representativos del público objetivo.
+Esta sección incluye el diseño de entrevistas, el registro de entrevistas y la evaluación heurística, aplicando el formato de validación definido para el proyecto.
 
 #### 6.3.1. Diseño de Entrevistas
 
+En esta sección se describe la planificación de las entrevistas, incluyendo los objetivos, criterios de selección de usuarios y los temas a evaluar. El propósito es asegurar que las pruebas reflejen escenarios reales de uso.
+
+1. ¿La aplicación te permite identificar fácilmente tus tareas y responsabilidades?
+2. ¿Te resulta claro cómo asignar, completar o reprogramar una tarea?
+3. ¿El diseño visual te ayuda a entender el estado o prioridad de las tareas (por ejemplo, colores o íconos)?
+4. ¿Has tenido dificultades para navegar entre secciones (tareas, miembros, reportes, notificaciones)?
+5. ¿Las palabras y etiquetas empleadas en la interfaz son comprensibles y coherentes?
+6. ¿Sientes que el flujo de acciones (crear, editar, eliminar o validar tareas) es intuitivo?
+7. ¿Te resulta fácil identificar los comentarios o solicitudes de validación dentro de una tarea?
+8. ¿La aplicación responde de manera clara cuando realizas una acción (por ejemplo, crear, editar o eliminar)?
+9. ¿El diseño visual se mantiene consistente entre la versión web y móvil?
+10. ¿Qué mejorarías en la interfaz para hacerla más clara o atractiva?
+11. ¿Has encontrado algún elemento confuso o poco útil en la gestión de tareas?
+12. ¿Consideras que el tiempo de respuesta de la aplicación es adecuado al interactuar con tareas o reportes?
+13. ¿Te sientes cómodo utilizando la app desde tu dispositivo móvil para realizar las mismas acciones que en la web?
+14. ¿La aplicación te proporciona la información que necesitas para saber cómo va el progreso general del grupo?
+15. ¿Qué sensación general te deja el uso de la plataforma en cuanto a claridad, organización y facilidad de uso?
+
 #### 6.3.2. Registro de Entrevistas
 
+Aquí se documentan los resultados obtenidos durante las entrevistas, destacando observaciones clave, comentarios de los usuarios y comportamientos relevantes durante la interacción con la aplicación.
+
 #### 6.3.3. Evaluaciones según heurísticas
+
+Esta sección analiza los hallazgos de las entrevistas aplicando los principios heurísticos de usabilidad. Permite identificar problemas y oportunidades de mejora en la experiencia del usuario.
 
 ### 6.4. Auditoría de Experiencias de Usuario
 
@@ -3225,7 +3368,7 @@ De esta manera, el BDD contribuye a mejorar la calidad del software, reducir err
 
 ##### 6.4.1.2. Cronograma de auditoría realizada
 
-##### 6.4.1.3.  de auditoría realizada
+##### 6.4.1.3.  Contenido de auditoría realizada
 
 #### 6.4.2. Auditoría recibida
 
