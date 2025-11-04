@@ -3334,9 +3334,15 @@ Esta sección incluye el diseño de entrevistas, el registro de entrevistas y la
 
 #### 6.3.1. Diseño de Entrevistas
 
+En esta sección se describe la planificación de las entrevistas, incluyendo los objetivos, criterios de selección de usuarios y los temas a evaluar. El propósito es asegurar que las pruebas reflejen escenarios reales de uso.
+
 #### 6.3.2. Registro de Entrevistas
 
+Aquí se documentan los resultados obtenidos durante las entrevistas, destacando observaciones clave, comentarios de los usuarios y comportamientos relevantes durante la interacción con la aplicación.
+
 #### 6.3.3. Evaluaciones según heurísticas
+
+Esta sección analiza los hallazgos de las entrevistas aplicando los principios heurísticos de usabilidad. Permite identificar problemas y oportunidades de mejora en la experiencia del usuario.
 
 ### 6.4. Auditoría de Experiencias de Usuario
 
