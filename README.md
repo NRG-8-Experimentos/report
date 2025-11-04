@@ -3534,6 +3534,19 @@ Estas métricas son recolectadas mediante los sistemas de logging integrados en 
 
 #### 7.4.3. Alerting Pipeline Components
 
+El pipeline de alertas permite notificar automáticamente al equipo de desarrollo o mantenimiento cuando se detectan incidencias relevantes.
+
+**Alertas configuradas:**
+
+* Fallos en el despliegue de la API o web app (Render Deployment Alerts).
+* Tiempo de respuesta superior a 2 segundos en endpoints principales.
+* Caídas o errores en la base de datos PostgreSQL.
+* Errores críticos de rendimiento en la app móvil (Firebase Crashlytics).
+
+**Prácticas aplicadas:**
+
+* Definición de umbrales de rendimiento para detectar degradaciones antes de que afecten al usuario.
+
 #### 7.4.4. Notification Pipeline Components
 
 # **Part III: Experiment-Driven Lifecycle**
