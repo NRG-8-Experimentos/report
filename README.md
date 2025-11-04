@@ -3549,6 +3549,21 @@ El pipeline de alertas permite notificar automáticamente al equipo de desarroll
 
 #### 7.4.4. Notification Pipeline Components
 
+El pipeline de notificaciones gestiona la comunicación con los miembros del equipo y los usuarios finales ante eventos relevantes.
+
+**A nivel interno (equipo técnico):**
+
+* Render envía alertas sobre caídas o reinicios automáticos de servicios.
+* Firebase y GitHub Actions notifican errores de compilación o distribución.
+
+**A nivel externo (usuarios):**
+
+* Firebase Cloud Messaging (FCM) gestiona las notificaciones push sobre actualizaciones, recordatorios de tareas y validaciones pendientes.
+
+**Buenas prácticas:**
+
+* Centralización de notificaciones técnicas en un canal único de equipo.
+
 # **Part III: Experiment-Driven Lifecycle**
 
 ## Capítulo VIII: Experiment-Driven Development
