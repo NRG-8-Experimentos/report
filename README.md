@@ -3328,6 +3328,10 @@ Las revisiones de código se realizarán de manera continua y sistemática, pref
 
 ### 6.3. Validation Interviews
 
+Las entrevistas de validación permiten evaluar la experiencia del usuario mediante la interacción directa con el landing page y las aplicaciones del proyecto.
+El objetivo es identificar fortalezas y oportunidades de mejora en usabilidad, diseño y funcionalidad, a través de entrevistas con usuarios representativos del público objetivo.
+Esta sección incluye el diseño de entrevistas, el registro de entrevistas y la evaluación heurística, aplicando el formato de validación definido para el proyecto.
+
 #### 6.3.1. Diseño de Entrevistas
 
 #### 6.3.2. Registro de Entrevistas
