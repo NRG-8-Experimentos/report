@@ -3288,6 +3288,44 @@ Revisión Continua y Auditoría:
 
 #### 6.2.2. Reviews
 
+Las revisiones de código representan una práctica esencial dentro del proceso de desarrollo de SynHub, garantizando la calidad, consistencia y seguridad del software antes de su integración en el entorno principal. Este proceso busca validar que todo nuevo aporte cumpla con las convenciones de codificación establecidas (Clean Code, Layered Architecture y Domain-Driven Design), así como con las políticas de seguridad y buenas prácticas definidas por el equipo técnico.
+
+**Tipos de Revisión**
+
+* **Revisión por Pares (Peer Review):** Cada cambio de código será revisado por al menos otro desarrollador del equipo antes de su integración. El objetivo es verificar que el código sea legible, mantenible y cumpla con los estándares definidos.
+* **Revisión Formal:** En casos de cambios críticos (por ejemplo, en la capa de dominio o seguridad), se realizará una revisión más estructurada mediante una sesión conjunta con checklist de verificación. Esto permite analizar la lógica, arquitectura y coherencia del código con los objetivos del proyecto.
+* **Revisión Automática:** Se emplearán herramientas como SonarQube y SonarLint integradas al flujo de desarrollo para detectar de forma automática defectos de calidad, malas prácticas o vulnerabilidades antes de la aprobación del código. Estas revisiones serán ejecutadas durante los Pull Requests.
+
+**Proceso de Revisión**
+
+1. Creación de Pull Request (PR):
+   * Cada desarrollador deberá generar un PR en el repositorio principal, detallando claramente:
+   * Los cambios realizados.
+   * Las pruebas ejecutadas.
+   * El impacto funcional en el sistema.
+
+2. Checklist de Revisión:
+   * Cumplimiento de convenciones de codificación (Clean Code, DDD, Layered Architecture).
+   * Legibilidad y estructura del código.
+   * Cobertura mínima de pruebas unitarias e integración.
+   * Manejo adecuado de errores y validaciones de entrada.
+
+3. Comentarios y Retroalimentación:
+   * Los revisores deberán emitir comentarios específicos y constructivos. El autor del PR deberá atender las observaciones antes de su aprobación definitiva.
+
+4. Aprobación o Rechazo:
+   * El PR solo podrá fusionarse en la rama principal si al menos un revisor adicional lo aprueba y todas las verificaciones automáticas (análisis estático, pruebas, compilación) resultan satisfactorias.
+
+**Criterios de Aceptación**
+
+* **Calidad y Seguridad del Código:** Todo código debe cumplir con los estándares definidos y no introducir vulnerabilidades o errores potenciales.
+* **Cobertura de Pruebas:** Se exigirá una cobertura mínima del 80% en pruebas unitarias y de integración antes de aprobar un PR.
+* **Consistencia Arquitectónica:** El código deberá alinearse con la arquitectura en capas definida y respetar los principios del modelo de dominio.
+
+**Frecuencia de Revisiones**
+
+Las revisiones de código se realizarán de manera continua y sistemática, preferiblemente al cierre de cada historia de usuario o al finalizar cada sprint.
+
 ### 6.3. Validation Interviews
 
 #### 6.3.1. Diseño de Entrevistas
