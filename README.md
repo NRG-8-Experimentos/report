@@ -3523,6 +3523,15 @@ Buenas prácticas implementadas:
 
 #### 7.4.2. Monitoring Pipeline Components
 
+El pipeline de monitoreo se centra en rastrear el comportamiento de los componentes principales de la arquitectura:
+
+* **Frontend (Web App y Mobile):** Se mide el tiempo de carga, latencia en peticiones HTTP y rendimiento del renderizado.
+* **Backend (API en Render):** Se monitorean métricas de disponibilidad, errores 4xx/5xx y latencia en endpoints críticos.
+* **Base de Datos PostgreSQL:** Se supervisa el rendimiento de consultas, número de conexiones activas y uso de memoria.
+* **Contenedores Docker:** Se revisan los estados de ejecución, consumo de recursos y logs de eventos de error.
+
+Estas métricas son recolectadas mediante los sistemas de logging integrados en Render, Firebase y Docker, permitiendo una visión completa del estado del sistema.
+
 #### 7.4.3. Alerting Pipeline Components
 
 #### 7.4.4. Notification Pipeline Components
