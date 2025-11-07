@@ -3729,6 +3729,57 @@ Además, faltan:
 
 #### 8.2.3. Measures
 
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Mejorará la experiencia al agregar un **modo oscuro** al tablero Kanban? |
+| **Métrica principal** | **Duración promedio de sesión** en el tablero Kanban (comparativa antes vs después del lanzamiento). |
+| **Métricas secundarias** | Tasa de activación del tema oscuro (opt-in), **puntuación de comodidad autoinformada** (encuesta tipo NPS), **reportes de error** relacionados con UI (contraste/legibilidad). |
+| **Instrumentación** | Seguimiento de eventos: `board_open`, `theme_change`, `drag_start`, `drag_end`, `render_time` (por vista de tablero) y encuesta breve in-app `ux_survey_response`. |
+| **Fuentes de datos** | **Analíticas** (Mixpanel/GA4), **logs** de `render_time`, **registro de errores UI**, **respuestas de encuestas**. |
+| **Criterio de éxito** | ≥ 30% de usuarios activos del tablero activan el modo oscuro **Y** aumento ≥ 20% en la duración mediana de sesión **O** incremento ≥ 1 punto en comodidad (escala de 5 puntos) en 4 semanas. |
+| **Ventana de medición** | 2 semanas de línea base pre-lanzamiento y monitoreo de **4 a 6 semanas post-lanzamiento**. |
+| **Nota específica Kanban** | Medir la **tasa de éxito del drag-and-drop** y la **legibilidad percibida** de las etiquetas de las tarjetas en modo oscuro. |
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Aumentará la audiencia al agregar **traducciones** (inglés/chino) en la interfaz y plantillas del Kanban? |
+| **Métrica principal** | Nuevos **registros de usuarios** y **tasa de creación de tableros** desde regiones objetivo. |
+| **Métricas secundarias** | **Retención a 7/30 días** de usuarios localizados, número de equipos que crean tableros en los idiomas objetivo. |
+| **Instrumentación** | Eventos: `signup_country`, `language_selected`, `board_create`, `onboarding_completed`. |
+| **Fuentes de datos** | Logs de autenticación, analíticas, informe de cobertura de cadenas **i18n**. |
+| **Criterio de éxito** | +15% de nuevos usuarios y +15% en creación de tableros desde regiones objetivo **en 3 meses**. |
+| **Ventana de medición** | **3 meses** posteriores al lanzamiento de la localización. |
+| **Nota específica Kanban** | Verificar **descripciones traducidas de plantillas** y la **experiencia de creación de tableros** en flujos localizados. |
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Aumentará la participación al implementar un **foro** para plantillas y consejos de Kanban? |
+| **Métrica principal** | **Usuarios activos semanales (WAU)** que interactúan con plantillas/foros y **tasa de creación de tableros**. |
+| **Métricas secundarias** | DAU del foro, publicaciones por semana, **número de importaciones de plantillas**, **promedio de tableros por equipo**. |
+| **Instrumentación** | Eventos: `forum_post`, `forum_reply`, `template_publish`, `template_import`, `board_created_from_template`. |
+| **Fuentes de datos** | Base de datos del foro, analíticas, registros de moderación. |
+| **Criterio de éxito** | Los equipos con acceso al foro muestran **+30% de interacciones con plantillas** y **+20% de WAU** en tableros dentro de 8 semanas. |
+| **Ventana de medición** | **8–12 semanas** post lanzamiento. |
+| **Nota específica Kanban** | Rastrear qué **tipos de plantillas** (flujos de trabajo) generan **mayores tasas de finalización de tableros**. |
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Mejorará la finalización de tareas en el Kanban al integrar **notificaciones personalizadas** y **recordatorios**? |
+| **Métrica principal** | **Tasa de finalización de tarjetas** (tarjetas completadas / tarjetas con vencimiento) antes y después de habilitar notificaciones. |
+| **Métricas secundarias** | **Tasa de apertura** (push/email/in-app), **tasa de posposición (snooze)**, reducción de tarjetas vencidas, **tiempo promedio de finalización** tras el recordatorio. |
+| **Instrumentación** | Eventos: `notification_sent` (tipo/regla), `notification_opened`, `card_completed`, `card_moved`. |
+| **Fuentes de datos** | Logs del servicio de notificaciones, métricas de tareas, analíticas. |
+| **Criterio de éxito** | Aumento ≥ **40% en la tasa de finalización** y **+20% en satisfacción del usuario** dentro de 6 semanas. |
+| **Ventana de medición** | **6–8 semanas** tras la activación del opt-in. |
+| **Nota específica Kanban** | Medir impacto en **flujos de revisión** y detectar posibles efectos negativos por **fatiga de notificaciones**. |
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Aumentará la actividad al añadir un **marketplace** para plantillas, integraciones y productos Kanban? |
+| **Métrica principal** | **Número de transacciones** de plantillas (instalaciones/compras) y **tasa de importación** de plantillas. |
+| **Métricas secundarias** | Conversión a **planes pagos**, promedio de plantillas por equipo, **DAU del marketplace**. |
+
+
 #### 8.2.4. Conditions
 
 #### 8.2.5. Scale Calculations and Decisions
