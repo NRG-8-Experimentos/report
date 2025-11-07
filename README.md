@@ -3578,6 +3578,46 @@ Además, faltan:
 
 #### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
+---
+
+### **Assumptions**
+
+- **Modo oscuro:** Se asume que los usuarios del Kanban valoran la **personalización de la interfaz** para reducir la **fatiga visual** en sesiones largas y en entornos con poca luz.
+- **Traducciones:** Se asume que **equipos multiculturales** usarán el tablero, justificando soporte de **múltiples idiomas** (ej. inglés, chino).
+- **Colaboración en tiempo real:** Se asume que los equipos esperan **sincronización inmediata** entre miembros para mantener la **consistencia del flujo de trabajo**.
+- **Arrastre y soltado fiable:** Se asume que la interacción de **drag-and-drop** es **central para la adopción del Kanban** y debe ser **fluida en web y móvil**.
+- **Control de permisos:** Se asume que las organizaciones requieren **control fino** sobre quién puede **crear, editar, mover o eliminar** columnas y tarjetas.
+
+---
+
+### **Knowledge Gaps**
+
+- **Preferencias de visualización:** Falta información sobre **layouts preferidos** (compacto, detallado, swimlanes) y **densidad de tarjetas** por usuario.
+- **Expectativas de latencia:** No hay datos precisos sobre el **umbral de latencia aceptable** para operaciones en tiempo real bajo diferentes condiciones de conexión.
+- **Comportamiento móvil:** Insuficiente conocimiento sobre **gestos y flujos esperados** por los usuarios en pantallas táctiles para mover y editar tarjetas.
+- **Modelo de permisos ideal:** Falta claridad sobre **roles y niveles de acceso** que las organizaciones realmente necesitan en sus contextos de trabajo.
+- **Uso offline y sincronización:** Se desconoce cuánto valoran los usuarios la **capacidad de trabajar offline** y cómo manejar **conflictos al re-sincronizar**.
+
+---
+
+### **Ideas**
+
+- Implementar **encuestas y entrevistas** dirigidas a equipos actuales para validar **preferencias de layout, latencia y permisos**.
+- Crear un **prototipo rápido con WebSockets** para validar **sincronización en tiempo real** y detectar **patrones de conflicto**.
+- Añadir **telemetría anónima** para medir **tiempos de arrastre, cargas de lista y eventos de error** en diferentes dispositivos.
+- Desarrollar **variantes UI** (*compacto / normal / detalle*) y realizar **tests A/B** para identificar la más efectiva según el escenario.
+- Diseñar un **sistema de roles mínimo viable** (*owner, admin, editor, viewer*) e implementar **historial/undo** para movimientos críticos.
+
+---
+
+### **Claims**
+
+- **Mejora de experiencia:** Se sostiene que un **modo oscuro** y **variantes de visualización** aumentarán la **comodidad** y reducirán la **fatiga** en sesiones largas.
+- **Aumento de productividad:** Se afirma que la **colaboración en tiempo real** reducirá el **tiempo de coordinación** y mejorará la **eficiencia del equipo**.
+- **Confiabilidad:** Se postula que la **virtualización de listas** y la **optimización de queries** disminuirán **latencias** y mejorarán la **fluidez del drag-and-drop**.
+- **Gobernanza:** Se afirma que un **control de permisos granular** y un **historial de cambios** incrementarán la **confianza de las organizaciones** en usar el Kanban como **fuente de verdad**.
+
+
 #### 8.1.3. Experiment-Ready Questions
 
 #### 8.1.4. Question Backlog
