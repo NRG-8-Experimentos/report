@@ -3782,6 +3782,37 @@ Además, faltan:
 
 #### 8.2.4. Conditions
 
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Mejorará la experiencia al agregar **modo oscuro** al tablero Kanban? |
+| **Condición experimental** | La **satisfacción del usuario** en el tablero Kanban aumenta **20%** tras habilitar el modo oscuro, medida mediante encuestas in-app y calificaciones de experiencia visual; la **cohorte tratada** usa el tema oscuro. |
+| **Condición de control** | No hay cambios significativos en la **satisfacción de usuarios** del Kanban después del lanzamiento. |
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Aumentará la audiencia al agregar **traducciones** (inglés/chino) en la UI y plantillas del Kanban? |
+| **Condición experimental** | Los **nuevos usuarios** de regiones inglés/chino que crean o usan tableros Kanban aumentan **15%** tras habilitar la UI y descripciones de plantillas localizadas. |
+| **Condición de control** | No hay cambios significativos en registros o creación de tableros Kanban desde esas regiones. |
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Aumentará la participación al implementar un **foro** para plantillas y consejos de Kanban? |
+| **Condición experimental** | Interacciones relacionadas con Kanban (publicaciones, respuestas, importaciones de plantillas, creación de tableros desde plantillas) aumentan **30%** tras el lanzamiento del foro. |
+| **Condición de control** | No hay incremento medible en participación relacionada con Kanban ni en la reutilización de plantillas. |
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Mejorará la finalización de tareas en Kanban con **notificaciones y recordatorios personalizados**? |
+| **Condición experimental** | La **tasa de finalización de tarjetas** en Kanban aumenta **25%** para usuarios que reciben recordatorios configurables (alertas por fecha de vencimiento, asignaciones, revisiones). |
+| **Condición de control** | No hay cambios significativos en la tasa de finalización para usuarios sin las nuevas notificaciones. |
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Aumentará la actividad al añadir un **marketplace** para plantillas e integraciones de Kanban? |
+| **Condición experimental** | Las **transacciones** (instalaciones/compras de plantillas, activaciones de integraciones) relacionadas con Kanban aumentan **50%** durante el período de medición tras el lanzamiento del marketplace. |
+| **Condición de control** | No hay cambios significativos en transacciones de marketplace ni en adopción de plantillas relacionadas con Kanban. |
+
+
 #### 8.2.5. Scale Calculations and Decisions
 
 #### 8.2.6. Methods Selection
