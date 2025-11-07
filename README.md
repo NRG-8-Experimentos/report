@@ -3834,6 +3834,13 @@ Para evaluar, medir y optimizar la feature del Kanban Board, se consideran disti
 
 #### 8.3.1. To-Be User Stories
 
+| User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+|---------------|--------|------------|------------------------|--------------------------|
+| UA08 | Implementar modo oscuro | Como usuario, quiero una opción de modo oscuro para que mi tablero Kanban sea cómodo de usar en ambientes con poca luz. | **Escenario 1: Activar modo oscuro**  <br>Given el usuario está en la aplicación  <br>When hace clic en el toggle "Modo Oscuro"  <br>Then el tablero Kanban cambia al tema oscuro  <br>And la preferencia se persiste para futuras sesiones  <br>**Escenario 2: Desactivar modo oscuro**  <br>Given el modo oscuro está activo  <br>When hace clic en el toggle "Modo Claro"  <br>Then el tablero Kanban vuelve al tema claro  <br>And la preferencia se persiste  <br>**Checks de aceptación:** contraste cumple WCAG AA, eventos trackeados (theme_change, board_open), opción de opt-out | E03 |
+| UA09 | Añadir traducciones (i18n) | Como usuario, quiero que la interfaz Kanban esté disponible en otros idiomas (ej. inglés, chino) para que más personas puedan usarla. | **Escenario 1: Seleccionar idioma**  <br>Given el usuario está en la aplicación  <br>When abre el selector de idioma y elige un idioma  <br>Then la UI, tooltips y descripciones de plantillas se muestran en el idioma seleccionado  <br>And la selección se persiste  <br>**Escenario 2: Manejo de fallback**  <br>Given falta traducción de una cadena  <br>When el usuario visualiza la pantalla  <br>Then se muestra un fallback sensato (idioma por defecto) y se registra la clave faltante  <br>**Checks de aceptación:** flujos críticos traducidos, eventos trackeados (language_selected, board_create), reporte de cobertura de traducciones disponible | E03 |
+| UA10 | Integrar notificaciones personalizadas | Como usuario, quiero notificaciones y recordatorios personalizados para tareas/eventos Kanban para no olvidar mis responsabilidades. | **Escenario 1: Recibir notificación de recordatorio**  <br>Given el usuario con
+
+
 #### 8.3.2. To-Be Product Backlog
 
 #### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
