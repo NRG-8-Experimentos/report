@@ -3620,6 +3620,14 @@ Además, faltan:
 
 #### 8.1.3. Experiment-Ready Questions
 
+| **Pregunta** | **Confianza** | **Riesgo** | **Impacto** | **Interés** | **Puntuación total** |
+|---|---|---|---|---:|---:|
+| ¿Agregar un **modo oscuro** a SynHub web y móvil mejorará la **comodidad del usuario** durante sesiones largas? | 7 - Funcionalidad de personalización popular entre aplicaciones de productividad. | 2 - Riesgo técnico bajo; solo intercambio de tema/UI. | 6 - Mejora la comodidad y accesibilidad, pero no es crítica. | 5 - Interés moderado, mayor entre usuarios nocturnos/móviles. | 20 |
+| ¿Ofrecer **traducciones** (por ejemplo, inglés, español, chino) ampliará la **audiencia de SynHub**? | 6 - Probablemente atraiga equipos multilingües. | 3 - Riesgo medio por el esfuerzo de traducción y mantenimiento. | 7 - Alto potencial para aumentar la base de usuarios en entornos multilingües. | 6 - Interés moderado entre usuarios no nativos. | 22 |
+| ¿Un **foro comunitario** para plantillas, consejos y buenas prácticas aumentará la **participación de los usuarios** en SynHub? | 8 - Las funciones de comunidad suelen aumentar la retención y el intercambio de conocimiento. | 4 - Riesgo medio: requiere moderación y control de calidad del contenido. | 8 - Puede aumentar significativamente la participación y el crecimiento orgánico. | 7 - Usuarios interesados en compartir flujos de trabajo y plantillas. | 27 |
+| ¿Las **notificaciones personalizadas** y los **recordatorios de tareas** mejorarán la **finalización de tareas** y la **retención de usuarios** en SynHub? | 9 - Alta confianza; las notificaciones impulsan la acción. | 2 - Riesgo bajo si se implementa con buenas prácticas de UX. | 9 - Alto impacto en retención y finalización oportuna de tareas. | 8 - Gran interés del usuario en funciones de productividad. | 28 |
+| ¿Un **marketplace** para plantillas, integraciones y complementos aumentará la **adopción y monetización** de SynHub? | 7 - Factible si existe demanda de integraciones/plantillas. | 4 - Riesgo medio: temas legales, control de calidad y competencia. | 10 - Alto potencial para ingresos y crecimiento del ecosistema. | 6 - Interés moderado que puede crecer con la oferta. | 27 |
+
 #### 8.1.4. Question Backlog
 
 #### 8.1.5. Experiment Cards
