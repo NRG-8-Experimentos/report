@@ -3641,6 +3641,45 @@ Además, faltan:
 
 #### 8.1.5. Experiment Cards
 
+
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Agregar un **modo oscuro** al tablero Kanban de SynHub (web y móvil) mejorará la **comodidad del usuario**? |
+| **Por qué** | El modo oscuro puede **reducir la fatiga visual** de los usuarios que trabajan largas sesiones en el tablero Kanban, **mejorar la legibilidad** de tarjetas y etiquetas en entornos con poca luz, y **aumentar el tiempo** que los usuarios dedican a refinar y editar rápidamente sus tableros. |
+| **Qué** | Agregar un **selector global de tema** para SynHub (claro / oscuro), adaptar los estilos específicos del Kanban (fondos de tarjetas, separadores de columnas, indicadores de arrastre, etiquetas y distintivos), y **persistir la preferencia del usuario**. Proporcionar una **versión accesible del tema oscuro** con contraste verificado para móvil y web. |
+| **Hipótesis** | El **60%** de los usuarios activos del tablero informará una **mejora en la comodidad**, y la **duración promedio de sesión** en el tablero Kanban **aumentará un 25%** dentro de las 4 semanas posteriores al lanzamiento. |
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Un **foro comunitario** para plantillas, flujos de trabajo y consejos de Kanban aumentará la **participación de los usuarios** en SynHub? |
+| **Por qué** | Un foro enfocado en **plantillas y flujos de trabajo Kanban** fomenta el **intercambio de configuraciones**, convenciones de columnas y recetas de automatización, ayudando a que **nuevos equipos adopten SynHub más rápido** y reutilicen patrones de tablero comprobados. |
+| **Qué** | Integrar un **foro/centro de conocimiento moderado** donde los usuarios puedan **publicar plantillas Kanban (exportar/importar)**, **votar por flujos de trabajo** y compartir cómo estructuran sus tableros para tareas comunes (sprints, retrospectivas, gestión de inventarios, etc.). Mostrar las **plantillas destacadas** dentro del flujo de creación de tableros. |
+| **Hipótesis** | Introducir el foro y mostrar las mejores plantillas aumentará la **creación de tableros y reutilización de plantillas en un 30%**, y elevará los **usuarios activos semanales** que interactúan con tableros en un **20% en dos meses**. |
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Agregar **traducciones** (por ejemplo, inglés y chino) a la interfaz de SynHub y del Kanban **ampliará la audiencia**? |
+| **Por qué** | Traducir la interfaz de Kanban, las etiquetas de los tableros y las descripciones de las plantillas **reduce la fricción de adopción** para usuarios que no hablan español y permite que **equipos en nuevos mercados** puedan incorporarse y colaborar utilizando los tableros de SynHub. |
+| **Qué** | **Localizar** las pantallas principales del Kanban, tooltips, metadatos de plantillas y flujos de incorporación. Agregar soporte de **i18n en tiempo de ejecución** y un proceso para mantener sincronizadas las cadenas de traducción. |
+| **Hipótesis** | La experiencia Kanban localizada **aumentará los registros y el uso de tableros** por parte de regiones de habla inglesa y china en un **15% dentro de los primeros tres meses**. |
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Las **notificaciones personalizadas** y los **recordatorios de tareas** incrementarán la **finalización de tareas** en los tableros Kanban? |
+| **Por qué** | Los recordatorios contextuales asociados a **fechas límite, movimientos de columnas o disparadores de flujo** ayudan a los usuarios a **actuar sobre las tareas** (aprobar, reasignar, completar) y **reducen las tarjetas pasadas por alto** en el tablero. |
+| **Qué** | Construir **reglas configurables de notificación** para tarjetas (próximas a vencer, movidas a revisión, asignadas a mí). Enviar notificaciones **push, por correo e in-app**, con controles de suscripción (*opt-in*) y opciones de posponer (*snooze*). Instrumentar tasas de **finalización y reapertura**. |
+| **Hipótesis** | Después de habilitar los recordatorios personalizados, la **tasa de finalización de tarjetas aumentará un 40%** y la **satisfacción del usuario** con la gestión de tareas mejorará un **20% dentro de seis semanas**. |
+
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Agregar una **sección de marketplace/comercio** para plantillas Kanban, integraciones y productos relacionados aumentará la **actividad en SynHub**? |
+| **Por qué** | Un marketplace permite que los equipos **compren o vendan plantillas avanzadas**, recetas de automatización e integraciones de terceros, creando un **ecosistema alrededor de la optimización del tablero** y oportunidades de **monetización** para SynHub. |
+| **Qué** | Crear un **MVP de marketplace** donde los creadores puedan listar **plantillas Kanban, paquetes de automatización e integraciones**. Incluir **calificaciones, compras** y **una importación con un solo clic** de las plantillas adquiridas al espacio de trabajo del equipo. Garantizar **pagos seguros** y **controles de calidad**. |
+| **Hipótesis** | El lanzamiento del marketplace **aumentará las transacciones e instalaciones de plantillas en un 50%** durante los primeros seis meses y **mejorará las conversiones a planes pagos** de equipos que adopten plantillas o integraciones premium. |
+
+
 ### 8.2. Experiment Design
 
 #### 8.2.1. Hypotheses
