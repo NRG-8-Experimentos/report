@@ -3684,6 +3684,47 @@ Además, faltan:
 
 #### 8.2.1. Hypotheses
 
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Mejorará la experiencia añadiendo un **modo oscuro** al tablero Kanban de SynHub (web y móvil)? |
+| **Creencia (Belief)** | El modo oscuro **reducirá la fatiga visual** en sesiones largas y **mejorará la comodidad** al usar el tablero Kanban, especialmente en entornos con poca luz. |
+| **Hipótesis** | La implementación del modo oscuro **incrementará el tiempo promedio de uso** del tablero y la **satisfacción del usuario** en al menos un **20% dentro de 4 semanas** tras el lanzamiento. |
+| **Hipótesis nula** | La habilitación del modo oscuro **no afectará significativamente** el tiempo de uso ni la satisfacción del usuario. |
+
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Aumentará la audiencia agregando **traducciones (inglés, chino)** a la interfaz del Kanban y descripciones de plantillas? |
+| **Creencia (Belief)** | Localizar la **UI del Kanban** y las plantillas **reducirá la fricción de adopción** en mercados internacionales y facilitará la incorporación de equipos no hispanohablantes. |
+| **Hipótesis** | La implementación de traducciones **aumentará los usuarios** provenientes de regiones de habla inglesa y china en un **15% en los tres meses posteriores**. |
+| **Hipótesis nula** | La inclusión de traducciones **no tendrá un impacto significativo** en el número de nuevos usuarios de esos mercados. |
+
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Mejorará la participación al implementar un **foro de plantillas, recetas y consejos** específico para Kanban dentro de SynHub? |
+| **Creencia (Belief)** | Un foro centrado en **plantillas y flujos Kanban** fomentará el intercambio de prácticas, aumentará la **reutilización de tableros** y creará **comunidad alrededor del tablero**. |
+| **Hipótesis** | La implementación del foro **aumentará la participación** de usuarios que interactúan con tableros en un **30% respecto al periodo anterior, en 60 días**. |
+| **Hipótesis nula** | La introducción del foro **no tendrá un efecto significativo** en la participación de los usuarios. |
+
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Mejorará la satisfacción la integración de **notificaciones personalizadas** y **recordatorios** para tarjetas del Kanban? |
+| **Creencia (Belief)** | Los recordatorios contextuales (vencimientos, movimientos, asignaciones) ayudan a **mantener el flujo de trabajo** y **reducir tarjetas olvidadas**, mejorando eficacia y satisfacción. |
+| **Hipótesis** | La integración de notificaciones personalizadas **aumentará la tasa de finalización de tarjetas en un 40%** y la **satisfacción del usuario en un 20% dentro de seis semanas**. |
+| **Hipótesis nula** | La implementación de notificaciones personalizadas **no afectará significativamente** la tasa de finalización ni la satisfacción del usuario. |
+
+
+| **Elemento** | **Descripción** |
+|---|---|
+| **Pregunta** | ¿Aumentará la actividad la inclusión de una **sección de comercio/marketplace** para plantillas, integraciones y productos relacionados con Kanban? |
+| **Creencia (Belief)** | Un marketplace permitirá **monetizar plantillas avanzadas e integraciones** y fomentará un **ecosistema de creadores** que aumente la actividad del tablero. |
+| **Hipótesis** | La implementación del marketplace **incrementará las transacciones** relacionadas con plantillas e integraciones en un **50% durante los primeros seis meses** y **mejorará las conversiones** a planes pagos. |
+| **Hipótesis nula** | La inclusión del marketplace **no tendrá un efecto significativo** en las transacciones ni en la monetización. |
+
+
 #### 8.2.2. Domain Business Metrics
 
 #### 8.2.3. Measures
