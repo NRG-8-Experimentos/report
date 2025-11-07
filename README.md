@@ -3519,6 +3519,63 @@ En paralelo, las versiones móviles son compiladas y enviadas a Firebase App Dis
 
 #### 8.1.1. As-Is Summary
 
+### Estado actual
+La aplicación actual (**SynHub**) ofrece **gestión de grupos y tareas**, con funcionalidades para **creación, asignación y seguimiento de tareas**, así como **reportes y métricas**.
+
+En el proceso de desarrollo del **Kanban Board** se ha seguido un flujo básico:
+- Definición del modelo de datos (tableros, columnas, tarjetas).
+- Implementación de endpoints **REST** para CRUD de tableros y tarjetas.
+- Creación de una vista web con operaciones básicas de **arrastrar y soltar** (*drag and drop*).
+
+No obstante, el desarrollo del **Kanban Board** está en una **fase inicial/experimental** y presenta **limitaciones** en su implementación y en el proceso de creación y uso colaborativo en tiempo real.
+
+El **rendimiento** de las operaciones de interacción (especialmente arrastrar/soltar y recarga de listas) es inconsistente y la experiencia en **dispositivos móviles** no está totalmente optimizada.
+
+Además, faltan:
+- Integraciones para **colaboración en tiempo real (WebSocket)**.
+- **Control fino de permisos** sobre columnas y tarjetas.
+- **Soporte de internacionalización (i18n)** para la interfaz del tablero.
+
+---
+
+### Problemas identificados
+
+- **Rendimiento:**  
+  Las operaciones del Kanban (renderizado de tarjetas, arrastre y actualizaciones) muestran **lentitud** y a veces requieren **recargas completas** para reflejar cambios, afectando la fluidez del usuario.
+
+- **Usabilidad:**  
+  La interfaz del tablero carece de **variantes de visualización** (modo compacto, modo detalle) y no incluye un **modo oscuro**, limitando la comodidad en condiciones de baja luminosidad.
+
+- **Experiencia del usuario (UX):**  
+  El diseño actual no está completamente **responsivo** ni optimizado para **gestos en móviles**; el flujo para crear columnas, tarjetas y mover elementos no es del todo intuitivo en pantallas pequeñas.
+
+- **Funcionalidad limitada:**  
+  Falta **colaboración en tiempo real**, **historial/undo** de movimientos, **filtros avanzados** y **traducciones** para distintos idiomas, lo que limita la adopción por usuarios internacionales.
+
+---
+
+### Objetivos de mejora
+
+- **Optimización del rendimiento:**  
+  Reducir **latencias en operaciones de tablero** y lograr **tiempos de respuesta inferiores a 2 segundos** en interacciones comunes mediante:
+    - Virtualización de listas.
+    - Optimización de queries.
+    - Uso de **WebSockets** para actualizaciones incrementales.
+
+- **Mejora de la experiencia del usuario:**
+    - Implementar **modo oscuro** y **variantes de visualización adaptativas**.
+    - Mejorar la **interacción táctil** para móviles.
+    - Optimizar el flujo de **creación/edición de tarjetas y columnas**.
+
+- **Expansión de la audiencia:**  
+  Añadir soporte de **i18n** (inglés y chino inicialmente) para la interfaz del Kanban y textos dinámicos del tablero.
+
+- **Funcionalidad colaborativa y de control:**
+    - Añadir **sincronización en tiempo real (WebSocket)**.
+    - Implementar **control de permisos por rol** sobre tableros/columnas/tarjetas.
+    - Incorporar **historial de cambios** y **capacidad de deshacer movimientos**, aumentando la **confiabilidad** y el **uso colaborativo** en equipos.
+
+
 #### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
 #### 8.1.3. Experiment-Ready Questions
