@@ -3630,6 +3630,15 @@ Además, faltan:
 
 #### 8.1.4. Question Backlog
 
+| **Prioridad (1,2,3,5,8)** | **Pregunta** | **Justificación (contexto SynHub)** | **Próximos pasos** |
+|---|---|---|---|
+| 8 | ¿Las **notificaciones personalizadas** y los **recordatorios de tareas** mejorarán la **finalización de tareas** y la **retención de usuarios** en SynHub? | Mayor impacto en la retención y finalización oportuna de tareas tanto en web como en móvil; se alinea con los objetivos de productividad de SynHub. | Prototipar reglas de notificación, agregar controles de suscripción (*opt-in*), instrumentar métricas (tasa de apertura, mejora en finalización), ejecutar pruebas A/B. |
+| 5 | ¿Un **marketplace** de plantillas, integraciones y complementos aumentará la **adopción** y **monetización** de SynHub? | Alto potencial de ingresos y expansión del ecosistema; requiere gobernanza y control de calidad. | Validar la demanda mediante encuestas, definir el proceso de evaluación de proveedores, construir un MVP de marketplace para plantillas. |
+| 5 | ¿Un **foro comunitario** para plantillas, consejos y buenas prácticas incrementará la **participación de los usuarios** en SynHub? | Fomenta el intercambio de conocimiento y el crecimiento orgánico; requiere moderación y curación de contenido. | Lanzar un foro limitado (temas: plantillas, flujos de trabajo), asignar moderadores, hacer seguimiento de DAU y cantidad de publicaciones. |
+| 3 | ¿Ofrecer **traducciones** (por ejemplo, inglés, español, chino) ampliará la **audiencia de SynHub**? | Facilita el soporte para equipos multilingües y la incorporación en nuevos mercados; introduce sobrecarga de mantenimiento. | Agregar un marco de **i18n**, localizar las pantallas principales, medir registros y retención en los idiomas objetivo. |
+| 1 | ¿Agregar un **modo oscuro** a SynHub web y móvil mejorará la **comodidad del usuario** durante sesiones largas? | Bajo esfuerzo de implementación con un beneficio de UX medible para usuarios nocturnos o móviles. | Implementar el cambio de tema, persistir la preferencia del usuario, recopilar telemetría de uso y retroalimentación. |
+
+
 #### 8.1.5. Experiment Cards
 
 ### 8.2. Experiment Design
