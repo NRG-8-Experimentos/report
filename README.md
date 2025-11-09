@@ -3517,6 +3517,8 @@ En paralelo, las versiones móviles son compiladas y enviadas a Firebase App Dis
 
 ### 8.1. Experiment Planning
 
+En esta sección se define el proceso de preparación y organización de los experimentos necesarios para validar hipótesis relacionadas con la experiencia del usuario, la interfaz visual y la interacción con tareas dentro de la web app y la mobile app. El objetivo es convertir ideas y suposiciones en preguntas concretas y medibles que guíen la validación continua del producto.
+
 #### 8.1.1. As-Is Summary
 
 ### Estado actual
