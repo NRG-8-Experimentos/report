@@ -3503,13 +3503,66 @@ En paralelo, las versiones móviles son compiladas y enviadas a Firebase App Dis
 
 ### 7.4. Continuous Monitoring
 
+El monitoreo continuo permite al equipo asegurar el rendimiento, la disponibilidad y la estabilidad del sistema en tiempo real. Su objetivo es detectar incidencias tempranas, optimizar el rendimiento de los servicios y garantizar la calidad de la experiencia del usuario.
+En el caso de SynHub, el monitoreo se aplica tanto a los componentes backend desplegados en Render, como a las aplicaciones móviles y la web app, garantizando un funcionamiento confiable y sostenido durante el ciclo de vida del producto.
+
 #### 7.4.1. Tools and Practices
+
+Para el monitoreo del ecosistema de SynHub, se emplean herramientas que permiten registrar métricas, analizar logs y visualizar el rendimiento general de los servicios:
+
+* **Render Metrics & Logs:** Permite supervisar el estado de la base de datos, la API y la web app, verificando uso de CPU, memoria y tiempo de respuesta.
+* **Firebase Performance Monitoring:** Utilizado en las aplicaciones móviles para rastrear el rendimiento, tiempos de carga y errores en dispositivos reales.
+* **GitHub Logs:** Permite la trazabilidad de los despliegues y la detección de errores en integraciones continuas.
+* **Docker Logs & Health Checks:** Monitorea la estabilidad de los contenedores y el correcto funcionamiento de los servicios dentro del entorno Docker.
+
+Buenas prácticas implementadas:
+* Revisión periódica de métricas de rendimiento.
+* Uso de dashboards unificados para seguimiento de logs.
+* Configuración de alertas automáticas para caídas o tiempos de respuesta elevados.
+* Auditoría y limpieza regular de logs antiguos para optimizar almacenamiento.
 
 #### 7.4.2. Monitoring Pipeline Components
 
+El pipeline de monitoreo se centra en rastrear el comportamiento de los componentes principales de la arquitectura:
+
+* **Frontend (Web App y Mobile):** Se mide el tiempo de carga, latencia en peticiones HTTP y rendimiento del renderizado.
+* **Backend (API en Render):** Se monitorean métricas de disponibilidad, errores 4xx/5xx y latencia en endpoints críticos.
+* **Base de Datos PostgreSQL:** Se supervisa el rendimiento de consultas, número de conexiones activas y uso de memoria.
+* **Contenedores Docker:** Se revisan los estados de ejecución, consumo de recursos y logs de eventos de error.
+
+Estas métricas son recolectadas mediante los sistemas de logging integrados en Render, Firebase y Docker, permitiendo una visión completa del estado del sistema.
+
 #### 7.4.3. Alerting Pipeline Components
 
+El pipeline de alertas permite notificar automáticamente al equipo de desarrollo o mantenimiento cuando se detectan incidencias relevantes.
+
+**Alertas configuradas:**
+
+* Fallos en el despliegue de la API o web app (Render Deployment Alerts).
+* Tiempo de respuesta superior a 2 segundos en endpoints principales.
+* Caídas o errores en la base de datos PostgreSQL.
+* Errores críticos de rendimiento en la app móvil (Firebase Crashlytics).
+
+**Prácticas aplicadas:**
+
+* Definición de umbrales de rendimiento para detectar degradaciones antes de que afecten al usuario.
+
 #### 7.4.4. Notification Pipeline Components
+
+El pipeline de notificaciones gestiona la comunicación con los miembros del equipo y los usuarios finales ante eventos relevantes.
+
+**A nivel interno (equipo técnico):**
+
+* Render envía alertas sobre caídas o reinicios automáticos de servicios.
+* Firebase y GitHub Actions notifican errores de compilación o distribución.
+
+**A nivel externo (usuarios):**
+
+* Firebase Cloud Messaging (FCM) gestiona las notificaciones push sobre actualizaciones, recordatorios de tareas y validaciones pendientes.
+
+**Buenas prácticas:**
+
+* Centralización de notificaciones técnicas en un canal único de equipo.
 
 # **Part III: Experiment-Driven Lifecycle**
 
