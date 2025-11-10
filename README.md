@@ -3649,6 +3649,18 @@ En esta sección se detalla la construcción metodológica de los experimentos, 
 
 #### 8.2.2. Domain Business Metrics
 
+Este punto busca establecer un conjunto de métricas de negocio que permitan evaluar de manera objetiva el impacto de los experimentos en la experiencia del usuario, la eficiencia operativa y la satisfacción global.
+Estas métricas servirán como base para el análisis comparativo antes, durante y después de la ejecución experimental.
+
+| **Métrica**                                  | **Descripción**                                                                                             | **Fórmula / Método de cálculo**                                                      | **Técnica de recolección**                                           | **Meta deseada**                                      |
+|----------------------------------------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------|-------------------------------------------------------|
+| **Task Completion Time (TCT)**               | Tiempo promedio que tarda un usuario en completar una tarea desde su creación hasta su finalización.        | (Σ tiempo de finalización – tiempo de creación) / número total de tareas completadas | Registro automático en base de datos de tareas (timestamp tracking). | Reducción ≥ **20%** tras implementación Kanban.       |
+| **Task Flow Efficiency (TFE)**               | Porcentaje de tiempo productivo sobre el total del ciclo de vida de una tarea.                              | (Tiempo activo de trabajo / Tiempo total del ciclo) × 100                            | Logs de actividad y estados de tareas en base de datos.              | Incremento ≥ **15%** de eficiencia promedio.          |
+| **Board Interaction Rate (BIR)**             | Número promedio de interacciones por usuario con el tablero Kanban (arrastres, creación, edición, filtros). | Total de interacciones Kanban / Usuarios activos                                     | Event tracking en frontend (Google Analytics, Firebase o Mixpanel).  | Incremento ≥ **25%** en uso activo del tablero.       |
+| **Language Preference Adoption Rate (LPAR)** | Porcentaje de usuarios que cambian o personalizan el idioma predeterminado.                                 | (Usuarios que modifican idioma / Total de usuarios activos) × 100                    | Tracking de eventos en configuración de idioma.                      | ≥ **40%** de adopción entre usuarios internacionales. |
+| **User Satisfaction Score (USS)**            | Nivel promedio de satisfacción del usuario con la interfaz en su idioma preferido.                          | Promedio de respuestas (escala 1–5) en encuesta de satisfacción.                     | Encuestas postuso localizadas (es/en).                               | ≥ **4/5** de satisfacción general.                    |
+| **Translation Coverage Rate (TCR)**          | Porcentaje de cadenas de texto traducidas respecto al total disponible en la app.                           | (Cadenas traducidas / Total de cadenas) × 100                                        | Auditoría automática del sistema i18n.                               | Cobertura ≥ **98%**.                                  |
+
 #### 8.2.3. Measures
 
 | **Elemento** | **Descripción** |
