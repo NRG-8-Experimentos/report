@@ -3540,53 +3540,51 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 
 #### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
-### **Assumptions**
+**Ideas**
 
-- **Modo oscuro:** Se asume que los usuarios del Kanban valoran la **personalización de la interfaz** para reducir la **fatiga visual** en sesiones largas y en entornos con poca luz.
-- **Traducciones:** Se asume que **equipos multiculturales** usarán el tablero, justificando soporte de **múltiples idiomas** (ej. inglés, chino).
-- **Colaboración en tiempo real:** Se asume que los equipos esperan **sincronización inmediata** entre miembros para mantener la **consistencia del flujo de trabajo**.
-- **Arrastre y soltado fiable:** Se asume que la interacción de **drag-and-drop** es **central para la adopción del Kanban** y debe ser **fluida en web y móvil**.
-- **Control de permisos:** Se asume que las organizaciones requieren **control fino** sobre quién puede **crear, editar, mover o eliminar** columnas y tarjetas.
+* Incorporar una vista Kanban para representar visualmente las tareas permitirá a los usuarios comprender mejor el flujo de trabajo.
+* Integrar funciones de arrastrar y soltar (drag & drop) podría aumentar la eficiencia en la gestión de tareas.
+* Adaptar el diseño Kanban tanto a la web como al móvil puede mejorar la coherencia visual del sistema.
+* Implementar un sistema de internacionalización que permita cambiar entre español e inglés desde la configuración del usuario. 
+* Centralizar las cadenas de texto en archivos de localización facilitará la escalabilidad a nuevos idiomas. 
+* Adaptar el contenido no solo al idioma, sino también a convenciones culturales (formato de fecha, moneda, unidades).
 
----
+**Claims**
 
-### **Knowledge Gaps**
+* Los líderes de equipo necesitan una representación visual del progreso para tomar decisiones más rápidas.
+* Los usuarios prefieren tableros visuales porque ofrecen una sensación de control y avance.
+* Una interfaz tipo Kanban incrementará la satisfacción y percepción de productividad. 
+* Los usuarios internacionales abandonan la aplicación si no pueden interactuar en su idioma nativo. 
+* La inclusión del inglés aumentará la adopción en mercados externos. 
+* La traducción de mensajes de error y notificaciones mejora la confianza y comprensión del sistema.
 
-- **Preferencias de visualización:** Falta información sobre **layouts preferidos** (compacto, detallado, swimlanes) y **densidad de tarjetas** por usuario.
-- **Expectativas de latencia:** No hay datos precisos sobre el **umbral de latencia aceptable** para operaciones en tiempo real bajo diferentes condiciones de conexión.
-- **Comportamiento móvil:** Insuficiente conocimiento sobre **gestos y flujos esperados** por los usuarios en pantallas táctiles para mover y editar tarjetas.
-- **Modelo de permisos ideal:** Falta claridad sobre **roles y niveles de acceso** que las organizaciones realmente necesitan en sus contextos de trabajo.
-- **Uso offline y sincronización:** Se desconoce cuánto valoran los usuarios la **capacidad de trabajar offline** y cómo manejar **conflictos al re-sincronizar**.
+**Assumptions**
 
----
+* Los usuarios comprenden intuitivamente el modelo Kanban sin necesidad de capacitación previa.
+* La vista Kanban será más eficiente que la lista tradicional para administrar tareas en grupo.
+* Los equipos valoran la posibilidad de personalizar columnas o estados dentro del tablero. 
+* Los usuarios valoran la posibilidad de cambiar el idioma sin necesidad de reiniciar la sesión. 
+* La mayoría de los usuarios objetivo utilizan español o inglés como idioma principal. 
+* Las traducciones automáticas iniciales pueden ser suficientes para las pruebas tempranas de usabilidad.
 
-### **Ideas**
+**Knowledge Gaps**
 
-- Implementar **encuestas y entrevistas** dirigidas a equipos actuales para validar **preferencias de layout, latencia y permisos**.
-- Crear un **prototipo rápido con WebSockets** para validar **sincronización en tiempo real** y detectar **patrones de conflicto**.
-- Añadir **telemetría anónima** para medir **tiempos de arrastre, cargas de lista y eventos de error** en diferentes dispositivos.
-- Desarrollar **variantes UI** (*compacto / normal / detalle*) y realizar **tests A/B** para identificar la más efectiva según el escenario.
-- Diseñar un **sistema de roles mínimo viable** (*owner, admin, editor, viewer*) e implementar **historial/undo** para movimientos críticos.
-
----
-
-### **Claims**
-
-- **Mejora de experiencia:** Se sostiene que un **modo oscuro** y **variantes de visualización** aumentarán la **comodidad** y reducirán la **fatiga** en sesiones largas.
-- **Aumento de productividad:** Se afirma que la **colaboración en tiempo real** reducirá el **tiempo de coordinación** y mejorará la **eficiencia del equipo**.
-- **Confiabilidad:** Se postula que la **virtualización de listas** y la **optimización de queries** disminuirán **latencias** y mejorarán la **fluidez del drag-and-drop**.
-- **Gobernanza:** Se afirma que un **control de permisos granular** y un **historial de cambios** incrementarán la **confianza de las organizaciones** en usar el Kanban como **fuente de verdad**.
-
+* Se desconoce qué nivel de personalización o interacción espera el usuario dentro del tablero (por ejemplo, agregar colores, filtros o etiquetas).
+* No se ha determinado si la vista Kanban debe ser la predeterminada o una alternativa a la vista de lista.
+* Falta información sobre cómo el rendimiento del sistema puede verse afectado por el renderizado dinámico del tablero. 
+* No se conoce el nivel de dominio del inglés del segmento actual de usuarios. 
+* Se desconoce si los usuarios consideran relevante la localización de formatos (fechas, horas, monedas). 
+* No se ha definido si el idioma debe establecerse automáticamente según la configuración del sistema operativo o de forma manual.
 
 #### 8.1.3. Experiment-Ready Questions
 
-| **Pregunta** | **Confianza** | **Riesgo** | **Impacto** | **Interés** | **Puntuación total** |
-|---|---|---|---|---:|---:|
-| ¿Agregar un **modo oscuro** a SynHub web y móvil mejorará la **comodidad del usuario** durante sesiones largas? | 7 - Funcionalidad de personalización popular entre aplicaciones de productividad. | 2 - Riesgo técnico bajo; solo intercambio de tema/UI. | 6 - Mejora la comodidad y accesibilidad, pero no es crítica. | 5 - Interés moderado, mayor entre usuarios nocturnos/móviles. | 20 |
-| ¿Ofrecer **traducciones** (por ejemplo, inglés, español, chino) ampliará la **audiencia de SynHub**? | 6 - Probablemente atraiga equipos multilingües. | 3 - Riesgo medio por el esfuerzo de traducción y mantenimiento. | 7 - Alto potencial para aumentar la base de usuarios en entornos multilingües. | 6 - Interés moderado entre usuarios no nativos. | 22 |
-| ¿Un **foro comunitario** para plantillas, consejos y buenas prácticas aumentará la **participación de los usuarios** en SynHub? | 8 - Las funciones de comunidad suelen aumentar la retención y el intercambio de conocimiento. | 4 - Riesgo medio: requiere moderación y control de calidad del contenido. | 8 - Puede aumentar significativamente la participación y el crecimiento orgánico. | 7 - Usuarios interesados en compartir flujos de trabajo y plantillas. | 27 |
-| ¿Las **notificaciones personalizadas** y los **recordatorios de tareas** mejorarán la **finalización de tareas** y la **retención de usuarios** en SynHub? | 9 - Alta confianza; las notificaciones impulsan la acción. | 2 - Riesgo bajo si se implementa con buenas prácticas de UX. | 9 - Alto impacto en retención y finalización oportuna de tareas. | 8 - Gran interés del usuario en funciones de productividad. | 28 |
-| ¿Un **marketplace** para plantillas, integraciones y complementos aumentará la **adopción y monetización** de SynHub? | 7 - Factible si existe demanda de integraciones/plantillas. | 4 - Riesgo medio: temas legales, control de calidad y competencia. | 10 - Alto potencial para ingresos y crecimiento del ecosistema. | 6 - Interés moderado que puede crecer con la oferta. | 27 |
+| **Pregunta**                                                                                                                                               | **Confianza**                                                                                 | **Riesgo**                                                                | **Impacto**                                                                       |                                                           **Interés** | **Puntuación total** |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------:|---------------------:|
+| ¿Agregar un **modo oscuro** a SynHub web y móvil mejorará la **comodidad del usuario** durante sesiones largas?                                            | 7 - Funcionalidad de personalización popular entre aplicaciones de productividad.             | 2 - Riesgo técnico bajo; solo intercambio de tema/UI.                     | 6 - Mejora la comodidad y accesibilidad, pero no es crítica.                      |         5 - Interés moderado, mayor entre usuarios nocturnos/móviles. |                   20 |
+| ¿Ofrecer **traducciones** (por ejemplo, inglés, español, chino) ampliará la **audiencia de SynHub**?                                                       | 6 - Probablemente atraiga equipos multilingües.                                               | 3 - Riesgo medio por el esfuerzo de traducción y mantenimiento.           | 7 - Alto potencial para aumentar la base de usuarios en entornos multilingües.    |                       6 - Interés moderado entre usuarios no nativos. |                   22 |
+| ¿Un **foro comunitario** para plantillas, consejos y buenas prácticas aumentará la **participación de los usuarios** en SynHub?                            | 8 - Las funciones de comunidad suelen aumentar la retención y el intercambio de conocimiento. | 4 - Riesgo medio: requiere moderación y control de calidad del contenido. | 8 - Puede aumentar significativamente la participación y el crecimiento orgánico. | 7 - Usuarios interesados en compartir flujos de trabajo y plantillas. |                   27 |
+| ¿Las **notificaciones personalizadas** y los **recordatorios de tareas** mejorarán la **finalización de tareas** y la **retención de usuarios** en SynHub? | 9 - Alta confianza; las notificaciones impulsan la acción.                                    | 2 - Riesgo bajo si se implementa con buenas prácticas de UX.              | 9 - Alto impacto en retención y finalización oportuna de tareas.                  |           8 - Gran interés del usuario en funciones de productividad. |                   28 |
+| ¿Un **marketplace** para plantillas, integraciones y complementos aumentará la **adopción y monetización** de SynHub?                                      | 7 - Factible si existe demanda de integraciones/plantillas.                                   | 4 - Riesgo medio: temas legales, control de calidad y competencia.        | 10 - Alto potencial para ingresos y crecimiento del ecosistema.                   |                  6 - Interés moderado que puede crecer con la oferta. |                   27 |
 
 #### 8.1.4. Question Backlog
 
