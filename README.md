@@ -3627,6 +3627,10 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 
 ### 8.2. Experiment Design
 
+La fase de Diseño del Experimento constituye el núcleo operativo del enfoque Experiment-Driven Development, ya que define de manera estructurada cómo se pondrán a prueba las hipótesis planteadas en las etapas previas. Su propósito es garantizar que los experimentos generen evidencia empírica válida, medible y accionable, que permita al equipo tomar decisiones informadas sobre el desarrollo y evolución de SynHub.
+
+En esta sección se detalla la construcción metodológica de los experimentos, abarcando desde la formulación clara de hipótesis hasta la definición de métricas, condiciones y métodos de recolección de datos. Se busca asegurar que cada prueba proporcione insights confiables sobre el comportamiento del usuario, la efectividad de las mejoras propuestas y su impacto en los objetivos de negocio y experiencia de usuario.
+
 #### 8.2.1. Hypotheses
 
 
