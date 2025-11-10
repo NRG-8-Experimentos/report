@@ -3729,6 +3729,39 @@ Para evaluar, medir y optimizar el rendimiento de las nuevas features, se consid
 
 #### 8.2.8. Web and Mobile Tracking Plan
 
+Para SynHub, el objetivo principal del plan de seguimiento es optimizar y monitorear la experiencia de los usuarios web y móviles, asegurando que las nuevas funcionalidades contribuyan efectivamente a mejorar la colaboración, accesibilidad y percepción de progreso dentro de la plataforma.
+
+El seguimiento se estructurará en dos etapas clave, permitiendo establecer una línea base de comportamiento y evaluar el impacto de los cambios a lo largo del tiempo.
+
+**1. Implementación Inicial**
+
+Durante esta fase, el enfoque se centrará en el despliegue de las funcionalidades experimentales y la recolección de datos base que servirán para medir los efectos posteriores.
+
+**Recolección de Datos:**
+
+* Métricas de Uso: Número de usuarios activos, sesiones promedio, frecuencia de acceso al tablero Kanban y uso de la opción de cambio de idioma.
+* Interacciones del Usuario: Clics en columnas, movimiento de tarjetas, creación y finalización de tareas, cambios de idioma realizados, y tiempo promedio dentro de la vista Kanban.
+* Feedback del Usuario: Encuestas dentro de la app y formularios de retroalimentación enfocados en percepción de eficiencia, claridad visual y facilidad de uso.
+
+**Análisis Comparativo:**
+Se contrastarán los datos de la nueva versión con los registros previos a la implementación, para determinar cambios inmediatos en eficiencia, participación y satisfacción de los usuarios.
+
+**2. Seguimiento Continuo**
+
+Una vez establecida la línea base, se adoptará un monitoreo constante que permitirá realizar ajustes iterativos basados en los datos recolectados.
+
+**Recolección de Datos:**
+
+* Métricas en Tiempo Real: Uso de herramientas analíticas (como Google Analytics y Firebase Analytics) para observar en tiempo real la actividad en Kanban y la adopción del cambio de idioma.
+* Segmentación de Usuarios: Análisis diferenciado por tipo de usuario (administradores, miembros, invitados) y por idioma preferido, para identificar patrones de adopción y satisfacción.
+* Tasa de Retención: Seguimiento de la retención semanal y mensual, midiendo si las nuevas funciones aumentan la permanencia y compromiso en la plataforma.
+
+**Evaluación y Ajustes:**
+* Informes Periódicos: Elaboración de reportes mensuales que consoliden resultados, tendencias y recomendaciones de mejora.
+* Iteración Basada en Datos: Aplicación de mejoras progresivas según los hallazgos de uso, priorizando la optimización de la experiencia colaborativa y multilingüe.
+
+Este enfoque permitirá que SynHub evolucione de forma guiada por datos, asegurando decisiones fundamentadas para fortalecer la eficiencia, accesibilidad y satisfacción del usuario tanto en su versión web como móvil.
+
 ### 8.3. Experimentation
 
 #### 8.3.1. To-Be User Stories
