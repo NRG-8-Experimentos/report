@@ -3696,36 +3696,17 @@ Medidas seleccionadas:
 
 #### 8.2.4. Conditions
 
-| **Elemento** | **Descripción** |
-|---|---|
-| **Pregunta** | ¿Mejorará la experiencia al agregar **modo oscuro** al tablero Kanban? |
-| **Condición experimental** | La **satisfacción del usuario** en el tablero Kanban aumenta **20%** tras habilitar el modo oscuro, medida mediante encuestas in-app y calificaciones de experiencia visual; la **cohorte tratada** usa el tema oscuro. |
-| **Condición de control** | No hay cambios significativos en la **satisfacción de usuarios** del Kanban después del lanzamiento. |
+| **Elemento**               | **Descripción**                                                                                                                                                                                                                           |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**               | ¿La implementación de una **vista Kanban interactiva** en SynHub mejorará la **eficiencia y percepción del progreso** en la gestión de tareas colaborativas?                                                                              |
+| **Condición experimental** | Los equipos que utilizan la **vista Kanban** muestran una **reducción ≥20%** en el **tiempo promedio de finalización de tareas (TCT)** y un **incremento ≥15%** en la **eficiencia del flujo de trabajo (TFE)** durante 4 semanas de uso. |
+| **Condición de control**   | Los equipos que continúan usando la vista de lista tradicional **no muestran variaciones significativas** en TCT ni en TFE respecto a su línea base anterior.                                                                             |
 
-| **Elemento** | **Descripción** |
-|---|---|
-| **Pregunta** | ¿Aumentará la audiencia al agregar **traducciones** (inglés/chino) en la UI y plantillas del Kanban? |
-| **Condición experimental** | Los **nuevos usuarios** de regiones inglés/chino que crean o usan tableros Kanban aumentan **15%** tras habilitar la UI y descripciones de plantillas localizadas. |
-| **Condición de control** | No hay cambios significativos en registros o creación de tableros Kanban desde esas regiones. |
-
-| **Elemento** | **Descripción** |
-|---|---|
-| **Pregunta** | ¿Aumentará la participación al implementar un **foro** para plantillas y consejos de Kanban? |
-| **Condición experimental** | Interacciones relacionadas con Kanban (publicaciones, respuestas, importaciones de plantillas, creación de tableros desde plantillas) aumentan **30%** tras el lanzamiento del foro. |
-| **Condición de control** | No hay incremento medible en participación relacionada con Kanban ni en la reutilización de plantillas. |
-
-| **Elemento** | **Descripción** |
-|---|---|
-| **Pregunta** | ¿Mejorará la finalización de tareas en Kanban con **notificaciones y recordatorios personalizados**? |
-| **Condición experimental** | La **tasa de finalización de tarjetas** en Kanban aumenta **25%** para usuarios que reciben recordatorios configurables (alertas por fecha de vencimiento, asignaciones, revisiones). |
-| **Condición de control** | No hay cambios significativos en la tasa de finalización para usuarios sin las nuevas notificaciones. |
-
-| **Elemento** | **Descripción** |
-|---|---|
-| **Pregunta** | ¿Aumentará la actividad al añadir un **marketplace** para plantillas e integraciones de Kanban? |
-| **Condición experimental** | Las **transacciones** (instalaciones/compras de plantillas, activaciones de integraciones) relacionadas con Kanban aumentan **50%** durante el período de medición tras el lanzamiento del marketplace. |
-| **Condición de control** | No hay cambios significativos en transacciones de marketplace ni en adopción de plantillas relacionadas con Kanban. |
-
+| **Elemento**               | **Descripción**                                                                                                                                                                                                                     |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**               | ¿La incorporación de un sistema de **internacionalización (i18n)** que permita cambiar el idioma entre **español e inglés** aumentará la **accesibilidad y satisfacción** de los usuarios internacionales de SynHub?                |
+| **Condición experimental** | Los usuarios con acceso al **selector de idioma** y contenido traducido reportan un **USS ≥4/5**, con una **adopción del cambio de idioma (LPAR) ≥40%** y una **reducción ≥30%** en errores o tickets relacionados con comprensión. |
+| **Condición de control**   | Los usuarios sin acceso a la configuración de idioma mantienen niveles similares de **satisfacción y retención**, sin cambios significativos en métricas de comprensión ni uso.                                                     |
 
 #### 8.2.5. Scale Calculations and Decisions
 
