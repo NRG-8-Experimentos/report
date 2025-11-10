@@ -3663,56 +3663,36 @@ Estas métricas servirán como base para el análisis comparativo antes, durante
 
 #### 8.2.3. Measures
 
-| **Elemento** | **Descripción** |
-|---|---|
-| **Pregunta** | ¿Mejorará la experiencia al agregar un **modo oscuro** al tablero Kanban? |
-| **Métrica principal** | **Duración promedio de sesión** en el tablero Kanban (comparativa antes vs después del lanzamiento). |
-| **Métricas secundarias** | Tasa de activación del tema oscuro (opt-in), **puntuación de comodidad autoinformada** (encuesta tipo NPS), **reportes de error** relacionados con UI (contraste/legibilidad). |
-| **Instrumentación** | Seguimiento de eventos: `board_open`, `theme_change`, `drag_start`, `drag_end`, `render_time` (por vista de tablero) y encuesta breve in-app `ux_survey_response`. |
-| **Fuentes de datos** | **Analíticas** (Mixpanel/GA4), **logs** de `render_time`, **registro de errores UI**, **respuestas de encuestas**. |
-| **Criterio de éxito** | ≥ 30% de usuarios activos del tablero activan el modo oscuro **Y** aumento ≥ 20% en la duración mediana de sesión **O** incremento ≥ 1 punto en comodidad (escala de 5 puntos) en 4 semanas. |
-| **Ventana de medición** | 2 semanas de línea base pre-lanzamiento y monitoreo de **4 a 6 semanas post-lanzamiento**. |
-| **Nota específica Kanban** | Medir la **tasa de éxito del drag-and-drop** y la **legibilidad percibida** de las etiquetas de las tarjetas en modo oscuro. |
+Esta sección define los criterios y herramientas que se utilizarán para recopilar la evidencia necesaria que permita validar o refutar las hipótesis planteadas en los experimentos
 
-| **Elemento** | **Descripción** |
-|---|---|
-| **Pregunta** | ¿Aumentará la audiencia al agregar **traducciones** (inglés/chino) en la interfaz y plantillas del Kanban? |
-| **Métrica principal** | Nuevos **registros de usuarios** y **tasa de creación de tableros** desde regiones objetivo. |
-| **Métricas secundarias** | **Retención a 7/30 días** de usuarios localizados, número de equipos que crean tableros en los idiomas objetivo. |
-| **Instrumentación** | Eventos: `signup_country`, `language_selected`, `board_create`, `onboarding_completed`. |
-| **Fuentes de datos** | Logs de autenticación, analíticas, informe de cobertura de cadenas **i18n**. |
-| **Criterio de éxito** | +15% de nuevos usuarios y +15% en creación de tableros desde regiones objetivo **en 3 meses**. |
-| **Ventana de medición** | **3 meses** posteriores al lanzamiento de la localización. |
-| **Nota específica Kanban** | Verificar **descripciones traducidas de plantillas** y la **experiencia de creación de tableros** en flujos localizados. |
+Las medidas fueron seleccionadas con base en su relevancia directa para detectar cambios significativos en la eficiencia operativa, adopción de funcionalidades y satisfacción del usuario. Se priorizan métricas que sean representativas, cuantificables y sensibles al cambio, minimizando al mismo tiempo el esfuerzo de recolección y análisis de datos.
 
-| **Elemento** | **Descripción** |
-|---|---|
-| **Pregunta** | ¿Aumentará la participación al implementar un **foro** para plantillas y consejos de Kanban? |
-| **Métrica principal** | **Usuarios activos semanales (WAU)** que interactúan con plantillas/foros y **tasa de creación de tableros**. |
-| **Métricas secundarias** | DAU del foro, publicaciones por semana, **número de importaciones de plantillas**, **promedio de tableros por equipo**. |
-| **Instrumentación** | Eventos: `forum_post`, `forum_reply`, `template_publish`, `template_import`, `board_created_from_template`. |
-| **Fuentes de datos** | Base de datos del foro, analíticas, registros de moderación. |
-| **Criterio de éxito** | Los equipos con acceso al foro muestran **+30% de interacciones con plantillas** y **+20% de WAU** en tableros dentro de 8 semanas. |
-| **Ventana de medición** | **8–12 semanas** post lanzamiento. |
-| **Nota específica Kanban** | Rastrear qué **tipos de plantillas** (flujos de trabajo) generan **mayores tasas de finalización de tableros**. |
+Medidas seleccionadas:
 
-| **Elemento** | **Descripción** |
-|---|---|
-| **Pregunta** | ¿Mejorará la finalización de tareas en el Kanban al integrar **notificaciones personalizadas** y **recordatorios**? |
-| **Métrica principal** | **Tasa de finalización de tarjetas** (tarjetas completadas / tarjetas con vencimiento) antes y después de habilitar notificaciones. |
-| **Métricas secundarias** | **Tasa de apertura** (push/email/in-app), **tasa de posposición (snooze)**, reducción de tarjetas vencidas, **tiempo promedio de finalización** tras el recordatorio. |
-| **Instrumentación** | Eventos: `notification_sent` (tipo/regla), `notification_opened`, `card_completed`, `card_moved`. |
-| **Fuentes de datos** | Logs del servicio de notificaciones, métricas de tareas, analíticas. |
-| **Criterio de éxito** | Aumento ≥ **40% en la tasa de finalización** y **+20% en satisfacción del usuario** dentro de 6 semanas. |
-| **Ventana de medición** | **6–8 semanas** tras la activación del opt-in. |
-| **Nota específica Kanban** | Medir impacto en **flujos de revisión** y detectar posibles efectos negativos por **fatiga de notificaciones**. |
-
-| **Elemento** | **Descripción** |
-|---|---|
-| **Pregunta** | ¿Aumentará la actividad al añadir un **marketplace** para plantillas, integraciones y productos Kanban? |
-| **Métrica principal** | **Número de transacciones** de plantillas (instalaciones/compras) y **tasa de importación** de plantillas. |
-| **Métricas secundarias** | Conversión a **planes pagos**, promedio de plantillas por equipo, **DAU del marketplace**. |
-
+* Task Completion Time (TCT)
+  * Propósito: Detectar mejoras en la eficiencia de ejecución de tareas tras la implementación del tablero Kanban.
+  * Indicador esperado: Disminución del tiempo promedio de finalización de tareas en al menos un 20%.
+  * Método: Registro automático de timestamps de creación y finalización en la base de datos.
+* Task Flow Efficiency (TFE)
+  * Propósito: Evaluar el impacto del sistema Kanban en la proporción de tiempo productivo dentro del ciclo de vida de las tareas.
+  * Indicador esperado: Incremento del 15% en la eficiencia promedio del flujo de trabajo.
+  * Método: Análisis de logs de actividad del usuario y estado de tareas en la base de datos.
+* Board Interaction Rate (BIR)
+  * Propósito: Medir el nivel de adopción y uso activo del tablero Kanban.
+  * Indicador esperado: Aumento del 25% en la frecuencia de interacciones por usuario.
+  * Método: Recolección de datos mediante tracking de eventos en frontend (Google Analytics, Firebase o Mixpanel).
+* Language Preference Adoption Rate (LPAR)
+  * Propósito: Identificar la tasa de personalización de idioma entre usuarios internacionales.
+  * Indicador esperado: Al menos 40% de adopción del cambio de idioma.
+  * Método: Registro de eventos de configuración de idioma en el sistema de analítica.
+* User Satisfaction Score (USS)
+  * Propósito: Evaluar la percepción del usuario sobre la experiencia de uso en su idioma preferido.
+  * Indicador esperado: Puntaje promedio de satisfacción ≥ 4/5.
+  * Método: Encuestas postuso localizadas (es/en) integradas en la interfaz.
+* Translation Coverage Rate (TCR)
+  * Propósito: Garantizar la completitud de la localización multilingüe en la interfaz.
+  * Indicador esperado: Cobertura de traducción de al menos 98% de las cadenas disponibles.
+  * Método: Auditoría automática del sistema de internacionalización (i18n).
 
 #### 8.2.4. Conditions
 
