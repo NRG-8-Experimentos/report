@@ -3521,66 +3521,24 @@ En esta sección se define el proceso de preparación y organización de los exp
 
 #### 8.1.1. As-Is Summary
 
-### Estado actual
-La aplicación actual (**SynHub**) ofrece **gestión de grupos y tareas**, con funcionalidades para **creación, asignación y seguimiento de tareas**, así como **reportes y métricas**.
+**Estado actual**
 
-En el proceso de desarrollo del **Kanban Board** se ha seguido un flujo básico:
-- Definición del modelo de datos (tableros, columnas, tarjetas).
-- Implementación de endpoints **REST** para CRUD de tableros y tarjetas.
-- Creación de una vista web con operaciones básicas de **arrastrar y soltar** (*drag and drop*).
+Actualmente, la plataforma SynHub cuenta con una versión web y una aplicación móvil funcionales que permiten a los usuarios gestionar tareas, acceder a reportes y visualizar métricas básicas. Ambas versiones mantienen coherencia estructural y visual, con flujos implementados para la creación, asignación y seguimiento de tareas.
+El diseño se basa en Material Design, priorizando una navegación clara y componentes reutilizables. Sin embargo, se perciben diferencias en la experiencia de uso entre la versión web,más completa y orientada a la administración, y la móvil, centrada en la simplicidad y rapidez, lo que plantea oportunidades para evaluar la consistencia entre dispositivos.
 
-No obstante, el desarrollo del **Kanban Board** está en una **fase inicial/experimental** y presenta **limitaciones** en su implementación y en el proceso de creación y uso colaborativo en tiempo real.
+**Problemas identificados**
 
-El **rendimiento** de las operaciones de interacción (especialmente arrastrar/soltar y recarga de listas) es inconsistente y la experiencia en **dispositivos móviles** no está totalmente optimizada.
+- **Falta de vista Kanban:** La aplicación no dispone aún de una vista tipo Kanban board para la gestión visual de tareas. Esto limita la percepción del progreso y la organización del trabajo colaborativo, generando la necesidad de validar si la representación visual del flujo de tareas mejora la comprensión y eficiencia del usuario.
+- **Internacionalización (i18n):** El sistema de internacionalización se encuentra en una fase inicial. Actualmente, la interfaz está disponible solo en un idioma, lo que restringe la accesibilidad para usuarios no hispanohablantes. Surge la pregunta de si la incorporación de múltiples idiomas (español e inglés) incrementará la satisfacción y adopción del sistema en nuevos segmentos de usuarios.
 
-Además, faltan:
-- Integraciones para **colaboración en tiempo real (WebSocket)**.
-- **Control fino de permisos** sobre columnas y tarjetas.
-- **Soporte de internacionalización (i18n)** para la interfaz del tablero.
+**Objetivos de mejora**
 
----
-
-### Problemas identificados
-
-- **Rendimiento:**  
-  Las operaciones del Kanban (renderizado de tarjetas, arrastre y actualizaciones) muestran **lentitud** y a veces requieren **recargas completas** para reflejar cambios, afectando la fluidez del usuario.
-
-- **Usabilidad:**  
-  La interfaz del tablero carece de **variantes de visualización** (modo compacto, modo detalle) y no incluye un **modo oscuro**, limitando la comodidad en condiciones de baja luminosidad.
-
-- **Experiencia del usuario (UX):**  
-  El diseño actual no está completamente **responsivo** ni optimizado para **gestos en móviles**; el flujo para crear columnas, tarjetas y mover elementos no es del todo intuitivo en pantallas pequeñas.
-
-- **Funcionalidad limitada:**  
-  Falta **colaboración en tiempo real**, **historial/undo** de movimientos, **filtros avanzados** y **traducciones** para distintos idiomas, lo que limita la adopción por usuarios internacionales.
-
----
-
-### Objetivos de mejora
-
-- **Optimización del rendimiento:**  
-  Reducir **latencias en operaciones de tablero** y lograr **tiempos de respuesta inferiores a 2 segundos** en interacciones comunes mediante:
-    - Virtualización de listas.
-    - Optimización de queries.
-    - Uso de **WebSockets** para actualizaciones incrementales.
-
-- **Mejora de la experiencia del usuario:**
-    - Implementar **modo oscuro** y **variantes de visualización adaptativas**.
-    - Mejorar la **interacción táctil** para móviles.
-    - Optimizar el flujo de **creación/edición de tarjetas y columnas**.
-
-- **Expansión de la audiencia:**  
-  Añadir soporte de **i18n** (inglés y chino inicialmente) para la interfaz del Kanban y textos dinámicos del tablero.
-
-- **Funcionalidad colaborativa y de control:**
-    - Añadir **sincronización en tiempo real (WebSocket)**.
-    - Implementar **control de permisos por rol** sobre tableros/columnas/tarjetas.
-    - Incorporar **historial de cambios** y **capacidad de deshacer movimientos**, aumentando la **confiabilidad** y el **uso colaborativo** en equipos.
+- Explorar cómo la incorporación de una vista Kanban puede mejorar la visualización, control y percepción del progreso de las tareas por parte de los usuarios.
+- Evaluar el impacto de un sistema de internacionalización (i18n) completo en la usabilidad y accesibilidad de la aplicación para distintos públicos.
+- Analizar la coherencia de la experiencia entre las versiones web y móvil para identificar oportunidades de unificación en los flujos y la comunicación visual.
 
 
 #### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
-
----
 
 ### **Assumptions**
 
