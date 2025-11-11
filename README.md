@@ -3397,6 +3397,46 @@ Aquí se documentan los resultados obtenidos durante las entrevistas, destacando
   </tbody>
 </table>
 
+<table> 
+  <tbody> 
+    <tr> 
+      <td>Entrevista 2</td> 
+      <td><img src="images/chapter-6/interview2.jpeg" alt="interview 2" width="400"/></td>
+    </tr> 
+    <tr> <td>Enlace a la entrevista</td> 
+    <td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g192_upc_edu_pe/IQDNR_YiB9DcQofcNMnj5fA0AdKhKcrBreFWHv39TLUPevI?e=2Blejs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</td>
+    </tr> 
+    <tr> 
+      <td>Nombre Entrevistado</td> 
+      <td>Aldair Valenzuela Withania</td> 
+    </tr> 
+    <tr> 
+      <td>Edad</td> 
+      <td>21</td> 
+    </tr> 
+    <tr> 
+      <td>Distrito</td> 
+      <td>Villa El Salvador</td>
+    </tr> 
+    <tr> 
+      <td>Ocupación</td> 
+      <td>Estudiante de Ingeniería de Software (UPC)</td> 
+    </tr> 
+    <tr> 
+      <td>Duración Entrevista</td> 
+      <td>05:28 minutos</td> 
+    </tr> 
+    <tr> 
+      <td>Minuto de Inicio</td> 
+      <td>0:00</td> 
+    </tr> 
+    <tr> 
+      <td>Análisis</td> 
+      <td>El entrevistado considera que la aplicación es <strong>intuitiva, clara y fácil de usar</strong>. Destaca que la <strong>organización de tareas y responsabilidades</strong> es comprensible y que las funciones para asignar, completar o reprogramar son accesibles sin requerir instrucciones previas. Menciona que el <strong>diseño visual</strong> ayuda a identificar prioridades gracias al uso de <strong>colores e íconos diferenciados</strong>. La <strong>navegación entre secciones</strong> es fluida, aunque sugiere que siempre hay margen de mejora en la transición entre páginas. Resalta que las <strong>etiquetas y tipografía son claras</strong>, facilitando la lectura. Afirma que las acciones (crear, editar, eliminar) son confirmadas visualmente de manera correcta y que la experiencia es consistente tanto en la versión <strong>web como móvil</strong>. Como oportunidad de mejora, propone <strong>resaltar más los mensajes de confirmación</strong> y mejorar la visibilidad de algunos elementos, agregando colores o detalles que orienten mejor al usuario. En general, percibe la aplicación como <strong>ordenada, coherente y amigable</strong>, con un diseño que favorece la productividad y la claridad en el uso.</td> 
+    </tr> 
+  </tbody> 
+</table>
+
 
 #### 6.3.3. Evaluaciones según heurísticas
 
