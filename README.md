@@ -3530,13 +3530,14 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 
 - **Falta de vista Kanban:** La aplicación no dispone aún de una vista tipo Kanban board para la gestión visual de tareas. Esto limita la percepción del progreso y la organización del trabajo colaborativo, generando la necesidad de validar si la representación visual del flujo de tareas mejora la comprensión y eficiencia del usuario.
 - **Internacionalización (i18n):** El sistema de internacionalización se encuentra en una fase inicial. Actualmente, la interfaz está disponible solo en un idioma, lo que restringe la accesibilidad para usuarios no hispanohablantes. Surge la pregunta de si la incorporación de múltiples idiomas (español e inglés) incrementará la satisfacción y adopción del sistema en nuevos segmentos de usuarios.
+- **Ausencia de modo oscuro:** La interfaz no ofrece tema oscuro ni detección automática de la Apariencia del sistema. Esto puede generar fatiga visual en ambientes de baja luz, afectar la legibilidad de componentes con alto brillo y reducir la permanencia nocturna en sesiones móviles y web.
 
 **Objetivos de mejora**
 
 - Explorar cómo la incorporación de una vista Kanban puede mejorar la visualización, control y percepción del progreso de las tareas por parte de los usuarios.
 - Evaluar el impacto de un sistema de internacionalización (i18n) completo en la usabilidad y accesibilidad de la aplicación para distintos públicos.
 - Analizar la coherencia de la experiencia entre las versiones web y móvil para identificar oportunidades de unificación en los flujos y la comunicación visual.
-
+- Evaluar el impacto de un modo oscuro configurable (y con opción “Automático (Apariencia del sistema)”) en comodidad visual, legibilidad y permanencia de sesión en horario nocturno (18:00–06:00).
 
 #### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
@@ -3548,6 +3549,9 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 * Implementar un sistema de internacionalización que permita cambiar entre español e inglés desde la configuración del usuario. 
 * Centralizar las cadenas de texto en archivos de localización facilitará la escalabilidad a nuevos idiomas. 
 * Adaptar el contenido no solo al idioma, sino también a convenciones culturales (formato de fecha, moneda, unidades).
+* Incorporar modo oscuro con conmutador en Ajustes y opción “Automático (Apariencia del sistema)”.
+* Aplicar tema oscuro a componentes críticos (tablas, tarjetas, gráficos, tooltips) cuidando estados (hover, focus, disabled).
+
 
 **Claims**
 
@@ -3557,6 +3561,9 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 * Los usuarios internacionales abandonan la aplicación si no pueden interactuar en su idioma nativo. 
 * La inclusión del inglés aumentará la adopción en mercados externos. 
 * La traducción de mensajes de error y notificaciones mejora la confianza y comprensión del sistema.
+* El modo oscuro reduce el deslumbramiento y fatiga visual en sesiones nocturnas.
+* Un tema oscuro bien contrastado mejora la legibilidad y disminuye errores por lectura en baja luz.
+* En dispositivos móviles, el modo oscuro puede disminuir el consumo de batería (especialmente en pantallas OLED).
 
 **Assumptions**
 
@@ -3566,6 +3573,9 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 * Los usuarios valoran la posibilidad de cambiar el idioma sin necesidad de reiniciar la sesión. 
 * La mayoría de los usuarios objetivo utilizan español o inglés como idioma principal. 
 * Las traducciones automáticas iniciales pueden ser suficientes para las pruebas tempranas de usabilidad.
+* Los usuarios que trabajan de noche preferirán un tema oscuro o el ajuste “Automático (Apariencia del sistema)”.
+* El cambio de tema no afectará la comprensión del layout si se mantiene el mismo espaciado y jerarquía.
+* La capa de theming no introducirá regresiones significativas en rendimiento ni en accesibilidad.
 
 **Knowledge Gaps**
 
@@ -3575,6 +3585,10 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 * No se conoce el nivel de dominio del inglés del segmento actual de usuarios. 
 * Se desconoce si los usuarios consideran relevante la localización de formatos (fechas, horas, monedas). 
 * No se ha definido si el idioma debe establecerse automáticamente según la configuración del sistema operativo o de forma manual.
+* Nivel real de preferencia entre “Automático (Apariencia del sistema)” vs. configuración manual.
+* Contraste y legibilidad de gráficos y estados (tags/labels) en tema oscuro.
+* Impacto en batería real en móviles de usuarios de SynHub.
+
 
 #### 8.1.3. Experiment-Ready Questions
 
@@ -3588,16 +3602,23 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 | ¿Los usuarios prefieren que el idioma se **ajuste automáticamente** según el dispositivo o que sea **configurable manualmente**?                             | 6 - Práctica común, pero depende del contexto de uso.                   | 4 - Riesgo medio si causa confusión.                          | 6 - Impacto moderado en control percibido por el usuario.    |  6 - Interés moderado en la configuración personal. |                   22 |
 | ¿La traducción de **mensajes de error y notificaciones** mejora la **comprensión** y **confianza** de los usuarios no nativos?                               | 7 - Estudios previos muestran mejoras en confianza.                     | 3 - Riesgo bajo.                                              | 8 - Incrementa la claridad y reduce frustración del usuario. |   8 - Alto interés de los usuarios internacionales. |                   26 |
 | ¿La localización de **formatos culturales** (fechas, moneda, unidades) es **relevante** para los usuarios de SynHub?                                         | 5 - Puede variar según el perfil de usuario.                            | 2 - Riesgo bajo, fácilmente reversible.                       | 6 - Impacto moderado en experiencia percibida.               |                     5 - Interés medio según región. |                   18 |
+| ¿La incorporación de un modo oscuro configurable (Claro / Oscuro / Automático – Apariencia del sistema) reduce la fatiga visual y aumenta el tiempo de sesión nocturna?                             | 7 – Basado en evidencia y patrones de uso nocturno en apps modernas.                   | 3 – Riesgo bajo-medio por contraste, regresiones de estilos y performance en theming.                          | 8 – Alto impacto en comodidad, legibilidad y permanencia nocturna.    |  7 – Alto interés entre usuarios móviles y quienes trabajan de noche. |                   25 |
+| ¿Los usuarios prefieren que el tema use Automático (Apariencia del sistema) o controlarlo manualmente?                               | 6 – Práctica común en iOS/Android/desktop; puede variar por contexto.                     | 3 – Riesgo medio si la opción genera confusión en ajustes.                                              | 6 – Impacto moderado en percepción de control y consistencia. |  6 – Interés moderado en personalización de la interfaz. |                   21 |
+| ¿El modo oscuro disminuye errores de lectura/entrada en baja luz (formularios, tablas, gráficos)?                                         | 6 – Heurísticas de usabilidad y estudios previos sugieren mejora.                            | 2 – Riesgo bajo; reversible ajustando contraste/tokens.                       | 6 – Impacto moderado en precisión y reducción de misclicks.               |                     6 – Interés moderado del equipo UX y usuarios intensivos. |                   20 |
+
+
+
 
 #### 8.1.4. Question Backlog
 
 **Broad Backlog**
 
-|  **Prioridad**  | **Pregunta**                                                                                                                                                 | **Por qué (Motivación del experimento)**                                                                                         | **Confianza** | **Riesgo** | **Impacto** | **Interés** | **Puntuación total** |
-|:---------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|:-----------:|:-----------:|:--------------------:|
-|        1        | ¿La implementación de una **vista Kanban interactiva** mejorará la **eficiencia y percepción del progreso** en los equipos de trabajo?                       | Validar si una representación visual del flujo de tareas incrementa la productividad y reduce la sobrecarga cognitiva.           |       8       |     3      |      9      |      8      |        **28**        |
-|        2        | ¿El permitir **cambiar el idioma** entre **español e inglés** desde la configuración mejorará la **accesibilidad y satisfacción** del usuario internacional? | Confirmar si la flexibilidad lingüística aumenta el alcance y la experiencia de usuarios de distintos países.                    |       8       |     3      |      8      |      7      |        **26**        |
-|        3        | ¿La traducción de **mensajes de error y notificaciones** mejora la **comprensión** y **confianza** de los usuarios no nativos?                               | Determinar si la localización completa (incluyendo mensajes del sistema) mejora la confianza y reduce errores de interpretación. |       7       |     3      |      8      |      8      |        **26**        |
+| **Prioridad** | **Pregunta**                                                                                                                                                 | **Por qué (Motivación del experimento)**                                                                                         | **Confianza** | **Riesgo** | **Impacto** | **Interés** | **Puntuación total** |
+|:-------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|:-----------:|:-----------:|:--------------------:|
+|       1       | ¿La implementación de una **vista Kanban interactiva** mejorará la **eficiencia y percepción del progreso** en los equipos de trabajo?                       | Validar si una representación visual del flujo de tareas incrementa la productividad y reduce la sobrecarga cognitiva.           |       8       |     3      |      9      |      8      |        **28**        |
+|       2       | ¿El permitir **cambiar el idioma** entre **español e inglés** desde la configuración mejorará la **accesibilidad y satisfacción** del usuario internacional? | Confirmar si la flexibilidad lingüística aumenta el alcance y la experiencia de usuarios de distintos países.                    |       8       |     3      |      8      |      7      |        **26**        |
+|       3       | ¿La traducción de **mensajes de error y notificaciones** mejora la **comprensión** y **confianza** de los usuarios no nativos?                               | Determinar si la localización completa (incluyendo mensajes del sistema) mejora la confianza y reduce errores de interpretación. |       7       |     3      |      8      |      8      |        **26**        |
+|       4       | ¿La incorporación de un modo oscuro configurable (con opción “Automático (Apariencia del sistema)”) reduce fatiga visual y aumenta el tiempo de sesión nocturna?                               | Validar si el tema oscuro mejora comodidad, legibilidad y permanencia en ambientes de baja luz. |       7       |     3      |      8      |      7      |        **25**        |
 
 **Deep Backlog**
 
@@ -3608,6 +3629,9 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 |       6       | ¿Los usuarios prefieren que el idioma se **ajuste automáticamente** según el dispositivo o que sea **configurable manualmente**?                  | Investigar las preferencias de los usuarios respecto al control automático o manual de idioma.                  |       6       |     4      |      6      |      6      |        **22**        |
 |       7       | ¿La incorporación de una **vista Kanban predeterminada** afectará la **navegación** o la **carga inicial** del sistema?                           | Analizar el impacto técnico y de rendimiento que puede tener la carga del tablero en la experiencia general.    |       5       |     5      |      6      |      5      |        **21**        |
 |       8       | ¿La localización de **formatos culturales** (fechas, moneda, unidades) es **relevante** para los usuarios de SynHub?                              | Identificar si la adaptación cultural aporta valor real a la experiencia de los usuarios en distintas regiones. |       5       |     2      |      6      |      5      |        **18**        |
+|       9       | ¿Los usuarios prefieren Automático (Apariencia del sistema) vs. control manual del tema?                  | Entender el control percibido y evitar fricción en ajustes.                  |       6       |     3      |      6      |      6      |        **21**        |
+|      10       | ¿El modo oscuro reduce errores de lectura/entrada en baja luz?                           | Comprobar legibilidad en flows críticos (formularios/tablas).    |       6       |     2      |      6      |      6      |        **20**        |
+|      11       | ¿El modo oscuro mejora consumo de batería en móviles en uso real?                              | Estimar beneficio energético en sesiones prolongadas. |       6       |     2      |      5      |      5      |        **18**        |
 
 #### 8.1.5. Experiment Cards
 
@@ -3624,6 +3648,14 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 | **Por qué**   | La internacionalización es clave para que la plataforma pueda expandirse a mercados bilingües o internacionales, reduciendo la fricción de uso y evitando errores de interpretación que afecten la experiencia. Comprender el impacto de la traducción ayudará a priorizar recursos y validar la necesidad de un sistema de localización más completo en el futuro.                                                                                                                                                                                                              |
 | **Qué**       | Implementar una versión mínima de internacionalización (MVP-i18n) que traduzca los textos esenciales de la interfaz, mensajes de error y notificaciones al inglés, e incluir un selector de idioma en la configuración.                                                                                                                                                                                                                                                                                                                                                          |
 | **Hipótesis** | Sostenemos que si la aplicación ofrece una opción para cambiar el idioma entre español e inglés, mostrando los textos de la interfaz y los mensajes críticos en el idioma preferido del usuario, se reducirá la confusión durante las tareas, aumentará la comprensión del flujo y mejorará la satisfacción general de los usuarios no hispanohablantes. Este cambio permitirá una experiencia más inclusiva, reflejada en una disminución de errores por interpretación, un aumento en la retención de usuarios internacionales y una percepción más positiva de la aplicación. |
+
+| **Elemento**  | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**  | ¿La incorporación de un modo oscuro configurable (con opción “Automático (Apariencia del sistema)”) reduce la fatiga visual y aumenta la permanencia en sesiones nocturnas?                                                                                                                                                                                                                                                                                                                                                                                |
+| **Por qué**   | Usuarios que operan en ambientes de baja luz pueden experimentar deslumbramiento con fondos claros. Un tema oscuro con contraste adecuado podría mejorar comodidad, legibilidad y permanencia, especialmente en móvil.                                                                                                                                                                                                              |
+| **Qué**       | Prototipo web y móvil con: (a) conmutador de tema en Ajustes (Claro / Oscuro / Automático (Apariencia del sistema)), (b) tokens de color con WCAG AA, (c) persistencia de preferencia en el perfil, (d) arranque sin parpadeo (clase de tema inyectada), (e) pruebas en pantallas de gráficos/tablas/formularios.                                                                                                                                                                                                                                                                                                                                                          |
+| **Hipótesis** | Si ofrecemos modo oscuro con opción “Automático (Apariencia del sistema)” y contraste AA, entonces la duración media de sesión nocturna aumentará ≥ 15% y el autorreporte de esfuerzo visual disminuirá ≥ 20%, sin aumentar la tasa de errores en tareas clave. |
+
 
 ### 8.2. Experiment Design
 
@@ -3647,6 +3679,14 @@ En esta sección se detalla la construcción metodológica de los experimentos, 
 | **Hipótesis**         | Si se implementa un sistema completo de internacionalización (i18n) que permita al usuario alternar entre español e inglés, entonces la satisfacción general aumentará en al menos un 30% y la tasa de retención de usuarios internacionales crecerá un 15%, medido mediante encuestas postuso y análisis de métricas de retención por región e idioma. |
 | **Hipótesis nula**    | La incorporación de internacionalización no producirá mejoras significativas en la satisfacción ni en la retención de los usuarios, y las diferencias registradas en los indicadores serán atribuibles al azar o a factores externos.                                                                                                                   |
 
+| **Elemento**          | **Descripción**                                                                                                                                                                                                                                                                                                                                         |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**          | ¿El modo oscuro configurable (incluida la opción “Automático (Apariencia del sistema)”) mejora comodidad visual y permanencia nocturna?                                                                                                                                                       |
+| **Creencia (Belief)** | Creemos que el alto brillo de fondos claros en baja luz incrementa la fatiga visual y acelera el abandono de sesión, especialmente en móvil.                                                                                                                                                            |
+| **Hipótesis**         | Si habilitamos modo oscuro con contraste WCAG AA y opción “Automático (Apariencia del sistema)”, entonces la duración media de sesión nocturna (18:00–06:00) aumentará ≥15% y el Visual Strain Self-Report (VSSR) caerá ≥20%, sin incremento en Night Error Rate (NER). |
+| **Hipótesis nula**    | El modo oscuro no cambia de forma significativa la duración de sesión nocturna, el VSSR ni el NER; cualquier variación será azar o factores externos.                                                                                                                   |
+
+
 #### 8.2.2. Domain Business Metrics
 
 Este punto busca establecer un conjunto de métricas de negocio que permitan evaluar de manera objetiva el impacto de los experimentos en la experiencia del usuario, la eficiencia operativa y la satisfacción global.
@@ -3660,6 +3700,9 @@ Estas métricas servirán como base para el análisis comparativo antes, durante
 | **Language Preference Adoption Rate (LPAR)** | Porcentaje de usuarios que cambian o personalizan el idioma predeterminado.                                 | (Usuarios que modifican idioma / Total de usuarios activos) × 100                    | Tracking de eventos en configuración de idioma.                      | ≥ **40%** de adopción entre usuarios internacionales. |
 | **User Satisfaction Score (USS)**            | Nivel promedio de satisfacción del usuario con la interfaz en su idioma preferido.                          | Promedio de respuestas (escala 1–5) en encuesta de satisfacción.                     | Encuestas postuso localizadas (es/en).                               | ≥ **4/5** de satisfacción general.                    |
 | **Translation Coverage Rate (TCR)**          | Porcentaje de cadenas de texto traducidas respecto al total disponible en la app.                           | (Cadenas traducidas / Total de cadenas) × 100                                        | Auditoría automática del sistema i18n.                               | Cobertura ≥ **98%**.                                  |
+| **Theme Adoption Rate (TAR)** | Porcentaje de usuarios que usan tema oscuro o “Automático (Apariencia del sistema)”.                                 | (Usuarios con tema≠“claro” / Usuarios activos) × 100                    | Event tracking en ajustes/perfil.                      | ≥ 50% en usuarios nocturnos. |
+| **Evening Session Duration (ESD)**            | Duración promedio de sesión en 18:00–06:00.                         | Σ duración sesiones nocturnas / nº sesiones nocturnas                     | Analytics (web y móvil).                              | ↑ ≥ 15% tras activar modo oscuro.                    |
+| **Visual Strain Self-Report (VSSR)**          | Autorreporte de esfuerzo visual (1–5).                           | Promedio encuesta postuso nocturna                                        | Encuesta in-app localizada (es/en).                               | ↓ ≥ 20% del baseline.                                  |
 
 #### 8.2.3. Measures
 
@@ -3693,6 +3736,21 @@ Medidas seleccionadas:
   * Propósito: Garantizar la completitud de la localización multilingüe en la interfaz.
   * Indicador esperado: Cobertura de traducción de al menos 98% de las cadenas disponibles.
   * Método: Auditoría automática del sistema de internacionalización (i18n).
+    
+* Theme Adoption Rate (TAR)
+  * Propósito: medir adopción y preferencia de tema.
+  * Indicador: ≥ 50% entre usuarios con sesiones nocturnas.
+  * Método: tracking de eventos (cambio de tema y valor efectivo, incl. Automático (Apariencia del sistema)).
+
+* Evening Session Duration (ESD)
+  * Propósito: verificar permanencia en baja luz.
+  * Indicador: ↑ ≥ 15% respecto a baseline.
+  * Método: analytics por franja horaria.
+
+*Visual Strain Self-Report (VSSR)
+  * Propósito: evaluar comodidad visual percibida.
+  * Indicador: ↓ ≥ 20%.
+  * Método: encuesta in-app al cerrar sesión nocturna.
 
 #### 8.2.4. Conditions
 
@@ -3707,6 +3765,13 @@ Medidas seleccionadas:
 | **Pregunta**               | ¿La incorporación de un sistema de **internacionalización (i18n)** que permita cambiar el idioma entre **español e inglés** aumentará la **accesibilidad y satisfacción** de los usuarios internacionales de SynHub?                |
 | **Condición experimental** | Los usuarios con acceso al **selector de idioma** y contenido traducido reportan un **USS ≥4/5**, con una **adopción del cambio de idioma (LPAR) ≥40%** y una **reducción ≥30%** en errores o tickets relacionados con comprensión. |
 | **Condición de control**   | Los usuarios sin acceso a la configuración de idioma mantienen niveles similares de **satisfacción y retención**, sin cambios significativos en métricas de comprensión ni uso.                                                     |
+
+| **Elemento**               | **Descripción**                                                                                                                                                                                                                     |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**               | ¿El modo oscuro configurable mejora comodidad y permanencia nocturna sin aumentar errores?                |
+| **Condición experimental** | Cohorte con acceso a modo oscuro y opción “Automático (Apariencia del sistema)” durante 4 semanas. Se mide ESD, VSSR, TAR, CCR y NER. Éxito si: ESD ↑ ≥15%, VSSR ↓ ≥20%, CCR ≥98%, y NER no aumenta. |
+| **Condición de control**   | Cohorte equivalente que permanece en tema claro sin selector de tema durante el mismo periodo; se comparan métricas contra baseline y contra el grupo experimental.                                                     |
+
 
 #### 8.2.5. Scale Calculations and Decisions
 
