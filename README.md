@@ -3356,6 +3356,48 @@ En esta sección se describe la planificación de las entrevistas, incluyendo lo
 
 Aquí se documentan los resultados obtenidos durante las entrevistas, destacando observaciones clave, comentarios de los usuarios y comportamientos relevantes durante la interacción con la aplicación.
 
+<table>
+  <tbody>
+    <tr>
+      <td>Entrevista 1</td>
+      <td> <img src="images/chapter-6/interview1.png" alt="interview 1" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Enlace a la entrevista</td>
+      <td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222001_upc_edu_pe/IQDC4y9FV2RFTaIKuQjWUhC5AZmhSj7TtMlPmOrw38DgA-M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=owPsAx</td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>Jorge Alexandro Linares Arroyo</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>San Miguel</td>
+    </tr>
+    <tr>
+      <td>Ocupación</td>
+      <td>Estudiante de Ingeniería</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td>10:56 minutos</td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <td>Análisis</td>
+      <td>El entrevistado percibe la plataforma como clara e intuitiva. Destaca que la vista de tareas está bien estructurada y que las acciones (comentar, marcar como completada) son accesibles y con etiquetas comprensibles. La codificación por colores para estados y tiempos resulta útil para priorizar y tomar decisiones; la navegación es sencilla y consistente entre web y móvil. Reporta buen rendimiento y mensajes de confirmación claros, y afirma que los indicadores de “Mi desempeño” y el avance del equipo brindan visibilidad práctica. Como oportunidad, sugiere añadir algunos detalles visuales y reconoce una breve curva de aprendizaje para nuevos usuarios, por lo que sería valioso un onboarding corto y ayudas contextuales que expliquen el significado de colores y umbrales. En conjunto, la experiencia le deja una sensación positiva de claridad, organización y facilidad de uso.</td>
+    </tr>
+  </tbody>
+</table>
+
+
 #### 6.3.3. Evaluaciones según heurísticas
 
 Esta sección analiza los hallazgos de las entrevistas aplicando los principios heurísticos de usabilidad. Permite identificar problemas y oportunidades de mejora en la experiencia del usuario.
