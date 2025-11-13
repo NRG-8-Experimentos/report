@@ -3442,6 +3442,95 @@ Aquí se documentan los resultados obtenidos durante las entrevistas, destacando
 
 Esta sección analiza los hallazgos de las entrevistas aplicando los principios heurísticos de usabilidad. Permite identificar problemas y oportunidades de mejora en la experiencia del usuario.
 
+**Aplicación para evaluar:** SynHub  
+
+**Tareas que evaluar:**
+- Interpretar los colores y estados de las tareas en la vista de lista y en los reportes.
+- Diferenciar entre “tareas” y “solicitudes” dentro de la plataforma.
+- Unirse a un grupo usando el código de grupo y entender su propósito.
+- Navegar por la aplicación (web y móvil) para acceder a grupos, tareas, solicitudes y reportes.
+- Comprender los indicadores de “Mi desempeño” y el avance del equipo.
+
+**Escala de severidad**
+
+| Valor | Descripción   |
+|-------|---------------|
+| 1     | No tan grave  |
+| 2     | Leve          |
+| 3     | Moderado      |
+| 4     | Grave         |
+| 5     | Muy grave     |
+
+**Tabla de resumen**
+
+| #Orden | Problema                                                                                              | Escala de Severidad | Heurística / Principio violado(a)                |
+|--------|--------------------------------------------------------------------------------------------------------|----------------------|-----------------------------------------------|
+| 1      | Falta de leyenda clara sobre el significado de los colores en estados de tareas y reportes.           | 3                    | Visibilidad del estado del sistema            |
+| 2      | Diferencia poco clara entre “tareas” y “solicitudes” en la interfaz.                                  | 4                    | Consistencia y estándares                     |
+| 3      | Código de grupo poco explicado en la vista de detalles del grupo.                                     | 2                    | Correspondencia entre el sistema y el mundo real |
+| 4      | Navegación inicial extensa para nuevos usuarios y ausencia de un onboarding guiado.                   | 3                    | Flexibilidad y eficiencia de uso / Ayuda y documentación |
+| 5      | Mensajes de confirmación y cambios de estado poco resaltados visualmente.                             | 2                    | Visibilidad del estado del sistema / Prevención de errores |
+
+---
+
+#### Problema #1: Falta de leyenda clara sobre el significado de los colores en estados de tareas y reportes
+
+**Heurística violada:** Visibilidad del estado del sistema.  
+
+**Descripción del problema:**  
+Varios entrevistados mencionan que los colores ayudan a interpretar estados y prioridades, pero no existe una leyenda explícita que explique qué significa cada color o umbral (por ejemplo, estados de tareas o niveles de desempeño). Esto obliga al usuario a “deducir” el significado y genera una pequeña curva de aprendizaje innecesaria.
+
+**Recomendación:**  
+Incorporar una leyenda fija (por ejemplo, en la parte superior derecha de la vista de tareas y de reportes) donde se explique el significado de cada color y estado. Además, añadir *tooltips* o ayudas contextuales que, al pasar el cursor o tocar un ícono de ayuda, muestren brevemente qué representa cada color y umbral de desempeño. Esto reduce la ambigüedad y mejora la comprensión inmediata del estado del sistema.
+
+---
+
+#### Problema #2: Diferencia poco clara entre “tareas” y “solicitudes” en la interfaz
+
+**Heurística violada:** Consistencia y estándares.  
+
+**Descripción del problema:**  
+Al menos un entrevistado reportó confusión inicial entre las secciones de “tareas” y “solicitudes”. Aunque ambas pantallas están ordenadas, la nomenclatura y el diseño visual no hacen suficientemente evidente que se trata de conceptos distintos (trabajo asignado vs. solicitudes de cambio, validaciones u otros tipos de requerimientos). Esto puede provocar errores de interpretación y uso.
+
+**Recomendación:**  
+Reforzar la diferenciación visual y textual entre “tareas” y “solicitudes”. Por ejemplo, usar íconos distintos, colores de fondo diferenciados y subtítulos breves en cada pantalla (p. ej. “Tareas: actividades pendientes que debes completar” y “Solicitudes: pedidos o validaciones que requieren tu respuesta”). También se recomienda incluir un mensaje introductorio corto la primera vez que el usuario ingresa a cada sección.
+
+---
+
+#### Problema #3: Código de grupo poco explicado en la vista de detalles del grupo
+
+**Heurística violada:** Correspondencia entre el sistema y el mundo real.  
+
+**Descripción del problema:**  
+Un entrevistado indicó confusión respecto al código del grupo al visualizar los detalles; no era evidente que ese valor correspondía al código que se comparte para unirse al grupo. La falta de una etiqueta clara o subtítulo obliga al usuario a adivinar su propósito.
+
+**Recomendación:**  
+Añadir una etiqueta explícita como “Código del grupo (compártelo para que otros se unan)” junto al valor, y un pequeño ícono de copiar para facilitar su uso. Esto alinea mejor el lenguaje de la interfaz con el modelo mental del usuario y hace más clara la función de este elemento.
+
+---
+
+#### Problema #4: Navegación inicial extensa para nuevos usuarios y ausencia de un onboarding guiado
+
+**Heurísticas violadas:** Flexibilidad y eficiencia de uso / Ayuda y documentación.  
+
+**Descripción del problema:**  
+Aunque los usuarios con algo de experiencia perciben la navegación como clara y concisa, se menciona que, para un usuario nuevo, la cantidad de pantallas y opciones puede sentirse un poco extensa al inicio. Actualmente no existe un onboarding breve ni ayudas contextuales que expliquen las secciones clave (grupos, tareas, solicitudes, desempeño, atajos). Esto genera una pequeña barrera de entrada antes de aprovechar plenamente las funcionalidades.
+
+**Recomendación:**  
+Implementar un recorrido guiado (*tour*) la primera vez que el usuario inicie sesión, destacando las secciones principales y su propósito. Complementar esto con breves textos “¿Qué puedes hacer aquí?” en las pantallas más importantes y con ayudas contextuales (íconos de “i” o “?”) que puedan consultarse en cualquier momento. De esta manera, se reduce la carga cognitiva inicial y se acelera la curva de aprendizaje.
+
+---
+
+#### Problema #5: Mensajes de confirmación y cambios de estado poco resaltados visualmente
+
+**Heurísticas violadas:** Visibilidad del estado del sistema / Prevención de errores.  
+
+**Descripción del problema:**  
+Los entrevistados reconocen que existen mensajes de confirmación cuando se crean, editan o eliminan elementos; sin embargo, señalan que podrían estar mejor resaltados para que el usuario los perciba con mayor claridad. Si la retroalimentación visual es sutil, es posible que algunos usuarios duden sobre si la acción se ejecutó correctamente.
+
+**Recomendación:**  
+Aumentar la visibilidad de las notificaciones de confirmación mediante el uso de *toasts* o banners más notorios (uso de íconos de éxito/error, tipografía ligeramente más grande y contraste adecuado). Para acciones críticas (como eliminar tareas o grupos), incluir además un cuadro de diálogo de confirmación claro, reduciendo así el riesgo de errores y mejorando la percepción de control sobre la plataforma.
+
 ### 6.4. Auditoría de Experiencias de Usuario
 
 #### 6.4.1. Auditoría realizada
