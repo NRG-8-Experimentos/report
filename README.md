@@ -3356,6 +3356,41 @@ En esta sección se describe la planificación de las entrevistas, incluyendo lo
 
 Aquí se documentan los resultados obtenidos durante las entrevistas, destacando observaciones clave, comentarios de los usuarios y comportamientos relevantes durante la interacción con la aplicación.
 
+A continuación se presentan los detalles clave de las entrevistas realizadas a los lideres.
+
+| **Entrevista 1: Lider de Grupo** |                                                                                                                                                                                                                                                                          |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre de Entrevistado           | Elvia Rodrigues                                                                                                                                                                                                                                                          |
+| Edad                             | 24                                                                                                                                                                                                                                                                       |
+| Profesión                        | Practicante de Ciencia de Datos en back Riplay                                                                                                                                                                                                                           |
+| Distrito                         | Comas                                                                                                                                                                                                                                                                    |
+| Duración de la Entrevista        | 00:00                                                                                                                                                                                                                                                                    |
+| Minuto de inicio                 | 00:00                                                                                                                                                                                                                                                                    |
+| **Análisis de la Entrevista**    |                                                                                                                                                                                                                                                                          |
+|  Creación de Grupos              | Nos comenta que la creacion de grupos fue bastante sencilla e intuitiva.                                                           |
+| Gestión de Tareas                | Es bastante sencillo la creacion de tareas preferiria que hubiera una leyenda que explique los colores de cada estado de la tarea. |
+| Generación de Reportes           | Argumento que era la parte mas llamativa,ya que le permite mantenerse actualizado a como va el desempeño del grupo.                |
+| Solicitudes y Validaciones       | Menciona que esta bien distribuido pero añadiria el color de la solicitud o validacion de fondo para que sea mas clara la idea.    |
+| Navegación General               | Considera que la navegacion es un poco extensa para un nuevo usuario pero tiene una curva de aprendizaje corta o sencilla.         |
+
+
+A continuación se presentan los detalles clave de las entrevistas realizadas a los miembros.
+
+| **Entrevista 5: Miembros del Equipo o Grupo |                                                                                                                                                                                                                                                                          |
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nombre de Entrevistado                      | Sebastian Real                                                                                                                                                                                                                                                           |
+| Edad                                        | 21                                                                                                                                                                                                                                                                       |
+| Profesión                                   | Estudiante de Ingeniería de Software                                                                                                                                                                                                                                     |
+| Distrito                                    | Bellavista                                                                                                                                                                                                                                                               |
+| Duración de la Entrevista                   | 00:00                                                                                                                                                                                                                                                                    |
+| Minuto de inicio                            | 14:02                                                                                                                                                                                                                                                                    |
+| **Análisis de la Entrevista**               |                                                                                                                                                                                                                                                                          |
+| Unión y Visualización del Grupo             | El procedimiento para unirse a un grupo es sencillo y no requiere de demasiados pasos. Inicialmente mostró confusión con respecto al código del grupo en la visualización de detalles del grupo, y sugirió agregar un subtítulo que mencione que es el código del grupo. |
+| Listado de Tareas                           | Las tareas están bien organizadas y son fáciles de comprender, además de contener colores que permiten una fácil deducción del significado.                                                                                                                              |
+| Visualización de Solicitudes                | La pantalla está ordenada y tiene buen diseño, pero mostró confusión con respecto a la diferencia entre las tareas y las solicitudes en un inicio.                                                                                                                       |
+| Desempeño del Miembro                       | El desempeño del miembro es útil, y piensa que las variables son adecuadas, pero opina que podría haber algunas variables adicionales para considerar el reporte como completo.                                                                                          |
+| Navegación General                          | La navegación es clara y concisa, indica qué acción deseas realizar y a dónde se está navegando. La disponibilidad de "shortcuts" en la pantalla principal fue una buena idea.                                                                                           |
+
 <table>
   <tbody>
     <tr>
@@ -3751,39 +3786,433 @@ El pipeline de notificaciones gestiona la comunicación con los miembros del equ
 
 ### 8.1. Experiment Planning
 
+En esta sección se define el proceso de preparación y organización de los experimentos necesarios para validar hipótesis relacionadas con la experiencia del usuario, la interfaz visual y la interacción con tareas dentro de la web app y la mobile app. El objetivo es convertir ideas y suposiciones en preguntas concretas y medibles que guíen la validación continua del producto.
+
 #### 8.1.1. As-Is Summary
+
+**Estado actual**
+
+Actualmente, la plataforma SynHub cuenta con una versión web y una aplicación móvil funcionales que permiten a los usuarios gestionar tareas, acceder a reportes y visualizar métricas básicas. Ambas versiones mantienen coherencia estructural y visual, con flujos implementados para la creación, asignación y seguimiento de tareas.
+El diseño se basa en Material Design, priorizando una navegación clara y componentes reutilizables. Sin embargo, se perciben diferencias en la experiencia de uso entre la versión web,más completa y orientada a la administración, y la móvil, centrada en la simplicidad y rapidez, lo que plantea oportunidades para evaluar la consistencia entre dispositivos.
+
+**Problemas identificados**
+
+- **Falta de vista Kanban:** La aplicación no dispone aún de una vista tipo Kanban board para la gestión visual de tareas. Esto limita la percepción del progreso y la organización del trabajo colaborativo, generando la necesidad de validar si la representación visual del flujo de tareas mejora la comprensión y eficiencia del usuario.
+- **Internacionalización (i18n):** El sistema de internacionalización se encuentra en una fase inicial. Actualmente, la interfaz está disponible solo en un idioma, lo que restringe la accesibilidad para usuarios no hispanohablantes. Surge la pregunta de si la incorporación de múltiples idiomas (español e inglés) incrementará la satisfacción y adopción del sistema en nuevos segmentos de usuarios.
+- **Ausencia de modo oscuro:** La interfaz no ofrece tema oscuro ni detección automática de la Apariencia del sistema. Esto puede generar fatiga visual en ambientes de baja luz, afectar la legibilidad de componentes con alto brillo y reducir la permanencia nocturna en sesiones móviles y web.
+- **Contexto fragmentado:** La separación entre la tarea y sus comentarios rompe el flujo natural de comunicación, dificultando el seguimiento en tiempo real de las discusiones relacionadas con una tarea específica.
+- **Falta de Notificaciones y Alertas:** La plataforma no alerta activamente a los usuarios sobre cambios críticos (nuevas tareas asignadas, comentarios, fechas límite próximas), obligándolos a revisar manualmente la app para enterarse de las actualizaciones, lo que causa retrasos en la comunicación y respuesta.
+
+**Objetivos de mejora**
+
+- Explorar cómo la incorporación de una vista Kanban puede mejorar la visualización, control y percepción del progreso de las tareas por parte de los usuarios.
+- Evaluar el impacto de un sistema de internacionalización (i18n) completo en la usabilidad y accesibilidad de la aplicación para distintos públicos.
+- Analizar la coherencia de la experiencia entre las versiones web y móvil para identificar oportunidades de unificación en los flujos y la comunicación visual.
+- Evaluar el impacto de un modo oscuro configurable (y con opción “Automático (Apariencia del sistema)”) en comodidad visual, legibilidad y permanencia de sesión en horario nocturno (18:00–06:00).
+- Mejorar la transparencia y el seguimiento de las discusiones relacionadas con el progreso o los detalles de una tarea.
+- Implementar un sistema de notificaciones (in-app y push) para informar a los usuarios sobre eventos relevantes (asignaciones, comentarios, menciones) y mejorar la capacidad de respuesta del equipo.
 
 #### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
+**Ideas**
+
+* Incorporar una vista Kanban para representar visualmente las tareas permitirá a los usuarios comprender mejor el flujo de trabajo.
+* Integrar funciones de arrastrar y soltar (drag & drop) podría aumentar la eficiencia en la gestión de tareas.
+* Adaptar el diseño Kanban tanto a la web como al móvil puede mejorar la coherencia visual del sistema.
+* Implementar un sistema de internacionalización que permita cambiar entre español e inglés desde la configuración del usuario. 
+* Centralizar las cadenas de texto en archivos de localización facilitará la escalabilidad a nuevos idiomas. 
+* Adaptar el contenido no solo al idioma, sino también a convenciones culturales (formato de fecha, moneda, unidades).
+* Incorporar modo oscuro con conmutador en Ajustes y opción “Automático (Apariencia del sistema)”.
+* Aplicar tema oscuro a componentes críticos (tablas, tarjetas, gráficos, tooltips) cuidando estados (hover, focus, disabled).
+* Agregar una sección dedicada de comentarios dentro de la interfaz de cada tarea, visible tanto para líderes como miembros.
+* Mostrar los comentarios en formato de hilo conversacional, con indicación de autor y timestamp.
+* Implementar un centro de notificaciones (icono de "campana") donde se listen los eventos no leídos.
+* Enviar notificaciones push a dispositivos móviles cuando se asigna una nueva tarea a un miembro.
+* Permitir al usuario configurar qué notificaciones desea recibir (ej. solo menciones).
+
+
+
+**Claims**
+
+* Los líderes de equipo necesitan una representación visual del progreso para tomar decisiones más rápidas.
+* Los usuarios prefieren tableros visuales porque ofrecen una sensación de control y avance.
+* Una interfaz tipo Kanban incrementará la satisfacción y percepción de productividad. 
+* Los usuarios internacionales abandonan la aplicación si no pueden interactuar en su idioma nativo. 
+* La inclusión del inglés aumentará la adopción en mercados externos. 
+* La traducción de mensajes de error y notificaciones mejora la confianza y comprensión del sistema.
+* El modo oscuro reduce el deslumbramiento y fatiga visual en sesiones nocturnas.
+* Un tema oscuro bien contrastado mejora la legibilidad y disminuye errores por lectura en baja luz.
+* En dispositivos móviles, el modo oscuro puede disminuir el consumo de batería (especialmente en pantallas OLED).
+* La visualización integrada de comentarios reducirá el tiempo dedicado a encontrar y responder comentarios sobre tareas.
+* Las notificaciones push reducirán el tiempo de respuesta a comentarios y tareas.
+* Un centro de notificaciones in-app aumentará la interacción diaria del usuario (engagement).
+* Los usuarios que reciben alertas perciben la aplicación como más "viva" y colaborativa.
+
+**Assumptions**
+
+* Los usuarios comprenden intuitivamente el modelo Kanban sin necesidad de capacitación previa.
+* La vista Kanban será más eficiente que la lista tradicional para administrar tareas en grupo.
+* Los equipos valoran la posibilidad de personalizar columnas o estados dentro del tablero. 
+* Los usuarios valoran la posibilidad de cambiar el idioma sin necesidad de reiniciar la sesión. 
+* La mayoría de los usuarios objetivo utilizan español o inglés como idioma principal. 
+* Las traducciones automáticas iniciales pueden ser suficientes para las pruebas tempranas de usabilidad.
+* Los usuarios que trabajan de noche preferirán un tema oscuro o el ajuste “Automático (Apariencia del sistema)”.
+* El cambio de tema no afectará la comprensión del layout si se mantiene el mismo espaciado y jerarquía.
+* La capa de theming no introducirá regresiones significativas en rendimiento ni en accesibilidad.
+* La comunicación en contexto mejorará la claridad y reducirá la necesidad de aclaraciones posteriores.
+* Los comentarios visibles para todos los miembros del grupo aumentarán la transparencia.
+* La carga inicial de comentarios no afectará significativamente el rendimiento de la carga de la tarea.
+* Los usuarios desean ser notificados de inmediato cuando se les asigna una tarea.
+* La mayoría de los usuarios permitirán las notificaciones push de la app.
+* Los usuarios podrán distinguir fácilmente entre notificaciones importantes y "ruido".
+
+
+
+
+**Knowledge Gaps**
+
+* Se desconoce qué nivel de personalización o interacción espera el usuario dentro del tablero (por ejemplo, agregar colores, filtros o etiquetas).
+* No se ha determinado si la vista Kanban debe ser la predeterminada o una alternativa a la vista de lista.
+* Falta información sobre cómo el rendimiento del sistema puede verse afectado por el renderizado dinámico del tablero. 
+* No se conoce el nivel de dominio del inglés del segmento actual de usuarios. 
+* Se desconoce si los usuarios consideran relevante la localización de formatos (fechas, horas, monedas). 
+* No se ha definido si el idioma debe establecerse automáticamente según la configuración del sistema operativo o de forma manual.
+* Nivel real de preferencia entre “Automático (Apariencia del sistema)” vs. configuración manual.
+* Contraste y legibilidad de gráficos y estados (tags/labels) en tema oscuro.
+* Impacto en batería real en móviles de usuarios de SynHub.
+* Se desconoce cuál es el volumen promedio de comentarios por tarea que los usuarios generan.
+* No se conoce el impacto real en la base de datos y el rendimiento al cargar historiales largos de comentarios.
+* No sabemos qué notificaciones son consideradas "ruido" y cuáles son esenciales para el usuario.
+* Desconocemos la frecuencia ideal de las notificaciones (¿inmediatas o un resumen diario?).
+* No se ha medido el impacto de las notificaciones en el uso de la batería del móvil.
+
 #### 8.1.3. Experiment-Ready Questions
+
+| **Pregunta**                                                                                                                                                 | **Confianza**                                                           | **Riesgo**                                                    | **Impacto**                                                  | **Interés**                                          | **Puntuación total** |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------------------------|-----------------------------------------------------|---------------------:|
+| ¿La implementación de una **vista Kanban interactiva** mejorará la **eficiencia y percepción del progreso** en los equipos de trabajo?                       | 8 - Los usuarios suelen preferir vistas visuales para organizar tareas. | 3 - Riesgo técnico medio por manejo de estados y rendimiento. | 9 - Alto impacto en la claridad y productividad del equipo.  | 8 - Alto interés entre líderes y miembros activos.  |                   28 |
+| ¿Los usuarios **comprenden intuitivamente** el uso de una **vista Kanban** sin necesidad de entrenamiento previo?                                            | 7 - Basado en la popularidad de herramientas como Trello o Jira.        | 2 - Riesgo bajo, depende de usabilidad.                       | 7 - Impacta la curva de adopción y facilidad de uso.         | 6 - Interés moderado del equipo de diseño UX.       |                   22 |
+| ¿Permitir **personalizar columnas, colores o etiquetas** en el tablero Kanban aumentará la **satisfacción y sentido de control** de los usuarios?            | 6 - Personalización es valorada en entornos colaborativos.              | 4 - Riesgo medio por complejidad técnica.                     | 8 - Potencial de aumentar engagement y retención.            | 7 - Interés alto entre usuarios avanzados.          |                   25 |
+| ¿La incorporación de una **vista Kanban predeterminada** afectará la **navegación** o la **carga inicial** del sistema?                                      | 5 - Requiere validación con métricas de rendimiento.                    | 5 - Riesgo medio por impacto en el tiempo de carga.           | 6 - Moderado, afecta experiencia inicial.                    | 5 - Interés moderado entre desarrolladores backend. |                   21 |
+| ¿El permitir **cambiar el idioma** entre **español e inglés** desde la configuración mejorará la **accesibilidad y satisfacción** del usuario internacional? | 8 - Basado en expectativas comunes de apps globales.                    | 3 - Riesgo bajo, depende del framework i18n.                  | 8 - Alto impacto en alcance y experiencia de usuario.        | 7 - Interés alto entre usuarios bilingües.          |                   26 |
+| ¿Los usuarios prefieren que el idioma se **ajuste automáticamente** según el dispositivo o que sea **configurable manualmente**?                             | 6 - Práctica común, pero depende del contexto de uso.                   | 4 - Riesgo medio si causa confusión.                          | 6 - Impacto moderado en control percibido por el usuario.    | 6 - Interés moderado en la configuración personal.  |                   22 |
+| ¿La traducción de **mensajes de error y notificaciones** mejora la **comprensión** y **confianza** de los usuarios no nativos?                               | 7 - Estudios previos muestran mejoras en confianza.                     | 3 - Riesgo bajo.                                              | 8 - Incrementa la claridad y reduce frustración del usuario. | 8 - Alto interés de los usuarios internacionales.   |                   26 |
+| ¿La localización de **formatos culturales** (fechas, moneda, unidades) es **relevante** para los usuarios de SynHub?                                         | 5 - Puede variar según el perfil de usuario.                            | 2 - Riesgo bajo, fácilmente reversible.                       | 6 - Impacto moderado en experiencia percibida.               | 5 - Interés medio según región.                     |                   18 |
+| ¿La incorporación de un modo oscuro configurable (Claro / Oscuro / Automático – Apariencia del sistema) reduce la fatiga visual y aumenta el tiempo de sesión nocturna? | 7 – Basado en evidencia y patrones de uso nocturno en apps modernas. | 3 – Riesgo bajo-medio por contraste, regresiones de estilos y performance en theming. | 8 – Alto impacto en comodidad, legibilidad y permanencia nocturna. | 7 – Alto interés entre usuarios móviles y quienes trabajan de noche. | 25 |
+| ¿Los usuarios prefieren que el tema use Automático (Apariencia del sistema) o controlarlo manualmente? | 6 – Práctica común en iOS/Android/desktop; puede variar por contexto. | 3 – Riesgo medio si la opción genera confusión en ajustes. | 6 – Impacto moderado en percepción de control y consistencia. | 6 – Interés moderado en personalización de la interfaz. | 21 |
+| ¿El modo oscuro disminuye errores de lectura/entrada en baja luz (formularios, tablas, gráficos)? | 6 – Heurísticas de usabilidad y estudios previos sugieren mejora. | 2 – Riesgo bajo; reversible ajustando contraste/tokens. | 6 – Impacto moderado en precisión y reducción de misclicks. | 6 – Interés moderado del equipo UX y usuarios intensivos. | 20 |
+| ¿La visualización integrada de comentarios en las tareas reducirá el tiempo de comunicación y mejorará la claridad del contexto? | 7 - Basado en principios de diseño centrado en el usuario. | 4 - Riesgo medio por cambios en la arquitectura de datos. | 8 - Alto impacto en la experiencia colaborativa. | 8 - Alto interés tanto para líderes como miembros. | 27 |
+| ¿Los usuarios prefieren un formato de hilo conversacional con timestamps frente a una lista simple de comentarios? | 6 - Los hilos conversacionales son comunes en apps de colaboración. | 3 - Riesgo bajo, es principalmente un cambio de UI. | 7 - Impacto moderado-alto en la legibilidad de conversaciones. | 7 - Interés alto para mantener el contexto de discusiones. | 23 |
+| ¿La carga inicial de comentarios afectará significativamente el rendimiento al abrir una tarea? | 5 - Depende del volumen de comentarios y optimización. | 5 - Riesgo medio-alto si no se implementa paginación/lazy loading. | 6 - Impacto moderado en la experiencia de usuario. | 6 - Interés moderado del equipo de desarrollo. | 22 |
+| ¿La transparencia de comentarios visibles para todos los miembros mejorará la colaboración y reducirá malentendidos? | 7 - Basado en principios de trabajo colaborativo transparente. | 2 - Riesgo bajo, alineado con la filosofía de SynHub. | 8 - Alto impacto en la cultura colaborativa del equipo. | 7 - Interés alto entre líderes y miembros. | 24 |
+| ¿Un sistema de **notificaciones (in-app y push)** para nuevas tareas y menciones **mejorará el tiempo de respuesta** y la adopción de la app? | 7 - Es un estándar en apps colaborativas. | 3 - Riesgo técnico medio (configurar push en iOS/Android). | 9 - Alto impacto en la agilidad del equipo. | 8 - Alto interés de miembros y líderes. | 27 |
+
 
 #### 8.1.4. Question Backlog
 
+**Broad Backlog**
+
+| **Prioridad** | **Pregunta**                                                                                                                                                 | **Por qué (Motivación del experimento)**                                                                                         | **Confianza** | **Riesgo** | **Impacto** | **Interés** | **Puntuación total** |
+|:-------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|:-----------:|:-----------:|:--------------------:|
+|       1       | ¿La implementación de una **vista Kanban interactiva** mejorará la **eficiencia y percepción del progreso** en los equipos de trabajo?                       | Validar si una representación visual del flujo de tareas incrementa la productividad y reduce la sobrecarga cognitiva.           |       8       |     3      |      9      |      8      |        **28**        |
+|       2       | ¿La visualización integrada de comentarios en las tareas reducirá el tiempo de comunicación y mejorará la claridad del contexto?                             | Determinar si tener los comentarios visibles directamente en la tarea mejora la colaboración y reduce malentendidos.             |       7       |     4      |      8      |      8      |        **27**        |
+|       3       | ¿El permitir **cambiar el idioma** entre **español e inglés** desde la configuración mejorará la **accesibilidad y satisfacción** del usuario internacional? | Confirmar si la flexibilidad lingüística aumenta el alcance y la experiencia de usuarios de distintos países.                    |       8       |     3      |      8      |      7      |        **26**        |
+|       4       | ¿La traducción de **mensajes de error y notificaciones** mejora la **comprensión** y **confianza** de los usuarios no nativos?                               | Determinar si la localización completa (incluyendo mensajes del sistema) mejora la confianza y reduce errores de interpretación. |       7       |     3      |      8      |      8      |        **26**        |
+|       5       | ¿La incorporación de un modo oscuro configurable (con opción "Automático (Apariencia del sistema)") reduce fatiga visual y aumenta el tiempo de sesión nocturna? | Validar si el tema oscuro mejora comodidad, legibilidad y permanencia en ambientes de baja luz.                              |       7       |     3      |      8      |      7      |        **25**        |
+
+**Deep Backlog**
+
+| **Prioridad** | **Pregunta**                                                                                                                                      | **Por qué (Motivación del experimento)**                                                                        | **Confianza** | **Riesgo** | **Impacto** | **Interés** | **Puntuación total** |
+|:-------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------|:-------------:|:----------:|:-----------:|:-----------:|:--------------------:|
+|       6       | ¿La transparencia de comentarios visibles para todos los miembros mejorará la colaboración y reducirá malentendidos?                              | Evaluar si la visibilidad completa de comentarios fomenta la responsabilidad y alineación del equipo.           |       7       |     2      |      8      |      7      |        **24**        |
+|       7       | ¿Los usuarios prefieren un formato de hilo conversacional con timestamps frente a una lista simple de comentarios?                                | Validar la preferencia de formato para mantener el contexto y legibilidad de las discusiones.                   |       6       |     3      |      7      |      7      |        **23**        |
+|       8       | ¿Permitir **personalizar columnas, colores o etiquetas** en el tablero Kanban aumentará la **satisfacción y sentido de control** de los usuarios? | Explorar si la personalización promueve el engagement y refuerza el sentimiento de autonomía del usuario.       |       6       |     4      |      8      |      7      |        **25**        |
+|       9       | ¿La carga inicial de comentarios afectará significativamente el rendimiento al abrir una tarea?                                                   | Medir el impacto técnico en tiempos de carga y experiencia de usuario con diferentes volúmenes de comentarios.  |       5       |     5      |      6      |      6      |        **22**        |
+|      10       | ¿Los usuarios **comprenden intuitivamente** el uso de una **vista Kanban** sin necesidad de entrenamiento previo?                                 | Evaluar la facilidad de aprendizaje del nuevo diseño visual y si requiere guías o tutoriales.                   |       7       |     2      |      7      |      6      |        **22**        |
+|      11       | ¿Los usuarios prefieren que el idioma se **ajuste automáticamente** según el dispositivo o que sea **configurable manualmente**?                  | Investigar las preferencias de los usuarios respecto al control automático o manual de idioma.                  |       6       |     4      |      6      |      6      |        **22**        |
+|      12       | ¿La incorporación de una **vista Kanban predeterminada** afectará la **navegación** o la **carga inicial** del sistema?                           | Analizar el impacto técnico y de rendimiento que puede tener la carga del tablero en la experiencia general.    |       5       |     5      |      6      |      5      |        **21**        |
+|      13       | ¿Los usuarios prefieren Automático (Apariencia del sistema) vs. control manual del tema?                                                          | Entender el control percibido y evitar fricción en ajustes.                                                     |       6       |     3      |      6      |      6      |        **21**        |
+|      14       | ¿El modo oscuro reduce errores de lectura/entrada en baja luz?                                                                                    | Comprobar legibilidad en flows críticos (formularios/tablas).                                                   |       6       |     2      |      6      |      6      |        **20**        |
+|      15       | ¿La localización de **formatos culturales** (fechas, moneda, unidades) es **relevante** para los usuarios de SynHub?                              | Identificar si la adaptación cultural aporta valor real a la experiencia de los usuarios en distintas regiones. |       5       |     2      |      6      |      5      |        **18**        |
+|      16       | ¿El modo oscuro mejora consumo de batería en móviles en uso real?                                                                                 | Estimar beneficio energético en sesiones prolongadas.                                                           |       6       |     2      |      5      |      5      |        **18**        |
+
 #### 8.1.5. Experiment Cards
+
+| **Elemento**  | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                               |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**  | ¿La implementación de una vista Kanban interactiva en SynHub mejorará la eficiencia y la percepción del progreso en la gestión de tareas colaborativas?                                                                                                                                                                                                                                                       |
+| **Por qué**   | Si la vista Kanban mejora la claridad y la gestión del trabajo, aumentará la adopción del tablero, reducirá la sobrecarga cognitiva y facilitará la redistribución de tareas, generando una mayor productividad y satisfacción del usuario en la plataforma.                                                                                                                                                  |
+| **Qué**       | Construir un prototipo interactivo de baja fidelidad (web y móvil) con tres columnas principales (Por hacer, En progreso, Hecho), tarjetas con información básica (título, fecha, responsable) y función de arrastre (drag & drop) con retroalimentación visual.                                                                                                                                              |
+| **Hipótesis** | Creemos que si los usuarios pueden visualizar y manipular sus tareas mediante una vista Kanban interactiva, entonces se incrementará su percepción de control, claridad y eficiencia en la gestión de tareas. Este cambio se reflejará en una mayor tasa de finalización de tareas, una reducción en el tiempo promedio de actualización, y un aumento en la satisfacción general con la interfaz de trabajo. |
+
+| **Elemento**  | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**  | ¿La incorporación de un sistema de internacionalización que permita cambiar el idioma entre español e inglés aumentará la accesibilidad y satisfacción de los usuarios internacionales de SynHub?                                                                                                                                                                                                                                                                                                                                                                                |
+| **Por qué**   | La internacionalización es clave para que la plataforma pueda expandirse a mercados bilingües o internacionales, reduciendo la fricción de uso y evitando errores de interpretación que afecten la experiencia. Comprender el impacto de la traducción ayudará a priorizar recursos y validar la necesidad de un sistema de localización más completo en el futuro.                                                                                                                                                                                                              |
+| **Qué**       | Implementar una versión mínima de internacionalización (MVP-i18n) que traduzca los textos esenciales de la interfaz, mensajes de error y notificaciones al inglés, e incluir un selector de idioma en la configuración.                                                                                                                                                                                                                                                                                                                                                          |
+| **Hipótesis** | Sostenemos que si la aplicación ofrece una opción para cambiar el idioma entre español e inglés, mostrando los textos de la interfaz y los mensajes críticos en el idioma preferido del usuario, se reducirá la confusión durante las tareas, aumentará la comprensión del flujo y mejorará la satisfacción general de los usuarios no hispanohablantes. Este cambio permitirá una experiencia más inclusiva, reflejada en una disminución de errores por interpretación, un aumento en la retención de usuarios internacionales y una percepción más positiva de la aplicación. |
+
+| **Elemento**  | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**  | ¿La incorporación de un modo oscuro configurable (con opción “Automático (Apariencia del sistema)”) reduce la fatiga visual y aumenta la permanencia en sesiones nocturnas?                                                                                                                                                                                                                                                                                                                                                                                |
+| **Por qué**   | Usuarios que operan en ambientes de baja luz pueden experimentar deslumbramiento con fondos claros. Un tema oscuro con contraste adecuado podría mejorar comodidad, legibilidad y permanencia, especialmente en móvil.                                                                                                                                                                                                              |
+| **Qué**       | Prototipo web y móvil con: (a) conmutador de tema en Ajustes (Claro / Oscuro / Automático (Apariencia del sistema)), (b) tokens de color con WCAG AA, (c) persistencia de preferencia en el perfil, (d) arranque sin parpadeo (clase de tema inyectada), (e) pruebas en pantallas de gráficos/tablas/formularios.                                                                                                                                                                                                                                                                                                                                                          |
+| **Hipótesis** | Si ofrecemos modo oscuro con opción “Automático (Apariencia del sistema)” y contraste AA, entonces la duración media de sesión nocturna aumentará ≥ 15% y el autorreporte de esfuerzo visual disminuirá ≥ 20%, sin aumentar la tasa de errores en tareas clave. |
+
+| **Elemento**  | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                               |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**  | ¿La visualización integrada de comentarios en las tareas reducirá el tiempo de comunicación y mejorará la claridad del contexto en SynHub?                                                                                                                                                                                                                                                                    |
+| **Por qué**   | Si los comentarios son visibles directamente en el contexto de la tarea, se reducirá la fragmentación de la comunicación, mejorará la transparencia y acelerará la resolución de dudas, lo que generará una experiencia colaborativa más fluida y eficiente para líderes y miembros.                                                                                                                          |
+| **Qué**       | Desarrollar un prototipo funcional que integre una sección de comentarios dentro de la interfaz de detalle de tarea, con formato de hilo conversacional, timestamps, identificación del autor y capacidad de respuesta. Implementar tanto en versión web como móvil, manteniendo coherencia visual con el diseño existente de SynHub.                                                                         |
+| **Hipótesis** | Creemos que si los usuarios pueden visualizar y participar en discusiones directamente dentro del contexto de cada tarea, entonces se reducirá significativamente el tiempo dedicado a la comunicación, mejorará la claridad del contexto colaborativo y disminuirán los malentendidos. Esto se reflejará en una reducción del 30% en el uso del módulo de solicitudes para conversaciones simples y un aumento del 25% en la satisfacción con la comunicación del equipo. |
+
+| **Elemento** | **Descripción** |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta** | ¿Implementar un sistema de notificaciones push y un centro de alertas in-app reducirá la fricción de comunicación y mejorará la velocidad de respuesta del equipo?                                                                                                                                                                                                                                            |
+| **Por qué** | Si los usuarios son alertados proactivamente sobre eventos importantes (asignaciones, comentarios), no perderán tiempo revisando manualmente la app, lo que reducirá los cuellos de botella en la comunicación y hará que el equipo trabaje de forma más ágil y conectada.                                                                                                                                  |
+| **Qué** | Desarrollar un prototipo funcional que envíe una notificación push cuando un usuario es asignado a una tarea y muestre un indicador (badge) en un icono de "campana" (centro de notificaciones) dentro de la app.                                                                                                                                                                                             |
+| **Hipótesis** | Creemos que si los usuarios reciben **alertas en tiempo real** sobre asignaciones y comentarios, entonces el **tiempo promedio de respuesta a comentarios (CRT)** se reducirá en un 50% y la **tasa de activación de tareas** (tiempo entre asignación y primer "visto") mejorará en un 60%, comparado con el sistema actual sin alertas. |
 
 ### 8.2. Experiment Design
 
+La fase de Diseño del Experimento constituye el núcleo operativo del enfoque Experiment-Driven Development, ya que define de manera estructurada cómo se pondrán a prueba las hipótesis planteadas en las etapas previas. Su propósito es garantizar que los experimentos generen evidencia empírica válida, medible y accionable, que permita al equipo tomar decisiones informadas sobre el desarrollo y evolución de SynHub.
+
+En esta sección se detalla la construcción metodológica de los experimentos, abarcando desde la formulación clara de hipótesis hasta la definición de métricas, condiciones y métodos de recolección de datos. Se busca asegurar que cada prueba proporcione insights confiables sobre el comportamiento del usuario, la efectividad de las mejoras propuestas y su impacto en los objetivos de negocio y experiencia de usuario.
+
 #### 8.2.1. Hypotheses
+
+| **Elemento**          | **Descripción**                                                                                                                                                                                                                                                                                                                                                           |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**          | ¿La implementación de una vista Kanban interactiva en SynHub mejorará la eficiencia y la percepción del progreso en la gestión de tareas colaborativas?                                                                                                                                                                                                                   |
+| **Creencia (Belief)** | Creemos que los usuarios experimentan una menor claridad visual del estado de sus tareas actuales debido a la falta de una representación visual dinámica, lo cual impacta negativamente en la organización y productividad del equipo.                                                                                                                                   |
+| **Hipótesis**         | Si se implementa una vista Kanban interactiva y personalizable en la plataforma SynHub, entonces los usuarios completarán tareas un 20% más rápido y reportarán una mejora del 25% en la percepción de control y progreso dentro del flujo de trabajo, medida a través de métricas de eficiencia de tareas y encuestas de satisfacción posteriores a la iteración de uso. |
+| **Hipótesis nula**    | La implementación de la vista Kanban no tendrá un impacto significativo en la eficiencia, la velocidad de finalización de tareas ni en la percepción de progreso de los usuarios, y cualquier variación observada será atribuible al azar o a factores externos no relacionados con el cambio.                                                                            |
+
+| **Elemento**          | **Descripción**                                                                                                                                                                                                                                                                                                                                         |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**          | ¿La incorporación de un sistema de internacionalización que permita cambiar el idioma entre español e inglés aumentará la accesibilidad y satisfacción de los usuarios internacionales de SynHub?                                                                                                                                                       |
+| **Creencia (Belief)** | Creemos que los usuarios que no dominan el idioma original de la interfaz enfrentan fricciones cognitivas que reducen su satisfacción, comprensión y tiempo de permanencia en la aplicación.                                                                                                                                                            |
+| **Hipótesis**         | Si se implementa un sistema completo de internacionalización (i18n) que permita al usuario alternar entre español e inglés, entonces la satisfacción general aumentará en al menos un 30% y la tasa de retención de usuarios internacionales crecerá un 15%, medido mediante encuestas postuso y análisis de métricas de retención por región e idioma. |
+| **Hipótesis nula**    | La incorporación de internacionalización no producirá mejoras significativas en la satisfacción ni en la retención de los usuarios, y las diferencias registradas en los indicadores serán atribuibles al azar o a factores externos.                                                                                                                   |
+
+| **Elemento**          | **Descripción**                                                                                                                                                                                                                                                                                                                                         |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**          | ¿El modo oscuro configurable (incluida la opción “Automático (Apariencia del sistema)”) mejora comodidad visual y permanencia nocturna?                                                                                                                                                       |
+| **Creencia (Belief)** | Creemos que el alto brillo de fondos claros en baja luz incrementa la fatiga visual y acelera el abandono de sesión, especialmente en móvil.                                                                                                                                                            |
+| **Hipótesis**         | Si habilitamos modo oscuro con contraste WCAG AA y opción “Automático (Apariencia del sistema)”, entonces la duración media de sesión nocturna (18:00–06:00) aumentará ≥15% y el Visual Strain Self-Report (VSSR) caerá ≥20%, sin incremento en Night Error Rate (NER). |
+| **Hipótesis nula**    | El modo oscuro no cambia de forma significativa la duración de sesión nocturna, el VSSR ni el NER; cualquier variación será azar o factores externos.                                                                                                                   |
+
+| **Elemento**          | **Descripción**                                                                                                                                                                                                                                                                                                                                                           |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**          | ¿La visualización integrada de comentarios en las tareas reducirá el tiempo de comunicación y mejorará la claridad del contexto en SynHub?                                                                                                                                                                                                                                |
+| **Creencia (Belief)** | Creemos que la fragmentación actual de los comentarios en el módulo de solicitudes genera fricción en la comunicación, aumenta el tiempo de resolución de dudas y reduce la transparencia del proceso colaborativo, impactando negativamente en la eficiencia del equipo.                                                                                                  |
+| **Hipótesis**         | Si se implementa una sección integrada de comentarios dentro de la interfaz de cada tarea con formato de hilo conversacional, entonces los equipos reducirán en un 40% el tiempo dedicado a la comunicación por tarea y reportarán un 30% de mejora en la claridad del contexto, medido a través de métricas de tiempo de resolución y encuestas de satisfacción de usuarios. |
+| **Hipótesis nula**    | La implementación de comentarios integrados en tareas no tendrá un impacto significativo en el tiempo de comunicación ni en la claridad del contexto colaborativo, y cualquier variación observada será atribuible al azar o a factores externos no relacionados con el cambio en la interfaz.                                                                             |
+
+| **Elemento** | **Descripción** |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta** | ¿Implementar un sistema de notificaciones (push y en-app) mejorará la velocidad de respuesta y el engagement del usuario?                                                                                                                                                                                                                                                  |
+| **Creencia (Belief)** | Creemos que la falta de alertas proactivas es la principal causa de retrasos en la comunicación del equipo, generando frustración y obligando a los usuarios a usar canales externos (como WhatsApp) para confirmar tareas.                                                                                                                                               |
+| **Hipótesis** | Si implementamos notificaciones automáticas (push y en-app) para la asignación de tareas y nuevos comentarios, entonces el tiempo medio de respuesta a comentarios (CRT) disminuirá en un 50% y la tasa de interacción diaria (usuarios activos diarios) aumentará en un 20%, medido mediante analítica de eventos. |
+| **Hipótesis nula** | La implementación de notificaciones no tendrá un impacto estadísticamente significativo en el tiempo de respuesta ni en la tasa de interacción diaria de los usuarios.                                                                                                                                                                                               |
 
 #### 8.2.2. Domain Business Metrics
 
+| **Métrica**                                  | **Descripción**                                                                                             | **Fórmula / Método de cálculo**                                                      | **Técnica de recolección**                                           | **Meta deseada**                                      |
+|----------------------------------------------|-------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------|-------------------------------------------------------|
+| **Task Completion Time (TCT)**               | Tiempo promedio que tarda un usuario en completar una tarea desde su creación hasta su finalización.        | (Σ tiempo de finalización – tiempo de creación) / número total de tareas completadas | Registro automático en base de datos de tareas (timestamp tracking). | Reducción ≥ **20%** tras implementación Kanban.       |
+| **Task Flow Efficiency (TFE)**               | Porcentaje de tiempo productivo sobre el total del ciclo de vida de una tarea.                              | (Tiempo activo de trabajo / Tiempo total del ciclo) × 100                            | Logs de actividad y estados de tareas en base de datos.              | Incremento ≥ **15%** de eficiencia promedio.          |
+| **Board Interaction Rate (BIR)**             | Número promedio de interacciones por usuario con el tablero Kanban (arrastres, creación, edición, filtros). | Total de interacciones Kanban / Usuarios activos                                     | Event tracking en frontend (Google Analytics, Firebase o Mixpanel).  | Incremento ≥ **25%** en uso activo del tablero.       |
+| **Language Preference Adoption Rate (LPAR)** | Porcentaje de usuarios que cambian o personalizan el idioma predeterminado.                                 | (Usuarios que modifican idioma / Total de usuarios activos) × 100                    | Tracking de eventos en configuración de idioma.                      | ≥ **40%** de adopción entre usuarios internacionales. |
+| **User Satisfaction Score (USS)**            | Nivel promedio de satisfacción del usuario con la interfaz en su idioma preferido.                          | Promedio de respuestas (escala 1–5) en encuesta de satisfacción.                     | Encuestas postuso localizadas (es/en).                               | ≥ **4/5** de satisfacción general.                    |
+| **Translation Coverage Rate (TCR)**          | Porcentaje de cadenas de texto traducidas respecto al total disponible en la app.                           | (Cadenas traducidas / Total de cadenas) × 100                                        | Auditoría automática del sistema i18n.                               | Cobertura ≥ **98%**.                                  |
+| **Theme Adoption Rate (TAR)**                | Porcentaje de usuarios que usan tema oscuro o "Automático (Apariencia del sistema)".                        | (Usuarios con tema≠"claro" / Usuarios activos) × 100                                 | Event tracking en ajustes/perfil.                                    | ≥ 50% en usuarios nocturnos.                          |
+| **Evening Session Duration (ESD)**           | Duración promedio de sesión en 18:00–06:00.                                                                 | Σ duración sesiones nocturnas / nº sesiones nocturnas                                | Analytics (web y móvil).                                             | ↑ ≥ 15% tras activar modo oscuro.                     |
+| **Visual Strain Self-Report (VSSR)**         | Autorreporte de esfuerzo visual (1–5).                                                                      | Promedio encuesta postuso nocturna                                                   | Encuesta in-app localizada (es/en).                                  | ↓ ≥ 20% del baseline.                                 |
+| **Comment Response Time (CRT)**              | Tiempo promedio entre la publicación de un comentario y su primera respuesta.                               | Σ (timestamp respuesta - timestamp comentario) / nº comentarios respondidos          | Timestamps automáticos en base de datos de comentarios.              | Reducción ≥ **40%** tras implementación de comentarios integrados. |
+| **Notification Engagement Rate (NER)** | Porcentaje de usuarios que interactúan (hacen clic) con una notificación recibida. | (Clics en Notificaciones / Notificaciones Enviadas) × 100 | Event tracking (Firebase/Mixpanel). | ≥ 30% de clics en notificaciones push. |
+| **Task Acknowledgment Time (TAT)** | Tiempo promedio desde que una tarea es asignada hasta que el usuario la abre/visualiza por primera vez. | (Σ tiempo de visualización – tiempo de asignación) / nº total de tareas | Timestamp tracking en BBDD. | Reducción ≥ 60% tras implementación de notificaciones. |
+
 #### 8.2.3. Measures
+
+Esta sección define los criterios y herramientas que se utilizarán para recopilar la evidencia necesaria que permita validar o refutar las hipótesis planteadas en los experimentos
+
+Las medidas fueron seleccionadas con base en su relevancia directa para detectar cambios significativos en la eficiencia operativa, adopción de funcionalidades y satisfacción del usuario. Se priorizan métricas que sean representativas, cuantificables y sensibles al cambio, minimizando al mismo tiempo el esfuerzo de recolección y análisis de datos.
+
+Medidas seleccionadas:
+
+* Task Completion Time (TCT)
+  * Propósito: Detectar mejoras en la eficiencia de ejecución de tareas tras la implementación del tablero Kanban.
+  * Indicador esperado: Disminución del tiempo promedio de finalización de tareas en al menos un 20%.
+  * Método: Registro automático de timestamps de creación y finalización en la base de datos.
+* Task Flow Efficiency (TFE)
+  * Propósito: Evaluar el impacto del sistema Kanban en la proporción de tiempo productivo dentro del ciclo de vida de las tareas.
+  * Indicador esperado: Incremento del 15% en la eficiencia promedio del flujo de trabajo.
+  * Método: Análisis de logs de actividad del usuario y estado de tareas en la base de datos.
+* Board Interaction Rate (BIR)
+  * Propósito: Medir el nivel de adopción y uso activo del tablero Kanban.
+  * Indicador esperado: Aumento del 25% en la frecuencia de interacciones por usuario.
+  * Método: Recolección de datos mediante tracking de eventos en frontend (Google Analytics, Firebase o Mixpanel).
+* Language Preference Adoption Rate (LPAR)
+  * Propósito: Identificar la tasa de personalización de idioma entre usuarios internacionales.
+  * Indicador esperado: Al menos 40% de adopción del cambio de idioma.
+  * Método: Registro de eventos de configuración de idioma en el sistema de analítica.
+* User Satisfaction Score (USS)
+  * Propósito: Evaluar la percepción del usuario sobre la experiencia de uso en su idioma preferido.
+  * Indicador esperado: Puntaje promedio de satisfacción ≥ 4/5.
+  * Método: Encuestas postuso localizadas (es/en) integradas en la interfaz.
+* Translation Coverage Rate (TCR)
+  * Propósito: Garantizar la completitud de la localización multilingüe en la interfaz.
+  * Indicador esperado: Cobertura de traducción de al menos 98% de las cadenas disponibles.
+  * Método: Auditoría automática del sistema de internacionalización (i18n).
+    
+* Theme Adoption Rate (TAR)
+  * Propósito: medir adopción y preferencia de tema.
+  * Indicador: ≥ 50% entre usuarios con sesiones nocturnas.
+  * Método: tracking de eventos (cambio de tema y valor efectivo, incl. Automático (Apariencia del sistema)).
+
+* Evening Session Duration (ESD)
+  * Propósito: verificar permanencia en baja luz.
+  * Indicador: ↑ ≥ 15% respecto a baseline.
+  * Método: analytics por franja horaria.
+
+* Visual Strain Self-Report (VSSR)
+  * Propósito: evaluar comodidad visual percibida.
+  * Indicador: ↓ ≥ 20%.
+  * Método: encuesta in-app al cerrar sesión nocturna.
+* Comment Response Time (CRT)
+    * Propósito: Medir la agilidad en la comunicación dentro de las tareas tras la implementación de los comentarios integrados.
+    * Indicador esperado: Reducción del 40% en el tiempo promedio de respuesta a comentarios.
+    * Método: Registro automático de timestamps de creación de comentarios y de respuestas en la base de datos.
+
+* Notification Engagement Rate (NER)
+    * Propósito: Medir la relevancia y efectividad de las alertas enviadas.
+    * Indicador esperado: Al menos 30% de clics en notificaciones push.
+    * Método: Event tracking en frontend (Firebase).
+* Task Acknowledgment Time (TAT)
+    * Propósito: Medir qué tan rápido los usuarios se enteran de nuevo trabajo.
+    * Indicador esperado: Reducción del 60% en el tiempo de visualización.
+    * Método: Timestamps automáticos en la base de datos de tareas.
 
 #### 8.2.4. Conditions
 
+| **Elemento**               | **Descripción**                                                                                                                                                                                                                           |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**               | ¿La implementación de una **vista Kanban interactiva** en SynHub mejorará la **eficiencia y percepción del progreso** en la gestión de tareas colaborativas?                                                                              |
+| **Condición experimental** | Los equipos que utilizan la **vista Kanban** muestran una **reducción ≥20%** en el **tiempo promedio de finalización de tareas (TCT)** y un **incremento ≥15%** en la **eficiencia del flujo de trabajo (TFE)** durante 4 semanas de uso. |
+| **Condición de control**   | Los equipos que continúan usando la vista de lista tradicional **no muestran variaciones significativas** en TCT ni en TFE respecto a su línea base anterior.                                                                             |
+
+| **Elemento**               | **Descripción**                                                                                                                                                                                                                     |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**               | ¿La incorporación de un sistema de **internacionalización (i18n)** que permita cambiar el idioma entre **español e inglés** aumentará la **accesibilidad y satisfacción** de los usuarios internacionales de SynHub?                |
+| **Condición experimental** | Los usuarios con acceso al **selector de idioma** y contenido traducido reportan un **USS ≥4/5**, con una **adopción del cambio de idioma (LPAR) ≥40%** y una **reducción ≥30%** en errores o tickets relacionados con comprensión. |
+| **Condición de control**   | Los usuarios sin acceso a la configuración de idioma mantienen niveles similares de **satisfacción y retención**, sin cambios significativos en métricas de comprensión ni uso.                                                     |
+
+| **Elemento**               | **Descripción**                                                                                                                                                                                                                     |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**               | ¿El modo oscuro configurable mejora comodidad y permanencia nocturna sin aumentar errores?                |
+| **Condición experimental** | Cohorte con acceso a modo oscuro y opción “Automático (Apariencia del sistema)” durante 4 semanas. Se mide ESD, VSSR, TAR, CCR y NER. Éxito si: ESD ↑ ≥15%, VSSR ↓ ≥20%, CCR ≥98%, y NER no aumenta. |
+| **Condición de control**   | Cohorte equivalente que permanece en tema claro sin selector de tema durante el mismo periodo; se comparan métricas contra baseline y contra el grupo experimental.                                                     |
+
+| **Elemento**               | **Descripción**                                                                                                                                                                                                                           |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta**               | ¿La visualización integrada de comentarios en las tareas reducirá el tiempo de comunicación y mejorará la claridad del contexto en SynHub?                                                                                                |
+| **Condición experimental** | Los equipos que utilizan la **visualización integrada de comentarios** muestran una **reducción ≥40%** en el **tiempo promedio de respuesta a comentarios (CRT)** y un **incremento ≥30%** en la **claridad del contexto comunicacional** durante 4 semanas de uso. |
+| **Condición de control**   | Los equipos que continúan usando el sistema actual de comentarios en el módulo de solicitudes **no muestran variaciones significativas** en CRT ni en claridad del contexto respecto a su línea base anterior.                                                                             |
+
+| **Elemento** | **Descripción** |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta** | ¿Un sistema de **notificaciones (in-app y push)** mejorará el **tiempo de respuesta** y la adopción de la app?                                                                                                                                                                                                                        |
+| **Condición experimental** | (Grupo A) Usuarios que tienen el nuevo sistema de notificaciones activado. El éxito se mide si su **Task Acknowledgment Time (TAT)** se reduce en ≥60% y su **Notification Engagement Rate (NER)** es ≥30% durante 2 semanas. |
+| **Condición de control** | (Grupo B) Usuarios que continúan usando la versión actual sin notificaciones. Se mide su TAT y se compara con el Grupo A.                                                                                                                                                                                                    |
+
 #### 8.2.5. Scale Calculations and Decisions
 
+En SynHub, este enfoque se aplica para evaluar el cumplimiento de las hipótesis relacionadas con la mejora de la gestión colaborativa de proyectos y la organización de equipos. Cada hipótesis se vincula con métricas específicas que reflejan la adopción, usabilidad y efectividad dentro de la plataforma. Se considera ideal cuando los indicadores alcanzan plenamente los objetivos, aceptable cuando se mantienen dentro de un rango intermedio y desfavorable si están por debajo del mínimo esperado. Un nivel excelente se alcanza cuando los resultados superan el valor ideal en un 25 % o más, evidenciando un impacto positivo notable. Este método permite validar decisiones de diseño y desarrollo basadas en datos reales del uso de SynHub.
+
+| Scale Calculation                                                                                                                                                                                                                                                                                                                                  | Decisión                                                                                                                 | Factor                                     | Desfavorable | Aceptable | Ideal   | Excelente |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|--------------|-----------|---------|-----------|
+| Creemos que al menos el 70% de los líderes de grupo utilizarán la función de creación de grupos en la primera semana, ya que necesitan una herramienta rápida para organizar a sus equipos. <br> Sabremos que esto es cierto cuando observemos que el 70% de los líderes registrados hayan creado al menos un grupo en sus primeros 7 días de uso. | Implementar un flujo intuitivo para la creación de grupos con configuración básica y opciones de personalización visual. | Tasa de creación de grupos por líderes     | <50%         | 50%-65%   | 65%-80% | >80%      |
+| Creemos que al menos el 60% de los miembros del grupo actualizarán el estado de sus tareas al menos una vez por semana, reflejando el uso activo de la plataforma para seguimiento. <br> Sabremos que esto es cierto cuando el 60% de los miembros activos actualicen el estado de al menos una tarea semanalmente.                                | Implementar recordatorios automáticos y una interfaz simplificada para actualizar estados de tareas con un solo clic.    | Tasa de actualización de estados de tareas | <40%         | 40%-55%   | 55%-70% | >70%      |
+| Creemos que al menos el 75% de las tareas completadas serán validadas por los líderes dentro de las 24 horas, demostrando la efectividad del flujo de validación. <br> Sabremos que esto es cierto cuando el 75% de las tareas marcadas como completadas sean validadas en un día.                                                                 | Implementar notificaciones push y correos automáticos para alertar a los líderes sobre tareas pendientes de validación.  | Tasa de validación de tareas completadas   | <50%         | 50%-65%   | 65%-80% | >80%      |
+| Creemos que al menos el 50% de los usuarios utilizarán la función de comentarios en tareas para comunicar avances o dudas, mejorando la transparencia del equipo. <br> Sabremos que esto es cierto cuando la mitad de las tareas activas tengan al menos un comentario de los miembros.                                                            | Implementar un sistema de comentarios integrado con menciones y respuestas para fomentar la comunicación contextual.     | Uso de comentarios en tareas               | <30%         | 30%-45%   | 45%-60% | >60%      |
+| Creemos que la función de reportes de productividad individual será consultada por al menos el 65% de los líderes semanalmente para evaluar el desempeño de su equipo. <br> Sabremos que esto es cierto cuando el 65% de los líderes accedan al dashboard de reportes al menos una vez por semana.                                                 | Implementar un dashboard de métricas visuales con gráficos de distribución de tareas y progreso individual.              | Frecuencia de consulta de reportes         | <45%         | 45%-60%   | 60%-75% | >75%      |
+| Creemos que al menos el 80% de los usuarios completará el proceso de unirse a un grupo sin errores, gracias a un flujo de invitación simplificado. <br> Sabremos que esto es cierto cuando las solicitudes de soporte por problemas de unión se reduzcan en un 80%.                                                                                | Implementar un sistema de códigos de grupo copiables y validación en tiempo real para uniones rápidas.                   | Tasa de éxito en unión a grupos            | <60%         | 60%-75%   | 75%-90% | >90%      |
+| Creemos que la función de solicitudes de extensión de plazo reducirá en un 40% las tareas vencidas, al dar flexibilidad ante imprevistos. <br> Sabremos que esto es cierto cuando la tasa de tareas vencidas disminuya en un 40% tras implementar la función.                                                                                      | Implementar un flujo formal de solicitud de extensiones con motivos predefinidos y aprobación líder.                     | Reducción de tareas vencidas               | <20%         | 20%-35%   | 35%-50% | >50%      |
+| Creemos que al menos el 70% de los líderes utilizarán la gráfica de distribución de tareas para balancear cargas de trabajo semanalmente. <br> Sabremos que esto es cierto cuando el 70% de los líderes consulten la gráfica al menos una vez por semana.                                                                                          | Implementar una visualización clara de la carga de trabajo por miembro con colores intuitivos.                           | Uso de gráfica de distribución             | <50%         | 50%-65%   | 65%-80% | >80%      |
+
 #### 8.2.6. Methods Selection
+
+Para evaluar las hipótesis propuestas, se empleará el método de prueba A/B, comparando la versión actual del sistema (Repositorio A) con una versión experimental que incorpora los nuevos cambios (Repositorio B).
+El método seleccionado cumple con el principio de Simplest Useful Thing, al ofrecer una forma directa, medible y de bajo costo para analizar el impacto de cada modificación.
+Cada experimento se ejecutará de manera independiente, garantizando que ningún usuario participe simultáneamente en más de una prueba relacionada, preservando así la validez estadística y las consideraciones éticas del estudio.
+
+Para evaluar, medir y optimizar el rendimiento de las nuevas features, se consideran distintas herramientas según precio, capacidad de análisis, facilidad de uso y aplicación específica a esta funcionalidad.
+
+| **Herramienta**      | **Precio / Plan**                                | **Capacidad de análisis**                                                                 | **Sencillez**                                  | **Ventajas**                                                             | **Aplicación específica al Kanban Board**                                                                                                  |
+|----------------------|--------------------------------------------------|-------------------------------------------------------------------------------------------|------------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| **Google Analytics** | Plan gratuito básico, opciones de pago           | Análisis exhaustivo de métricas y comportamiento de usuario (sesiones, duración, eventos) | Fácil de aprender para métricas básicas        | Excelente reporting, segmentación por cohortes y funnels                 | Medir apertura de tableros, duración de sesión en Kanban, activación de tema oscuro, funnels de creación/uso de tarjetas                   |
+| **Catchpoint**       | Basado en suscripción, pruebas gratuitas         | Monitoreo sintético y RUM desde múltiples ubicaciones; latencia y disponibilidad          | Interfaz avanzada, curva de aprendizaje media  | Monitorización en tiempo real desde ubicaciones globales, útil para SLAs | Vigilar latencia de carga del tablero, tiempos de arrastre/soltado desde regiones remotas y detección de degradaciones geográficas         |
+| **RedLine13**        | Basado en suscripción, pruebas gratuitas         | Pruebas de carga y simulación de tráfico concurrente                                      | Moderado, requiere configuración de escenarios | Escala simulaciones de usuarios y cargas sobre APIs/websockets           | Validar rendimiento del backend Kanban (múltiples usuarios arrastrando tarjetas, carga de columnas, concurrencia de WebSockets)            |
+| **Lighthouse**       | Gratuito con limitaciones, ejecutable localmente | Auditoría de rendimiento, accesibilidad, mejores prácticas y SEO                          | Muy sencillo (CLI o integraciones)             | Informes accionables con métricas clave (LCP, FID, accesibilidad)        | Evaluar rendimiento de renderizado del tablero, contraste y accesibilidad del modo oscuro, optimización de cargas y tiempos de interacción |
 
 #### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
 #### 8.2.8. Web and Mobile Tracking Plan
 
+Para SynHub, el objetivo principal del plan de seguimiento es optimizar y monitorear la experiencia de los usuarios web y móviles, asegurando que las nuevas funcionalidades contribuyan efectivamente a mejorar la colaboración, accesibilidad y percepción de progreso dentro de la plataforma.
+
+El seguimiento se estructurará en dos etapas clave, permitiendo establecer una línea base de comportamiento y evaluar el impacto de los cambios a lo largo del tiempo.
+
+**1. Implementación Inicial**
+
+Durante esta fase, el enfoque se centrará en el despliegue de las funcionalidades experimentales y la recolección de datos base que servirán para medir los efectos posteriores.
+
+**Recolección de Datos:**
+
+* Métricas de Uso: Número de usuarios activos, sesiones promedio, frecuencia de acceso al tablero Kanban y uso de la opción de cambio de idioma.
+* Interacciones del Usuario: Clics en columnas, movimiento de tarjetas, creación y finalización de tareas, cambios de idioma realizados, y tiempo promedio dentro de la vista Kanban.
+* Feedback del Usuario: Encuestas dentro de la app y formularios de retroalimentación enfocados en percepción de eficiencia, claridad visual y facilidad de uso.
+
+**Análisis Comparativo:**
+Se contrastarán los datos de la nueva versión con los registros previos a la implementación, para determinar cambios inmediatos en eficiencia, participación y satisfacción de los usuarios.
+
+**2. Seguimiento Continuo**
+
+Una vez establecida la línea base, se adoptará un monitoreo constante que permitirá realizar ajustes iterativos basados en los datos recolectados.
+
+**Recolección de Datos:**
+
+* Métricas en Tiempo Real: Uso de herramientas analíticas (como Google Analytics y Firebase Analytics) para observar en tiempo real la actividad en Kanban y la adopción del cambio de idioma.
+* Segmentación de Usuarios: Análisis diferenciado por tipo de usuario (administradores, miembros, invitados) y por idioma preferido, para identificar patrones de adopción y satisfacción.
+* Tasa de Retención: Seguimiento de la retención semanal y mensual, midiendo si las nuevas funciones aumentan la permanencia y compromiso en la plataforma.
+
+**Evaluación y Ajustes:**
+* Informes Periódicos: Elaboración de reportes mensuales que consoliden resultados, tendencias y recomendaciones de mejora.
+* Iteración Basada en Datos: Aplicación de mejoras progresivas según los hallazgos de uso, priorizando la optimización de la experiencia colaborativa y multilingüe.
+
+Este enfoque permitirá que SynHub evolucione de forma guiada por datos, asegurando decisiones fundamentadas para fortalecer la eficiencia, accesibilidad y satisfacción del usuario tanto en su versión web como móvil.
+
 ### 8.3. Experimentation
 
 #### 8.3.1. To-Be User Stories
 
+| User Story ID | Título                                     | Descripción                                                                                                                                                                                                                           |   | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Relacionado con (Epic ID) |
+|---------------|--------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| US01          | Configurar la Apariencia                   | Como usuario de SynHub, quiero configurar la **Apariencia** de la interfaz (Claro u Oscuro) para trabajar de forma cómoda según mis preferencias y condiciones de luz.                                                                |   | **Escenario 1: Cambiar Apariencia desde Ajustes**<br>Given que estoy autenticado y entro a **Configuración > Apariencia**,<br>When selecciono una de las opciones **"Claro"** u **"Oscuro"**,<br>Then el tema visual de la app cambia inmediatamente respetando la opción elegida.<br>                                                                                                                                                                                                                                | EP-005                    |
+| US02          | Visualización de Tareas en el Kanban Board | Como usuario del Kanban Board, quiero visualizar las tareas según su estado para identificar fácilmente el progreso propio o del equipo.                                                                                              |   | **Escenario 1: Visualización para líderes**<br>Given que soy líder de un grupo,<br>When accedo al Kanban Board,<br>Then puedo ver todas las tareas de los miembros del grupo organizadas por estado (En progreso, Completada, Reprogramada, etc.).<br><br>**Escenario 2: Visualización para miembros**<br>Given que soy miembro de un grupo,<br>When ingreso al Kanban Board,<br>Then puedo ver únicamente mis tareas organizadas por estado.                                                                         | EP-001, EP-002            |
+| US03          | Recibir alerta de nueva tarea              | Como **miembro de equipo**, quiero **recibir una notificación (push y en-app)** cuando **se me asigna una nueva tarea**, para **enterarme a tiempo** sin tener que revisar la app.                                                    |   | **Escenario 1: Notificación de Tarea Asignada**<br>Given que un líder me asigna una nueva tarea,<br>When la tarea es guardada,<br>Then recibo una notificación push en mi móvil Y veo un indicador en el icono de campana (in-app).                                                                                                                                                                                                                                                                                   | EP-002                    |
+| US04          | Comentarios Integrados en Tarea            | Como **usuario de SynHub (líder o miembro)**, quiero **ver y participar en comentarios directamente dentro de la interfaz de la tarea** para **mantener la comunicación en contexto** sin tener que navegar al módulo de solicitudes. |   | **Escenario 1: Visualizar comentarios existentes**<br>Given que accedo a los detalles de una tarea,<br>When visualizo la sección de comentarios,<br>Then puedo ver el historial completo de comentarios en formato de hilo con autor, timestamp y contenido.<br><br>**Escenario 2: Agregar nuevo comentario**<br>Given que estoy en la sección de comentarios de una tarea,<br>When escribo y envío un comentario,<br>Then el comentario aparece inmediatamente en el hilo visible para todos los miembros del grupo. | EP-002, EP-004            |
+| US05          | Cambio de idioma                           | Como usuario internacional, quiero cambiar el idioma de la interfaz entre español e inglés para usar la aplicación en mi idioma preferido.                                                                                            |   | **Escenario 1: Cambiar idioma español**<br>Given que un usuario accede a la configuración, <br>When elige el idioma español,<br>Then toda la interfaz de la app se actualiza inmediatamente al idioma español.<br><br>**Escenario 2: Cambiar idioma inglés**<br>Given que un usuario accede a la configuración, <br>When elige el idioma inglés,<br>Then toda la interfaz de la app se actualiza inmediatamente al idioma inglés.                                                                                     | EP-005                    |
 #### 8.3.2. To-Be Product Backlog
+
+| Orden | User Story ID | Título                                     | Story Points (1/2/3/5/8) |
+|-------|---------------|--------------------------------------------|--------------------------|
+| 1     | US02          | Visualización de Tareas en el Kanban Board | 8                        |
+| 2     | US04          | Comentarios Integrados en Tarea            | 5                        |
+| 3     | US05          | Cambio de idioma                           | 5                        |
+| 4     | US03          | Recibir alerta de nueva tarea              | 5                        |
+| 5     | US01          | Configurar la Apariencia                   | 3                        |   
 
 #### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
