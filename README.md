@@ -3402,9 +3402,83 @@ Esta sección analiza los hallazgos de las entrevistas aplicando los principios 
 
 ##### 6.4.1.1. Información del grupo auditado
 
+**Integrantes de APX-03:**
+
+| Nombres y Apellidos         | Código de Alumno |
+|-----------------------------|------------------|
+| Alejo Cardenas, Jose Antonio | U202122484       |
+| Real Calderon, Sebastian Omar | U20221D964       |
+| Luquillas Asto, Omar        | U20211G641       |
+| Olivera Barzola, Eric Marlon | U202315032       |
+
 ##### 6.4.1.2. Cronograma de auditoría realizada
 
+| Actividad de auditoría       | Fecha     | Hora      | Realizado por                           |
+|------------------------------|-----------|-----------|-----------------------------------------|
+| Envío de solicitud de auditoría | 13/11/25 | 15:30 hrs | Juan Astonitas                         |
+| Revisión de plataforma web   | 13/11/25 | 16:00 hrs | Juan Astonitas, Gianluca Pasquale      |
+| Revisión de aplicación móvil | 13/11/25 | 17:00 hrs | Gianluca pasqueale, Gonzalo aliaga     |
+| Elaboración del informe      | 13/11/25 | 18:00 hrs | Juan Asonitas, alexander casas, Gianluca pasquale, Gonzalo Aliaga, Oscar Armas |
+| Envío del informe            | 13/11/25 | 19:00 hrs | Juan Astonitas                         |
+
+
 ##### 6.4.1.3.  Contenido de auditoría realizada
+
+| # | Problema | Escala de severidad | Heurística/Principio violado(o) |
+|---|---|---|---|
+| 1 | Modo oscuro no se aplica completamente en pantalla de login | 3 | Consistent -- La interfaz no mantiene coherencia visual entre modos. |
+| 2 | Sidebar con funcionalidad limitada y redundante | 2 | Valuable -- El elemento no aporta valor y ocupa espacio innecesario. |
+| 3 | Componentes con fondo blanco en modo oscuro | 2 | Consistent -- Inconsistencia visual en temas. |
+| 4 | Layout roto en vista de tareas con slider no estético | 3 | Pleasurable -- La experiencia visual y de interacción se ve afectada. |
+| 5 | Límite de 200 KB para subida de archivos por plan gratis de Cloudinary | 2 | Useful -- Limita la funcionalidad básica de entrega de tareas. |
+
+
+**Recomendaciones**
+
+### Web -- Problema n°1: Modo oscuro incompleto en login
+
+**Severidad:** 3  
+**Heurística violada:** Consistent  
+**Problema:** El modo oscuro no se aplica completamente en la pantalla de login. Las letras cambian a color claro, pero el fondo permanece claro, lo que dificulta la legibilidad.  
+**Recomendación:** Asegurar que el modo oscuro aplique a todos los fondos y textos de la pantalla de login, manteniendo contraste adecuado.
+
+![img.png](images/chapter-8/auditoria1.png)
+
+**Web -- Problema n°2: Sidebar de baja utilidad**
+
+**Severidad:** 2  
+**Heurística violada:** Valuable  
+**Problema:** El sidebar solo incluye dos acciones ("Ir a cursos" y "Cerrar sesión"), que podrían integrarse en el navbar o en un menú de perfil.  
+**Recomendación:** Reubicar estas acciones en el navbar superior o en un menú desplegable de usuario, y eliminar el sidebar para optimizar el espacio.
+
+![img_2.png](images/chapter-8/auditoria3.png)
+
+**Web/Móvil -- Problema n°3: Componentes con tema incorrecto en modo oscuro**
+
+**Severidad:** 2  
+**Heurística violada:** Consistent  
+**Problema:** Algunos componentes (ej: "Aún no hay tareas disponibles") mantienen fondo blanco y texto negro en modo oscuro.  
+**Recomendación:** Revisar y corregir la aplicación de estilos de modo oscuro en todos los componentes de la interfaz.
+
+![img_3.png](images/chapter-8/auditoria4.png)
+
+**Web -- Problema n°4: Layout roto en vista de tareas**
+
+**Severidad:** 3  
+**Heurística violada:** Pleasurable  
+**Problema:** La vista de tareas presenta un slider que rompe la estética y afecta la experiencia de usuario.  
+**Recomendación:** Rediseñar la disposición de elementos para evitar scroll horizontal no deseado y mantener una estructura visualmente coherente.
+
+![img_4.png](images/chapter-8/auditoria5.png)
+
+**Web/Móvil -- Problema n°5: Límite de 200 KB en subida de archivos**
+
+**Severidad:** 2  
+**Heurística violada:** Useful  
+**Problema:** No se permite subir archivos mayores a 200 KB debido a la limitación del plan gratuito de Cloudinary.  
+**Recomendación:** Considerar migrar a un servicio de almacenamiento con mayor capacidad o optimizar la configuración actual para permitir archivos de tamaño razonable (ej: 5-10 MB).
+
+![img_1.png](images/chapter-8/auditoria2.png)
 
 #### 6.4.2. Auditoría recibida
 
