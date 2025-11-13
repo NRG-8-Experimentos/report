@@ -3568,6 +3568,7 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 - **Internacionalización (i18n):** El sistema de internacionalización se encuentra en una fase inicial. Actualmente, la interfaz está disponible solo en un idioma, lo que restringe la accesibilidad para usuarios no hispanohablantes. Surge la pregunta de si la incorporación de múltiples idiomas (español e inglés) incrementará la satisfacción y adopción del sistema en nuevos segmentos de usuarios.
 - **Ausencia de modo oscuro:** La interfaz no ofrece tema oscuro ni detección automática de la Apariencia del sistema. Esto puede generar fatiga visual en ambientes de baja luz, afectar la legibilidad de componentes con alto brillo y reducir la permanencia nocturna en sesiones móviles y web.
 - **Contexto fragmentado:** La separación entre la tarea y sus comentarios rompe el flujo natural de comunicación, dificultando el seguimiento en tiempo real de las discusiones relacionadas con una tarea específica.
+- **Falta de Notificaciones y Alertas:** La plataforma no alerta activamente a los usuarios sobre cambios críticos (nuevas tareas asignadas, comentarios, fechas límite próximas), obligándolos a revisar manualmente la app para enterarse de las actualizaciones, lo que causa retrasos en la comunicación y respuesta.
 
 **Objetivos de mejora**
 
@@ -3576,7 +3577,7 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 - Analizar la coherencia de la experiencia entre las versiones web y móvil para identificar oportunidades de unificación en los flujos y la comunicación visual.
 - Evaluar el impacto de un modo oscuro configurable (y con opción “Automático (Apariencia del sistema)”) en comodidad visual, legibilidad y permanencia de sesión en horario nocturno (18:00–06:00).
 - Mejorar la transparencia y el seguimiento de las discusiones relacionadas con el progreso o los detalles de una tarea.
-
+- Implementar un sistema de notificaciones (in-app y push) para informar a los usuarios sobre eventos relevantes (asignaciones, comentarios, menciones) y mejorar la capacidad de respuesta del equipo.
 
 #### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
@@ -3592,7 +3593,9 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 * Aplicar tema oscuro a componentes críticos (tablas, tarjetas, gráficos, tooltips) cuidando estados (hover, focus, disabled).
 * Agregar una sección dedicada de comentarios dentro de la interfaz de cada tarea, visible tanto para líderes como miembros.
 * Mostrar los comentarios en formato de hilo conversacional, con indicación de autor y timestamp.
-
+* Implementar un centro de notificaciones (icono de "campana") donde se listen los eventos no leídos.
+* Enviar notificaciones push a dispositivos móviles cuando se asigna una nueva tarea a un miembro.
+* Permitir al usuario configurar qué notificaciones desea recibir (ej. solo menciones).
 
 
 
@@ -3608,7 +3611,9 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 * Un tema oscuro bien contrastado mejora la legibilidad y disminuye errores por lectura en baja luz.
 * En dispositivos móviles, el modo oscuro puede disminuir el consumo de batería (especialmente en pantallas OLED).
 * La visualización integrada de comentarios reducirá el tiempo dedicado a encontrar y responder comentarios sobre tareas.
-
+* Las notificaciones push reducirán el tiempo de respuesta a comentarios y tareas.
+* Un centro de notificaciones in-app aumentará la interacción diaria del usuario (engagement).
+* Los usuarios que reciben alertas perciben la aplicación como más "viva" y colaborativa.
 
 **Assumptions**
 
@@ -3624,7 +3629,9 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 * La comunicación en contexto mejorará la claridad y reducirá la necesidad de aclaraciones posteriores.
 * Los comentarios visibles para todos los miembros del grupo aumentarán la transparencia.
 * La carga inicial de comentarios no afectará significativamente el rendimiento de la carga de la tarea.
-
+* Los usuarios desean ser notificados de inmediato cuando se les asigna una tarea.
+* La mayoría de los usuarios permitirán las notificaciones push de la app.
+* Los usuarios podrán distinguir fácilmente entre notificaciones importantes y "ruido".
 
 
 
@@ -3642,7 +3649,9 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 * Impacto en batería real en móviles de usuarios de SynHub.
 * Se desconoce cuál es el volumen promedio de comentarios por tarea que los usuarios generan.
 * No se conoce el impacto real en la base de datos y el rendimiento al cargar historiales largos de comentarios.
-
+* No sabemos qué notificaciones son consideradas "ruido" y cuáles son esenciales para el usuario.
+* Desconocemos la frecuencia ideal de las notificaciones (¿inmediatas o un resumen diario?).
+* No se ha medido el impacto de las notificaciones en el uso de la batería del móvil.
 
 #### 8.1.3. Experiment-Ready Questions
 
@@ -3663,7 +3672,7 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 | ¿Los usuarios prefieren un formato de hilo conversacional con timestamps frente a una lista simple de comentarios? | 6 - Los hilos conversacionales son comunes en apps de colaboración. | 3 - Riesgo bajo, es principalmente un cambio de UI. | 7 - Impacto moderado-alto en la legibilidad de conversaciones. | 7 - Interés alto para mantener el contexto de discusiones. | 23 |
 | ¿La carga inicial de comentarios afectará significativamente el rendimiento al abrir una tarea? | 5 - Depende del volumen de comentarios y optimización. | 5 - Riesgo medio-alto si no se implementa paginación/lazy loading. | 6 - Impacto moderado en la experiencia de usuario. | 6 - Interés moderado del equipo de desarrollo. | 22 |
 | ¿La transparencia de comentarios visibles para todos los miembros mejorará la colaboración y reducirá malentendidos? | 7 - Basado en principios de trabajo colaborativo transparente. | 2 - Riesgo bajo, alineado con la filosofía de SynHub. | 8 - Alto impacto en la cultura colaborativa del equipo. | 7 - Interés alto entre líderes y miembros. | 24 |
-
+| ¿Un sistema de **notificaciones (in-app y push)** para nuevas tareas y menciones **mejorará el tiempo de respuesta** y la adopción de la app? | 7 - Es un estándar en apps colaborativas. | 3 - Riesgo técnico medio (configurar push en iOS/Android). | 9 - Alto impacto en la agilidad del equipo. | 8 - Alto interés de miembros y líderes. | 27 |
 
 
 #### 8.1.4. Question Backlog
@@ -3724,6 +3733,13 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 | **Qué**       | Desarrollar un prototipo funcional que integre una sección de comentarios dentro de la interfaz de detalle de tarea, con formato de hilo conversacional, timestamps, identificación del autor y capacidad de respuesta. Implementar tanto en versión web como móvil, manteniendo coherencia visual con el diseño existente de SynHub.                                                                         |
 | **Hipótesis** | Creemos que si los usuarios pueden visualizar y participar en discusiones directamente dentro del contexto de cada tarea, entonces se reducirá significativamente el tiempo dedicado a la comunicación, mejorará la claridad del contexto colaborativo y disminuirán los malentendidos. Esto se reflejará en una reducción del 30% en el uso del módulo de solicitudes para conversaciones simples y un aumento del 25% en la satisfacción con la comunicación del equipo. |
 
+| **Elemento** | **Descripción** |
+|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta** | ¿Implementar un sistema de notificaciones push y un centro de alertas in-app reducirá la fricción de comunicación y mejorará la velocidad de respuesta del equipo?                                                                                                                                                                                                                                            |
+| **Por qué** | Si los usuarios son alertados proactivamente sobre eventos importantes (asignaciones, comentarios), no perderán tiempo revisando manualmente la app, lo que reducirá los cuellos de botella en la comunicación y hará que el equipo trabaje de forma más ágil y conectada.                                                                                                                                  |
+| **Qué** | Desarrollar un prototipo funcional que envíe una notificación push cuando un usuario es asignado a una tarea y muestre un indicador (badge) en un icono de "campana" (centro de notificaciones) dentro de la app.                                                                                                                                                                                             |
+| **Hipótesis** | Creemos que si los usuarios reciben **alertas en tiempo real** sobre asignaciones y comentarios, entonces el **tiempo promedio de respuesta a comentarios (CRT)** se reducirá en un 50% y la **tasa de activación de tareas** (tiempo entre asignación y primer "visto") mejorará en un 60%, comparado con el sistema actual sin alertas. |
+
 ### 8.2. Experiment Design
 
 La fase de Diseño del Experimento constituye el núcleo operativo del enfoque Experiment-Driven Development, ya que define de manera estructurada cómo se pondrán a prueba las hipótesis planteadas en las etapas previas. Su propósito es garantizar que los experimentos generen evidencia empírica válida, medible y accionable, que permita al equipo tomar decisiones informadas sobre el desarrollo y evolución de SynHub.
@@ -3760,6 +3776,13 @@ En esta sección se detalla la construcción metodológica de los experimentos, 
 | **Hipótesis**         | Si se implementa una sección integrada de comentarios dentro de la interfaz de cada tarea con formato de hilo conversacional, entonces los equipos reducirán en un 40% el tiempo dedicado a la comunicación por tarea y reportarán un 30% de mejora en la claridad del contexto, medido a través de métricas de tiempo de resolución y encuestas de satisfacción de usuarios. |
 | **Hipótesis nula**    | La implementación de comentarios integrados en tareas no tendrá un impacto significativo en el tiempo de comunicación ni en la claridad del contexto colaborativo, y cualquier variación observada será atribuible al azar o a factores externos no relacionados con el cambio en la interfaz.                                                                             |
 
+| **Elemento** | **Descripción** |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta** | ¿Implementar un sistema de notificaciones (push y en-app) mejorará la velocidad de respuesta y el engagement del usuario?                                                                                                                                                                                                                                                  |
+| **Creencia (Belief)** | Creemos que la falta de alertas proactivas es la principal causa de retrasos en la comunicación del equipo, generando frustración y obligando a los usuarios a usar canales externos (como WhatsApp) para confirmar tareas.                                                                                                                                               |
+| **Hipótesis** | Si implementamos notificaciones automáticas (push y en-app) para la asignación de tareas y nuevos comentarios, entonces el tiempo medio de respuesta a comentarios (CRT) disminuirá en un 50% y la tasa de interacción diaria (usuarios activos diarios) aumentará en un 20%, medido mediante analítica de eventos. |
+| **Hipótesis nula** | La implementación de notificaciones no tendrá un impacto estadísticamente significativo en el tiempo de respuesta ni en la tasa de interacción diaria de los usuarios.                                                                                                                                                                                               |
+
 #### 8.2.2. Domain Business Metrics
 
 | **Métrica**                                  | **Descripción**                                                                                             | **Fórmula / Método de cálculo**                                                      | **Técnica de recolección**                                           | **Meta deseada**                                      |
@@ -3774,7 +3797,8 @@ En esta sección se detalla la construcción metodológica de los experimentos, 
 | **Evening Session Duration (ESD)**           | Duración promedio de sesión en 18:00–06:00.                                                                 | Σ duración sesiones nocturnas / nº sesiones nocturnas                                | Analytics (web y móvil).                                             | ↑ ≥ 15% tras activar modo oscuro.                     |
 | **Visual Strain Self-Report (VSSR)**         | Autorreporte de esfuerzo visual (1–5).                                                                      | Promedio encuesta postuso nocturna                                                   | Encuesta in-app localizada (es/en).                                  | ↓ ≥ 20% del baseline.                                 |
 | **Comment Response Time (CRT)**              | Tiempo promedio entre la publicación de un comentario y su primera respuesta.                               | Σ (timestamp respuesta - timestamp comentario) / nº comentarios respondidos          | Timestamps automáticos en base de datos de comentarios.              | Reducción ≥ **40%** tras implementación de comentarios integrados. |
-
+| **Notification Engagement Rate (NER)** | Porcentaje de usuarios que interactúan (hacen clic) con una notificación recibida. | (Clics en Notificaciones / Notificaciones Enviadas) × 100 | Event tracking (Firebase/Mixpanel). | ≥ 30% de clics en notificaciones push. |
+| **Task Acknowledgment Time (TAT)** | Tiempo promedio desde que una tarea es asignada hasta que el usuario la abre/visualiza por primera vez. | (Σ tiempo de visualización – tiempo de asignación) / nº total de tareas | Timestamp tracking en BBDD. | Reducción ≥ 60% tras implementación de notificaciones. |
 
 #### 8.2.3. Measures
 
@@ -3828,6 +3852,15 @@ Medidas seleccionadas:
     * Indicador esperado: Reducción del 40% en el tiempo promedio de respuesta a comentarios.
     * Método: Registro automático de timestamps de creación de comentarios y de respuestas en la base de datos.
 
+* Notification Engagement Rate (NER)
+    * Propósito: Medir la relevancia y efectividad de las alertas enviadas.
+    * Indicador esperado: Al menos 30% de clics en notificaciones push.
+    * Método: Event tracking en frontend (Firebase).
+* Task Acknowledgment Time (TAT)
+    * Propósito: Medir qué tan rápido los usuarios se enteran de nuevo trabajo.
+    * Indicador esperado: Reducción del 60% en el tiempo de visualización.
+    * Método: Timestamps automáticos en la base de datos de tareas.
+
 #### 8.2.4. Conditions
 
 | **Elemento**               | **Descripción**                                                                                                                                                                                                                           |
@@ -3853,6 +3886,12 @@ Medidas seleccionadas:
 | **Pregunta**               | ¿La visualización integrada de comentarios en las tareas reducirá el tiempo de comunicación y mejorará la claridad del contexto en SynHub?                                                                                                |
 | **Condición experimental** | Los equipos que utilizan la **visualización integrada de comentarios** muestran una **reducción ≥40%** en el **tiempo promedio de respuesta a comentarios (CRT)** y un **incremento ≥30%** en la **claridad del contexto comunicacional** durante 4 semanas de uso. |
 | **Condición de control**   | Los equipos que continúan usando el sistema actual de comentarios en el módulo de solicitudes **no muestran variaciones significativas** en CRT ni en claridad del contexto respecto a su línea base anterior.                                                                             |
+
+| **Elemento** | **Descripción** |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Pregunta** | ¿Un sistema de **notificaciones (in-app y push)** mejorará el **tiempo de respuesta** y la adopción de la app?                                                                                                                                                                                                                        |
+| **Condición experimental** | (Grupo A) Usuarios que tienen el nuevo sistema de notificaciones activado. El éxito se mide si su **Task Acknowledgment Time (TAT)** se reduce en ≥60% y su **Notification Engagement Rate (NER)** es ≥30% durante 2 semanas. |
+| **Condición de control** | (Grupo B) Usuarios que continúan usando la versión actual sin notificaciones. Se mide su TAT y se compara con el Grupo A.                                                                                                                                                                                                    |
 
 #### 8.2.5. Scale Calculations and Decisions
 
