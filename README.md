@@ -3391,10 +3391,190 @@ A continuación se presentan los detalles clave de las entrevistas realizadas a 
 | Desempeño del Miembro                       | El desempeño del miembro es útil, y piensa que las variables son adecuadas, pero opina que podría haber algunas variables adicionales para considerar el reporte como completo.                                                                                          |
 | Navegación General                          | La navegación es clara y concisa, indica qué acción deseas realizar y a dónde se está navegando. La disponibilidad de "shortcuts" en la pantalla principal fue una buena idea.                                                                                           |
 
+<table>
+  <tbody>
+    <tr>
+      <td>Entrevista 1</td>
+      <td> <img src="images/chapter-6/interview1.png" alt="interview 1" width="400"/> </td>
+    </tr>
+    <tr>
+      <td>Enlace a la entrevista</td>
+      <td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u202222001_upc_edu_pe/IQDC4y9FV2RFTaIKuQjWUhC5AZmhSj7TtMlPmOrw38DgA-M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=owPsAx</td>
+    </tr>
+    <tr>
+      <td>Nombre Entrevistado</td>
+      <td>Jorge Alexandro Linares Arroyo</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>San Miguel</td>
+    </tr>
+    <tr>
+      <td>Ocupación</td>
+      <td>Estudiante de Ingeniería</td>
+    </tr>
+    <tr>
+      <td>Duración Entrevista</td>
+      <td>10:56 minutos</td>
+    </tr>
+    <tr>
+      <td>Minuto de Inicio</td>
+      <td>0:00</td>
+    </tr>
+    <tr>
+      <td>Análisis</td>
+      <td>El entrevistado percibe la plataforma como clara e intuitiva. Destaca que la vista de tareas está bien estructurada y que las acciones (comentar, marcar como completada) son accesibles y con etiquetas comprensibles. La codificación por colores para estados y tiempos resulta útil para priorizar y tomar decisiones; la navegación es sencilla y consistente entre web y móvil. Reporta buen rendimiento y mensajes de confirmación claros, y afirma que los indicadores de “Mi desempeño” y el avance del equipo brindan visibilidad práctica. Como oportunidad, sugiere añadir algunos detalles visuales y reconoce una breve curva de aprendizaje para nuevos usuarios, por lo que sería valioso un onboarding corto y ayudas contextuales que expliquen el significado de colores y umbrales. En conjunto, la experiencia le deja una sensación positiva de claridad, organización y facilidad de uso.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table> 
+  <tbody> 
+    <tr> 
+      <td>Entrevista 2</td> 
+      <td><img src="images/chapter-6/interview2.jpeg" alt="interview 2" width="400"/></td>
+    </tr> 
+    <tr> <td>Enlace a la entrevista</td> 
+    <td>https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g192_upc_edu_pe/IQDNR_YiB9DcQofcNMnj5fA0AdKhKcrBreFWHv39TLUPevI?e=2Blejs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D</td>
+    </tr> 
+    <tr> 
+      <td>Nombre Entrevistado</td> 
+      <td>Aldair Valenzuela Withania</td> 
+    </tr> 
+    <tr> 
+      <td>Edad</td> 
+      <td>21</td> 
+    </tr> 
+    <tr> 
+      <td>Distrito</td> 
+      <td>Villa El Salvador</td>
+    </tr> 
+    <tr> 
+      <td>Ocupación</td> 
+      <td>Estudiante de Ingeniería de Software (UPC)</td> 
+    </tr> 
+    <tr> 
+      <td>Duración Entrevista</td> 
+      <td>05:28 minutos</td> 
+    </tr> 
+    <tr> 
+      <td>Minuto de Inicio</td> 
+      <td>0:00</td> 
+    </tr> 
+    <tr> 
+      <td>Análisis</td> 
+      <td>El entrevistado considera que la aplicación es <strong>intuitiva, clara y fácil de usar</strong>. Destaca que la <strong>organización de tareas y responsabilidades</strong> es comprensible y que las funciones para asignar, completar o reprogramar son accesibles sin requerir instrucciones previas. Menciona que el <strong>diseño visual</strong> ayuda a identificar prioridades gracias al uso de <strong>colores e íconos diferenciados</strong>. La <strong>navegación entre secciones</strong> es fluida, aunque sugiere que siempre hay margen de mejora en la transición entre páginas. Resalta que las <strong>etiquetas y tipografía son claras</strong>, facilitando la lectura. Afirma que las acciones (crear, editar, eliminar) son confirmadas visualmente de manera correcta y que la experiencia es consistente tanto en la versión <strong>web como móvil</strong>. Como oportunidad de mejora, propone <strong>resaltar más los mensajes de confirmación</strong> y mejorar la visibilidad de algunos elementos, agregando colores o detalles que orienten mejor al usuario. En general, percibe la aplicación como <strong>ordenada, coherente y amigable</strong>, con un diseño que favorece la productividad y la claridad en el uso.</td> 
+    </tr> 
+  </tbody> 
+</table>
+
 
 #### 6.3.3. Evaluaciones según heurísticas
 
 Esta sección analiza los hallazgos de las entrevistas aplicando los principios heurísticos de usabilidad. Permite identificar problemas y oportunidades de mejora en la experiencia del usuario.
+
+**Aplicación para evaluar:** SynHub
+
+**Tareas que evaluar:**
+- Interpretar los colores y estados de las tareas en la vista de lista y en los reportes.
+- Diferenciar entre "tareas" y "solicitudes" dentro de la plataforma.
+- Unirse a un grupo usando el código de grupo y entender su propósito.
+- Navegar por la aplicación (web y móvil) para acceder a grupos, tareas, solicitudes y reportes.
+- Comprender los indicadores de "Mi desempeño" y el avance del equipo.
+- Filtrar tareas según estados específicos, incluyendo "Pendientes de validación".
+- Identificar claramente cambios de estado y mensajes de confirmación en acciones críticas (como reasignar o validar tareas).
+- Evaluar el contraste visual y la legibilidad de elementos en la interfaz.
+- Verificar la correcta adaptación del diseño en pantallas móviles, especialmente en elementos interactivos.
+- Determinar la eficiencia del flujo de navegación y la existencia de pasos o clics innecesarios.
+
+**Escala de severidad**
+
+| Valor | Descripción   |
+|-------|---------------|
+| 1     | No tan grave  |
+| 2     | Leve          |
+| 3     | Moderado      |
+| 4     | Grave         |
+| 5     | Muy grave     |
+
+**Tabla de resumen**
+
+| #Orden | Problema                                                                                              | Escala de Severidad | Heurística / Principio violado(a)                                     |
+|--------|-------------------------------------------------------------------------------------------------------|---------------------|-----------------------------------------------------------------------|
+| 1      | Falta de leyenda clara sobre el significado de los colores en estados de tareas y reportes.           | 3                   | Visibilidad del estado del sistema                                    |
+| 2      | Diferencia poco clara entre "tareas" y "solicitudes" en la interfaz.                                  | 4                   | Consistencia y estándares                                             |
+| 3      | Código de grupo poco explicado en la vista de detalles del grupo.                                     | 2                   | Correspondencia entre el sistema y el mundo real                      |
+| 4      | Navegación inicial extensa para nuevos usuarios y ausencia de un onboarding guiado.                   | 3                   | Flexibilidad y eficiencia de uso / Ayuda y documentación              |
+| 5      | Mensajes de confirmación y cambios de estado poco resaltados visualmente.                             | 2                   | Visibilidad del estado del sistema / Prevención de errores            |
+| 6      | Falta de un filtro específico para "Pendientes de validación", dificultando encontrarlas rápidamente. | 3                   | Flexibilidad y eficiencia de uso / Visibilidad del estado del sistema |
+| 7      | Contraste visual mejorable en algunas secciones, afectando la claridad de la interfaz.                | 2                   | Estética y diseño minimalista / Visibilidad del sistema               |
+| 8      | Ausencia de modal de confirmación para acciones críticas como la reasignación de tareas.              | 3                   | Prevención de errores                                                 |
+| 9      | Algunos elementos no se adaptan totalmente a pantallas pequeñas en la versión móvil.                  | 2                   | Diseño responsivo / Consistencia y estándares                         |
+| 10     | Navegación eficiente pero con clics innecesarios en ciertos flujos.                                   | 2                   | Flexibilidad y eficiencia de uso                                      |
+
+---
+
+#### Problema #1: Falta de leyenda clara sobre el significado de los colores en estados de tareas y reportes
+
+**Heurística violada:** Visibilidad del estado del sistema.  
+
+**Descripción del problema:**  
+Varios entrevistados mencionan que los colores ayudan a interpretar estados y prioridades, pero no existe una leyenda explícita que explique qué significa cada color o umbral (por ejemplo, estados de tareas o niveles de desempeño). Esto obliga al usuario a “deducir” el significado y genera una pequeña curva de aprendizaje innecesaria.
+
+**Recomendación:**  
+Incorporar una leyenda fija (por ejemplo, en la parte superior derecha de la vista de tareas y de reportes) donde se explique el significado de cada color y estado. Además, añadir *tooltips* o ayudas contextuales que, al pasar el cursor o tocar un ícono de ayuda, muestren brevemente qué representa cada color y umbral de desempeño. Esto reduce la ambigüedad y mejora la comprensión inmediata del estado del sistema.
+
+---
+
+#### Problema #2: Diferencia poco clara entre “tareas” y “solicitudes” en la interfaz
+
+**Heurística violada:** Consistencia y estándares.  
+
+**Descripción del problema:**  
+Al menos un entrevistado reportó confusión inicial entre las secciones de “tareas” y “solicitudes”. Aunque ambas pantallas están ordenadas, la nomenclatura y el diseño visual no hacen suficientemente evidente que se trata de conceptos distintos (trabajo asignado vs. solicitudes de cambio, validaciones u otros tipos de requerimientos). Esto puede provocar errores de interpretación y uso.
+
+**Recomendación:**  
+Reforzar la diferenciación visual y textual entre “tareas” y “solicitudes”. Por ejemplo, usar íconos distintos, colores de fondo diferenciados y subtítulos breves en cada pantalla (p. ej. “Tareas: actividades pendientes que debes completar” y “Solicitudes: pedidos o validaciones que requieren tu respuesta”). También se recomienda incluir un mensaje introductorio corto la primera vez que el usuario ingresa a cada sección.
+
+---
+
+#### Problema #3: Código de grupo poco explicado en la vista de detalles del grupo
+
+**Heurística violada:** Correspondencia entre el sistema y el mundo real.  
+
+**Descripción del problema:**  
+Un entrevistado indicó confusión respecto al código del grupo al visualizar los detalles; no era evidente que ese valor correspondía al código que se comparte para unirse al grupo. La falta de una etiqueta clara o subtítulo obliga al usuario a adivinar su propósito.
+
+**Recomendación:**  
+Añadir una etiqueta explícita como “Código del grupo (compártelo para que otros se unan)” junto al valor, y un pequeño ícono de copiar para facilitar su uso. Esto alinea mejor el lenguaje de la interfaz con el modelo mental del usuario y hace más clara la función de este elemento.
+
+---
+
+#### Problema #4: Navegación inicial extensa para nuevos usuarios y ausencia de un onboarding guiado
+
+**Heurísticas violadas:** Flexibilidad y eficiencia de uso / Ayuda y documentación.  
+
+**Descripción del problema:**  
+Aunque los usuarios con algo de experiencia perciben la navegación como clara y concisa, se menciona que, para un usuario nuevo, la cantidad de pantallas y opciones puede sentirse un poco extensa al inicio. Actualmente no existe un onboarding breve ni ayudas contextuales que expliquen las secciones clave (grupos, tareas, solicitudes, desempeño, atajos). Esto genera una pequeña barrera de entrada antes de aprovechar plenamente las funcionalidades.
+
+**Recomendación:**  
+Implementar un recorrido guiado (*tour*) la primera vez que el usuario inicie sesión, destacando las secciones principales y su propósito. Complementar esto con breves textos “¿Qué puedes hacer aquí?” en las pantallas más importantes y con ayudas contextuales (íconos de “i” o “?”) que puedan consultarse en cualquier momento. De esta manera, se reduce la carga cognitiva inicial y se acelera la curva de aprendizaje.
+
+---
+
+#### Problema #5: Mensajes de confirmación y cambios de estado poco resaltados visualmente
+
+**Heurísticas violadas:** Visibilidad del estado del sistema / Prevención de errores.  
+
+**Descripción del problema:**  
+Los entrevistados reconocen que existen mensajes de confirmación cuando se crean, editan o eliminan elementos; sin embargo, señalan que podrían estar mejor resaltados para que el usuario los perciba con mayor claridad. Si la retroalimentación visual es sutil, es posible que algunos usuarios duden sobre si la acción se ejecutó correctamente.
+
+**Recomendación:**  
+Aumentar la visibilidad de las notificaciones de confirmación mediante el uso de *toasts* o banners más notorios (uso de íconos de éxito/error, tipografía ligeramente más grande y contraste adecuado). Para acciones críticas (como eliminar tareas o grupos), incluir además un cuadro de diálogo de confirmación claro, reduciendo así el riesgo de errores y mejorando la percepción de control sobre la plataforma.
 
 ### 6.4. Auditoría de Experiencias de Usuario
 
@@ -3539,13 +3719,66 @@ En paralelo, las versiones móviles son compiladas y enviadas a Firebase App Dis
 
 ### 7.4. Continuous Monitoring
 
+El monitoreo continuo permite al equipo asegurar el rendimiento, la disponibilidad y la estabilidad del sistema en tiempo real. Su objetivo es detectar incidencias tempranas, optimizar el rendimiento de los servicios y garantizar la calidad de la experiencia del usuario.
+En el caso de SynHub, el monitoreo se aplica tanto a los componentes backend desplegados en Render, como a las aplicaciones móviles y la web app, garantizando un funcionamiento confiable y sostenido durante el ciclo de vida del producto.
+
 #### 7.4.1. Tools and Practices
+
+Para el monitoreo del ecosistema de SynHub, se emplean herramientas que permiten registrar métricas, analizar logs y visualizar el rendimiento general de los servicios:
+
+* **Render Metrics & Logs:** Permite supervisar el estado de la base de datos, la API y la web app, verificando uso de CPU, memoria y tiempo de respuesta.
+* **Firebase Performance Monitoring:** Utilizado en las aplicaciones móviles para rastrear el rendimiento, tiempos de carga y errores en dispositivos reales.
+* **GitHub Logs:** Permite la trazabilidad de los despliegues y la detección de errores en integraciones continuas.
+* **Docker Logs & Health Checks:** Monitorea la estabilidad de los contenedores y el correcto funcionamiento de los servicios dentro del entorno Docker.
+
+Buenas prácticas implementadas:
+* Revisión periódica de métricas de rendimiento.
+* Uso de dashboards unificados para seguimiento de logs.
+* Configuración de alertas automáticas para caídas o tiempos de respuesta elevados.
+* Auditoría y limpieza regular de logs antiguos para optimizar almacenamiento.
 
 #### 7.4.2. Monitoring Pipeline Components
 
+El pipeline de monitoreo se centra en rastrear el comportamiento de los componentes principales de la arquitectura:
+
+* **Frontend (Web App y Mobile):** Se mide el tiempo de carga, latencia en peticiones HTTP y rendimiento del renderizado.
+* **Backend (API en Render):** Se monitorean métricas de disponibilidad, errores 4xx/5xx y latencia en endpoints críticos.
+* **Base de Datos PostgreSQL:** Se supervisa el rendimiento de consultas, número de conexiones activas y uso de memoria.
+* **Contenedores Docker:** Se revisan los estados de ejecución, consumo de recursos y logs de eventos de error.
+
+Estas métricas son recolectadas mediante los sistemas de logging integrados en Render, Firebase y Docker, permitiendo una visión completa del estado del sistema.
+
 #### 7.4.3. Alerting Pipeline Components
 
+El pipeline de alertas permite notificar automáticamente al equipo de desarrollo o mantenimiento cuando se detectan incidencias relevantes.
+
+**Alertas configuradas:**
+
+* Fallos en el despliegue de la API o web app (Render Deployment Alerts).
+* Tiempo de respuesta superior a 2 segundos en endpoints principales.
+* Caídas o errores en la base de datos PostgreSQL.
+* Errores críticos de rendimiento en la app móvil (Firebase Crashlytics).
+
+**Prácticas aplicadas:**
+
+* Definición de umbrales de rendimiento para detectar degradaciones antes de que afecten al usuario.
+
 #### 7.4.4. Notification Pipeline Components
+
+El pipeline de notificaciones gestiona la comunicación con los miembros del equipo y los usuarios finales ante eventos relevantes.
+
+**A nivel interno (equipo técnico):**
+
+* Render envía alertas sobre caídas o reinicios automáticos de servicios.
+* Firebase y GitHub Actions notifican errores de compilación o distribución.
+
+**A nivel externo (usuarios):**
+
+* Firebase Cloud Messaging (FCM) gestiona las notificaciones push sobre actualizaciones, recordatorios de tareas y validaciones pendientes.
+
+**Buenas prácticas:**
+
+* Centralización de notificaciones técnicas en un canal único de equipo.
 
 # **Part III: Experiment-Driven Lifecycle**
 
