@@ -3914,44 +3914,14 @@ Este enfoque permitirá que SynHub evolucione de forma guiada por datos, asegura
 
 | User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |---------------|--------|------------|------------------------|--------------------------|
-| US-001 | Creación de grupo | Como líder, quiero crear grupos para organizar el trabajo de mi equipo en un Kanban Board. | **Escenario 1 – Creación básica:**<br>Given que soy líder,<br>When completo nombre y descripción,<br>Then el grupo se crea y aparece en el tablero con mi usuario como miembro.<br>**Escenario 2 – Imagen de grupo:**<br>Given que ingreso el enlace de imagen,<br>When guardo los cambios,<br>Then se muestra como identificación visual del grupo. | EP-001 |
-| US-002 | Envío de invitaciones | Como miembro, quiero solicitar unirme a un grupo para colaborar en el Kanban Board. | **Escenario 1 – Invitación válida:**<br>Given que ingreso un código de grupo,<br>When envío mi petición,<br>Then el líder puede ver y aceptar la invitación.<br>**Escenario 2 – Cancelación de invitación:**<br>Given que tengo una invitación pendiente,<br>When intento cancelarla,<br>Then el sistema cancela la invitación. | EP-001 |
-| US-003 | Eliminación de grupo | Como líder, quiero eliminar un grupo para mantener el tablero organizado. | **Escenario 1 – Confirmación requerida:**<br>Given que selecciono eliminar grupo,<br>When confirmo la acción,<br>Then todos los datos asociados se archivan y se eliminan del tablero.<br>**Escenario 2 – Grupo con tareas activas:**<br>Given que hay tareas pendientes,<br>When elimino el grupo,<br>Then se eliminan los miembros y tareas del grupo. | EP-001 |
-| US-004 | Creación de tareas | Como líder, quiero crear tareas en el Kanban Board para asignarlas a los miembros. | **Escenario 1 – Tarea básica:**<br>Given que completo título y descripción,<br>When guardo la tarea,<br>Then aparece en el tablero con estado "En progreso".<br>**Escenario 2 – Tarea sin responsable:**<br>Given que creo tarea sin asignar,<br>When intento guardar,<br>Then el sistema muestra error "Se requiere responsable". | EP-002 |
-| US-005 | Asignación de tareas | Como líder, quiero asignar tareas a miembros específicos para distribuir el trabajo en el Kanban Board. | **Escenario 1 – Asignación individual:**<br>Given que selecciono un miembro,<br>When asigno la tarea,<br>Then aparece en su listado y en el tablero.<br>**Escenario 2 – Reasignación:**<br>Given que la tarea está asignada,<br>When cambio el responsable,<br>Then ambos miembros reciben actualización. | EP-002 |
-| US-006 | Eliminación de tareas | Como líder, quiero eliminar tareas incorrectas o duplicadas en el Kanban Board. | **Escenario 1 – Eliminación estándar:**<br>Given que selecciono una tarea,<br>When la elimino,<br>Then desaparece del tablero.<br>**Escenario 2 – Tarea completada:**<br>Given que la tarea está completada,<br>When intento eliminarla,<br>Then se solicita confirmación adicional. | EP-002 |
-| US-007 | Actualización de estado | Como miembro, quiero actualizar el estado de mis tareas en el Kanban Board para reflejar progreso. | **Escenario 1 – Marcar como completada:**<br>Given que finalicé una tarea,<br>When cambio el estado,<br>Then el líder recibe notificación y la tarea se refleja en el tablero. | EP-002 |
-| US-008 | Reprogramación de tareas | Como líder, quiero cambiar fechas límite de tareas en el Kanban Board. | **Escenario 1 – Cambio de fecha:**<br>Given que selecciono una tarea,<br>When modifico la fecha límite,<br>Then el responsable ve el nuevo plazo reflejado en el tablero. | EP-002 |
-| US-009 | Gráfica de distribución de tareas | Como líder, quiero ver un gráfico con distribución de tareas por miembro en el Kanban Board. | **Escenario 1 – Visualización básica:**<br>Given que accedo al dashboard,<br>When selecciono "Analíticas y Reportes",<br>Then muestra la cantidad de tareas por miembro. | EP-003 |
-| US-010 | Gráfico de estados de tareas | Como líder, quiero ver un gráfico con el estado de todas las tareas en el Kanban Board. | **Escenario 1 – Datos actualizados:**<br>Given que hay tareas en diferentes estados,<br>When visualizo el reporte,<br>Then muestra cantidad de tareas por estado. | EP-003 |
-| US-011 | Reporte de reprogramaciones | Como líder, quiero ver un gráfico con cantidad de tareas reprogramadas en el Kanban Board. | **Escenario 1 – Reprogramaciones por usuario:**<br>Given que estoy en "Analíticas y Reportes",<br>When reviso sección de miembros,<br>Then muestra reprogramaciones por usuario.<br>**Escenario 2 – Reprogramaciones totales:**<br>Given que estoy en "Analíticas y Reportes",<br>When reviso resumen,<br>Then muestra reprogramaciones de todo el equipo. | EP-003 |
-| US-012 | Reporte de productividad individual | Como líder, quiero evaluar desempeño individual de miembros en el Kanban Board. | **Escenario 1 – Datos básicos:**<br>Given que estoy en "Analíticas y Reportes",<br>When examino datos de un miembro,<br>Then muestra tareas completadas y tiempo promedio.<br>**Escenario 2 – Comparativa:**<br>Given que comparo dos miembros,<br>When observo diferencias,<br>Then resalta variaciones significativas. | EP-003 |
-| US-013 | Solicitud de aprobación de tarea | Como miembro, quiero enviar tareas completadas para validación en el Kanban Board. | **Escenario 1 – Envío estándar:**<br>Given que marco tarea como completada,<br>When envío a validación,<br>Then la tarea cambia a estado "Completada" y notifica al líder. | EP-004 |
-| US-014 | Validación de tareas | Como líder, quiero aprobar o rechazar tareas completadas en el Kanban Board. | **Escenario 1 – Aprobación:**<br>Given que la tarea cumple estándares,<br>When apruebo,<br>Then se marca como definitivamente completada.<br>**Escenario 2 – Reprogramación:**<br>Given que encuentro deficiencias,<br>When reprogramo la tarea,<br>Then vuelve a "En progreso". | EP-004 |
-| US-015 | Solicitud de extensión de plazo | Como miembro, quiero pedir más tiempo para una tarea en el Kanban Board. | **Escenario 1 – Solicitud básica:**<br>Given que selecciono una tarea,<br>When envío comentario pidiendo extensión,<br>Then el líder recibe la solicitud.<br>**Escenario 2 – Aprobación:**<br>Given que el líder acepta,<br>When actualiza la fecha,<br>Then el cambio se refleja en el tablero. | EP-004 |
+|  |  |  |  |  |
+
 
 #### 8.3.2. To-Be Product Backlog
 
 | Orden | User Story ID | Título | Story Points (1/2/3/5/8) |
 |-------|---------------|--------|---------------------------|
-| 1     | US-001        | Creación de grupo | 3 |
-| 2     | US-002        | Envío de invitaciones | 2 |
-| 3     | US-003        | Eliminación de grupo | 3 |
-| 4     | US-004        | Creación de tareas | 3 |
-| 5     | US-005        | Asignación de tareas | 3 |
-| 6     | US-006        | Eliminación de tareas | 2 |
-| 7     | US-007        | Actualización de estado | 2 |
-| 8     | US-008        | Reprogramación de tareas | 2 |
-| 9     | US-018        | Visualización de tareas asignadas | 3 |
-| 10    | US-019        | Comentario en tareas | 2 |
-| 11    | US-020        | Visualización de carga de trabajo por miembro | 3 |
-| 12    | US-009        | Gráfica de distribución de tareas | 3 |
-| 13    | US-010        | Gráfico de estados de tareas | 3 |
-| 14    | US-011        | Reporte de reprogramaciones | 3 |
-| 15    | US-012        | Reporte de productividad individual | 3 |
-| 16    | US-013        | Solicitud de aprobación de tarea | 2 |
-| 17    | US-014        | Validación de tareas | 2 |
-| 18    | US-015        | Solicitud de extensión de plazo | 2 |
+|      |         |  |  |
 
 
 #### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
