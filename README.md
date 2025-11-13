@@ -42,6 +42,8 @@
 
 El enlace a github del reporte del proyecto es el siguiente: https://github.com/NRG-8-Experimentos/report
 
+Entrega TB1:
+
 <img src="images/insights/report-insights-tb1-1.png" alt="Report Insights TB1-1">
 
 <img src="images/insights/report-insights-tb1-2.png" alt="Report Insights TB1-2">
@@ -75,6 +77,24 @@ Recapitulando los commits se dividieron de la siguiente manera:
 * Pasquale Barrenechea Gianluca Santino (cwassointt): 37 
 * Wilder Gonzalo Aliaga Urbina (gonzalo1905): 7
 
+Entrega TB2:
+
+<img src="images/insights/report-insights-tb2-1.png" alt="Report Insights TB2-1">
+
+<img src="images/insights/report-insights-tb2-2.png" alt="Report Insights TB2-2">
+
+<img src="images/insights/report-insights-tb2-3.png" alt="Report Insights TB2-3">
+
+<img src="images/insights/report-insights-tb2-4.png" alt="Report Insights TB2-4">
+
+<img src="images/insights/report-insights-tb2-5.png" alt="Report Insights TB2-5">
+
+* Armas Sánchez Oscar Javier (Racso24k): 4
+* Astonitas Díaz Juan Diego (NeoRise456): 4
+* Casas Sanchez Gabriel Alexander (Al3xiel): 27
+* Pasquale Barrenechea Gianluca Santino (cwassointt): 13
+* Wilder Gonzalo Aliaga Urbina (gonzalo1905): 5
+* 
 ## Contenido
 
 - [Student Outcome](#student-outcome)
