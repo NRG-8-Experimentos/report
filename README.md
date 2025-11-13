@@ -3914,14 +3914,14 @@ Este enfoque permitirá que SynHub evolucione de forma guiada por datos, asegura
 
 | User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 |---------------|--------|------------|------------------------|--------------------------|
-|  |  |  |  |  |
+| US01          | Configurar la Apariencia       | Como usuario de SynHub, quiero configurar la **Apariencia** de la interfaz (Claro u Oscuro) para trabajar de forma cómoda según mis preferencias y condiciones de luz.                                      | Escenario 1: Cambiar Apariencia desde Ajustes<br>Given que estoy autenticado y entro a **Configuración > Apariencia**,<br>When selecciono una de las opciones **“Claro”** u **“Oscuro”**,<br>Then el tema visual de la app cambia inmediatamente respetando la opción elegida.<br> | EP-005                       |
 
 
 #### 8.3.2. To-Be Product Backlog
 
 | Orden | User Story ID | Título | Story Points (1/2/3/5/8) |
 |-------|---------------|--------|---------------------------|
-|      |         |  |  |
+| 1     | US01          | Configurar la Apariencia      | 3                         |
 
 
 #### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
