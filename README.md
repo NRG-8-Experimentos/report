@@ -3442,14 +3442,19 @@ Aquí se documentan los resultados obtenidos durante las entrevistas, destacando
 
 Esta sección analiza los hallazgos de las entrevistas aplicando los principios heurísticos de usabilidad. Permite identificar problemas y oportunidades de mejora en la experiencia del usuario.
 
-**Aplicación para evaluar:** SynHub  
+**Aplicación para evaluar:** SynHub
 
 **Tareas que evaluar:**
 - Interpretar los colores y estados de las tareas en la vista de lista y en los reportes.
-- Diferenciar entre “tareas” y “solicitudes” dentro de la plataforma.
+- Diferenciar entre "tareas" y "solicitudes" dentro de la plataforma.
 - Unirse a un grupo usando el código de grupo y entender su propósito.
 - Navegar por la aplicación (web y móvil) para acceder a grupos, tareas, solicitudes y reportes.
-- Comprender los indicadores de “Mi desempeño” y el avance del equipo.
+- Comprender los indicadores de "Mi desempeño" y el avance del equipo.
+- Filtrar tareas según estados específicos, incluyendo "Pendientes de validación".
+- Identificar claramente cambios de estado y mensajes de confirmación en acciones críticas (como reasignar o validar tareas).
+- Evaluar el contraste visual y la legibilidad de elementos en la interfaz.
+- Verificar la correcta adaptación del diseño en pantallas móviles, especialmente en elementos interactivos.
+- Determinar la eficiencia del flujo de navegación y la existencia de pasos o clics innecesarios.
 
 **Escala de severidad**
 
@@ -3463,13 +3468,18 @@ Esta sección analiza los hallazgos de las entrevistas aplicando los principios 
 
 **Tabla de resumen**
 
-| #Orden | Problema                                                                                              | Escala de Severidad | Heurística / Principio violado(a)                |
-|--------|--------------------------------------------------------------------------------------------------------|----------------------|-----------------------------------------------|
-| 1      | Falta de leyenda clara sobre el significado de los colores en estados de tareas y reportes.           | 3                    | Visibilidad del estado del sistema            |
-| 2      | Diferencia poco clara entre “tareas” y “solicitudes” en la interfaz.                                  | 4                    | Consistencia y estándares                     |
-| 3      | Código de grupo poco explicado en la vista de detalles del grupo.                                     | 2                    | Correspondencia entre el sistema y el mundo real |
-| 4      | Navegación inicial extensa para nuevos usuarios y ausencia de un onboarding guiado.                   | 3                    | Flexibilidad y eficiencia de uso / Ayuda y documentación |
-| 5      | Mensajes de confirmación y cambios de estado poco resaltados visualmente.                             | 2                    | Visibilidad del estado del sistema / Prevención de errores |
+| #Orden | Problema                                                                                              | Escala de Severidad | Heurística / Principio violado(a)                                     |
+|--------|-------------------------------------------------------------------------------------------------------|---------------------|-----------------------------------------------------------------------|
+| 1      | Falta de leyenda clara sobre el significado de los colores en estados de tareas y reportes.           | 3                   | Visibilidad del estado del sistema                                    |
+| 2      | Diferencia poco clara entre "tareas" y "solicitudes" en la interfaz.                                  | 4                   | Consistencia y estándares                                             |
+| 3      | Código de grupo poco explicado en la vista de detalles del grupo.                                     | 2                   | Correspondencia entre el sistema y el mundo real                      |
+| 4      | Navegación inicial extensa para nuevos usuarios y ausencia de un onboarding guiado.                   | 3                   | Flexibilidad y eficiencia de uso / Ayuda y documentación              |
+| 5      | Mensajes de confirmación y cambios de estado poco resaltados visualmente.                             | 2                   | Visibilidad del estado del sistema / Prevención de errores            |
+| 6      | Falta de un filtro específico para "Pendientes de validación", dificultando encontrarlas rápidamente. | 3                   | Flexibilidad y eficiencia de uso / Visibilidad del estado del sistema |
+| 7      | Contraste visual mejorable en algunas secciones, afectando la claridad de la interfaz.                | 2                   | Estética y diseño minimalista / Visibilidad del sistema               |
+| 8      | Ausencia de modal de confirmación para acciones críticas como la reasignación de tareas.              | 3                   | Prevención de errores                                                 |
+| 9      | Algunos elementos no se adaptan totalmente a pantallas pequeñas en la versión móvil.                  | 2                   | Diseño responsivo / Consistencia y estándares                         |
+| 10     | Navegación eficiente pero con clics innecesarios en ciertos flujos.                                   | 2                   | Flexibilidad y eficiencia de uso                                      |
 
 ---
 
