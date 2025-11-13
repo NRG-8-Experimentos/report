@@ -3955,14 +3955,14 @@ Este enfoque permitirá que SynHub evolucione de forma guiada por datos, asegura
 |---------------|--------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
 | US01          | Configurar la Apariencia                   | Como usuario de SynHub, quiero configurar la **Apariencia** de la interfaz (Claro u Oscuro) para trabajar de forma cómoda según mis preferencias y condiciones de luz.                                      | **Escenario 1: Cambiar Apariencia desde Ajustes**<br>Given que estoy autenticado y entro a **Configuración > Apariencia**,<br>When selecciono una de las opciones **"Claro"** u **"Oscuro"**,<br>Then el tema visual de la app cambia inmediatamente respetando la opción elegida.<br>                                                                                                                                                        | EP-005                    |
 | US02          | Visualización de Tareas en el Kanban Board | Como usuario del Kanban Board, quiero visualizar las tareas según su estado para identificar fácilmente el progreso propio o del equipo.                                                                    | **Escenario 1: Visualización para líderes**<br>Given que soy líder de un grupo,<br>When accedo al Kanban Board,<br>Then puedo ver todas las tareas de los miembros del grupo organizadas por estado (En progreso, Completada, Reprogramada, etc.).<br><br>**Escenario 2: Visualización para miembros**<br>Given que soy miembro de un grupo,<br>When ingreso al Kanban Board,<br>Then puedo ver únicamente mis tareas organizadas por estado. | EP-001, EP-002            |
-
+| US03          | Recibir alerta de nueva tarea              | Como **miembro de equipo**, quiero **recibir una notificación (push y en-app)** cuando **se me asigna una nueva tarea**, para **enterarme a tiempo** sin tener que revisar la app. | **Escenario 1: Notificación de Tarea Asignada**<br>Given que un líder me asigna una nueva tarea,<br>When la tarea es guardada,<br>Then recibo una notificación push en mi móvil Y veo un indicador en el icono de campana (in-app). | EP-002 |
 
 #### 8.3.2. To-Be Product Backlog
 
 | Orden | User Story ID | Título | Story Points (1/2/3/5/8) |
 |-------|---------------|--------|---------------------------|
-| 1     | US01          | Configurar la Apariencia      | 3                         |
-
+| 1     | US01          | Configurar la Apariencia      | 3                         |   
+| 2      | US03          | Recibir alerta de nueva tarea | 5 |
 
 #### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
