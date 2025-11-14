@@ -3582,19 +3582,165 @@ Aumentar la visibilidad de las notificaciones de confirmación mediante el uso d
 
 ##### 6.4.1.1. Información del grupo auditado
 
+**Integrantes de APX-03:**
+
+| Nombres y Apellidos         | Código de Alumno |
+|-----------------------------|------------------|
+| Alejo Cardenas, Jose Antonio | U202122484       |
+| Real Calderon, Sebastian Omar | U20221D964       |
+| Luquillas Asto, Omar        | U20211G641       |
+| Olivera Barzola, Eric Marlon | U202315032       |
+
 ##### 6.4.1.2. Cronograma de auditoría realizada
 
+| Actividad de auditoría       | Fecha     | Hora      | Realizado por                           |
+|------------------------------|-----------|-----------|-----------------------------------------|
+| Envío de solicitud de auditoría | 13/11/25 | 15:30 hrs | Juan Astonitas                         |
+| Revisión de plataforma web   | 13/11/25 | 16:00 hrs | Juan Astonitas, Gianluca Pasquale      |
+| Revisión de aplicación móvil | 13/11/25 | 17:00 hrs | Gianluca pasqueale, Gonzalo aliaga     |
+| Elaboración del informe      | 13/11/25 | 18:00 hrs | Juan Asonitas, alexander casas, Gianluca pasquale, Gonzalo Aliaga, Oscar Armas |
+| Envío del informe            | 13/11/25 | 19:00 hrs | Juan Astonitas                         |
+
+
 ##### 6.4.1.3.  Contenido de auditoría realizada
+
+| # | Problema | Escala de severidad | Heurística/Principio violado(o) |
+|---|---|---|---|
+| 1 | Modo oscuro no se aplica completamente en pantalla de login | 3 | Consistent -- La interfaz no mantiene coherencia visual entre modos. |
+| 2 | Sidebar con funcionalidad limitada y redundante | 2 | Valuable -- El elemento no aporta valor y ocupa espacio innecesario. |
+| 3 | Componentes con fondo blanco en modo oscuro | 2 | Consistent -- Inconsistencia visual en temas. |
+| 4 | Layout roto en vista de tareas con slider no estético | 3 | Pleasurable -- La experiencia visual y de interacción se ve afectada. |
+| 5 | Límite de 200 KB para subida de archivos por plan gratis de Cloudinary | 2 | Useful -- Limita la funcionalidad básica de entrega de tareas. |
+
+
+**Recomendaciones**
+
+**Web -- Problema n°1: Modo oscuro incompleto en login**
+
+**Severidad:** 3  
+**Heurística violada:** Consistent  
+**Problema:** El modo oscuro no se aplica completamente en la pantalla de login. Las letras cambian a color claro, pero el fondo permanece claro, lo que dificulta la legibilidad.  
+**Recomendación:** Asegurar que el modo oscuro aplique a todos los fondos y textos de la pantalla de login, manteniendo contraste adecuado.
+
+![img.png](images/chapter-8/auditoria1.png)
+
+**Web -- Problema n°2: Sidebar de baja utilidad**
+
+**Severidad:** 2  
+**Heurística violada:** Valuable  
+**Problema:** El sidebar solo incluye dos acciones ("Ir a cursos" y "Cerrar sesión"), que podrían integrarse en el navbar o en un menú de perfil.  
+**Recomendación:** Reubicar estas acciones en el navbar superior o en un menú desplegable de usuario, y eliminar el sidebar para optimizar el espacio.
+
+![img_2.png](images/chapter-8/auditoria3.png)
+
+**Web/Móvil -- Problema n°3: Componentes con tema incorrecto en modo oscuro**
+
+**Severidad:** 2  
+**Heurística violada:** Consistent  
+**Problema:** Algunos componentes (ej: "Aún no hay tareas disponibles") mantienen fondo blanco y texto negro en modo oscuro.  
+**Recomendación:** Revisar y corregir la aplicación de estilos de modo oscuro en todos los componentes de la interfaz.
+
+![img_3.png](images/chapter-8/auditoria4.png)
+
+**Web -- Problema n°4: Layout roto en vista de tareas**
+
+**Severidad:** 3  
+**Heurística violada:** Pleasurable  
+**Problema:** La vista de tareas presenta un slider que rompe la estética y afecta la experiencia de usuario.  
+**Recomendación:** Rediseñar la disposición de elementos para evitar scroll horizontal no deseado y mantener una estructura visualmente coherente.
+
+![img_4.png](images/chapter-8/auditoria5.png)
+
+**Web/Móvil -- Problema n°5: Límite de 200 KB en subida de archivos**
+
+**Severidad:** 2  
+**Heurística violada:** Useful  
+**Problema:** No se permite subir archivos mayores a 200 KB debido a la limitación del plan gratuito de Cloudinary.  
+**Recomendación:** Considerar migrar a un servicio de almacenamiento con mayor capacidad o optimizar la configuración actual para permitir archivos de tamaño razonable (ej: 5-10 MB).
+
+![img_1.png](images/chapter-8/auditoria2.png)
 
 #### 6.4.2. Auditoría recibida
 
 ##### 6.4.2.1. Información del grupo auditor
 
+**Integrantes de APX-03:**
+
+| Nombres y Apellidos | Código de Alumno |
+|---------------------|------------------|
+| Alejo Cardenas, Jose Antonio | U202122484 |
+| Real Calderon, Sebastian Omar | U20221D964 |
+| Luquillas Asto, Omar | U20211G641 |
+| Olivera Barzola, Eric Marlon | U202315032 |
+
 ##### 6.4.2.2. Cronograma de auditoría recibida
+
+| Actividad de auditoría realizada | Fecha | Hora | Realizado por |
+|----------------------------------|-------|------|---------------|
+| Envío de solicitud de información | 09/11/25 | 20:00 hrs | Olivera Barzola, Eric Marlon |
+| Recepción de información | 10/11/25 | 14:00 hrs | Real Calderon, Sebastian Omar |
+| Ejecución del proceso de auditoría | 11/11/25 | 10:00 hrs | Alejo Cardenas, Jose Antonio |
+| Elaboración del informe de auditoría | 12/11/25 | 18:00 hrs | Alejo Cardenas, Jose Antonio |
+| Envío del informe de auditoría | 13/11/25 | 15:00 hrs | Luquillas Asto, Omar |
 
 ##### 6.4.2.3. Contenido de auditoría recibida
 
+| # | Problema | Escala de severidad | Heuristica/Principio violada(o) |
+|---|----------|---------------------|----------------------------------|
+| 1 | CAPTCHA no funcional bloquea el acceso - Los formularios de Registro e Inicio de Sesión presentan un CAPTCHA mal configurado ("Clave del sitio no es válida"), impidiendo por completo que nuevos usuarios se registren o que usuarios existentes accedan al sistema. | 4 | Accessible - El sistema no es accesible para su uso básico, ya que una funcionalidad defectuosa bloquea completamente el flujo principal de registro y autenticación. |
+| 2 | Requisitos de contraseña no comunicados - El campo de contraseña requiere 6 caracteres pero no lo especifica mediante placeholder, texto de ayuda o validación en tiempo real, lo que genera intentos fallidos y frustración al usuario durante el registro. | 2 | Learnable - El sistema no proporciona retroalimentación ni guías que permitan al usuario aprender y cumplir con los requisitos de formato en el primer intento. |
+| 3 | Errores ortográficos en mensaje de estado - El mensaje "No Haz Creado tu grupo todavía" contiene dos errores: "Haz" (verbo hacer) debería ser "Has" (verbo haber), y "todavía" lleva tilde. Esto genera desconfianza y falta de profesionalismo. | 2 | Credible - Los errores lingüísticos en la interfaz reducen la credibilidad del sistema y la confianza del usuario en la calidad y atención al detalle de la plataforma. |
+| 4 | Campos de texto muestran contenido como contraseñas - Los campos "Descripción del grupo" y "URL de la foto de perfil" enmascaran el texto ingresado con asteriscos o puntos, impidiendo que el usuario revise y verifique lo que ha escrito. | 3 | Clear - El sistema no permite a los usuarios ver claramente la información que han ingresado, ocultando innecesariamente el contenido de campos que no son sensibles. |
+| 5 | Elemento visual residual en tarjetas de miembros - Cada tarjeta de integrante muestra un guión ("-") al final, debajo de la información. Este elemento sobrante se repite sistemáticamente y no cumple ninguna función informativa, generando ruido visual. | 1 | Valuable - La interfaz muestra información irrelevante que ocupa espacio visual sin aportar valor al usuario, desviando la atención del contenido importante. |
+
 ##### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+
+**Recomendaciones**
+
+**Web: Problema n°1 - CAPTCHA no funcional bloquea el acceso**
+
+**Severidad:** 4  
+**Heurística violada:** Accessible  
+**Problema:** Los formularios de Registro e Inicio de Sesión presentan un CAPTCHA mal configurado ("Clave del sitio no es válida"), impidiendo por completo que nuevos usuarios se registren o que usuarios existentes accedan al sistema.  
+**Recomendación:** Configurar correctamente el servicio de CAPTCHA con claves válidas y realizar pruebas exhaustivas para garantizar que los usuarios puedan completar los flujos de registro y autenticación sin obstáculos.
+
+![image1.jpeg](images/chapter-8/image1.jpeg)
+
+**Web: Problema n°2 - Requisitos de contraseña no comunicados**
+
+**Severidad:** 2  
+**Heurística violada:** Learnable  
+**Problema:** El campo de contraseña requiere 6 caracteres, pero no lo especifica mediante placeholder, texto de ayuda o validación en tiempo real, lo que genera intentos fallidos y frustración al usuario durante el registro.  
+**Recomendación:** Implementar un texto de ayuda visible que especifique los requisitos mínimos de caracteres, junto con validación en tiempo real que indique cuándo se cumple el criterio.
+
+![image2.jpeg](images/chapter-8/image2.jpeg)
+
+**Mobile: Problema n°3 - Errores ortográficos en mensaje de estado**
+
+**Severidad:** 2  
+**Heurística violada:** Credible  
+**Problema:** El mensaje "No Haz Creado tu grupo todavía" contiene dos errores: "Haz" (verbo hacer) debería ser "Has" (verbo haber), y "todavía" lleva tilde. Esto genera desconfianza y falta de profesionalismo.  
+**Recomendación:** Corregir el mensaje a "No has creado tu grupo todavía" y realizar una revisión ortográfica completa de todos los textos en la interfaz para mantener la credibilidad.
+
+![image3.jpeg](images/chapter-8/image3.jpeg)
+
+**Mobile: Problema n°4 - Campos de texto muestran contenido como contraseñas**
+
+**Severidad:** 3  
+**Heurística violada:** Clear  
+**Problema:** Los campos "Descripción del grupo" y "URL de la foto de perfil" enmascaran el texto ingresado con asteriscos o puntos, impidiendo que el usuario revise y verifique lo que ha escrito.  
+**Recomendación:** Cambiar el tipo de campo de password a text para que el contenido sea visible, permitiendo a los usuarios revisar y corregir la información ingresada antes de enviar el formulario.
+
+![image4.jpeg](images/chapter-8/image4.jpeg)
+
+**Mobile: Problema n°5 - Elemento visual residual en tarjetas de miembros**
+
+**Severidad:** 1  
+**Heurística violada:** Valuable  
+**Problema:** Cada tarjeta de integrante muestra un guión ("-") al final, debajo de la información. Este elemento sobrante se repite sistemáticamente y no cumple ninguna función informativa, generando ruido visual.  
+**Recomendación:** Eliminar el elemento HTML que genera el guión residual en el componente de tarjetas, asegurando que solo se muestre contenido valioso y relevante para el usuario.
+
+![image5.jpeg](images/chapter-8/image5.jpeg)
 
 ## Capítulo VII: DevOps Practices
 
