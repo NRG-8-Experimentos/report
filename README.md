@@ -3985,8 +3985,8 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 * Incorporar una vista Kanban para representar visualmente las tareas permitirá a los usuarios comprender mejor el flujo de trabajo.
 * Integrar funciones de arrastrar y soltar (drag & drop) podría aumentar la eficiencia en la gestión de tareas.
 * Adaptar el diseño Kanban tanto a la web como al móvil puede mejorar la coherencia visual del sistema.
-* Implementar un sistema de internacionalización que permita cambiar entre español e inglés desde la configuración del usuario. 
-* Centralizar las cadenas de texto en archivos de localización facilitará la escalabilidad a nuevos idiomas. 
+* Implementar un sistema de internacionalización que permita cambiar entre español e inglés desde la configuración del usuario.
+* Centralizar las cadenas de texto en archivos de localización facilitará la escalabilidad a nuevos idiomas.
 * Adaptar el contenido no solo al idioma, sino también a convenciones culturales (formato de fecha, moneda, unidades).
 * Incorporar modo oscuro con conmutador en Ajustes y opción “Automático (Apariencia del sistema)”.
 * Aplicar tema oscuro a componentes críticos (tablas, tarjetas, gráficos, tooltips) cuidando estados (hover, focus, disabled).
@@ -4002,9 +4002,9 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 
 * Los líderes de equipo necesitan una representación visual del progreso para tomar decisiones más rápidas.
 * Los usuarios prefieren tableros visuales porque ofrecen una sensación de control y avance.
-* Una interfaz tipo Kanban incrementará la satisfacción y percepción de productividad. 
-* Los usuarios internacionales abandonan la aplicación si no pueden interactuar en su idioma nativo. 
-* La inclusión del inglés aumentará la adopción en mercados externos. 
+* Una interfaz tipo Kanban incrementará la satisfacción y percepción de productividad.
+* Los usuarios internacionales abandonan la aplicación si no pueden interactuar en su idioma nativo.
+* La inclusión del inglés aumentará la adopción en mercados externos.
 * La traducción de mensajes de error y notificaciones mejora la confianza y comprensión del sistema.
 * El modo oscuro reduce el deslumbramiento y fatiga visual en sesiones nocturnas.
 * Un tema oscuro bien contrastado mejora la legibilidad y disminuye errores por lectura en baja luz.
@@ -4018,9 +4018,9 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 
 * Los usuarios comprenden intuitivamente el modelo Kanban sin necesidad de capacitación previa.
 * La vista Kanban será más eficiente que la lista tradicional para administrar tareas en grupo.
-* Los equipos valoran la posibilidad de personalizar columnas o estados dentro del tablero. 
-* Los usuarios valoran la posibilidad de cambiar el idioma sin necesidad de reiniciar la sesión. 
-* La mayoría de los usuarios objetivo utilizan español o inglés como idioma principal. 
+* Los equipos valoran la posibilidad de personalizar columnas o estados dentro del tablero.
+* Los usuarios valoran la posibilidad de cambiar el idioma sin necesidad de reiniciar la sesión.
+* La mayoría de los usuarios objetivo utilizan español o inglés como idioma principal.
 * Las traducciones automáticas iniciales pueden ser suficientes para las pruebas tempranas de usabilidad.
 * Los usuarios que trabajan de noche preferirán un tema oscuro o el ajuste “Automático (Apariencia del sistema)”.
 * El cambio de tema no afectará la comprensión del layout si se mantiene el mismo espaciado y jerarquía.
@@ -4039,9 +4039,9 @@ El diseño se basa en Material Design, priorizando una navegación clara y compo
 
 * Se desconoce qué nivel de personalización o interacción espera el usuario dentro del tablero (por ejemplo, agregar colores, filtros o etiquetas).
 * No se ha determinado si la vista Kanban debe ser la predeterminada o una alternativa a la vista de lista.
-* Falta información sobre cómo el rendimiento del sistema puede verse afectado por el renderizado dinámico del tablero. 
-* No se conoce el nivel de dominio del inglés del segmento actual de usuarios. 
-* Se desconoce si los usuarios consideran relevante la localización de formatos (fechas, horas, monedas). 
+* Falta información sobre cómo el rendimiento del sistema puede verse afectado por el renderizado dinámico del tablero.
+* No se conoce el nivel de dominio del inglés del segmento actual de usuarios.
+* Se desconoce si los usuarios consideran relevante la localización de formatos (fechas, horas, monedas).
 * No se ha definido si el idioma debe establecerse automáticamente según la configuración del sistema operativo o de forma manual.
 * Nivel real de preferencia entre “Automático (Apariencia del sistema)” vs. configuración manual.
 * Contraste y legibilidad de gráficos y estados (tags/labels) en tema oscuro.
@@ -4323,6 +4323,27 @@ Para evaluar, medir y optimizar el rendimiento de las nuevas features, se consid
 | **Lighthouse**       | Gratuito con limitaciones, ejecutable localmente | Auditoría de rendimiento, accesibilidad, mejores prácticas y SEO                          | Muy sencillo (CLI o integraciones)             | Informes accionables con métricas clave (LCP, FID, accesibilidad)        | Evaluar rendimiento de renderizado del tablero, contraste y accesibilidad del modo oscuro, optimización de cargas y tiempos de interacción |
 
 #### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
+Esta sección define la preparación analítica necesaria para evaluar rigurosamente los experimentos de SynHub. El objetivo es seleccionar únicamente las métricas esenciales que permitan detectar cambios significativos, manteniendo al mismo tiempo economía en el rastreo de datos.
+Las métricas elegidas actúan como KPIs directos, alineados con las hipótesis planteadas (Kanban, internacionalización, modo oscuro, comentarios integrados y notificaciones). Cada métrica se selecciona siguiendo tres principios fundamentales:
+
+1. Relevancia directa: El indicador debe medir de forma explícita el cambio esperado por el experimento.
+2. Bajo costo de instrumentación: Debe ser posible obtenerla mediante datos existentes o con mínimo esfuerzo adicional.
+3. Sensibilidad al cambio: La métrica debe ser capaz de detectar el Efecto Mínimo Detectable (MDE) definido en cada hipótesis.
+
+Estas métricas permitirán evaluar la adopción, eficiencia, interacción y satisfacción derivadas de las nuevas funcionalidades mientras garantizan precisión y simplicidad analítica.
+
+**KPIs y Métricas Seleccionadas**
+A continuación se presentan las métricas que se utilizarán en los experimentos, junto con su descripción, método de cálculo, técnica de recolección y meta esperada:
+
+| **Métrica**                                  | **Descripción**                                                                                      | **Método de cálculo**                                                                | **Técnica de recolección**                              | **Meta deseada**                                                 |
+| -------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------- | ---------------------------------------------------------------- |
+| **Task Completion Time (TCT)**               | Tiempo promedio que tarda un usuario en completar una tarea desde su creación hasta su finalización. | (Σ tiempo de finalización – tiempo de creación) / número total de tareas completadas | Registro automático en base de datos de tareas.         | Reducción ≥ 20% tras implementación de la vista Kanban.          |
+| **Language Preference Adoption Rate (LPAR)** | Porcentaje de usuarios que cambian o personalizan el idioma predeterminado.                          | (Usuarios que modifican idioma / Total de usuarios activos) × 100                    | Event tracking en configuración de idioma.              | ≥ 40% de adopción entre usuarios internacionales.                |
+| **Theme Adoption Rate (TAR)**                | Porcentaje de usuarios que usan tema oscuro o la opción “Automático (Apariencia del sistema)”.       | (Usuarios con tema ≠ “claro” / Usuarios activos) × 100                               | Event tracking en ajustes de apariencia.                | ≥ 50% en usuarios que usan la app entre 18:00 y 06:00.           |
+| **Comment Response Time (CRT)**              | Tiempo promedio entre la publicación de un comentario y su primera respuesta.                        | Σ (timestamp respuesta − timestamp comentario) / nº total de comentarios respondidos | Timestamps automáticos en base de datos de comentarios. | Reducción ≥ 40% tras habilitar comentarios integrados en tareas. |
+| **Notification Engagement Rate (NER)**       | Porcentaje de usuarios que interactúan (clican) una notificación recibida.                           | (Clics en notificaciones / Notificaciones enviadas) × 100                            | Event tracking (Firebase, Mixpanel o equivalente).      | ≥ 30% de clics en notificaciones push.                           |
+
 
 #### 8.2.8. Web and Mobile Tracking Plan
 
